@@ -43,7 +43,7 @@ class Application extends React.Component
     setTimeout =>
       unless @state.ward_name
         @setState ward_name: @props.wards[0].properties.ENGLISH_NA
-    , 2000
+    , 4000
 
 
   pollsFor: (ward_name)->
@@ -115,6 +115,3 @@ class Application extends React.Component
       <a href="https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html">Map data</a>
       <a href="https://github.com/kieran/votewell">Code on GitHub</a>
     </div>
-
-# poll data from: http://www.calculatedpolitics.com/project/2018-ontario/
-# ward boundaries from: https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html
