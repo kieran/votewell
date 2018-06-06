@@ -94,7 +94,7 @@ class Application extends React.Component
         onChange={@selectWard}
       />
 
-      <h1>is a vote for {@bestOption().name}</h1>
+      <h1>is a vote for the {@bestOption().name}</h1>
       <br/>
       <br/>
       <img src={@bestOption().img}/>
