@@ -31,3 +31,27 @@
       color: inherit
       text-decoration: none
       margin-right: 2em
+
+  .share
+    @media only screen and (min-width: 600px)
+      opacity: 0.5
+      transition: opacity 0.15s
+      &:hover
+        opacity: 1
+      position: absolute
+      top: 0
+      right: 0
+      .SocialMediaShareButton
+        margin: 1em
+        cursor: pointer
+        opacity: 0.8
+        transition: opacity 0.15s
+        &:hover
+          opacity: 1
+    @media only screen and (max-width: 600px)
+      text-align: center
+      .SocialMediaShareButton
+        opacity: 0.66
+        margin: 0.5em
+        vertical-align: top
+        display: inline-block

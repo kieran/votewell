@@ -12,6 +12,17 @@ import './styles'
 import Spinner  from 'react-spinkit'
 import Chart    from '/components/chart'
 
+import {
+  FacebookShareButton
+  TwitterShareButton
+  RedditShareButton
+  EmailShareButton
+  FacebookIcon
+  TwitterIcon
+  RedditIcon
+  EmailIcon
+} from 'react-share'
+
 # assets
 import grn from '/assets/grn.png'
 import lib from '/assets/lib.png'
@@ -93,6 +104,7 @@ class Application extends React.Component
     <div className="wards">
       {if @state.ward_name
         [
+          @share()
           @reco()
           @chart()
           @attribution()
@@ -100,6 +112,27 @@ class Application extends React.Component
       else
         @spinner()
       }
+    </div>
+
+
+  share: ->
+    url = window.location.href
+    <div className="share">
+      <FacebookShareButton url={url}>
+        <FacebookIcon size={32} round={true}/>
+      </FacebookShareButton>
+      <TwitterShareButton url={url}>
+        <TwitterIcon size={32} round={true}/>
+      </TwitterShareButton>
+      <RedditShareButton url={url}>
+        <RedditIcon size={32} round={true}/>
+      </RedditShareButton>
+      <EmailShareButton
+        url={window.location.href}
+        subject="VoteWell: A strategic voting tool for the 2018 Ontario election"
+      >
+        <EmailIcon size={32} round={true}/>
+      </EmailShareButton>
     </div>
 
   spinner: ->
