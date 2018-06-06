@@ -1,5 +1,7 @@
 # Vote Well
 
+![image](https://user-images.githubusercontent.com/3444/41066564-3b7dd04a-69b0-11e8-8a5e-6318af2139cf.png)
+
 ## running locally
 
 ```console
