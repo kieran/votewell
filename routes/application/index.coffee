@@ -1,6 +1,7 @@
 import React        from "react"
 import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
+import findIndex    from 'underscore-es/findIndex'
 import tag          from "@turf/tag"
 import ReactSelect  from 'react-select'
 
@@ -15,6 +16,7 @@ import Chart    from '/components/chart'
 import grn from '/assets/grn.png'
 import lib from '/assets/lib.png'
 import ndp from '/assets/ndp.png'
+import anyone from '/assets/anyone.png'
 
 parties =
   lib:
@@ -26,6 +28,9 @@ parties =
   grn:
     name: "Green Party"
     img: grn
+  anyone:
+    name: "Anyone"
+    img: anyone
 
 import container from './container'
 
@@ -73,8 +78,11 @@ class Application extends React.Component
     (name: key, value: val for key, val of polls when key in 'pc lib ndp grn other'.split ' ')
 
   bestOption: =>
-    sorted = sortBy(@pollData(), 'value')
-    for obj in sorted by -1
+    sorted = sortBy(@pollData(), 'value').reverse()
+    pcIndex = findIndex(sorted, { name: 'pc' })
+    if pcIndex > 1 && sorted[pcIndex]['value'] < 30
+      return parties['anyone']
+    for obj in sorted
       return parties[obj.name] unless obj.name is 'pc'
 
   render: ->
@@ -102,6 +110,7 @@ class Application extends React.Component
 
       <h1>is a vote for</h1>
       <img src={@bestOption().img} alt={"The #{@bestOption().name}"}/>
+      <h3>{@bestOption().name}</h3>
     </div>
 
   chart: ->
