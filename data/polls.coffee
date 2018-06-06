@@ -895,7 +895,7 @@ export default polls = [
     other: 3
     prediction: "NDP"
   ,
-    name: "Toronto—St. Paul’s"
+    name: "Toronto—St. Paul's"
     lib: 38
     pc: 25
     ndp: 32
