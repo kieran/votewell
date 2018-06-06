@@ -40,6 +40,11 @@ class Application extends React.Component
 
   componentDidMount: ->
     @props.getLocation()
+    setTimeout =>
+      unless @state.ward_name
+        @setState ward_name: @props.wards[0].properties.ENGLISH_NA
+    , 2000
+
 
   pollsFor: (ward_name)->
     for poll in @props.polls
