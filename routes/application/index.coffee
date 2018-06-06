@@ -94,10 +94,8 @@ class Application extends React.Component
         onChange={@selectWard}
       />
 
-      <h1>is a vote for the {@bestOption().name}</h1>
-      <br/>
-      <br/>
-      <img src={@bestOption().img}/>
+      <h1>is a vote for</h1>
+      <img src={@bestOption().img} alt={"The #{@bestOption().name}"}/>
     </div>
 
   chart: ->
