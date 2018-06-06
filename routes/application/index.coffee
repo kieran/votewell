@@ -109,8 +109,7 @@ class Application extends React.Component
       />
 
       <h1>is a vote for</h1>
-      <img src={@bestOption().img} alt={"The #{@bestOption().name}"}/>
-      <h3>{@bestOption().name}</h3>
+      <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
     </div>
 
   chart: ->
