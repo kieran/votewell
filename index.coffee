@@ -1,7 +1,11 @@
 import './styles'
 
-# bundle asset - full URL in html
+# bundle assets - full URL in html
 import './assets/votewell.png'
+import './assets/favicon-128x128.png'
+import './assets/favicon-64x64.png'
+import './assets/favicon-32x32.png'
+import './assets/favicon-16x16.png'
 
 # react
 import React        from "react"
