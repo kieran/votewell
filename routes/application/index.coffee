@@ -85,6 +85,7 @@ class Application extends React.Component
     <div className="wards">
       {@reco() if @state.ward_name}
       {@chart() if @state.ward_name}
+      {@attribution()}
     </div>
 
   reco: ->
@@ -108,6 +109,12 @@ class Application extends React.Component
       <Chart data={@pollData()} height={150}/>
     </div>
 
+  attribution: ->
+    <div className="attribution">
+      <a href="http://www.calculatedpolitics.com/project/2018-ontario/">Projection data</a>
+      <a href="https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html">Map data</a>
+      <a href="https://github.com/kieran/votewell">Code on GitHub</a>
+    </div>
 
 # poll data from: http://www.calculatedpolitics.com/project/2018-ontario/
 # ward boundaries from: https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html
