@@ -151,8 +151,11 @@ class Application extends React.Component
         options={((n = ward.properties.ENGLISH_NA) and label: n, value: n for ward in @props.wards)}
         onChange={@selectWard}
       />
-
-      <h1>is a vote for</h1>
+      {if @bestOption().name is 'Anyone'
+        <h1>is not necessary!<br/>You may vote for your preferred candidate.</h1>
+      else
+        <h1>is a vote for</h1>
+      }
       <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
     </div>
 
