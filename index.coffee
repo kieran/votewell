@@ -1,5 +1,8 @@
 import './styles'
 
+# bundle asset - full URL in html
+import './assets/votewell.png'
+
 # react
 import React        from "react"
 import { render }   from "react-dom"
