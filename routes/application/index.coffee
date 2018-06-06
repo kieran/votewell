@@ -83,9 +83,20 @@ class Application extends React.Component
         @setState ward_name: @findWard()
 
     <div className="wards">
-      {@reco() if @state.ward_name}
-      {@chart() if @state.ward_name}
-      {@attribution()}
+      {if @state.ward_name
+        [
+          @reco()
+          @chart()
+          @attribution()
+        ]
+      else
+        @spinner()
+      }
+    </div>
+
+  spinner: ->
+    <div className="spinner">
+      <Spinner className="ball-triangle-path"/>
     </div>
 
   reco: ->
