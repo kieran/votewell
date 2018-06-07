@@ -166,7 +166,9 @@ class Application extends React.Component
 
   attribution: ->
     <div className="attribution">
-      <a href="http://www.calculatedpolitics.com/project/2018-ontario/">Projection data</a>
-      <a href="https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html">Map data</a>
-      <a href="https://github.com/kieran/votewell">Code on GitHub</a>
+      <a href="https://www.elections.on.ca/en.html" style={{color:'black'}}>Where do I vote?</a>
+      <span>Sources:</span>
+      <a href="http://www.calculatedpolitics.com/project/2018-ontario/">Projections</a>
+      <a href="https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html">Maps</a>
+      <a href="https://github.com/kieran/votewell">Code</a>
     </div>
