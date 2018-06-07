@@ -157,7 +157,6 @@ class Application extends React.Component
         <h1>is a vote for</h1>
       }
       <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
-      <p>Find out how and where to vote at <a href="https://www.elections.on.ca/en.html">Elections Ontario</a></p>
     </div>
 
   chart: ->
@@ -170,4 +169,5 @@ class Application extends React.Component
       <a href="http://www.calculatedpolitics.com/project/2018-ontario/">Projection data</a>
       <a href="https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html">Map data</a>
       <a href="https://github.com/kieran/votewell">Code on GitHub</a>
+      <a className="whereTo" href="https://www.elections.on.ca/en.html">Where do I vote?</a>
     </div>
