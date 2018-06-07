@@ -157,6 +157,7 @@ class Application extends React.Component
         <h1>is a vote for</h1>
       }
       <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
+      <p>Find out how and where to vote at <a href="https://www.elections.on.ca/en.html">Elections Ontario</a></p>
     </div>
 
   chart: ->
