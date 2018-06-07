@@ -1,6 +1,7 @@
 import React        from "react"
 import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
+import findIndex    from 'underscore-es/findIndex'
 import tag          from "@turf/tag"
 import ReactSelect  from 'react-select'
 
@@ -26,6 +27,7 @@ import {
 import grn from '/assets/grn.png'
 import lib from '/assets/lib.png'
 import ndp from '/assets/ndp.png'
+import anyone from '/assets/anyone.png'
 
 parties =
   lib:
@@ -37,6 +39,9 @@ parties =
   grn:
     name: "Green Party"
     img: grn
+  anyone:
+    name: "Anyone"
+    img: anyone
 
 import container from './container'
 
@@ -85,6 +90,9 @@ class Application extends React.Component
 
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
+    pcIndex = findIndex(sorted, { name: 'pc' })
+    if sorted[pcIndex]['value'] < 20
+      return parties['anyone']
     for obj in sorted
       return parties[obj.name] unless obj.name is 'pc'
 
@@ -143,7 +151,11 @@ class Application extends React.Component
         options={((n = ward.properties.ENGLISH_NA) and label: n, value: n for ward in @props.wards)}
         onChange={@selectWard}
       />
-      <h1>is a vote for</h1>
+      {if @bestOption().name is 'Anyone'
+        <h1>is not necessary!<br/>You may vote for your preferred candidate.</h1>
+      else
+        <h1>is a vote for</h1>
+      }
       <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
     </div>
 
