@@ -1,7 +1,6 @@
 import React        from "react"
 import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
-import findIndex    from 'underscore-es/findIndex'
 import tag          from "@turf/tag"
 import ReactSelect  from 'react-select'
 

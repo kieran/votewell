@@ -523,7 +523,7 @@ export default polls = [
     lib: 26.3
     pc: 37.1
     ndp: 26.9
-    grn: 76
+    grn: 7.6
     other: 2.1
     prediction: "PC"
   ,
@@ -628,7 +628,7 @@ export default polls = [
     pc: 36.1
     ndp: 52.2
     grn: 3.2
-    other: 2
+    other: 0.2
     prediction: "NDP"
   ,
     name: "Ottawa Centre"
@@ -779,8 +779,8 @@ export default polls = [
     lib: 31
     pc: 33.5
     ndp: 33.4
-    grn: 1
-    other: 2
+    grn: 1.0
+    other: 1.0
     prediction: "LEANS PC"
   ,
     name: "Scarborough—Rouge Park"
