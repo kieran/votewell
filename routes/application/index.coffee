@@ -86,9 +86,6 @@ class Application extends React.Component
 
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
-    pcIndex = findIndex(sorted, { name: 'pc' })
-    if pcIndex > 0
-      return parties[sorted[0]['name']]
     for obj in sorted
       return parties[obj.name] unless obj.name is 'pc'
 
