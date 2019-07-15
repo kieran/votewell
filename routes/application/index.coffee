@@ -42,6 +42,11 @@ parties =
     name: "Anyone"
     img: anyone
 
+leftists = Object.keys parties
+
+sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
+avg = (arr=[])-> sum(arr) / arr.length
+
 export default \
 class Application extends React.Component
   pollsFor: (riding)->
@@ -58,12 +63,16 @@ class Application extends React.Component
 
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
-    pcIndex = findIndex(sorted, { name: 'pc' })
-    blocIndex = findIndex(sorted, { name: 'bloc' })
-    if sorted[pcIndex]?['value'] < 20 and sorted[blocIndex]?['value'] < 20
-      return parties['anyone']
+
+    # vote strategically if there are more
+    # right-votes than the avg of all left votes (+ a 20% margin)
+    left  = (poll.value for poll in sorted when poll.name in leftists)
+    right = (poll.value for poll in sorted when poll.name not in leftists)
+    return parties['anyone'] if avg(left) >= sum(right) * 1.2
+
+    # otherwise, choose the first leftist candidate
     for obj in sorted
-      return parties[obj.name] unless obj.name in ['pc', 'bloc']
+      return parties[obj.name] if obj.name in leftists
 
   render: ->
     <div className="ridings">
