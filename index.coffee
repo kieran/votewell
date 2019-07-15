@@ -17,11 +17,10 @@ import Application  from '/routes/application'
 import polls from '/data/polls.json'
 
 getLocation = ->
-  new Promise (resolve, reject)->
+  position = await new Promise (resolve, reject)->
     navigator.geolocation.getCurrentPosition resolve, reject
-  .then (position)->
-    {latitude, longitude} = position.coords
-    {latitude, longitude}
+  {latitude, longitude} = position.coords
+  {latitude, longitude}
 
 getRiding = (lat, lng)->
   { data } = await axios.get "#{process.env.API_HOST}/#{lat},#{lng}"
