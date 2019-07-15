@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "npm-run-all -p serve api",
     "serve": "npx parcel serve ./index.html",
-    "dist": "npx parcel build --no-cache --no-source-maps ./index.html --experimental-scope-hoisting",
+    "dist": "npx parcel build --no-cache --no-source-maps ./index.html",
     "api": "nodemon --watch data  --watch server.coffee ./server.coffee",
     "up_api": "up start",
     "test": "echo \"Error: no test specified\" && exit 1",
