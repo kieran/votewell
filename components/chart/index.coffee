@@ -16,7 +16,7 @@ colours =
   ndp:    '#ff9900'
   grn:    '#348c35'
   bloc:   '#00A8ED'
-  other:  '#7030a0'
+  other:  '#aaaaaa'
 
 export default \
 class Chart extends React.Component
