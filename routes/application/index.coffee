@@ -126,7 +126,7 @@ class Application extends React.Component
         onChange={@selectRiding}
       />
       {if @bestOption().name is 'Anyone'
-        <h1>is not necessary!<br/>You may vote for your preferred candidate.</h1>
+        <h1>is not necessary!<br/>Please vote for your preferred candidate.</h1>
       else
         <h1>is a vote for</h1>
       }
