@@ -1,32 +1,42 @@
 {
   "name": "votewell",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "strategic voting calculator",
-  "main": "index.js",
-  "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --no-cache --no-source-maps",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Kieran Huggins",
   "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all -p serve api",
+    "serve": "npx parcel serve ./index.html",
+    "dist": "npx parcel build --no-cache --no-source-maps ./index.html --experimental-scope-hoisting",
+    "api": "nodemon --watch data  --watch server.coffee ./server.coffee",
+    "up_api": "up start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update_polls": "npx coffee data/update_polls.coffee"
+  },
   "dependencies": {
-    "@turf/tag": "^5.1.5",
-    "babel-core": "^6.26.3",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-runtime": "^6.26.0",
-    "coffeescript": "^2.3.1",
-    "node-sass": "^4.9.0",
-    "parcel-bundler": "^1.8.1",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-redux": "^5.0.7",
+    "@koa/cors": "^2.2.3",
+    "axios": "^0.19.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-select": "^1.2.1",
-    "react-share": "^2.2.0",
+    "react-share": "^3.0.0",
     "react-spinkit": "^3.0.0",
-    "recharts": "^1.0.0-beta.10",
-    "redux": "^4.0.0",
-    "shapefile": "^0.6.6",
+    "recharts": "^1.6.2",
     "underscore-es": "^1.9.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "@turf/tag": "^5.1.5",
+    "coffeescript": "^2.4.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
   }
 }

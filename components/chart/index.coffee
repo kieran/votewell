@@ -1,32 +1,22 @@
 import React        from "react"
-import { render }   from "react-dom"
-
-# import './styles'
 
 # components
-import {
-  ResponsiveContainer
-  BarChart
-  Bar
-  Cell
-} from 'recharts'
-
-# routes
+import ResponsiveContainer from 'recharts/es6/component/ResponsiveContainer'
+import BarChart from 'recharts/es6/chart/BarChart'
+import Bar      from 'recharts/es6/cartesian/Bar'
+import Cell     from 'recharts/es6/component/Cell'
 
 class MyBar extends Bar
   render: ->
-    console.table @props
     <Bar {@props...}/>
-
 
 colours =
   pc:     '#2d368c'
   lib:    '#e9243d'
   ndp:    '#ff9900'
   grn:    '#3D9B35'
+  bloc:   '#00A8ED'
   other:  '#7030a0'
-
-# import container from './container'
 
 export default \
 class Chart extends React.Component

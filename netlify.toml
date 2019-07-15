@@ -7,7 +7,7 @@
 
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "npm run dist"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.

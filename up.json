@@ -1,0 +1,23 @@
+{
+  "name": "votewell",
+  "profile": "kieran",
+  "regions": [
+    "us-east-1"
+  ],
+  "proxy": {
+    "command": "npm run api"
+  },
+  "stages": {
+    "staging": {
+      "domain": "api-staging.votewell.ca",
+      "zone": false
+    },
+    "production": {
+      "domain": "api.votewell.ca",
+      "zone": false
+    }
+  },
+  "lambda": {
+    "memory": 256
+  }
+}
