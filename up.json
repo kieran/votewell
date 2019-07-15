@@ -18,6 +18,6 @@
     }
   },
   "lambda": {
-    "memory": 256
+    "memory": 1024
   }
 }
