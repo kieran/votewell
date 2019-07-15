@@ -2,7 +2,6 @@ import React        from "react"
 import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
-import tag          from "@turf/tag"
 import ReactSelect  from 'react-select'
 
 import 'react-select/dist/react-select.css'
@@ -43,66 +42,32 @@ parties =
     name: "Anyone"
     img: anyone
 
-import container from './container'
-
 export default \
-container \
 class Application extends React.Component
-
-  constructor: ->
-    super arguments...
-    @state =
-      ward_name: null
-
-  componentDidMount: ->
-    @props.getLocation()
-    setTimeout =>
-      unless @state.ward_name
-        @setState ward_name: @props.wards[0].properties.ENGLISH_NA
-    , 4000
-
-
-  pollsFor: (ward_name)->
+  pollsFor: (riding)->
     for poll in @props.polls
-      return poll if poll.name is ward_name
-    console.log "couldn't match #{ward_name} with poll data"
+      return poll if poll.riding is riding
+    console.log "couldn't match #{riding} with poll data"
 
-  findWard: ->
-    points =
-      type: "FeatureCollection"
-      features: [
-        type: 'Feature'
-        geometry:
-          type: 'Point'
-          coordinates: [@props.location.longitude, @props.location.latitude]
-        properties: {}
-      ]
-
-    lol = tag points, @props.geoJson, 'ENGLISH_NA', 'ward_name'
-    name = lol.features[0]?.properties?.ward_name
-
-  selectWard: (evt)=>
-    @setState ward_name: evt?.target?.value or evt?.value
+  selectRiding: (evt)=>
+    @props.setRiding evt?.target?.value or evt?.value
 
   pollData: =>
-    polls = @pollsFor @state.ward_name
-    (name: key, value: val for key, val of polls when key in 'pc lib ndp grn other'.split ' ')
+    polls = @pollsFor @props.riding
+    (name: key, value: val for key, val of polls when val and key in 'pc lib ndp grn bloc other'.split ' ')
 
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
     pcIndex = findIndex(sorted, { name: 'pc' })
-    if sorted[pcIndex]['value'] < 20
+    blocIndex = findIndex(sorted, { name: 'bloc' })
+    if sorted[pcIndex]?['value'] < 20 and sorted[blocIndex]?['value'] < 20
       return parties['anyone']
     for obj in sorted
-      return parties[obj.name] unless obj.name is 'pc'
+      return parties[obj.name] unless obj.name in ['pc', 'bloc']
 
   render: ->
-    if @props.location?.longitude and not @state.ward_name
-      setTimeout =>
-        @setState ward_name: @findWard()
-
-    <div className="wards">
-      {if @state.ward_name
+    <div className="ridings">
+      {if @props.riding
         [
           @share()
           @reco()
@@ -117,7 +82,7 @@ class Application extends React.Component
 
   share: ->
     url = window.location.href
-    <div className="share">
+    <div className="share" key="share">
       <FacebookShareButton url={url}>
         <FacebookIcon size={32} round={true}/>
       </FacebookShareButton>
@@ -129,7 +94,7 @@ class Application extends React.Component
       </RedditShareButton>
       <EmailShareButton
         url={window.location.href}
-        subject="VoteWell: A strategic voting tool for the 2018 Ontario election"
+        subject="VoteWell: A strategic voting tool for the 2019 Canadian federal election"
       >
         <EmailIcon size={32} round={true}/>
       </EmailShareButton>
@@ -141,15 +106,15 @@ class Application extends React.Component
     </div>
 
   reco: ->
-    <div className="reco">
+    <div className="reco" key="reco">
       <h1>A strategic vote in</h1>
       <ReactSelect
-        className="ward-selector"
+        className="riding-selector"
         style={{width: 350}}
         clearable={false}
-        value={@state.ward_name}
-        options={((n = ward.properties.ENGLISH_NA) and label: n, value: n for ward in @props.wards)}
-        onChange={@selectWard}
+        value={@props.riding}
+        options={(label: poll.riding, value: poll.riding, group: poll.province for poll in @props.polls)}
+        onChange={@selectRiding}
       />
       {if @bestOption().name is 'Anyone'
         <h1>is not necessary!<br/>You may vote for your preferred candidate.</h1>
@@ -160,15 +125,15 @@ class Application extends React.Component
     </div>
 
   chart: ->
-    <div className="chart">
+    <div className="chart" key="chart">
       <Chart data={@pollData()} height={150}/>
     </div>
 
   attribution: ->
-    <div className="attribution">
-      <a href="https://www.elections.on.ca/en.html" style={{color:'black'}}>Where do I vote?</a>
+    <div className="attribution" key="attribution">
+      <a href="https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=e" style={{color:'black'}}>Where do I vote?</a>
       <span>Sources:</span>
-      <a href="http://www.calculatedpolitics.com/project/2018-ontario/">Projections</a>
-      <a href="https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html">Maps</a>
+      <a href="https://www.calculatedpolitics.com/project/2019-canada-election/">Projections</a>
+      <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">Maps</a>
       <a href="https://github.com/kieran/votewell">Code</a>
     </div>
