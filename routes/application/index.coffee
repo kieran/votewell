@@ -3,6 +3,10 @@ import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
 import ReactSelect  from 'react-select'
+import { Helmet }   from "react-helmet"
+import {
+  withTranslation
+} from 'react-i18next'
 
 import 'react-select/dist/react-select.css'
 import './styles'
@@ -48,6 +52,7 @@ sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> sum(arr) / arr.length
 
 export default \
+withTranslation() \
 class Application extends React.Component
   pollsFor: (riding)->
     for poll in @props.polls
@@ -56,6 +61,9 @@ class Application extends React.Component
 
   selectRiding: (evt)=>
     @props.setRiding evt?.target?.value or evt?.value
+
+  setLang: (lang)=>
+    @props.i18n.changeLanguage lang
 
   pollData: =>
     polls = @pollsFor @props.riding
@@ -78,6 +86,7 @@ class Application extends React.Component
     <div className="ridings">
       {if @props.riding
         [
+          @helmet()
           @share()
           @reco()
           @chart()
@@ -88,8 +97,15 @@ class Application extends React.Component
       }
     </div>
 
+  helmet: ->
+    { t } = @props
+    <Helmet key="helmet">
+      <meta name="description" content={t 'A strategic voting tool for the 2019 Canadian federal election'} />
+      <meta property="og:description" content={t 'A strategic voting tool for the 2019 Canadian federal election'} />
+    </Helmet>
 
   share: ->
+    { t } = @props
     url = window.location.href
     <div className="share" key="share">
       <FacebookShareButton url={url}>
@@ -103,7 +119,7 @@ class Application extends React.Component
       </RedditShareButton>
       <EmailShareButton
         url={window.location.href}
-        subject="VoteWell: A strategic voting tool for the 2019 Canadian federal election"
+        subject={"VoteWell: #{t 'A strategic voting tool for the 2019 Canadian federal election'}"}
       >
         <EmailIcon size={32} round={true}/>
       </EmailShareButton>
@@ -115,8 +131,11 @@ class Application extends React.Component
     </div>
 
   reco: ->
+    { t } = @props
     <div className="reco" key="reco">
-      <h1>A strategic vote in</h1>
+      <h1>
+        {t 'A strategic vote in'}
+      </h1>
       <ReactSelect
         className="riding-selector"
         style={{width: 350}}
@@ -126,9 +145,15 @@ class Application extends React.Component
         onChange={@selectRiding}
       />
       {if @bestOption().name is 'Anyone'
-        <h1>is not necessary!<br/>Please vote for your preferred candidate.</h1>
+        <h1>
+          {t 'is not necessary!'}
+          <br/>
+          {t 'Please vote for your preferred candidate.'}
+        </h1>
       else
-        <h1>is a vote for</h1>
+        <h1>
+          {t 'is a vote for'}
+        </h1>
       }
       <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
     </div>
@@ -139,10 +164,26 @@ class Application extends React.Component
     </div>
 
   attribution: ->
+    { t, i18n } = @props
     <div className="attribution" key="attribution">
-      <a href="https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=e" style={{color:'black'}}>Where do I vote?</a>
-      <span>Sources:</span>
-      <a href="https://www.calculatedpolitics.com/project/2019-canada-election/">Projections</a>
-      <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">Maps</a>
-      <a href="https://github.com/kieran/votewell">Code</a>
+      <a href="https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=e" style={{color:'black'}}>
+        {t "Where do I vote?"}
+      </a>
+      <span>
+        {t "Sources"}:
+      </span>
+      <a href="https://www.calculatedpolitics.com/project/2019-canada-election/">
+        {t "Projections"}
+      </a>
+      <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">
+        {t "Maps"}
+      </a>
+      <a href="https://github.com/kieran/votewell">
+        {t "Code"}
+      </a>
+      {if (i18n.language or navigator.language or 'en').match /^en/
+        <a onClick={=>@setLang 'fr'}>Français</a>
+      else
+        <a onClick={=>@setLang 'en'}>English</a>
+      }
     </div>
