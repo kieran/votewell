@@ -15,6 +15,11 @@
   [context.production.environment]
     NODE_ENV = "production"
 
+# Here is another way to define context specific environment variables.
+[context.deploy-preview]
+  [context.deploy-preview.environment]
+    NODE_ENV = "staging"
+
 # The following redirect is intended for use with most SPA's that handles routing internally.
 [[redirects]]
   from = "/*"
