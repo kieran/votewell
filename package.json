@@ -2,9 +2,9 @@
   "name": "votewell",
   "version": "1.1.0",
   "description": "strategic voting calculator",
+  "repository": "github:kieran/votewell",
   "author": "Kieran Huggins",
   "license": "ISC",
-  "main": "index.js",
   "scripts": {
     "dev": "npm-run-all -p serve api",
     "serve": "npx parcel serve ./index.html",
@@ -39,5 +39,8 @@
     "react-spinkit": "^3.0.0",
     "recharts": "^1.6.2",
     "underscore-es": "^1.9.8"
+  },
+  "devDependencies": {
+    "mem": ">=4.0.0"
   }
 }
