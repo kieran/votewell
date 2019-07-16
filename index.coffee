@@ -3,7 +3,7 @@ import { render }   from "react-dom"
 import axios        from 'axios'
 
 import './styles'
-import './i18n'
+import './locales'
 
 # bundle assets - full URL in html
 import './assets/votewell.png'

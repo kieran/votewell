@@ -3,6 +3,7 @@ import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
 import ReactSelect  from 'react-select'
+import { Helmet }   from "react-helmet"
 import {
   withTranslation
 } from 'react-i18next'
@@ -61,6 +62,9 @@ class Application extends React.Component
   selectRiding: (evt)=>
     @props.setRiding evt?.target?.value or evt?.value
 
+  setLang: (lang)=>
+    @props.i18n.changeLanguage lang
+
   pollData: =>
     polls = @pollsFor @props.riding
     (name: key, value: val for key, val of polls when val and key in 'pc lib ndp grn bloc other'.split ' ')
@@ -82,6 +86,7 @@ class Application extends React.Component
     <div className="ridings">
       {if @props.riding
         [
+          @helmet()
           @share()
           @reco()
           @chart()
@@ -92,8 +97,15 @@ class Application extends React.Component
       }
     </div>
 
+  helmet: ->
+    { t } = @props
+    <Helmet key="helmet">
+      <meta name="description" content={t 'A strategic voting tool for the 2019 Canadian federal election'} />
+      <meta property="og:description" content={t 'A strategic voting tool for the 2019 Canadian federal election'} />
+    </Helmet>
 
   share: ->
+    { t } = @props
     url = window.location.href
     <div className="share" key="share">
       <FacebookShareButton url={url}>
@@ -107,7 +119,7 @@ class Application extends React.Component
       </RedditShareButton>
       <EmailShareButton
         url={window.location.href}
-        subject="VoteWell: A strategic voting tool for the 2019 Canadian federal election"
+        subject={"VoteWell: #{t 'A strategic voting tool for the 2019 Canadian federal election'}"}
       >
         <EmailIcon size={32} round={true}/>
       </EmailShareButton>
@@ -119,8 +131,11 @@ class Application extends React.Component
     </div>
 
   reco: ->
+    { t } = @props
     <div className="reco" key="reco">
-      <h1>A strategic vote in</h1>
+      <h1>
+        {t 'A strategic vote in'}
+      </h1>
       <ReactSelect
         className="riding-selector"
         style={{width: 350}}
@@ -130,9 +145,15 @@ class Application extends React.Component
         onChange={@selectRiding}
       />
       {if @bestOption().name is 'Anyone'
-        <h1>is not necessary!<br/>Please vote for your preferred candidate.</h1>
+        <h1>
+          {t 'is not necessary!'}
+          <br/>
+          {t 'Please vote for your preferred candidate.'}
+        </h1>
       else
-        <h1>is a vote for</h1>
+        <h1>
+          {t 'is a vote for'}
+        </h1>
       }
       <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
     </div>
@@ -149,17 +170,20 @@ class Application extends React.Component
         {t "Where do I vote?"}
       </a>
       <span>
-        Sources:
+        {t "Sources"}:
       </span>
       <a href="https://www.calculatedpolitics.com/project/2019-canada-election/">
-        Projections
+        {t "Projections"}
       </a>
       <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">
-        Maps
+        {t "Maps"}
       </a>
       <a href="https://github.com/kieran/votewell">
-        Code
+        {t "Code"}
       </a>
-      <button onClick={i18n.changeLanguage.bind @, 'en'}>en</button>
-      <button onClick={i18n.changeLanguage.bind @, 'fr'}>fr</button>
+      {if (i18n.language or navigator.language or 'en').match /^en/
+        <a onClick={=>@setLang 'fr'}>Français</a>
+      else
+        <a onClick={=>@setLang 'en'}>English</a>
+      }
     </div>
