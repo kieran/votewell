@@ -3,6 +3,9 @@ import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
 import ReactSelect  from 'react-select'
+import {
+  withTranslation
+} from 'react-i18next'
 
 import 'react-select/dist/react-select.css'
 import './styles'
@@ -48,6 +51,7 @@ sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> sum(arr) / arr.length
 
 export default \
+withTranslation() \
 class Application extends React.Component
   pollsFor: (riding)->
     for poll in @props.polls
@@ -139,10 +143,23 @@ class Application extends React.Component
     </div>
 
   attribution: ->
+    { t, i18n } = @props
     <div className="attribution" key="attribution">
-      <a href="https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=e" style={{color:'black'}}>Where do I vote?</a>
-      <span>Sources:</span>
-      <a href="https://www.calculatedpolitics.com/project/2019-canada-election/">Projections</a>
-      <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">Maps</a>
-      <a href="https://github.com/kieran/votewell">Code</a>
+      <a href="https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=e" style={{color:'black'}}>
+        {t "Where do I vote?"}
+      </a>
+      <span>
+        Sources:
+      </span>
+      <a href="https://www.calculatedpolitics.com/project/2019-canada-election/">
+        Projections
+      </a>
+      <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">
+        Maps
+      </a>
+      <a href="https://github.com/kieran/votewell">
+        Code
+      </a>
+      <button onClick={i18n.changeLanguage.bind @, 'en'}>en</button>
+      <button onClick={i18n.changeLanguage.bind @, 'fr'}>fr</button>
     </div>
