@@ -60,7 +60,8 @@ class Application extends React.Component
     console.log "couldn't match #{riding} with poll data"
 
   selectRiding: (evt)=>
-    @props.setRiding evt?.target?.value or evt?.value
+    if riding = evt?.target?.value or evt?.value
+      @props.setRiding riding
 
   setLang: (lang)=>
     @props.i18n.changeLanguage lang
