@@ -1,247 +1,247 @@
 Ontario riding-by-riding vote projection:
-last updated: Thursday, July 11, 2019 at 19:09 (Eastern Daylight Time)
+last updated: Thursday, July 18, 2019 at 20:30 (Eastern Daylight Time)
 Riding name:  Notional
 incumbent Con.  NDP Lib.  Bloc  Green Other Projected
 winner
-Ajax  Lib.  33  9 49  0 6 2 LIB
+Ajax  Lib.  35  10  48  0 6 2 LIB
 
-Algoma—Manitoulin—Kapuskasing NDP 22  41  27  0 8 2 NDP
+Algoma—Manitoulin—Kapuskasing NDP 23  41  26  0 8 2 NDP
 
-Aurora—Oak Ridges—Richmond Hill Lib.  42  6 42  0 7 3 TOSS-UP
+Aurora—Oak Ridges—Richmond Hill Lib.  43  6 41  0 7 3 LEANS CON
 
-Barrie—Innisfil Con.  45  13  28  0 10  3 CON
+Barrie—Innisfil Con.  47  13  27  0 10  3 CON
 
-Barrie—Springwater—Oro-Medonte  Con.  42  11  32  0 11  4 CON
+Barrie—Springwater—Oro-Medonte  Con.  43  11  31  0 11  4 CON
 
-Bay of Quinte Lib.  33  13  43  0 8 3 LIB
+Bay of Quinte Lib.  34  13  42  0 8 3 LIB
 
-Beaches—East York Lib.  15  31  42  0 9 3 LIB
+Beaches—East York Lib.  16  31  41  0 9 3 LIB
 
-Brampton Centre Lib.  31  16  43  0 8 3 LIB
+Brampton Centre Lib.  32  16  42  0 8 3 LIB
 
-Brampton East Lib.  22  25  44  0 7 2 LIB
+Brampton East Lib.  23  25  43  0 6 2 LIB
 
-Brampton North  Lib.  33  17  41  0 8 2 LIB
+Brampton North  Lib.  34  17  39  0 7 2 LEANS LIB
 
-Brampton South  Lib.  34  12  45  0 8 1 LIB
+Brampton South  Lib.  35  12  44  0 8 1 LIB
 
-Brampton West Lib.  29  13  49  0 7 2 LIB
+Brampton West Lib.  30  13  48  0 7 2 LIB
 
-Brantford—Brant Con.  38  25  25  0 8 4 CON
+Brantford—Brant Con.  39  26  23  0 8 4 CON
 
-Bruce—Grey—Owen Sound Con.  46  12  30  0 10  2 CON
+Bruce—Grey—Owen Sound Con.  47  13  29  0 9 2 CON
 
-Burlington  Lib.  42  10  38  0 8 1 LEANS CON
+Burlington  Lib.  44  10  37  0 8 1 CON
 
-Cambridge Lib.  36  15  35  0 10  4 LEANS CON
+Cambridge Lib.  37  15  34  0 10  4 LEANS CON
 
-Carleton  Con.  45  7 36  0 10  2 CON
+Carleton  Con.  47  7 34  0 10  2 CON
 
-Chatham-Kent—Leamington Con.  39  19  31  0 9 2 CON
+Chatham-Kent—Leamington Con.  41  19  30  0 8 2 CON
 
-Davenport Lib.  9 44  35  0 9 3 NDP
+Davenport Lib.  10  44  34  0 9 3 NDP
 
-Don Valley East Lib.  29  11  50  0 9 1 LIB
+Don Valley East Lib.  30  11  49  0 8 1 LIB
 
-Don Valley North  Lib.  37  10  45  0 8 1 LIB
+Don Valley North  Lib.  38  10  43  0 8 1 LEANS LIB
 
-Don Valley West Lib.  36  7 47  0 7 3 LIB
+Don Valley West Lib.  37  7 46  0 7 3 LIB
 
-Dufferin—Caledon  Con.  44  8 33  0 13  2 CON
+Dufferin—Caledon  Con.  45  8 32  0 13  2 CON
 
-Durham  Con.  44  18  27  0 8 3 CON
+Durham  Con.  45  18  26  0 8 3 CON
 
-Eglinton—Lawrence Lib.  42  7 41  0 7 3 LEANS CON
+Eglinton—Lawrence Lib.  43  7 39  0 7 3 LEANS CON
 
-Elgin—Middlesex—London  Con.  47  16  22  0 10  5 CON
+Elgin—Middlesex—London  Con.  49  16  21  0 9 5 CON
 
-Essex NDP 33  42  15  0 7 2 NDP
+Essex NDP 34  42  14  0 7 2 NDP
 
-Etobicoke Centre  Lib.  34  9 47  0 7 3 LIB
+Etobicoke Centre  Lib.  35  9 46  0 7 3 LIB
 
-Etobicoke North Lib.  22  14  55  0 7 3 LIB
+Etobicoke North Lib.  23  14  53  0 7 3 LIB
 
-Etobicoke—Lakeshore Lib.  32  11  46  0 8 3 LIB
+Etobicoke—Lakeshore Lib.  33  12  44  0 8 3 LIB
 
-Flamborough—Glanbrook Con.  43  15  31  0 10  1 CON
+Flamborough—Glanbrook Con.  44  15  30  0 10  1 CON
 
-Glengarry—Prescott—Russell  Lib.  35  9 46  0 7 3 LIB
+Glengarry—Prescott—Russell  Lib.  36  9 45  0 7 3 LIB
 
-Guelph  Lib.  23  13  43  0 17  4 LIB
+Guelph  Lib.  25  13  42  0 17  4 LIB
 
-Haldimand—Norfolk Con.  43  15  28  0 9 5 CON
+Haldimand—Norfolk Con.  44  15  26  0 9 5 CON
 
-Haliburton—Kawartha Lakes—Brock Con.  46  20  23  0 10  1 CON
+Haliburton—Kawartha Lakes—Brock Con.  47  20  22  0 10  1 CON
 
-Hamilton Centre NDP 12  46  24  0 12  7 NDP
+Hamilton Centre NDP 13  46  23  0 11  7 NDP
 
-Hamilton East—Stoney Creek  Lib.  23  33  32  0 9 3 TOSS-UP
+Hamilton East—Stoney Creek  Lib.  24  33  31  0 9 3 LEANS NDP
 
-Hamilton Mountain NDP 22  37  27  0 8 5 NDP
+Hamilton Mountain NDP 24  37  26  0 8 5 NDP
 
-Hamilton West—Ancaster—Dundas Lib.  30  18  40  0 11  2 LIB
+Hamilton West—Ancaster—Dundas Lib.  31  18  38  0 10  2 LIB
 
-Hastings—Lennox and Addington Lib.  42  13  35  0 9 1 CON
+Hastings—Lennox and Addington Lib.  43  14  34  0 9 1 CON
 
-Humber River—Black Creek  Lib.  19  12  60  0 7 3 LIB
+Humber River—Black Creek  Lib.  20  12  59  0 7 3 LIB
 
-Huron—Bruce Con.  44  13  32  0 9 2 CON
+Huron—Bruce Con.  45  14  31  0 8 2 CON
 
-Kanata—Carleton Lib.  36  7 46  0 9 2 LIB
+Kanata—Carleton Lib.  37  8 45  0 8 2 LIB
 
-Kenora  Lib.  26  36  27  0 7 3 NDP
+Kenora  Lib.  28  37  26  0 7 3 NDP
 
-Kingston and the Islands  Lib.  22  17  47  0 11  2 LIB
+Kingston and the Islands  Lib.  23  18  46  0 10  2 LIB
 
-King—Vaughan  Lib.  43  8 41  0 7 1 LEANS CON
+King—Vaughan  Lib.  45  8 39  0 7 1 LEANS CON
 
-Kitchener Centre  Lib.  28  17  42  0 10  4 LIB
+Kitchener Centre  Lib.  29  17  40  0 10  4 LIB
 
-Kitchener South—Hespeler  Lib.  33  16  37  0 10  5 LEANS LIB
+Kitchener South—Hespeler  Lib.  34  16  35  0 9 5 LEANS LIB
 
-Kitchener—Conestoga Con.  42  11  34  0 9 4 CON
+Kitchener—Conestoga Con.  44  11  33  0 9 4 CON
 
-Lambton—Kent—Middlesex  Con.  51  17  21  0 9 1 CON
+Lambton—Kent—Middlesex  Con.  53  17  20  0 9 1 CON
 
-Lanark—Frontenac—Kingston Con.  46  15  25  0 11  3 CON
+Lanark—Frontenac—Kingston Con.  48  15  24  0 10  3 CON
 
-Leeds-Grenville-Thousand Islands and Rideau Lakes Con.  46  9 33  0 11  2 CON
+Leeds-Grenville-Thousand Islands and Rideau Lakes Con.  47  9 31  0 11  2 CON
 
-London North Centre Lib.  28  15  45  0 9 2 LIB
+London North Centre Lib.  29  16  43  0 9 2 LIB
 
-London West Lib.  33  16  38  0 9 4 LEANS LIB
+London West Lib.  35  17  37  0 9 4 LEANS LIB
 
-London—Fanshawe NDP 27  39  23  0 9 3 NDP
+London—Fanshawe NDP 28  39  22  0 9 3 NDP
 
-Markham—Stouffville Lib.  42  7 43  0 7 1 TOSS-UP
+Markham—Stouffville Lib.  43  7 41  0 7 1 LEANS CON
 
-Markham—Thornhill Lib.  31  12  49  0 6 2 LIB
+Markham—Thornhill Lib.  32  12  48  0 6 2 LIB
 
-Markham—Unionville  Con.  47  6 37  0 8 2 CON
+Markham—Unionville  Con.  49  6 36  0 8 2 CON
 
-Milton  Con.  45  12  32  0 8 3 CON
+Milton  Con.  46  12  30  0 8 3 CON
 
-Mississauga Centre  Lib.  34  10  47  0 8 1 LIB
+Mississauga Centre  Lib.  35  10  46  0 8 1 LIB
 
-Mississauga East—Cooksville Lib.  34  10  48  0 6 2 LIB
+Mississauga East—Cooksville Lib.  35  10  46  0 6 2 LIB
 
-Mississauga—Erin Mills  Lib.  38  10  43  0 7 2 LEANS LIB
+Mississauga—Erin Mills  Lib.  39  10  42  0 7 2 LEANS LIB
 
-Mississauga—Lakeshore Lib.  38  9 42  0 8 3 LEANS LIB
+Mississauga—Lakeshore Lib.  39  9 41  0 8 3 LEANS LIB
 
-Mississauga—Malton  Lib.  25  14  51  0 7 3 LIB
+Mississauga—Malton  Lib.  26  14  50  0 7 3 LIB
 
-Mississauga—Streetsville  Lib.  40  10  40  0 8 2 TOSS-UP
+Mississauga—Streetsville  Lib.  41  10  39  0 8 2 LEANS CON
 
-Nepean  Lib.  34  9 45  0 8 4 LIB
+Nepean  Lib.  35  9 43  0 8 4 LIB
 
-Newmarket—Aurora  Lib.  40  9 38  0 8 4 LEANS CON
+Newmarket—Aurora  Lib.  42  9 37  0 8 4 LEANS CON
 
-Niagara Centre  Lib.  26  32  30  0 8 3 LEANS NDP
+Niagara Centre  Lib.  28  32  29  0 8 3 LEANS NDP
 
-Niagara Falls Con.  41  23  26  0 8 2 CON
+Niagara Falls Con.  43  23  25  0 8 2 CON
 
-Niagara West  Con.  47  11  23  0 8 11  CON
+Niagara West  Con.  48  11  22  0 8 11  CON
 
-Nickel Belt Lib.  15  39  35  0 8 2 LEANS NDP
+Nickel Belt Lib.  16  39  34  0 8 2 LEANS NDP
 
-Nipissing—Timiskaming Lib.  27  17  45  0 9 2 LIB
+Nipissing—Timiskaming Lib.  29  17  44  0 9 2 LIB
 
-Northumberland—Peterborough South Lib.  36  16  37  0 9 2 TOSS-UP
+Northumberland—Peterborough South Lib.  38  16  36  0 9 2 LEANS CON
 
-Oakville  Lib.  41  7 42  0 8 2 LEANS LIB
+Oakville  Lib.  42  7 41  0 8 2 LEANS CON
 
-Oakville North—Burlington Lib.  42  8 38  0 7 4 LEANS CON
+Oakville North—Burlington Lib.  44  8 37  0 7 4 LEANS CON
 
-Orléans Lib.  29  9 53  0 7 1 LIB
+Orléans Lib.  31  9 52  0 7 1 LIB
 
-Oshawa  Con.  37  32  21  0 9 2 LEANS CON
+Oshawa  Con.  38  32  20  0 8 2 LEANS CON
 
-Ottawa Centre Lib.  12  39  36  0 9 4 LEANS NDP
+Ottawa Centre Lib.  13  39  35  0 8 4 LEANS NDP
 
-Ottawa South  Lib.  23  13  52  0 9 3 LIB
+Ottawa South  Lib.  24  13  51  0 9 4 LIB
 
-Ottawa West—Nepean  Lib.  29  10  47  0 9 5 LIB
+Ottawa West—Nepean  Lib.  30  11  46  0 8 5 LIB
 
-Ottawa—Vanier Lib.  17  20  49  0 10  4 LIB
+Ottawa—Vanier Lib.  18  20  48  0 9 4 LIB
 
-Oxford  Con.  44  17  25  0 11  4 CON
+Oxford  Con.  45  17  24  0 10  4 CON
 
-Parkdale—High Park  Lib.  11  40  36  0 9 4 LEANS NDP
+Parkdale—High Park  Lib.  12  41  35  0 8 4 LEANS NDP
 
-Parry Sound—Muskoka Con.  42  11  30  0 14  3 CON
+Parry Sound—Muskoka Con.  43  11  29  0 14  3 CON
 
-Perth—Wellington  Con.  43  15  28  0 8 6 CON
+Perth—Wellington  Con.  44  15  27  0 8 6 CON
 
-Peterborough—Kawartha Lib.  34  20  37  0 8 2 LEANS LIB
+Peterborough—Kawartha Lib.  35  20  35  0 8 2 TOSS-UP
 
-Pickering—Uxbridge  Lib.  36  10  44  0 8 2 LIB
+Pickering—Uxbridge  Lib.  38  10  42  0 8 2 LEANS LIB
 
-Renfrew—Nipissing—Pembroke  Con.  41  9 25  0 7 17  CON
+Renfrew—Nipissing—Pembroke  Con.  42  9 24  0 7 17  CON
 
-Richmond Hill Lib.  42  9 40  0 8 2 LEANS CON
+Richmond Hill Lib.  43  9 38  0 7 2 LEANS CON
 
-Sarnia—Lambton  Con.  40  31  19  0 9 1 CON
+Sarnia—Lambton  Con.  41  31  18  0 8 1 CON
 
-Sault Ste. Marie  Lib.  30  23  38  0 8 2 LIB
+Sault Ste. Marie  Lib.  31  23  36  0 8 2 LEANS LIB
 
-Scarborough Centre  Lib.  31  12  44  0 8 6 LIB
+Scarborough Centre  Lib.  32  12  42  0 8 6 LIB
 
-Scarborough North Lib.  24  23  42  0 7 3 LIB
+Scarborough North Lib.  26  23  41  0 7 3 LIB
 
-Scarborough Southwest Lib.  20  26  44  0 9 2 LIB
+Scarborough Southwest Lib.  21  26  43  0 8 2 LIB
 
-Scarborough—Agincourt Lib.  37  8 44  0 7 3 LEANS LIB
+Scarborough—Agincourt Lib.  39  9 42  0 7 3 LEANS LIB
 
-Scarborough—Guildwood Lib.  25  12  53  0 6 3 LIB
+Scarborough—Guildwood Lib.  26  13  52  0 6 4 LIB
 
-Scarborough—Rouge Park  Lib.  26  11  53  0 8 2 LIB
+Scarborough—Rouge Park  Lib.  27  11  52  0 8 2 LIB
 
-Simcoe North  Con.  41  11  33  0 10  4 CON
+Simcoe North  Con.  42  11  32  0 10  4 CON
 
-Simcoe—Grey Con.  46  11  30  0 11  3 CON
+Simcoe—Grey Con.  47  11  28  0 11  3 CON
 
-Spadina—Fort York Lib.  15  28  47  0 8 2 LIB
+Spadina—Fort York Lib.  16  28  46  0 8 2 LIB
 
-St. Catharines  Lib.  36  18  36  0 9 2 TOSS-UP
+St. Catharines  Lib.  37  18  35  0 8 2 LEANS CON
 
-Stormont—Dundas—South Glengarry Con.  50  9 31  0 8 2 CON
+Stormont—Dundas—South Glengarry Con.  51  9 30  0 8 2 CON
 
-Sudbury Lib.  18  28  41  0 9 3 LIB
+Sudbury Lib.  20  29  40  0 9 3 LIB
 
-Thornhill Con.  58  6 25  0 7 4 CON
+Thornhill Con.  60  6 24  0 7 4 CON
 
-Thunder Bay—Rainy River Lib.  21  30  37  0 11  1 LEANS LIB
+Thunder Bay—Rainy River Lib.  22  30  35  0 11  1 LEANS LIB
 
-Thunder Bay—Superior North  Lib.  14  21  33  0 29  3 LEANS LIB
+Thunder Bay—Superior North  Lib.  15  22  32  0 28  3 LEANS LIB
 
-Timmins—James Bay NDP 19  44  28  0 8 2 NDP
+Timmins—James Bay NDP 20  44  27  0 8 2 NDP
 
-Toronto Centre  Lib.  10  27  51  0 8 3 LIB
+Toronto Centre  Lib.  11  28  50  0 8 3 LIB
 
-Toronto—Danforth  Lib.  8 42  33  0 11  5 NDP
+Toronto—Danforth  Lib.  9 42  32  0 11  6 NDP
 
-Toronto—St. Paul’s  Lib.  27  15  48  0 9 1 LIB
+Toronto—St. Paul’s  Lib.  28  16  47  0 9 1 LIB
 
-University—Rosedale Lib.  15  29  42  0 9 5 LIB
+University—Rosedale Lib.  17  29  40  0 9 5 LIB
 
-Vaughan—Woodbridge  Lib.  42  5 42  0 6 4 TOSS-UP
+Vaughan—Woodbridge  Lib.  43  6 41  0 6 4 LEANS CON
 
-Waterloo  Lib.  29  16  44  0 9 2 LIB
+Waterloo  Lib.  30  16  43  0 9 2 LIB
 
-Wellington—Halton Hills Con.  50  9 28  0 10  2 CON
+Wellington—Halton Hills Con.  51  10  26  0 10  2 CON
 
-Whitby  Lib.  42  11  37  0 8 2 LEANS CON
+Whitby  Lib.  43  11  36  0 8 2 CON
 
-Willowdale  Lib.  35  8 46  0 8 3 LIB
+Willowdale  Lib.  37  8 45  0 8 3 LIB
 
-Windsor West  NDP 19  52  19  0 8 3 NDP
+Windsor West  NDP 20  52  18  0 8 3 NDP
 
-Windsor—Tecumseh  NDP 24  45  20  0 8 3 NDP
+Windsor—Tecumseh  NDP 25  45  19  0 7 3 NDP
 
-York Centre Lib.  43  8 40  0 8 2 LEANS CON
+York Centre Lib.  44  9 38  0 7 2 LEANS CON
 
-York South—Weston Lib.  18  30  37  0 8 7 LIB
+York South—Weston Lib.  19  30  36  0 7 7 LEANS LIB
 
-York—Simcoe Con.  50  10  29  0 10  1 CON
+York—Simcoe Con.  51  10  28  0 10  1 CON
 

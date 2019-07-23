@@ -1,7 +1,7 @@
 Nunavut vote projection:
-last updated: Thursday, July 11, 2019 at 19:09 (Eastern Daylight Time)
+last updated: Thursday, July 18, 2019 at 20:30 (Eastern Daylight Time)
 Riding name:  Notional
 incumbent Con.  NDP Lib.  Bloc  Green Other Projected
 winner
-Nunavut Lib.  39  16  30  0 9 5 CON
+Nunavut Lib.  40  17  30  0 9 4 CON
 
