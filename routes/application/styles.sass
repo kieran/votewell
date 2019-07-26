@@ -7,8 +7,26 @@
     font-weight: normal
     color: #333
     text-align: center
-  .Select-value
-    text-align: center
+  .riding-selector
+    display: flex
+    flex-direction: row
+    .Select-value
+      text-align: center
+    .locator
+      display: flex
+      flex-direction: row
+      align-items: center
+      margin-left: 0.5em
+      .sk-spinner
+        left: 13px
+        color: #ddd
+      svg
+        width: 24px
+        fill: #aaa
+        cursor: pointer
+        &:hover
+          fill: #666
+
   .reco, .spinner
     flex: 1
     flex-direction: column
