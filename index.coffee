@@ -32,20 +32,26 @@ class App extends React.Component
     super arguments...
     @state =
       riding: null
+      locating: false
 
     @autoLocate()
 
     defaultRiding = polls?[0]?.riding or 'Banff—Airdrie'
     setTimeout =>
-      @setRiding defaultRiding unless @state.riding
-    , 5000
+      unless @state.riding
+        @setState locating: true
+        @setRiding defaultRiding
+    , 2000
 
   autoLocate: =>
     try
+      @setState locating: true
       {latitude, longitude} = await getLocation()
       if latitude and longitude
         if riding = await getRiding latitude, longitude
           @setRiding riding
+    finally
+      @setState locating: false
 
   setRiding: (riding)=>
     @setState { riding }
@@ -55,6 +61,8 @@ class App extends React.Component
       polls={polls}
       riding={@state.riding}
       setRiding={@setRiding}
+      autoLocate={@autoLocate}
+      locating={@state.locating}
     />
 
 render <App />, document.getElementById "Application"

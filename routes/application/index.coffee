@@ -14,6 +14,8 @@ import './styles'
 # components
 import Spinner  from 'react-spinkit'
 import Chart    from '/components/chart'
+import Marker   from '/assets/map-marker.svg'
+
 
 import {
   FacebookShareButton
@@ -137,14 +139,22 @@ class Application extends React.Component
       <h1>
         {t 'A strategic vote in'}
       </h1>
-      <ReactSelect
-        className="riding-selector"
-        style={{width: 350}}
-        clearable={false}
-        value={@props.riding}
-        options={(label: poll.riding, value: poll.riding, group: poll.province for poll in @props.polls)}
-        onChange={@selectRiding}
-      />
+      <div className="riding-selector">
+        <ReactSelect
+          style={{width: 350}}
+          clearable={false}
+          value={@props.riding}
+          options={(label: poll.riding, value: poll.riding, group: poll.province for poll in @props.polls)}
+          onChange={@selectRiding}
+        />
+        <div className="locator">
+          {<Spinner name="ball-scale-ripple-multiple" /> if @props.locating}
+          <Marker
+            className="map-marker"
+            onClick={@props.autoLocate}
+          />
+        </div>
+      </div>
       {if @bestOption().name is 'Anyone'
         <h1>
           {t 'is not necessary!'}
