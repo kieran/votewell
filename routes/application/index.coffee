@@ -167,7 +167,7 @@ class Application extends React.Component
   attribution: ->
     { t, i18n } = @props
     <div className="attribution" key="attribution">
-      <a href="https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=e" style={{color:'black'}}>
+      <a href={t "votelink"} style={{color:'black'}}>
         {t "Where do I vote?"}
       </a>
       <span>

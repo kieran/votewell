@@ -12,3 +12,5 @@ translation:
   "Projections":          "Projections"
   "Maps":                 "Plans"
   "Code":                 "Code"
+
+  "votelink":   "https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=f"
