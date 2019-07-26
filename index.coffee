@@ -41,7 +41,7 @@ class App extends React.Component
       unless @state.riding
         @setState locating: true
         @setRiding defaultRiding
-    , 2000
+    , 5000
 
   autoLocate: =>
     try
