@@ -1,160 +1,161 @@
 Quebec riding-by-riding vote projection:
-last updated: Thursday, July 18, 2019 at 20:30 (Eastern Daylight Time)
+last updated: Thursday, July 25, 2019 at 17:00 (Eastern Daylight Time)
 Riding name:  Notional
 incumbent Con.  NDP Lib.  Bloc  Green Other Projected
 winner
-Abitibi—Baie-James—Nunavik—Eeyou  NDP 15  22  31  19  9 4 LIB
+Abitibi—Baie-James—Nunavik—Eeyou  NDP 14  22  30  19  10  5 LIB
 
-Abitibi—Témiscamingue NDP 11  21  32  22  8 6 LIB
+Abitibi—Témiscamingue NDP 10  22  30  21  9 7 LEANS LIB
 
-Ahuntsic-Cartierville Lib.  13  15  46  13  9 4 LIB
+Ahuntsic-Cartierville Lib.  12  15  45  13  10  5 LIB
 
-Alfred-Pellan Lib.  17  9 45  18  8 3 LIB
+Alfred-Pellan Lib.  16  10  43  18  9 4 LIB
 
-Argenteuil—La Petite-Nation Lib.  17  10  43  19  9 3 LIB
+Argenteuil—La Petite-Nation Lib.  16  10  42  19  10  3 LIB
 
-Avignon—La Mitis—Matane—Matapédia Lib.  10  11  46  21  6 6 LIB
+Avignon—La Mitis—Matane—Matapédia Lib.  10  11  44  21  7 8 LIB
 
-Beauce  Con.  37  0 17  6 7 32  LEANS CON
+Beauce  Con.  35  0 16  6 7 35  TOSS-UP
 
-Beauport-Côte-de-Beaupré-Île d’Orléans-Charlevoix Con.  43  6 24  18  7 3 CON
+Beauport-Côte-de-Beaupré-Île d’Orléans-Charlevoix Con.  41  6 24  18  8 3 CON
 
-Beauport—Limoilou Con.  37  10  24  15  9 5 CON
+Beauport—Limoilou Con.  36  11  23  15  10  6 CON
 
-Bécancour—Nicolet—Saurel  Bloc  17  8 23  42  9 1 BQ
+Bécancour—Nicolet—Saurel  Bloc  16  8 22  42  10  2 BQ
 
-Bellechasse—Les Etchemins—Lévis Con.  57  0 19  11  10  3 CON
+Bellechasse—Les Etchemins—Lévis Con.  56  0 18  11  11  3 CON
 
-Beloeil—Chambly NDP 15  15  29  29  9 3 TOSS-UP
+Beloeil—Chambly NDP 13  16  28  29  10  4 TOSS-UP
 
-Berthier—Maskinongé NDP 16  27  20  26  8 2 TOSS-UP
+Berthier—Maskinongé NDP 15  28  18  26  9 3 LEANS NDP
 
-Bourassa  Lib.  12  4 48  15  8 13  LIB
+Bourassa  Lib.  11  4 46  15  9 15  LIB
 
-Brome—Missisquoi  Lib.  17  9 43  17  9 4 LIB
+Brome—Missisquoi  Lib.  16  10  42  17  10  5 LIB
 
-Brossard—Saint-Lambert  Lib.  18  10  51  11  8 1 LIB
+Brossard—Saint-Lambert  Lib.  17  10  50  11  9 2 LIB
 
-Charlesbourg—Haute-Saint-Charles  Con.  50  5 22  12  9 3 CON
+Charlesbourg—Haute-Saint-Charles  Con.  48  5 21  12  10  3 CON
 
-Châteauguay—Lacolle Lib.  16  9 39  25  8 3 LIB
+Châteauguay—Lacolle Lib.  15  9 38  25  9 4 LIB
 
-Chicoutimi—Le Fjord Lib.  23  14  31  21  9 2 LIB
+Chicoutimi—Le Fjord Lib.  22  15  30  21  10  3 LIB
 
-Compton—Stanstead Lib.  18  12  37  21  8 4 LIB
+Compton—Stanstead Lib.  17  12  36  21  9 5 LIB
 
-Dorval—Lachine—LaSalle  Lib.  17  6 54  10  9 4 LIB
+Dorval—Lachine—LaSalle  Lib.  16  7 53  10  10  5 LIB
 
-Drummond  NDP 25  15  26  24  10  1 LEANS LIB
+Drummond  NDP 23  15  25  24  11  2 LEANS LIB
 
-Gaspésie—Les Îles-de-la-Madeleine Lib.  12  17  38  21  7 4 LIB
+Gaspésie—Les Îles-de-la-Madeleine Lib.  11  18  37  21  9 5 LIB
 
-Gatineau  Lib.  13  11  55  10  7 3 LIB
+Gatineau  Lib.  12  12  54  10  9 4 LIB
 
-Hochelaga NDP 13  16  29  28  10  5 LEANS LIB
+Hochelaga NDP 11  16  27  28  11  6 TOSS-UP
 
-Honoré-Mercier  Lib.  17  5 55  13  6 3 LIB
+Honoré-Mercier  Lib.  16  6 54  13  8 4 LIB
 
-Hull—Aylmer Lib.  14  16  51  7 8 4 LIB
+Hull—Aylmer Lib.  12  17  50  6 9 5 LIB
 
-Joliette  Bloc  15  11  27  35  9 3 BQ
+Joliette  Bloc  14  11  26  34  10  4 BQ
 
-Jonquière NDP 23  14  27  23  8 4 LEANS LIB
+Jonquière NDP 22  15  26  23  9 5 LEANS LIB
 
-La Pointe-de-l’Île  Bloc  13  11  27  35  8 6 BQ
+La Pointe-de-l’Île  Bloc  11  12  26  34  9 7 BQ
 
-La Prairie  Lib.  18  8 36  26  9 4 LIB
+La Prairie  Lib.  16  8 35  26  10  4 LIB
 
-Lac-Saint-Jean  Con.  45  12  18  18  6 1 CON
+Lac-Saint-Jean  Con.  43  13  17  19  7 1 CON
 
-Lac-Saint-Louis Lib.  23  0 63  3 9 3 LIB
+Lac-Saint-Louis Lib.  22  0 62  3 10  3 LIB
 
-LaSalle—Émard—Verdun  Lib.  12  13  45  18  11  1 LIB
+LaSalle—Émard—Verdun  Lib.  11  14  44  18  13  2 LIB
 
-Laurentides—Labelle Lib.  16  11  32  30  9 3 LEANS LIB
+Laurentides—Labelle Lib.  15  12  31  30  10  3 TOSS-UP
 
-Laurier—Sainte-Marie  NDP 8 20  23  29  12  9 LEANS BQ
+Laurier—Sainte-Marie  NDP 7 20  21  28  13  10  LEANS BQ
 
-Laval—Les Îles  Lib.  24  5 47  12  8 4 LIB
+Laval—Les Îles  Lib.  23  5 46  12  9 4 LIB
 
-Lévis—Lotbinière  Con.  59  4 18  10  6 2 CON
+Lévis—Lotbinière  Con.  58  4 18  10  8 2 CON
 
-Longueuil—Charles-LeMoyne Lib.  16  9 35  27  9 4 LIB
+Longueuil—Charles-LeMoyne Lib.  14  9 34  27  11  5 LIB
 
-Longueuil—Saint-Hubert  NDP 14  15  30  28  10  3 LEANS LIB
+Longueuil—Saint-Hubert  NDP 13  16  29  28  11  4 TOSS-UP
 
-Louis-Hébert  Lib.  33  6 34  14  9 4 LEANS LIB
+Louis-Hébert  Lib.  32  6 33  14  10  4 LEANS LIB
 
-Louis-Saint-Laurent Con.  60  3 19  10  7 1 CON
+Louis-Saint-Laurent Con.  58  4 18  10  8 2 CON
 
-Manicouagan Bloc  16  3 28  42  8 2 BQ
+Manicouagan Bloc  15  3 27  43  9 3 BQ
 
-Marc-Aurèle-Fortin  Lib.  17  10  42  22  8 1 LIB
+Marc-Aurèle-Fortin  Lib.  16  10  41  23  9 1 LIB
 
-Mégantic—L’Érable Con.  43  7 27  12  9 3 CON
+Mégantic—L’Érable Con.  41  7 26  12  10  3 CON
 
-Mirabel Bloc  16  14  26  34  9 1 BQ
+Mirabel Bloc  15  15  25  34  10  2 BQ
 
-Montarville Lib.  17  9 32  28  9 5 LEANS LIB
+Montarville Lib.  16  10  31  28  10  5 LEANS LIB
 
-Montcalm  Bloc  14  9 26  37  8 6 BQ
+Montcalm  Bloc  13  9 25  37  9 8 BQ
 
-Montmagny—L’Islet—Kamouraska—Rivière-du-Loup  Con.  36  9 27  16  8 4 CON
+Montmagny—L’Islet—Kamouraska—Rivière-du-Loup  Con.  35  9 26  16  9 5 CON
 
-Mount Royal Lib.  25  6 51  10  7 2 LIB
+Mount Royal Lib.  24  6 50  10  8 3 LIB
 
-Notre-Dame-de-Grâce—Westmount Lib.  20  7 57  3 10  4 LIB
+Notre-Dame-de-Grâce—Westmount Lib.  19  7 56  2 11  5 LIB
 
-Outremont NDP 15  25  33  9 13  5 LIB
+Outremont NDP 14  25  32  9 14  6 LEANS LIB
 
-Papineau  Lib.  11  11  51  12  9 6 LIB
+Papineau  Lib.  9 11  50  12  10  7 LIB
 
-Pierre-Boucher—Les Patriotes—Verchères  Bloc  15  11  29  32  12  1 LEANS BQ
+Pierre-Boucher—Les Patriotes—Verchères  Bloc  14  11  28  31  13  2 LEANS BQ
 
-Pierrefonds—Dollard Lib.  26  2 58  4 8 2 LIB
+Pierrefonds—Dollard Lib.  25  2 57  4 9 3 LIB
 
-Pontiac Lib.  19  9 55  7 7 3 LIB
+Pontiac Lib.  18  9 53  7 8 4 LIB
 
-Portneuf—Jacques-Cartier  Con.  51  7 20  11  8 3 CON
+Portneuf—Jacques-Cartier  Con.  50  7 19  11  9 3 CON
 
-Québec  Lib.  28  11  28  19  10  4 TOSS-UP
+Québec  Lib.  27  12  27  18  12  4 TOSS-UP
 
-Repentigny  Bloc  17  8 26  35  8 6 BQ
+Repentigny  Bloc  15  9 25  35  10  6 BQ
 
-Richmond—Arthabaska Con.  40  9 23  17  7 4 CON
+Richmond—Arthabaska Con.  38  10  22  17  8 5 CON
 
-Rimouski-Neigette—Témiscouata—Les Basques NDP 13  28  27  20  8 4 TOSS-UP
+Rimouski-Neigette—Témiscouata—Les Basques NDP 12  28  26  20  9 5 LEANS NDP
 
-Rivière-des-Mille-Îles  Lib.  16  13  34  27  8 2 LIB
+Rivière-des-Mille-Îles  Lib.  15  14  33  27  9 3 LEANS LIB
 
-Rivière-du-Nord Bloc  14  15  25  33  9 4 BQ
+Rivière-du-Nord Bloc  13  15  24  33  10  5 BQ
 
-Rosemont—La Petite-Patrie NDP 9 29  20  22  11  9 LEANS NDP
+Rosemont—La Petite-Patrie NDP 7 29  19  21  12  11  NDP
 
-Saint-Hyacinthe—Bagot NDP 23  14  26  24  9 4 LEANS LIB
+Saint-Hyacinthe—Bagot NDP 22  14  25  24  10  5 TOSS-UP
 
-Saint-Jean  Lib.  17  13  34  26  9 1 LIB
+Saint-Jean  Lib.  15  14  33  26  10  2 LIB
 
-Saint-Laurent Lib.  24  1 59  4 9 3 LIB
+Saint-Laurent Lib.  23  1 58  4 10  4 LIB
 
-Saint-Léonard—Saint-Michel  Lib.  15  5 63  7 7 2 LIB
+Saint-Léonard—Saint-Michel  Lib.  15  5 62  7 8 3 LIB
 
-Saint-Maurice—Champlain Lib.  22  6 41  19  8 4 LIB
+Saint-Maurice—Champlain Lib.  21  6 40  19  10  5 LIB
 
-Salaberry—Suroît  NDP 15  15  29  29  7 5 TOSS-UP
+Salaberry—Suroît  NDP 14  15  28  29  8 5 LEANS BQ
 
-Shefford  Lib.  19  9 39  22  9 3 LIB
+Shefford  Lib.  18  9 38  22  10  3 LIB
 
-Sherbrooke  NDP 15  20  30  21  8 6 LIB
+Sherbrooke  NDP 14  20  28  21  10  7 LEANS LIB
 
-Terrebonne  Bloc  17  10  27  34  8 4 BQ
+Terrebonne  Bloc  16  11  26  34  9 4 BQ
 
-Thérèse-De Blainville Lib.  18  10  33  28  10  1 LEANS LIB
+Thérèse-De Blainville Lib.  17  11  32  28  11  1 LEANS LIB
 
-Trois-Rivières  NDP 25  17  29  17  8 4 LEANS LIB
+Trois-Rivières  NDP 23  17  28  17  10  5 LEANS LIB
 
-Vaudreuil—Soulanges Lib.  20  8 47  15  9 1 LIB
+Vaudreuil—Soulanges Lib.  18  9 46  15  10  2 LIB
 
-Ville-Marie—Le Sud-Ouest—Île-des-Soeurs Lib.  18  8 50  9 11  4 LIB
+Ville-Marie—Le Sud-Ouest—Île-des-Soeurs Lib.  16  9 49  9 12  5 LIB
 
-Vimy  Lib.  19  7 45  16  9 4 LIB
+Vimy  Lib.  17  7 44  16  10  4 LIB
+

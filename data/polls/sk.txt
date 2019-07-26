@@ -1,32 +1,33 @@
 Saskatchewan riding-by-riding vote projection:
-last updated: Thursday, July 18, 2019 at 20:30 (Eastern Daylight Time)
+last updated: Thursday, July 25, 2019 at 17:00 (Eastern Daylight Time)
 Riding name:  Notional
 incumbent Con.  NDP Lib.  Bloc  Green Other Projected
 winner
-Battlefords—Lloydminster  Con.  57  16  12  0 9 6 CON
+Battlefords—Lloydminster  Con.  56  21  9 0 8 6 CON
 
-Carlton Trail—Eagle Creek Con.  62  13  13  0 10  1 CON
+Carlton Trail—Eagle Creek Con.  62  17  10  0 10  1 CON
 
-Cypress Hills—Grasslands  Con.  66  8 10  0 15  1 CON
+Cypress Hills—Grasslands  Con.  66  12  6 0 15  1 CON
 
-Desnethé—Missinippi—Churchill River NDP 30  30  29  0 10  1 TOSS-UP
+Desnethé—Missinippi—Churchill River NDP 29  34  25  0 9 2 LEANS NDP
 
-Moose Jaw—Lake Centre—Lanigan Con.  61  16  12  0 9 2 CON
+Moose Jaw—Lake Centre—Lanigan Con.  62  19  8 0 8 3 CON
 
-Prince Albert Con.  46  28  15  0 10  1 CON
+Prince Albert Con.  44  34  11  0 9 2 CON
 
-Regina—Lewvan NDP 32  29  27  0 9 3 LEANS CON
+Regina—Lewvan NDP 31  33  23  0 8 4 LEANS NDP
 
-Regina—Qu’Appelle Con.  44  24  17  0 14  1 CON
+Regina—Qu’Appelle Con.  43  29  14  0 14  1 CON
 
-Regina—Wascana  Lib.  30  8 52  0 10  1 LIB
+Regina—Wascana  Lib.  29  12  48  0 10  2 LIB
 
-Saskatoon West  NDP 38  31  18  0 9 3 CON
+Saskatoon West  NDP 38  36  14  0 8 4 LEANS CON
 
-Saskatoon—Grasswood Con.  39  30  21  0 10  1 CON
+Saskatoon—Grasswood Con.  37  37  16  0 8 2 TOSS-UP
 
-Saskatoon—University  Con.  40  25  25  0 8 2 CON
+Saskatoon—University  Con.  39  29  21  0 8 2 CON
 
-Souris—Moose Mountain Con.  68  8 8 0 15  1 CON
+Souris—Moose Mountain Con.  67  13  5 0 15  1 CON
 
-Yorkton—Melville  Con.  60  15  13  0 11  1 CON
+Yorkton—Melville  Con.  59  19  9 0 10  2 CON
+
