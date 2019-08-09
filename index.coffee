@@ -1,6 +1,10 @@
 import React        from "react"
 import { render }   from "react-dom"
 import axios        from 'axios'
+import * as Sentry  from '@sentry/browser'
+
+if process.env.SENTRY_DSN?
+  Sentry.init dsn: process.env.SENTRY_DSN
 
 import './styles'
 import './locales'
