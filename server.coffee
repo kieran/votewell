@@ -21,7 +21,7 @@ findWard = (lat, lng)->
 
 router.get '/:lat,:lng', (ctx)->
   if ward = findWard ctx.params.lat, ctx.params.lng
-    ctx.body = ward.riding.replace /--/g, '—'
+    ctx.body = ward.riding.replace(/--/g, '—').replace(/'/g, '’')
   else
     ctx.status = 404
     ctx.body = 'Not Found'
