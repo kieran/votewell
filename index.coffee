@@ -17,6 +17,15 @@ import Application  from '/routes/application'
 
 import polls from '/data/polls.json'
 
+# fuzzy riding name matcher
+# removes weird dash / apostrophe mis-matches
+matchRiding = (name='')->
+  ridings = (poll.riding for poll in polls)
+  match_name = name.replace /[^A-Za-z]/g, ''
+  for riding in ridings
+    return riding if match_name is riding.replace /[^A-Za-z]/g, ''
+  ridings[0]
+
 getLocation = ->
   position = await new Promise (resolve, reject)->
     navigator.geolocation.getCurrentPosition resolve, reject
@@ -34,13 +43,13 @@ class App extends React.Component
       riding: null
       locating: false
 
+  componentDidMount: ->
     @autoLocate()
 
-    defaultRiding = polls?[0]?.riding or 'Banff—Airdrie'
     setTimeout =>
       unless @state.riding
         @setState locating: true
-        @setRiding defaultRiding
+        @setRiding polls?[0]?.riding
     , 5000
 
   autoLocate: =>
@@ -49,7 +58,7 @@ class App extends React.Component
       {latitude, longitude} = await getLocation()
       if latitude and longitude
         if riding = await getRiding latitude, longitude
-          @setRiding riding
+          @setRiding matchRiding riding
     finally
       @setState locating: false
 
