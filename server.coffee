@@ -21,6 +21,7 @@ findWard = (lat, lng)->
 
 router.get '/:lat,:lng', (ctx)->
   if ward = findWard ctx.params.lat, ctx.params.lng
+    ctx.set 'Cache-Control', "public, max-age=#{24*60*60}"
     ctx.body = ward.riding.replace(/--/g, '—').replace(/'/g, '’')
   else
     ctx.status = 404
