@@ -3,6 +3,11 @@ router  = require('koa-router')()
 cors    = require '@koa/cors'
 tag     = require "@turf/tag"
 fs      = require 'fs'
+Sentry  = require '@sentry/node'
+path    = require 'path'
+
+require('dotenv').config path: path.resolve process.cwd(), ".env.#{process.env.NODE_ENV or 'development'}"
+{ PORT, SENTRY_DSN_API } = process.env
 
 geoJson = JSON.parse fs.readFileSync "#{__dirname}/data/ridings.json", 'utf8'
 
@@ -28,4 +33,12 @@ router.get '/:lat,:lng', (ctx)->
 app = new Koa
 app.use cors()
 app.use router.routes()
-app.listen process.env.PORT or 3000
+
+if dsn = SENTRY_DSN_API
+  Sentry.init { dsn }
+  app.on 'error', (err, ctx)->
+    Sentry.withScope (scope)->
+      scope.addEventProcessor (event)-> Sentry.Handlers.parseRequest event, ctx.request
+      Sentry.captureException err
+
+app.listen PORT or 3000

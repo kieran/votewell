@@ -3,7 +3,7 @@ import { render }   from "react-dom"
 import axios        from 'axios'
 import * as Sentry  from '@sentry/browser'
 
-if dsn = process.env.SENTRY_DSN
+if dsn = process.env.SENTRY_DSN_FRONTEND
   Sentry.init { dsn, environment: process.env.NODE_ENV }
 
 import './styles'
