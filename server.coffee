@@ -6,7 +6,7 @@ fs      = require 'fs'
 
 geoJson = JSON.parse fs.readFileSync "#{__dirname}/data/ridings.json", 'utf8'
 
-findWard = (lat, lng)->
+ridingAt = (lat, lng)->
   return null unless lat and lng
   points =
     type: "FeatureCollection"
@@ -17,13 +17,11 @@ findWard = (lat, lng)->
         coordinates: [lng, lat]
       properties: {}
     ]
-  tag(points, geoJson, 'ENNAME', 'riding')?.features[0]?.properties or {}
+  tag(points, geoJson, 'ENNAME', 'riding')?.features[0]?.properties?.riding
 
 router.get '/:lat,:lng', (ctx)->
-  if ward = findWard ctx.params.lat, ctx.params.lng
-    ctx.set 'Cache-Control', "public, max-age=#{24*60*60}"
-    ctx.body = ward.riding.replace(/--/g, '—').replace(/'/g, '’')
-  else
+  ctx.set 'Cache-Control', "public, max-age=#{24*60*60}"
+  unless ctx.body = ridingAt ctx.params.lat, ctx.params.lng
     ctx.status = 404
     ctx.body = 'Not Found'
 
