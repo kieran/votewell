@@ -20,9 +20,13 @@
   [context.deploy-preview.environment]
     NODE_ENV = "staging"
 
+[[redirects]]
+  from = "/riding_for/*"
+  to = "https://api.votewell.ca/:splat"
+  status = 200
+
 # The following redirect is intended for use with most SPA's that handles routing internally.
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = false # Ensure that we always redirect
