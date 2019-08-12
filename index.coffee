@@ -37,7 +37,7 @@ getLocation = ->
   {latitude, longitude}
 
 getRiding = (lat, lng)->
-  { data } = await axios.get "#{process.env.API_HOST}/#{lat.toFixed 2},#{lng.toFixed 2}"
+  { data } = await axios.get "#{process.env.RIDING_URL}/#{lat.toFixed 2},#{lng.toFixed 2}"
   data
 
 class App extends React.Component
