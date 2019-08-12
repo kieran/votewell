@@ -63,6 +63,8 @@ class App extends React.Component
       if latitude and longitude
         if riding = await getRiding latitude, longitude
           @setRiding matchRiding riding
+    catch
+      # user has denied geolocation ¯\_(ツ)_/¯
     finally
       @setState locating: false
 
