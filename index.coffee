@@ -32,7 +32,7 @@ matchRiding = (name='')->
 
 getLocation = ->
   position = await new Promise (resolve, reject)->
-    navigator.geolocation.getCurrentPosition resolve, reject
+    navigator.geolocation.getCurrentPosition resolve, reject, timeout: 5000
   {latitude, longitude} = position.coords
   {latitude, longitude}
 
@@ -50,12 +50,6 @@ class App extends React.Component
   componentDidMount: ->
     @autoLocate()
 
-    setTimeout =>
-      unless @state.riding
-        @setState locating: true
-        @setRiding polls?[0]?.riding
-    , 5000
-
   autoLocate: =>
     try
       @setState locating: true
@@ -65,6 +59,7 @@ class App extends React.Component
           @setRiding matchRiding riding
     catch
       # user has denied geolocation ¯\_(ツ)_/¯
+      @setRiding polls?[0]?.riding unless @state.riding
     finally
       @setState locating: false
 
