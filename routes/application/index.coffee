@@ -52,6 +52,7 @@ leftists = Object.keys parties
 
 sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> sum(arr) / arr.length
+probablyMobile = matchMedia?('(orientation: portrait) and (max-width: 600px)')?.matches or false
 
 export default \
 withTranslation() \
@@ -146,6 +147,7 @@ class Application extends React.Component
           value={@props.riding}
           options={(label: poll.riding, value: poll.riding, group: poll.province for poll in @props.polls)}
           onChange={@selectRiding}
+          autoBlur={probablyMobile}
         />
         <div className="locator">
           {<Spinner name="ball-scale-ripple-multiple" /> if @props.locating}
