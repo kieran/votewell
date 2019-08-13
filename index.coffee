@@ -46,6 +46,7 @@ class App extends React.Component
     @state =
       riding: null
       locating: false
+      geoError: null
 
   componentDidMount: ->
     @autoLocate()
@@ -54,11 +55,12 @@ class App extends React.Component
     try
       @setState locating: true
       {latitude, longitude} = await getLocation()
-      if latitude and longitude
-        if riding = await getRiding latitude, longitude
-          @setRiding matchRiding riding
-    catch
-      # user has denied geolocation ¯\_(ツ)_/¯
+      if latitude and longitude and riding = await getRiding latitude, longitude
+        @setRiding matchRiding riding
+    catch err
+      # retry a timeot once
+      setTimeout @autoLocate.bind(@), 0 if err.TIMEOUT unless @state.geoError
+      @setState geoError: err.message
       @setRiding polls?[0]?.riding unless @state.riding
     finally
       @setState locating: false
