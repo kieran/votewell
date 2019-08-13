@@ -4,7 +4,7 @@ import axios        from 'axios'
 import * as Sentry  from '@sentry/browser'
 
 if dsn = process.env.SENTRY_DSN
-  Sentry.init { dsn }
+  Sentry.init { dsn, environment: process.env.NODE_ENV }
 
 import './styles'
 import './locales'
