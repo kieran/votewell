@@ -15,15 +15,21 @@
   [context.production.environment]
     NODE_ENV = "production"
 
+  [[redirects]]
+    from = "/riding_for/*"
+    to = "https://api.votewell.ca/:splat"
+    status = 200
+
 # Here is another way to define context specific environment variables.
 [context.deploy-preview]
   [context.deploy-preview.environment]
     NODE_ENV = "staging"
 
-[[redirects]]
-  from = "/riding_for/*"
-  to = "https://api.votewell.ca/:splat"
-  status = 200
+  [[redirects]]
+    from = "/riding_for/*"
+    to = "https://api-staging.votewell.ca/:splat"
+    status = 200
+
 
 # The following redirect is intended for use with most SPA's that handles routing internally.
 [[redirects]]
