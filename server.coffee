@@ -33,6 +33,14 @@ router.get '/:lat,:lng', (ctx)->
     ctx.body = 'Not Found'
 
 app = new Koa
+app.use (ctx, next)->
+  await next()
+  console.log [
+    ctx.status.toString().padEnd 6
+    ctx.method.padEnd 6
+    ctx.url.padEnd 18
+    ctx.body
+  ].join ' '
 app.use cors()
 app.use router.routes()
 
