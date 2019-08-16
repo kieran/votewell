@@ -14,23 +14,29 @@ require('dotenv').config path: path.resolve process.cwd(), ".env.#{environment}"
 geoJson = JSON.parse fs.readFileSync "#{__dirname}/data/ridings.json", 'utf8'
 
 ridingAt = (lat, lng)->
-  return null unless lat and lng
-  points =
-    type: "FeatureCollection"
-    features: [
-      type: 'Feature'
-      geometry:
-        type: 'Point'
-        coordinates: [lng, lat]
-      properties: {}
-    ]
-  tag(points, geoJson, 'ENNAME', 'riding')?.features[0]?.properties?.riding
+  new Promise (resolve, reject)->
+    return reject('Not Found') unless lat and lng
+    points =
+      type: "FeatureCollection"
+      features: [
+        type: 'Feature'
+        geometry:
+          type: 'Point'
+          coordinates: [lng, lat]
+        properties: {}
+      ]
+    if riding = tag(points, geoJson, 'ENNAME', 'riding')?.features[0]?.properties?.riding
+      resolve riding
+    else
+      reject 'Not Found'
 
 router.get '/:lat,:lng', (ctx)->
   ctx.set 'Cache-Control', "public, max-age=#{24*60*60}"
-  unless ctx.body = ridingAt ctx.params.lat, ctx.params.lng
+  try
+    ctx.body = await ridingAt ctx.params.lat, ctx.params.lng
+  catch err
+    ctx.body = err
     ctx.status = 404
-    ctx.body = 'Not Found'
 
 app = new Koa
 app.use (ctx, next)->
