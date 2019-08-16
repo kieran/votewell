@@ -36,6 +36,7 @@ app = new Koa
 app.use (ctx, next)->
   await next()
   console.log [
+    (new Date()).toISOString().padEnd 28
     ctx.status.toString().padEnd 6
     ctx.method.padEnd 6
     ctx.url.padEnd 18
