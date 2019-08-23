@@ -14,8 +14,7 @@ import './styles'
 # components
 import Spinner  from 'react-spinkit'
 import Chart    from '/components/chart'
-import Marker   from '/assets/map-marker.svg'
-
+import Logo     from '/assets/votewell.anim.svg'
 
 import {
   FacebookShareButton
@@ -91,15 +90,35 @@ class Application extends React.Component
       {if @props.riding
         [
           @helmet()
-          @share()
-          @reco()
-          @chart()
-          @attribution()
+          @header()
+          @main()
+          @footer()
         ]
       else
-        @spinner()
+        <div className="spinner">
+          <Logo/>
+        </div>
       }
     </div>
+
+  header: ->
+    <header key='header'>
+      <Logo/>
+    </header>
+
+  main: ->
+    <main key='main'>
+      {@selector()}
+      {@reco()}
+      {@chart()}
+    </main>
+
+  footer: ->
+    <footer key='footer'>
+      <div className="description">
+      </div>
+      {@attribution()}
+    </footer>
 
   helmet: ->
     { t } = @props
@@ -134,57 +153,52 @@ class Application extends React.Component
       <Spinner className="ball-triangle-path"/>
     </div>
 
+  selector: ->
+    <div className="riding-selector">
+      <ReactSelect
+        style={{width: Math.min( 650, window.innerWidth * 0.9 )}}
+        clearable={false}
+        value={@props.riding}
+        options={(label: poll.riding.replace(/—/g,' / '), value: poll.riding, group: poll.province for poll in @props.polls)}
+        onChange={@selectRiding}
+        autoBlur={probablyMobile}
+      />
+    </div>
+
   reco: ->
     { t } = @props
     <div className="reco" key="reco">
-      <h1>
-        {t 'A strategic vote in'}
-      </h1>
-      <div className="riding-selector">
-        <ReactSelect
-          style={{width: 350}}
-          clearable={false}
-          value={@props.riding}
-          options={(label: poll.riding, value: poll.riding, group: poll.province for poll in @props.polls)}
-          onChange={@selectRiding}
-          autoBlur={probablyMobile}
-        />
-        <div className="locator">
-          {<Spinner name="ball-scale-ripple-multiple" /> if @props.locating}
-          <Marker
-            className="map-marker"
-            onClick={@props.autoLocate}
+      {if @bestOption().name is 'Anyone'
+        <div className="result-text">
+          <small>A strategic vote in your riding is not necessary</small>
+          Please vote for your preferred candidate.
+        </div>
+      else
+        <div className="result-text">
+          <small>A strategic vote in your riding is a vote for</small>
+          <img
+            className="party"
+            src={@bestOption().img}
+            alt={"#{@bestOption().name}"}
           />
         </div>
-      </div>
-      {if @bestOption().name is 'Anyone'
-        <h1>
-          {t 'is not necessary!'}
-          <br/>
-          {t 'Please vote for your preferred candidate.'}
-        </h1>
-      else
-        <h1>
-          {t 'is a vote for'}
-        </h1>
       }
-      <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
     </div>
 
   chart: ->
     <div className="chart" key="chart">
-      <Chart data={@pollData()} height={150}/>
+      <Chart
+        data={@pollData()}
+        height={150}
+      />
     </div>
 
   attribution: ->
     { t, i18n } = @props
     <div className="attribution" key="attribution">
-      <a href={t "votelink"} style={{color:'black'}}>
+      <a href={t "votelink"}>
         {t "Where do I vote?"}
       </a>
-      <span>
-        {t "Sources"}:
-      </span>
       <a href="https://calculatedpolitics.ca/2019-canadian-federal-election/">
         {t "Projections"}
       </a>
