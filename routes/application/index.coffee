@@ -31,7 +31,6 @@ import {
 import grn from '/assets/grn.png'
 import lib from '/assets/lib.png'
 import ndp from '/assets/ndp.png'
-import anyone from '/assets/anyone.png'
 
 parties =
   lib:
