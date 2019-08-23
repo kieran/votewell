@@ -44,7 +44,6 @@ parties =
     img: grn
   anyone:
     name: "Anyone"
-    img: anyone
 
 leftists = Object.keys parties
 
