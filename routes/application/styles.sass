@@ -68,8 +68,8 @@ $screen-desktop-max: 1440px
     display: flex
     flex-direction: column
     flex: 1
-    height: calc(100vh - 82px)
-    height: calc(100 * var(--vh, 1vh) - 82px)
+    min-height: calc(100vh - 82px)
+    min-height: calc(100 * var(--vh, 1vh) - 82px)
     background: $light
 
     .riding-selector
@@ -116,7 +116,7 @@ $screen-desktop-max: 1440px
         text-align: center
         display: block
         font-size: 50px
-        line-height: 1.4em
+        line-height: 1.1em
         font-weight: 700
         color: $dark
 
@@ -127,6 +127,7 @@ $screen-desktop-max: 1440px
           font-weight: 500
           text-transform: uppercase
           display: block
+          margin-bottom: 0.66em
 
         .br
           display: inline
