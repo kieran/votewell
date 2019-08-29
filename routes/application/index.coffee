@@ -185,7 +185,7 @@ class Application extends React.Component
       <span>
         {t "Sources"}:
       </span>
-      <a href="https://www.calculatedpolitics.com/project/2019-canada-election/">
+      <a href="https://calculatedpolitics.ca/2019-canadian-federal-election/">
         {t "Projections"}
       </a>
       <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">
