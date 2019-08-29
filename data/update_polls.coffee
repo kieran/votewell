@@ -18,9 +18,9 @@ provinces =
 polls_regex = ///^
   (?<riding>.+\w)   \s+ # Riding name
   [\w.]+            \s+ # (incumbant)
+  (?<lib>\d+)       \s+ # Liberal
   (?<pc>\d+)        \s+ # Conservative
   (?<ndp>\d+)       \s+ # NDP
-  (?<lib>\d+)       \s+ # Liberal
   (?<bloc>\d+)      \s+ # Bloc
   (?<grn>\d+)       \s+ # Green
   (?<other>\d+)     \s+ # Other
