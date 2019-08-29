@@ -164,23 +164,39 @@ class Application extends React.Component
     </div>
 
   reco: ->
-    { t } = @props
+    party = @bestOption()
     <div className="reco" key="reco">
-      {if @bestOption().name is 'Anyone'
-        <div className="result-text">
-          <small>A strategic vote in your riding is not necessary</small>
-          Please vote for your preferred candidate.
-        </div>
+      {if party.name is 'Anyone'
+        @anyone()
       else
-        <div className="result-text">
-          <small>A strategic vote in your riding is a vote for</small>
-          <img
-            className="party"
-            src={@bestOption().img}
-            alt={"#{@bestOption().name}"}
-          />
-        </div>
+        @party party
       }
+    </div>
+
+  anyone: ->
+    { t } = @props
+    <div className="result-text">
+      <small>
+        A strategic vote in your riding
+        <span className='br'> </span>
+        is not necessary
+      </small>
+      Please vote for your preferred candidate.
+    </div>
+
+  party: (party)->
+    { t } = @props
+    <div className="result-text">
+      <small>
+        A strategic vote in your riding
+        <span className='br'> </span>
+        is a vote for
+      </small>
+      <img
+        className="party"
+        src={party.img}
+        alt={"#{party.name}"}
+      />
     </div>
 
   chart: ->
