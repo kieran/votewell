@@ -1,73 +1,36 @@
-Alberta riding-by-riding vote projection:
-last updated: Thursday, August 15, 2019 at 21:25 (Eastern Daylight Time)
-Riding name:  Notional
-incumbent Con.  NDP Lib.  Bloc  Green Other Projected
-winner
-Banff—Airdrie Con.  64  7 21  0 8 1 CON
-
-Battle River—Crowfoot Con.  80  5 6 0 7 2 CON
-
-Bow River Con.  77  5 8 0 5 5 CON
-
-Calgary Centre  Lib.  46  5 40  0 6 3 LEANS CON
-
-Calgary Confederation Con.  48  6 36  0 7 3 CON
-
-Calgary Forest Lawn Con.  47  9 29  0 7 8 CON
-
-Calgary Heritage  Con.  64  6 21  0 5 4 CON
-
-Calgary Midnapore Con.  68  7 17  0 7 2 CON
-
-Calgary Nose Hill Con.  61  8 21  0 6 5 CON
-
-Calgary Rocky Ridge Con.  63  5 25  0 5 2 CON
-
-Calgary Shepard Con.  67  7 19  0 6 1 CON
-
-Calgary Signal Hill Con.  60  4 25  0 6 4 CON
-
-Calgary Skyview Lib.  38  7 39  0 5 10  LEANS LIB
-
-Edmonton Centre Lib.  36  24  32  0 6 1 LEANS CON
-
-Edmonton Griesbach  Con.  42  32  16  0 6 5 CON
-
-Edmonton Manning  Con.  46  24  22  0 6 1 CON
-
-Edmonton Mill Woods Lib.  40  12  37  0 6 6 LEANS CON
-
-Edmonton Riverbend  Con.  51  16  24  0 6 3 CON
-
-Edmonton Strathcona NDP 31  43  15  0 6 5 NDP
-
-Edmonton West Con.  52  12  28  0 5 4 CON
-
-Edmonton—Wetaskiwin Con.  65  9 16  0 6 3 CON
-
-Foothills Con.  74  5 9 0 7 4 CON
-
-Fort McMurray—Cold Lake Con.  61  7 22  0 5 5 CON
-
-Grande Prairie—Mackenzie  Con.  73  7 10  0 6 4 CON
-
-Lakeland  Con.  74  9 8 0 5 4 CON
-
-Lethbridge  Con.  56  20  13  0 6 5 CON
-
-Medicine Hat—Cardston—Warner  Con.  68  8 13  0 6 4 CON
-
-Peace River—Westlock  Con.  70  13  7 0 6 3 CON
-
-Red Deer—Lacombe  Con.  72  10  10  0 6 1 CON
-
-Red Deer—Mountain View  Con.  75  7 8 0 6 4 CON
-
-Sherwood Park—Fort Saskatchewan Con.  62  9 15  0 6 8 CON
-
-St. Albert—Edmonton Con.  44  10  17  0 4 25  CON
-
-Sturgeon River—Parkland Con.  70  9 10  0 7 4 CON
-
-Yellowhead  Con.  72  8 9 0 6 5 CON
-
+Alberta riding-by-riding vote projection
+Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
+Banff—Airdrie Con.  20  64  6 0 8 1 CON
+Battle River—Crowfoot Con.  5 80  5 0 7 3 CON
+Bow River Con.  7 77  4 0 5 6 CON
+Calgary Centre  Lib.  39  47  5 0 6 3 CON
+Calgary Confederation Con.  35  48  6 0 7 4 CON
+Calgary Forest Lawn Con.  28  47  9 0 7 9 CON
+Calgary Heritage  Con.  20  64  6 0 6 4 CON
+Calgary Midnapore Con.  16  68  7 0 7 2 CON
+Calgary Nose Hill Con.  20  61  7 0 6 6 CON
+Calgary Rocky Ridge Con.  24  63  5 0 5 3 CON
+Calgary Shepard Con.  19  67  6 0 7 1 CON
+Calgary Signal Hill Con.  24  61  4 0 6 5 CON
+Calgary Skyview Lib.  38  38  7 0 5 11  TOSS-UP
+Edmonton Centre Lib.  31  37  24  0 7 2 LEANS CON
+Edmonton Griesbach  Con.  15  42  31  0 6 6 CON
+Edmonton Manning  Con.  22  47  24  0 6 1 CON
+Edmonton Mill Woods Lib.  36  40  11  0 6 7 LEANS CON
+Edmonton Riverbend  Con.  24  51  16  0 6 3 CON
+Edmonton Strathcona NDP 15  31  43  0 6 6 NDP
+Edmonton West Con.  27  52  11  0 5 4 CON
+Edmonton—Wetaskiwin Con.  16  66  9 0 6 3 CON
+Foothills Con.  9 74  5 0 7 5 CON
+Fort McMurray—Cold Lake Con.  21  61  7 0 5 6 CON
+Grande Prairie—Mackenzie  Con.  10  73  7 0 7 5 CON
+Lakeland  Con.  7 74  8 0 6 5 CON
+Lethbridge  Con.  13  56  20  0 6 5 CON
+Medicine Hat—Cardston—Warner  Con.  13  68  8 0 6 4 CON
+Peace River—Westlock  Con.  6 70  13  0 7 4 CON
+Red Deer—Lacombe  Con.  10  72  10  0 6 2 CON
+Red Deer—Mountain View  Con.  7 75  7 0 6 5 CON
+Sherwood Park—Fort Saskatchewan Con.  14  62  9 0 6 9 CON
+St. Albert—Edmonton Con.  16  43  9 0 4 28  CON
+Sturgeon River—Parkland Con.  9 70  9 0 8 4 CON
+Yellowhead  Con.  9 72  7 0 6 5 CON

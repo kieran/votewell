@@ -4,8 +4,8 @@
     "province": "Alberta",
     "riding": "Banff—Airdrie",
     "pc": 64,
-    "ndp": 7,
-    "lib": 21,
+    "ndp": 6,
+    "lib": 20,
     "bloc": 0,
     "grn": 8,
     "other": 1
@@ -16,29 +16,29 @@
     "riding": "Battle River—Crowfoot",
     "pc": 80,
     "ndp": 5,
-    "lib": 6,
+    "lib": 5,
     "bloc": 0,
     "grn": 7,
-    "other": 2
+    "other": 3
   },
   {
     "province_code": "AB",
     "province": "Alberta",
     "riding": "Bow River",
     "pc": 77,
-    "ndp": 5,
-    "lib": 8,
+    "ndp": 4,
+    "lib": 7,
     "bloc": 0,
     "grn": 5,
-    "other": 5
+    "other": 6
   },
   {
     "province_code": "AB",
     "province": "Alberta",
     "riding": "Calgary Centre",
-    "pc": 46,
+    "pc": 47,
     "ndp": 5,
-    "lib": 40,
+    "lib": 39,
     "bloc": 0,
     "grn": 6,
     "other": 3
@@ -49,10 +49,10 @@
     "riding": "Calgary Confederation",
     "pc": 48,
     "ndp": 6,
-    "lib": 36,
+    "lib": 35,
     "bloc": 0,
     "grn": 7,
-    "other": 3
+    "other": 4
   },
   {
     "province_code": "AB",
@@ -60,10 +60,10 @@
     "riding": "Calgary Forest Lawn",
     "pc": 47,
     "ndp": 9,
-    "lib": 29,
+    "lib": 28,
     "bloc": 0,
     "grn": 7,
-    "other": 8
+    "other": 9
   },
   {
     "province_code": "AB",
@@ -71,9 +71,9 @@
     "riding": "Calgary Heritage",
     "pc": 64,
     "ndp": 6,
-    "lib": 21,
+    "lib": 20,
     "bloc": 0,
-    "grn": 5,
+    "grn": 6,
     "other": 4
   },
   {
@@ -82,7 +82,7 @@
     "riding": "Calgary Midnapore",
     "pc": 68,
     "ndp": 7,
-    "lib": 17,
+    "lib": 16,
     "bloc": 0,
     "grn": 7,
     "other": 2
@@ -92,11 +92,11 @@
     "province": "Alberta",
     "riding": "Calgary Nose Hill",
     "pc": 61,
-    "ndp": 8,
-    "lib": 21,
+    "ndp": 7,
+    "lib": 20,
     "bloc": 0,
     "grn": 6,
-    "other": 5
+    "other": 6
   },
   {
     "province_code": "AB",
@@ -104,62 +104,29 @@
     "riding": "Calgary Rocky Ridge",
     "pc": 63,
     "ndp": 5,
-    "lib": 25,
+    "lib": 24,
     "bloc": 0,
     "grn": 5,
-    "other": 2
+    "other": 3
   },
   {
     "province_code": "AB",
     "province": "Alberta",
     "riding": "Calgary Shepard",
     "pc": 67,
-    "ndp": 7,
+    "ndp": 6,
     "lib": 19,
     "bloc": 0,
-    "grn": 6,
+    "grn": 7,
     "other": 1
   },
   {
     "province_code": "AB",
     "province": "Alberta",
     "riding": "Calgary Signal Hill",
-    "pc": 60,
+    "pc": 61,
     "ndp": 4,
-    "lib": 25,
-    "bloc": 0,
-    "grn": 6,
-    "other": 4
-  },
-  {
-    "province_code": "AB",
-    "province": "Alberta",
-    "riding": "Calgary Skyview",
-    "pc": 38,
-    "ndp": 7,
-    "lib": 39,
-    "bloc": 0,
-    "grn": 5,
-    "other": 10
-  },
-  {
-    "province_code": "AB",
-    "province": "Alberta",
-    "riding": "Edmonton Centre",
-    "pc": 36,
-    "ndp": 24,
-    "lib": 32,
-    "bloc": 0,
-    "grn": 6,
-    "other": 1
-  },
-  {
-    "province_code": "AB",
-    "province": "Alberta",
-    "riding": "Edmonton Griesbach",
-    "pc": 42,
-    "ndp": 32,
-    "lib": 16,
+    "lib": 24,
     "bloc": 0,
     "grn": 6,
     "other": 5
@@ -167,8 +134,41 @@
   {
     "province_code": "AB",
     "province": "Alberta",
+    "riding": "Calgary Skyview",
+    "pc": 38,
+    "ndp": 7,
+    "lib": 38,
+    "bloc": 0,
+    "grn": 5,
+    "other": 11
+  },
+  {
+    "province_code": "AB",
+    "province": "Alberta",
+    "riding": "Edmonton Centre",
+    "pc": 37,
+    "ndp": 24,
+    "lib": 31,
+    "bloc": 0,
+    "grn": 7,
+    "other": 2
+  },
+  {
+    "province_code": "AB",
+    "province": "Alberta",
+    "riding": "Edmonton Griesbach",
+    "pc": 42,
+    "ndp": 31,
+    "lib": 15,
+    "bloc": 0,
+    "grn": 6,
+    "other": 6
+  },
+  {
+    "province_code": "AB",
+    "province": "Alberta",
     "riding": "Edmonton Manning",
-    "pc": 46,
+    "pc": 47,
     "ndp": 24,
     "lib": 22,
     "bloc": 0,
@@ -180,11 +180,11 @@
     "province": "Alberta",
     "riding": "Edmonton Mill Woods",
     "pc": 40,
-    "ndp": 12,
-    "lib": 37,
+    "ndp": 11,
+    "lib": 36,
     "bloc": 0,
     "grn": 6,
-    "other": 6
+    "other": 7
   },
   {
     "province_code": "AB",
@@ -206,15 +206,15 @@
     "lib": 15,
     "bloc": 0,
     "grn": 6,
-    "other": 5
+    "other": 6
   },
   {
     "province_code": "AB",
     "province": "Alberta",
     "riding": "Edmonton West",
     "pc": 52,
-    "ndp": 12,
-    "lib": 28,
+    "ndp": 11,
+    "lib": 27,
     "bloc": 0,
     "grn": 5,
     "other": 4
@@ -223,7 +223,7 @@
     "province_code": "AB",
     "province": "Alberta",
     "riding": "Edmonton—Wetaskiwin",
-    "pc": 65,
+    "pc": 66,
     "ndp": 9,
     "lib": 16,
     "bloc": 0,
@@ -239,7 +239,7 @@
     "lib": 9,
     "bloc": 0,
     "grn": 7,
-    "other": 4
+    "other": 5
   },
   {
     "province_code": "AB",
@@ -247,10 +247,10 @@
     "riding": "Fort McMurray—Cold Lake",
     "pc": 61,
     "ndp": 7,
-    "lib": 22,
+    "lib": 21,
     "bloc": 0,
     "grn": 5,
-    "other": 5
+    "other": 6
   },
   {
     "province_code": "AB",
@@ -260,19 +260,19 @@
     "ndp": 7,
     "lib": 10,
     "bloc": 0,
-    "grn": 6,
-    "other": 4
+    "grn": 7,
+    "other": 5
   },
   {
     "province_code": "AB",
     "province": "Alberta",
     "riding": "Lakeland",
     "pc": 74,
-    "ndp": 9,
-    "lib": 8,
+    "ndp": 8,
+    "lib": 7,
     "bloc": 0,
-    "grn": 5,
-    "other": 4
+    "grn": 6,
+    "other": 5
   },
   {
     "province_code": "AB",
@@ -302,10 +302,10 @@
     "riding": "Peace River—Westlock",
     "pc": 70,
     "ndp": 13,
-    "lib": 7,
+    "lib": 6,
     "bloc": 0,
-    "grn": 6,
-    "other": 3
+    "grn": 7,
+    "other": 4
   },
   {
     "province_code": "AB",
@@ -316,7 +316,7 @@
     "lib": 10,
     "bloc": 0,
     "grn": 6,
-    "other": 1
+    "other": 2
   },
   {
     "province_code": "AB",
@@ -324,10 +324,10 @@
     "riding": "Red Deer—Mountain View",
     "pc": 75,
     "ndp": 7,
-    "lib": 8,
+    "lib": 7,
     "bloc": 0,
     "grn": 6,
-    "other": 4
+    "other": 5
   },
   {
     "province_code": "AB",
@@ -335,21 +335,21 @@
     "riding": "Sherwood Park—Fort Saskatchewan",
     "pc": 62,
     "ndp": 9,
-    "lib": 15,
+    "lib": 14,
     "bloc": 0,
     "grn": 6,
-    "other": 8
+    "other": 9
   },
   {
     "province_code": "AB",
     "province": "Alberta",
     "riding": "St. Albert—Edmonton",
-    "pc": 44,
-    "ndp": 10,
-    "lib": 17,
+    "pc": 43,
+    "ndp": 9,
+    "lib": 16,
     "bloc": 0,
     "grn": 4,
-    "other": 25
+    "other": 28
   },
   {
     "province_code": "AB",
@@ -357,9 +357,9 @@
     "riding": "Sturgeon River—Parkland",
     "pc": 70,
     "ndp": 9,
-    "lib": 10,
+    "lib": 9,
     "bloc": 0,
-    "grn": 7,
+    "grn": 8,
     "other": 4
   },
   {
@@ -367,7 +367,7 @@
     "province": "Alberta",
     "riding": "Yellowhead",
     "pc": 72,
-    "ndp": 8,
+    "ndp": 7,
     "lib": 9,
     "bloc": 0,
     "grn": 6,
@@ -377,297 +377,297 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Abbotsford",
-    "pc": 51,
-    "ndp": 6,
-    "lib": 27,
+    "pc": 49,
+    "ndp": 7,
+    "lib": 29,
     "bloc": 0,
-    "grn": 14,
+    "grn": 13,
     "other": 2
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Burnaby North—Seymour",
-    "pc": 29,
-    "ndp": 20,
-    "lib": 29,
+    "pc": 27,
+    "ndp": 22,
+    "lib": 31,
     "bloc": 0,
-    "grn": 16,
+    "grn": 14,
     "other": 6
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Burnaby South",
-    "pc": 29,
-    "ndp": 29,
-    "lib": 27,
+    "pc": 27,
+    "ndp": 31,
+    "lib": 29,
     "bloc": 0,
-    "grn": 10,
-    "other": 5
+    "grn": 9,
+    "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Cariboo—Prince George",
-    "pc": 39,
-    "ndp": 17,
-    "lib": 24,
+    "pc": 37,
+    "ndp": 19,
+    "lib": 26,
     "bloc": 0,
-    "grn": 12,
-    "other": 8
+    "grn": 11,
+    "other": 7
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Central Okanagan—Similkameen—Nicola",
-    "pc": 45,
-    "ndp": 11,
-    "lib": 28,
+    "pc": 43,
+    "ndp": 12,
+    "lib": 30,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 2
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Chilliwack—Hope",
-    "pc": 44,
-    "ndp": 10,
-    "lib": 28,
+    "pc": 42,
+    "ndp": 11,
+    "lib": 30,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 5
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Cloverdale—Langley City",
-    "pc": 36,
-    "ndp": 9,
-    "lib": 39,
+    "pc": 34,
+    "ndp": 10,
+    "lib": 42,
     "bloc": 0,
-    "grn": 14,
+    "grn": 13,
     "other": 1
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Coquitlam—Port Coquitlam",
-    "pc": 34,
-    "ndp": 20,
-    "lib": 29,
+    "pc": 32,
+    "ndp": 22,
+    "lib": 31,
     "bloc": 0,
-    "grn": 12,
+    "grn": 10,
     "other": 5
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Courtenay—Alberni",
-    "pc": 28,
-    "ndp": 29,
-    "lib": 14,
+    "pc": 27,
+    "ndp": 31,
+    "lib": 16,
     "bloc": 0,
-    "grn": 26,
+    "grn": 24,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Cowichan—Malahat—Langford",
-    "pc": 26,
-    "ndp": 26,
-    "lib": 17,
+    "pc": 24,
+    "ndp": 28,
+    "lib": 19,
     "bloc": 0,
-    "grn": 27,
+    "grn": 25,
     "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Delta",
-    "pc": 35,
-    "ndp": 7,
-    "lib": 45,
+    "pc": 33,
+    "ndp": 8,
+    "lib": 47,
     "bloc": 0,
-    "grn": 12,
+    "grn": 11,
     "other": 1
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Esquimalt—Saanich—Sooke",
-    "pc": 19,
-    "ndp": 26,
-    "lib": 20,
+    "pc": 17,
+    "ndp": 28,
+    "lib": 22,
     "bloc": 0,
-    "grn": 33,
+    "grn": 30,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Fleetwood—Port Kells",
-    "pc": 32,
-    "ndp": 15,
-    "lib": 41,
+    "pc": 30,
+    "ndp": 17,
+    "lib": 43,
     "bloc": 0,
-    "grn": 10,
+    "grn": 8,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Kamloops—Thompson—Cariboo",
-    "pc": 39,
-    "ndp": 23,
-    "lib": 24,
+    "pc": 37,
+    "ndp": 24,
+    "lib": 26,
     "bloc": 0,
-    "grn": 13,
+    "grn": 11,
     "other": 2
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Kelowna—Lake Country",
-    "pc": 45,
-    "ndp": 6,
-    "lib": 38,
+    "pc": 43,
+    "ndp": 7,
+    "lib": 40,
     "bloc": 0,
-    "grn": 9,
+    "grn": 7,
     "other": 2
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Kootenay—Columbia",
-    "pc": 39,
-    "ndp": 29,
-    "lib": 15,
+    "pc": 37,
+    "ndp": 31,
+    "lib": 16,
     "bloc": 0,
-    "grn": 16,
+    "grn": 15,
     "other": 1
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Langley—Aldergrove",
-    "pc": 47,
-    "ndp": 6,
-    "lib": 28,
+    "pc": 45,
+    "ndp": 7,
+    "lib": 30,
     "bloc": 0,
-    "grn": 14,
+    "grn": 13,
     "other": 5
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Mission—Matsqui—Fraser Canyon",
-    "pc": 36,
-    "ndp": 14,
-    "lib": 30,
+    "pc": 35,
+    "ndp": 15,
+    "lib": 32,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 6
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Nanaimo—Ladysmith",
-    "pc": 22,
-    "ndp": 23,
-    "lib": 15,
+    "pc": 21,
+    "ndp": 25,
+    "lib": 17,
     "bloc": 0,
-    "grn": 37,
+    "grn": 35,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "New Westminster—Burnaby",
-    "pc": 23,
-    "ndp": 33,
-    "lib": 22,
+    "pc": 21,
+    "ndp": 35,
+    "lib": 23,
     "bloc": 0,
-    "grn": 15,
+    "grn": 13,
     "other": 7
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "North Island—Powell River",
-    "pc": 28,
-    "ndp": 32,
-    "lib": 20,
+    "pc": 26,
+    "ndp": 34,
+    "lib": 22,
     "bloc": 0,
-    "grn": 19,
+    "grn": 17,
     "other": 1
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "North Okanagan—Shuswap",
-    "pc": 42,
-    "ndp": 17,
-    "lib": 23,
+    "pc": 41,
+    "ndp": 19,
+    "lib": 25,
     "bloc": 0,
-    "grn": 16,
+    "grn": 14,
     "other": 1
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "North Vancouver",
-    "pc": 28,
+    "pc": 26,
     "ndp": 3,
-    "lib": 47,
+    "lib": 50,
     "bloc": 0,
-    "grn": 19,
+    "grn": 17,
     "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Pitt Meadows—Maple Ridge",
-    "pc": 33,
-    "ndp": 21,
-    "lib": 27,
+    "pc": 31,
+    "ndp": 23,
+    "lib": 29,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Port Moody—Coquitlam",
-    "pc": 33,
-    "ndp": 27,
-    "lib": 23,
+    "pc": 31,
+    "ndp": 28,
+    "lib": 25,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Prince George—Peace River—Northern Rockies",
-    "pc": 53,
-    "ndp": 7,
-    "lib": 19,
+    "pc": 51,
+    "ndp": 8,
+    "lib": 21,
     "bloc": 0,
-    "grn": 14,
+    "grn": 13,
     "other": 8
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Richmond Centre",
-    "pc": 46,
-    "ndp": 5,
-    "lib": 34,
+    "pc": 45,
+    "ndp": 6,
+    "lib": 36,
     "bloc": 0,
-    "grn": 13,
+    "grn": 11,
     "other": 1
   },
   {
@@ -675,338 +675,338 @@
     "province": "British Columbia",
     "riding": "Saanich—Gulf Islands",
     "pc": 15,
-    "ndp": 3,
-    "lib": 7,
+    "ndp": 4,
+    "lib": 9,
     "bloc": 0,
-    "grn": 72,
+    "grn": 70,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Skeena—Bulkley Valley",
-    "pc": 26,
-    "ndp": 44,
-    "lib": 12,
+    "pc": 25,
+    "ndp": 45,
+    "lib": 13,
     "bloc": 0,
-    "grn": 12,
+    "grn": 11,
     "other": 6
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "South Okanagan—West Kootenay",
-    "pc": 33,
-    "ndp": 28,
-    "lib": 21,
+    "pc": 32,
+    "ndp": 29,
+    "lib": 22,
     "bloc": 0,
-    "grn": 15,
+    "grn": 13,
     "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "South Surrey—White Rock",
-    "pc": 47,
-    "ndp": 2,
-    "lib": 36,
+    "pc": 44,
+    "ndp": 4,
+    "lib": 38,
     "bloc": 0,
-    "grn": 12,
+    "grn": 11,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Steveston—Richmond East",
-    "pc": 39,
-    "ndp": 6,
-    "lib": 38,
+    "pc": 37,
+    "ndp": 7,
+    "lib": 40,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Surrey Centre",
-    "pc": 22,
-    "ndp": 24,
-    "lib": 39,
+    "pc": 20,
+    "ndp": 25,
+    "lib": 41,
     "bloc": 0,
-    "grn": 11,
+    "grn": 10,
     "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Surrey—Newton",
-    "pc": 18,
-    "ndp": 19,
-    "lib": 52,
+    "pc": 16,
+    "ndp": 20,
+    "lib": 53,
     "bloc": 0,
-    "grn": 10,
+    "grn": 9,
     "other": 2
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Vancouver Centre",
-    "pc": 20,
-    "ndp": 12,
-    "lib": 47,
+    "pc": 18,
+    "ndp": 13,
+    "lib": 50,
     "bloc": 0,
-    "grn": 17,
+    "grn": 15,
     "other": 5
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Vancouver East",
-    "pc": 12,
-    "ndp": 39,
-    "lib": 22,
+    "pc": 10,
+    "ndp": 41,
+    "lib": 24,
     "bloc": 0,
-    "grn": 19,
+    "grn": 17,
     "other": 8
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Vancouver Granville",
-    "pc": 28,
-    "ndp": 19,
-    "lib": 39,
+    "pc": 26,
+    "ndp": 20,
+    "lib": 41,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 1
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Vancouver Kingsway",
-    "pc": 23,
-    "ndp": 39,
-    "lib": 21,
+    "pc": 21,
+    "ndp": 41,
+    "lib": 23,
     "bloc": 0,
-    "grn": 11,
+    "grn": 10,
     "other": 6
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Vancouver Quadra",
-    "pc": 28,
-    "ndp": 2,
-    "lib": 53,
+    "pc": 26,
+    "ndp": 4,
+    "lib": 55,
     "bloc": 0,
-    "grn": 14,
+    "grn": 12,
     "other": 3
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Vancouver South",
-    "pc": 37,
-    "ndp": 6,
-    "lib": 39,
+    "pc": 36,
+    "ndp": 7,
+    "lib": 42,
     "bloc": 0,
-    "grn": 13,
+    "grn": 11,
     "other": 4
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Victoria",
-    "pc": 12,
-    "ndp": 30,
-    "lib": 7,
+    "pc": 11,
+    "ndp": 33,
+    "lib": 8,
     "bloc": 0,
-    "grn": 46,
+    "grn": 42,
     "other": 5
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "West Vancouver—Sunshine Coast—Sea to Sky Country",
-    "pc": 27,
-    "ndp": 4,
-    "lib": 47,
+    "pc": 25,
+    "ndp": 5,
+    "lib": 49,
     "bloc": 0,
-    "grn": 19,
+    "grn": 17,
     "other": 3
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Brandon—Souris",
-    "pc": 53,
-    "ndp": 6,
-    "lib": 24,
+    "pc": 57,
+    "ndp": 7,
+    "lib": 21,
     "bloc": 0,
-    "grn": 15,
-    "other": 1
+    "grn": 14,
+    "other": 2
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Charleswood—St. James—Assiniboia—Headingley",
-    "pc": 42,
-    "ndp": 5,
-    "lib": 40,
+    "pc": 47,
+    "ndp": 6,
+    "lib": 36,
     "bloc": 0,
-    "grn": 10,
+    "grn": 9,
     "other": 2
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Churchill—Keewatinook Aski",
-    "pc": 13,
-    "ndp": 46,
-    "lib": 28,
+    "pc": 16,
+    "ndp": 48,
+    "lib": 25,
     "bloc": 0,
-    "grn": 8,
-    "other": 4
+    "grn": 7,
+    "other": 5
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Dauphin—Swan River—Neepawa",
-    "pc": 45,
+    "pc": 47,
     "ndp": 10,
-    "lib": 15,
+    "lib": 12,
     "bloc": 0,
-    "grn": 10,
-    "other": 21
+    "grn": 8,
+    "other": 22
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Elmwood—Transcona",
-    "pc": 38,
-    "ndp": 34,
-    "lib": 16,
+    "pc": 41,
+    "ndp": 35,
+    "lib": 13,
     "bloc": 0,
-    "grn": 9,
+    "grn": 7,
     "other": 3
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Kildonan—St. Paul",
-    "pc": 42,
-    "ndp": 14,
-    "lib": 30,
+    "pc": 46,
+    "ndp": 15,
+    "lib": 26,
     "bloc": 0,
-    "grn": 8,
-    "other": 5
+    "grn": 7,
+    "other": 6
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Portage—Lisgar",
-    "pc": 61,
-    "ndp": 5,
-    "lib": 14,
+    "pc": 64,
+    "ndp": 6,
+    "lib": 11,
     "bloc": 0,
-    "grn": 12,
-    "other": 8
+    "grn": 10,
+    "other": 9
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Provencher",
-    "pc": 60,
+    "pc": 65,
     "ndp": 5,
-    "lib": 20,
+    "lib": 17,
     "bloc": 0,
-    "grn": 13,
-    "other": 1
+    "grn": 11,
+    "other": 2
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Saint Boniface—Saint Vital",
-    "pc": 33,
-    "ndp": 10,
-    "lib": 45,
+    "pc": 37,
+    "ndp": 11,
+    "lib": 41,
     "bloc": 0,
-    "grn": 10,
+    "grn": 9,
     "other": 2
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Selkirk—Interlake—Eastman",
-    "pc": 57,
-    "ndp": 10,
-    "lib": 17,
+    "pc": 60,
+    "ndp": 11,
+    "lib": 14,
     "bloc": 0,
-    "grn": 11,
+    "grn": 9,
     "other": 5
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Winnipeg Centre",
-    "pc": 15,
-    "ndp": 28,
-    "lib": 40,
+    "pc": 19,
+    "ndp": 30,
+    "lib": 36,
     "bloc": 0,
-    "grn": 12,
-    "other": 4
+    "grn": 10,
+    "other": 5
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Winnipeg North",
-    "pc": 18,
-    "ndp": 13,
-    "lib": 57,
+    "pc": 22,
+    "ndp": 14,
+    "lib": 54,
     "bloc": 0,
-    "grn": 9,
+    "grn": 8,
     "other": 2
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Winnipeg South",
-    "pc": 39,
+    "pc": 43,
     "ndp": 5,
-    "lib": 46,
+    "lib": 43,
     "bloc": 0,
-    "grn": 9,
+    "grn": 8,
     "other": 2
   },
   {
     "province_code": "MB",
     "province": "Manitoba",
     "riding": "Winnipeg South Centre",
-    "pc": 33,
-    "ndp": 9,
-    "lib": 46,
+    "pc": 37,
+    "ndp": 10,
+    "lib": 42,
     "bloc": 0,
-    "grn": 11,
+    "grn": 10,
     "other": 2
   },
   {
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "Acadie—Bathurst",
-    "pc": 16,
+    "pc": 17,
     "ndp": 27,
-    "lib": 47,
+    "lib": 44,
     "bloc": 0,
-    "grn": 10,
+    "grn": 11,
     "other": 1
   },
   {
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "Beauséjour",
-    "pc": 20,
+    "pc": 21,
     "ndp": 9,
-    "lib": 55,
+    "lib": 52,
     "bloc": 0,
     "grn": 15,
     "other": 2
@@ -1015,31 +1015,31 @@
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "Fredericton",
-    "pc": 32,
+    "pc": 33,
     "ndp": 6,
-    "lib": 30,
+    "lib": 27,
     "bloc": 0,
-    "grn": 30,
-    "other": 2
-  },
-  {
-    "province_code": "NB",
-    "province": "New Brunswick",
-    "riding": "Fundy Royal",
-    "pc": 46,
-    "ndp": 10,
-    "lib": 22,
-    "bloc": 0,
-    "grn": 19,
+    "grn": 31,
     "other": 3
   },
   {
     "province_code": "NB",
     "province": "New Brunswick",
+    "riding": "Fundy Royal",
+    "pc": 47,
+    "ndp": 10,
+    "lib": 20,
+    "bloc": 0,
+    "grn": 19,
+    "other": 4
+  },
+  {
+    "province_code": "NB",
+    "province": "New Brunswick",
     "riding": "Madawaska—Restigouche",
-    "pc": 34,
-    "ndp": 16,
-    "lib": 37,
+    "pc": 35,
+    "ndp": 17,
+    "lib": 35,
     "bloc": 0,
     "grn": 11,
     "other": 2
@@ -1048,9 +1048,9 @@
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "Miramichi—Grand Lake",
-    "pc": 39,
-    "ndp": 7,
-    "lib": 42,
+    "pc": 40,
+    "ndp": 8,
+    "lib": 39,
     "bloc": 0,
     "grn": 11,
     "other": 1
@@ -1059,9 +1059,9 @@
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "Moncton—Riverview—Dieppe",
-    "pc": 31,
+    "pc": 33,
     "ndp": 10,
-    "lib": 42,
+    "lib": 40,
     "bloc": 0,
     "grn": 15,
     "other": 2
@@ -1070,9 +1070,9 @@
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "New Brunswick Southwest",
-    "pc": 45,
+    "pc": 47,
     "ndp": 9,
-    "lib": 27,
+    "lib": 25,
     "bloc": 0,
     "grn": 16,
     "other": 3
@@ -1081,20 +1081,20 @@
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "Saint John—Rothesay",
-    "pc": 41,
+    "pc": 42,
     "ndp": 10,
-    "lib": 31,
+    "lib": 28,
     "bloc": 0,
-    "grn": 17,
+    "grn": 18,
     "other": 2
   },
   {
     "province_code": "NB",
     "province": "New Brunswick",
     "riding": "Tobique—Mactaquac",
-    "pc": 57,
+    "pc": 59,
     "ndp": 4,
-    "lib": 25,
+    "lib": 23,
     "bloc": 0,
     "grn": 12,
     "other": 2
@@ -1103,20 +1103,20 @@
     "province_code": "NL",
     "province": "Newfoundland and Labrador",
     "riding": "Avalon",
-    "pc": 17,
+    "pc": 18,
     "ndp": 6,
-    "lib": 61,
+    "lib": 58,
     "bloc": 0,
     "grn": 6,
-    "other": 11
+    "other": 12
   },
   {
     "province_code": "NL",
     "province": "Newfoundland and Labrador",
     "riding": "Bonavista—Burin—Trinity",
-    "pc": 18,
+    "pc": 20,
     "ndp": 3,
-    "lib": 68,
+    "lib": 66,
     "bloc": 0,
     "grn": 9,
     "other": 2
@@ -1125,9 +1125,9 @@
     "province_code": "NL",
     "province": "Newfoundland and Labrador",
     "riding": "Coast of Bays—Central—Notre Dame",
-    "pc": 28,
+    "pc": 29,
     "ndp": 3,
-    "lib": 60,
+    "lib": 57,
     "bloc": 0,
     "grn": 7,
     "other": 3
@@ -1136,130 +1136,130 @@
     "province_code": "NL",
     "province": "Newfoundland and Labrador",
     "riding": "Labrador",
-    "pc": 24,
-    "ndp": 8,
-    "lib": 59,
+    "pc": 26,
+    "ndp": 9,
+    "lib": 56,
     "bloc": 0,
-    "grn": 6,
+    "grn": 7,
     "other": 2
   },
   {
     "province_code": "NL",
     "province": "Newfoundland and Labrador",
     "riding": "Long Range Mountains",
-    "pc": 28,
+    "pc": 29,
     "ndp": 5,
-    "lib": 53,
+    "lib": 51,
     "bloc": 0,
-    "grn": 12,
+    "grn": 13,
     "other": 2
   },
   {
     "province_code": "NL",
     "province": "Newfoundland and Labrador",
-    "riding": "St. John’s East",
-    "pc": 15,
+    "riding": "St. John's East",
+    "pc": 16,
     "ndp": 32,
-    "lib": 43,
+    "lib": 40,
     "bloc": 0,
     "grn": 8,
-    "other": 2
+    "other": 3
   },
   {
     "province_code": "NL",
     "province": "Newfoundland and Labrador",
-    "riding": "St. John’s South—Mount Pearl",
-    "pc": 13,
-    "ndp": 29,
-    "lib": 47,
+    "riding": "St. John's South—Mount Pearl",
+    "pc": 14,
+    "ndp": 30,
+    "lib": 44,
     "bloc": 0,
     "grn": 10,
-    "other": 2
+    "other": 3
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Cape Breton—Canso",
-    "pc": 23,
+    "pc": 24,
     "ndp": 5,
-    "lib": 57,
+    "lib": 55,
     "bloc": 0,
-    "grn": 12,
+    "grn": 13,
     "other": 3
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Central Nova",
-    "pc": 34,
+    "pc": 35,
     "ndp": 3,
-    "lib": 38,
+    "lib": 35,
     "bloc": 0,
     "grn": 20,
-    "other": 5
+    "other": 6
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Cumberland—Colchester",
-    "pc": 46,
+    "pc": 47,
     "ndp": 1,
-    "lib": 39,
+    "lib": 37,
     "bloc": 0,
-    "grn": 11,
+    "grn": 12,
     "other": 3
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Dartmouth—Cole Harbour",
-    "pc": 20,
+    "pc": 22,
     "ndp": 14,
-    "lib": 53,
+    "lib": 50,
     "bloc": 0,
-    "grn": 11,
+    "grn": 12,
     "other": 1
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Halifax",
-    "pc": 17,
-    "ndp": 27,
-    "lib": 38,
+    "pc": 18,
+    "ndp": 28,
+    "lib": 35,
     "bloc": 0,
-    "grn": 13,
+    "grn": 14,
     "other": 4
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Halifax West",
-    "pc": 24,
+    "pc": 25,
     "ndp": 9,
-    "lib": 51,
+    "lib": 49,
     "bloc": 0,
-    "grn": 14,
+    "grn": 15,
     "other": 3
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Kings—Hants",
-    "pc": 27,
+    "pc": 28,
     "ndp": 0,
-    "lib": 51,
+    "lib": 48,
     "bloc": 0,
-    "grn": 18,
-    "other": 4
+    "grn": 19,
+    "other": 5
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Sackville—Preston—Chezzetcook",
-    "pc": 32,
-    "ndp": 23,
-    "lib": 31,
+    "pc": 33,
+    "ndp": 24,
+    "lib": 29,
     "bloc": 0,
     "grn": 12,
     "other": 2
@@ -1268,31 +1268,31 @@
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "South Shore—St. Margarets",
-    "pc": 27,
-    "ndp": 8,
-    "lib": 51,
+    "pc": 29,
+    "ndp": 9,
+    "lib": 48,
     "bloc": 0,
-    "grn": 10,
-    "other": 3
+    "grn": 11,
+    "other": 4
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "Sydney—Victoria",
-    "pc": 19,
+    "pc": 20,
     "ndp": 7,
-    "lib": 58,
+    "lib": 55,
     "bloc": 0,
-    "grn": 11,
-    "other": 5
+    "grn": 12,
+    "other": 6
   },
   {
     "province_code": "NS",
     "province": "Nova Scotia",
     "riding": "West Nova",
-    "pc": 34,
+    "pc": 36,
     "ndp": 3,
-    "lib": 46,
+    "lib": 43,
     "bloc": 0,
     "grn": 15,
     "other": 3
@@ -1302,22 +1302,22 @@
     "province": "Northwest Territories",
     "riding": "Northwest Territories",
     "pc": 31,
-    "ndp": 18,
+    "ndp": 19,
     "lib": 34,
     "bloc": 0,
     "grn": 12,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "NU",
     "province": "Nunavut",
     "riding": "Nunavut",
     "pc": 39,
-    "ndp": 15,
-    "lib": 30,
+    "ndp": 16,
+    "lib": 31,
     "bloc": 0,
     "grn": 10,
-    "other": 6
+    "other": 5
   },
   {
     "province_code": "ON",
@@ -1327,7 +1327,7 @@
     "ndp": 8,
     "lib": 50,
     "bloc": 0,
-    "grn": 7,
+    "grn": 8,
     "other": 2
   },
   {
@@ -1336,20 +1336,20 @@
     "riding": "Algoma—Manitoulin—Kapuskasing",
     "pc": 22,
     "ndp": 39,
-    "lib": 28,
+    "lib": 27,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 2
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Aurora—Oak Ridges—Richmond Hill",
-    "pc": 41,
+    "pc": 42,
     "ndp": 5,
     "lib": 42,
     "bloc": 0,
-    "grn": 8,
+    "grn": 9,
     "other": 3
   },
   {
@@ -1361,50 +1361,50 @@
     "lib": 28,
     "bloc": 0,
     "grn": 12,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Barrie—Springwater—Oro-Medonte",
-    "pc": 41,
+    "pc": 42,
     "ndp": 9,
     "lib": 32,
     "bloc": 0,
-    "grn": 12,
-    "other": 5
+    "grn": 13,
+    "other": 4
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Bay of Quinte",
-    "pc": 32,
+    "pc": 33,
     "ndp": 11,
-    "lib": 44,
+    "lib": 43,
     "bloc": 0,
     "grn": 9,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Beaches—East York",
-    "pc": 14,
+    "pc": 15,
     "ndp": 29,
     "lib": 43,
     "bloc": 0,
-    "grn": 10,
-    "other": 4
+    "grn": 11,
+    "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Brampton Centre",
-    "pc": 30,
+    "pc": 31,
     "ndp": 14,
     "lib": 43,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 3
   },
   {
@@ -1437,14 +1437,14 @@
     "ndp": 10,
     "lib": 46,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 1
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Brampton West",
-    "pc": 28,
+    "pc": 29,
     "ndp": 11,
     "lib": 50,
     "bloc": 0,
@@ -1477,11 +1477,11 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Burlington",
-    "pc": 42,
+    "pc": 43,
     "ndp": 8,
     "lib": 39,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 1
   },
   {
@@ -1492,7 +1492,7 @@
     "ndp": 13,
     "lib": 35,
     "bloc": 0,
-    "grn": 11,
+    "grn": 12,
     "other": 5
   },
   {
@@ -1510,9 +1510,9 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Chatham-Kent—Leamington",
-    "pc": 39,
+    "pc": 40,
     "ndp": 17,
-    "lib": 32,
+    "lib": 31,
     "bloc": 0,
     "grn": 10,
     "other": 2
@@ -1525,8 +1525,8 @@
     "ndp": 41,
     "lib": 36,
     "bloc": 0,
-    "grn": 10,
-    "other": 4
+    "grn": 11,
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1543,11 +1543,11 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Don Valley North",
-    "pc": 36,
+    "pc": 37,
     "ndp": 8,
     "lib": 45,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 1
   },
   {
@@ -1581,7 +1581,7 @@
     "lib": 27,
     "bloc": 0,
     "grn": 10,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1591,8 +1591,8 @@
     "ndp": 5,
     "lib": 41,
     "bloc": 0,
-    "grn": 8,
-    "other": 4
+    "grn": 9,
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1603,7 +1603,7 @@
     "lib": 22,
     "bloc": 0,
     "grn": 11,
-    "other": 6
+    "other": 5
   },
   {
     "province_code": "ON",
@@ -1613,7 +1613,7 @@
     "ndp": 40,
     "lib": 15,
     "bloc": 0,
-    "grn": 8,
+    "grn": 9,
     "other": 3
   },
   {
@@ -1624,19 +1624,19 @@
     "ndp": 7,
     "lib": 47,
     "bloc": 0,
-    "grn": 8,
-    "other": 4
+    "grn": 9,
+    "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Etobicoke North",
-    "pc": 21,
+    "pc": 22,
     "ndp": 12,
     "lib": 55,
     "bloc": 0,
     "grn": 8,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1646,8 +1646,8 @@
     "ndp": 10,
     "lib": 46,
     "bloc": 0,
-    "grn": 9,
-    "other": 4
+    "grn": 10,
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1664,12 +1664,12 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Glengarry—Prescott—Russell",
-    "pc": 34,
+    "pc": 35,
     "ndp": 7,
     "lib": 47,
     "bloc": 0,
-    "grn": 8,
-    "other": 4
+    "grn": 9,
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1679,8 +1679,8 @@
     "ndp": 11,
     "lib": 43,
     "bloc": 0,
-    "grn": 18,
-    "other": 5
+    "grn": 19,
+    "other": 4
   },
   {
     "province_code": "ON",
@@ -1691,7 +1691,7 @@
     "lib": 28,
     "bloc": 0,
     "grn": 11,
-    "other": 6
+    "other": 5
   },
   {
     "province_code": "ON",
@@ -1701,7 +1701,7 @@
     "ndp": 18,
     "lib": 24,
     "bloc": 0,
-    "grn": 11,
+    "grn": 12,
     "other": 1
   },
   {
@@ -1712,8 +1712,8 @@
     "ndp": 43,
     "lib": 24,
     "bloc": 0,
-    "grn": 13,
-    "other": 8
+    "grn": 14,
+    "other": 7
   },
   {
     "province_code": "ON",
@@ -1723,18 +1723,18 @@
     "ndp": 31,
     "lib": 33,
     "bloc": 0,
-    "grn": 10,
-    "other": 4
+    "grn": 11,
+    "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Hamilton Mountain",
-    "pc": 22,
-    "ndp": 34,
+    "pc": 23,
+    "ndp": 35,
     "lib": 27,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 6
   },
   {
@@ -1763,12 +1763,12 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Humber River—Black Creek",
-    "pc": 18,
+    "pc": 19,
     "ndp": 10,
     "lib": 60,
     "bloc": 0,
     "grn": 8,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1776,7 +1776,7 @@
     "riding": "Huron—Bruce",
     "pc": 44,
     "ndp": 12,
-    "lib": 33,
+    "lib": 32,
     "bloc": 0,
     "grn": 10,
     "other": 2
@@ -1796,11 +1796,11 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Kenora",
-    "pc": 26,
+    "pc": 27,
     "ndp": 34,
     "lib": 28,
     "bloc": 0,
-    "grn": 8,
+    "grn": 9,
     "other": 3
   },
   {
@@ -1822,7 +1822,7 @@
     "ndp": 6,
     "lib": 41,
     "bloc": 0,
-    "grn": 8,
+    "grn": 9,
     "other": 1
   },
   {
@@ -1833,7 +1833,7 @@
     "ndp": 15,
     "lib": 42,
     "bloc": 0,
-    "grn": 11,
+    "grn": 12,
     "other": 4
   },
   {
@@ -1845,7 +1845,7 @@
     "lib": 37,
     "bloc": 0,
     "grn": 11,
-    "other": 6
+    "other": 5
   },
   {
     "province_code": "ON",
@@ -1856,7 +1856,7 @@
     "lib": 34,
     "bloc": 0,
     "grn": 10,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "ON",
@@ -1864,9 +1864,9 @@
     "riding": "Lambton—Kent—Middlesex",
     "pc": 51,
     "ndp": 16,
-    "lib": 22,
+    "lib": 21,
     "bloc": 0,
-    "grn": 10,
+    "grn": 11,
     "other": 1
   },
   {
@@ -1886,7 +1886,7 @@
     "riding": "Leeds-Grenville-Thousand Islands and Rideau Lakes",
     "pc": 45,
     "ndp": 7,
-    "lib": 33,
+    "lib": 32,
     "bloc": 0,
     "grn": 13,
     "other": 2
@@ -1917,12 +1917,12 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "London—Fanshawe",
-    "pc": 26,
+    "pc": 27,
     "ndp": 37,
     "lib": 23,
     "bloc": 0,
     "grn": 10,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -1944,7 +1944,7 @@
     "lib": 50,
     "bloc": 0,
     "grn": 7,
-    "other": 3
+    "other": 2
   },
   {
     "province_code": "ON",
@@ -1954,29 +1954,29 @@
     "ndp": 4,
     "lib": 37,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 2
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Milton",
-    "pc": 44,
+    "pc": 45,
     "ndp": 11,
     "lib": 32,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 4
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Mississauga Centre",
-    "pc": 33,
+    "pc": 34,
     "ndp": 8,
-    "lib": 48,
+    "lib": 47,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 1
   },
   {
@@ -1987,14 +1987,14 @@
     "ndp": 8,
     "lib": 48,
     "bloc": 0,
-    "grn": 7,
-    "other": 3
+    "grn": 8,
+    "other": 2
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Mississauga—Erin Mills",
-    "pc": 37,
+    "pc": 38,
     "ndp": 8,
     "lib": 44,
     "bloc": 0,
@@ -2005,12 +2005,12 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Mississauga—Lakeshore",
-    "pc": 37,
+    "pc": 38,
     "ndp": 7,
     "lib": 42,
     "bloc": 0,
-    "grn": 9,
-    "other": 4
+    "grn": 10,
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -2018,9 +2018,9 @@
     "riding": "Mississauga—Malton",
     "pc": 25,
     "ndp": 12,
-    "lib": 52,
+    "lib": 51,
     "bloc": 0,
-    "grn": 8,
+    "grn": 9,
     "other": 3
   },
   {
@@ -2031,7 +2031,7 @@
     "ndp": 8,
     "lib": 40,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 3
   },
   {
@@ -2042,8 +2042,8 @@
     "ndp": 7,
     "lib": 45,
     "bloc": 0,
-    "grn": 9,
-    "other": 5
+    "grn": 10,
+    "other": 4
   },
   {
     "province_code": "ON",
@@ -2051,7 +2051,7 @@
     "riding": "Newmarket—Aurora",
     "pc": 40,
     "ndp": 7,
-    "lib": 39,
+    "lib": 38,
     "bloc": 0,
     "grn": 10,
     "other": 4
@@ -2060,12 +2060,12 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Niagara Centre",
-    "pc": 26,
+    "pc": 27,
     "ndp": 30,
-    "lib": 31,
+    "lib": 30,
     "bloc": 0,
-    "grn": 9,
-    "other": 4
+    "grn": 10,
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -2086,8 +2086,8 @@
     "ndp": 9,
     "lib": 23,
     "bloc": 0,
-    "grn": 9,
-    "other": 13
+    "grn": 10,
+    "other": 12
   },
   {
     "province_code": "ON",
@@ -2108,7 +2108,7 @@
     "ndp": 15,
     "lib": 45,
     "bloc": 0,
-    "grn": 10,
+    "grn": 11,
     "other": 2
   },
   {
@@ -2117,9 +2117,9 @@
     "riding": "Northumberland—Peterborough South",
     "pc": 36,
     "ndp": 14,
-    "lib": 38,
+    "lib": 37,
     "bloc": 0,
-    "grn": 10,
+    "grn": 11,
     "other": 2
   },
   {
@@ -2130,7 +2130,7 @@
     "ndp": 6,
     "lib": 42,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 2
   },
   {
@@ -2141,8 +2141,8 @@
     "ndp": 6,
     "lib": 39,
     "bloc": 0,
-    "grn": 8,
-    "other": 5
+    "grn": 9,
+    "other": 4
   },
   {
     "province_code": "ON",
@@ -2152,14 +2152,14 @@
     "ndp": 7,
     "lib": 54,
     "bloc": 0,
-    "grn": 8,
+    "grn": 9,
     "other": 1
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Oshawa",
-    "pc": 36,
+    "pc": 37,
     "ndp": 30,
     "lib": 21,
     "bloc": 0,
@@ -2175,13 +2175,13 @@
     "lib": 37,
     "bloc": 0,
     "grn": 10,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Ottawa South",
-    "pc": 22,
+    "pc": 23,
     "ndp": 11,
     "lib": 52,
     "bloc": 0,
@@ -2193,11 +2193,11 @@
     "province": "Ontario",
     "riding": "Ottawa West—Nepean",
     "pc": 29,
-    "ndp": 8,
+    "ndp": 9,
     "lib": 47,
     "bloc": 0,
     "grn": 10,
-    "other": 6
+    "other": 5
   },
   {
     "province_code": "ON",
@@ -2208,7 +2208,7 @@
     "lib": 49,
     "bloc": 0,
     "grn": 11,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "ON",
@@ -2218,7 +2218,7 @@
     "ndp": 15,
     "lib": 25,
     "bloc": 0,
-    "grn": 12,
+    "grn": 13,
     "other": 5
   },
   {
@@ -2227,7 +2227,7 @@
     "riding": "Parkdale—High Park",
     "pc": 11,
     "ndp": 38,
-    "lib": 37,
+    "lib": 36,
     "bloc": 0,
     "grn": 10,
     "other": 5
@@ -2236,7 +2236,7 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Parry Sound—Muskoka",
-    "pc": 41,
+    "pc": 42,
     "ndp": 10,
     "lib": 30,
     "bloc": 0,
@@ -2251,14 +2251,14 @@
     "ndp": 13,
     "lib": 28,
     "bloc": 0,
-    "grn": 9,
-    "other": 8
+    "grn": 10,
+    "other": 7
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Peterborough—Kawartha",
-    "pc": 33,
+    "pc": 34,
     "ndp": 18,
     "lib": 37,
     "bloc": 0,
@@ -2280,18 +2280,18 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Renfrew—Nipissing—Pembroke",
-    "pc": 40,
+    "pc": 41,
     "ndp": 7,
     "lib": 25,
     "bloc": 0,
-    "grn": 8,
-    "other": 19
+    "grn": 9,
+    "other": 18
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Richmond Hill",
-    "pc": 41,
+    "pc": 42,
     "ndp": 8,
     "lib": 40,
     "bloc": 0,
@@ -2313,7 +2313,7 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Sault Ste. Marie",
-    "pc": 29,
+    "pc": 30,
     "ndp": 21,
     "lib": 38,
     "bloc": 0,
@@ -2324,7 +2324,7 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Scarborough Centre",
-    "pc": 30,
+    "pc": 31,
     "ndp": 10,
     "lib": 44,
     "bloc": 0,
@@ -2335,12 +2335,12 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Scarborough North",
-    "pc": 24,
+    "pc": 25,
     "ndp": 21,
     "lib": 43,
     "bloc": 0,
     "grn": 9,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -2369,17 +2369,17 @@
     "province": "Ontario",
     "riding": "Scarborough—Guildwood",
     "pc": 25,
-    "ndp": 10,
+    "ndp": 11,
     "lib": 53,
     "bloc": 0,
-    "grn": 7,
+    "grn": 8,
     "other": 4
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Scarborough—Rouge Park",
-    "pc": 25,
+    "pc": 26,
     "ndp": 9,
     "lib": 54,
     "bloc": 0,
@@ -2390,11 +2390,11 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Simcoe North",
-    "pc": 40,
+    "pc": 41,
     "ndp": 10,
     "lib": 33,
     "bloc": 0,
-    "grn": 11,
+    "grn": 12,
     "other": 5
   },
   {
@@ -2405,8 +2405,8 @@
     "ndp": 9,
     "lib": 30,
     "bloc": 0,
-    "grn": 12,
-    "other": 4
+    "grn": 13,
+    "other": 3
   },
   {
     "province_code": "ON",
@@ -2414,7 +2414,7 @@
     "riding": "Spadina—Fort York",
     "pc": 15,
     "ndp": 26,
-    "lib": 48,
+    "lib": 47,
     "bloc": 0,
     "grn": 9,
     "other": 2
@@ -2436,32 +2436,32 @@
     "riding": "Stormont—Dundas—South Glengarry",
     "pc": 50,
     "ndp": 7,
-    "lib": 32,
+    "lib": 31,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 2
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Sudbury",
-    "pc": 18,
+    "pc": 19,
     "ndp": 26,
     "lib": 42,
     "bloc": 0,
     "grn": 10,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Thornhill",
-    "pc": 57,
+    "pc": 58,
     "ndp": 5,
-    "lib": 26,
+    "lib": 25,
     "bloc": 0,
     "grn": 8,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "ON",
@@ -2478,18 +2478,18 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Thunder Bay—Superior North",
-    "pc": 13,
+    "pc": 14,
     "ndp": 19,
-    "lib": 33,
+    "lib": 32,
     "bloc": 0,
-    "grn": 31,
+    "grn": 32,
     "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Timmins—James Bay",
-    "pc": 18,
+    "pc": 19,
     "ndp": 42,
     "lib": 28,
     "bloc": 0,
@@ -2505,40 +2505,40 @@
     "lib": 52,
     "bloc": 0,
     "grn": 10,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Toronto—Danforth",
-    "pc": 8,
+    "pc": 9,
     "ndp": 39,
     "lib": 34,
     "bloc": 0,
-    "grn": 12,
+    "grn": 13,
     "other": 6
   },
   {
     "province_code": "ON",
     "province": "Ontario",
-    "riding": "Toronto—St. Paul’s",
+    "riding": "Toronto—St. Paul's",
     "pc": 27,
     "ndp": 14,
     "lib": 48,
     "bloc": 0,
-    "grn": 10,
+    "grn": 11,
     "other": 1
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "University—Rosedale",
-    "pc": 15,
+    "pc": 16,
     "ndp": 27,
     "lib": 42,
     "bloc": 0,
-    "grn": 10,
-    "other": 6
+    "grn": 11,
+    "other": 5
   },
   {
     "province_code": "ON",
@@ -2549,7 +2549,7 @@
     "lib": 43,
     "bloc": 0,
     "grn": 7,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "ON",
@@ -2566,7 +2566,7 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Wellington—Halton Hills",
-    "pc": 49,
+    "pc": 50,
     "ndp": 8,
     "lib": 28,
     "bloc": 0,
@@ -2577,7 +2577,7 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Whitby",
-    "pc": 41,
+    "pc": 42,
     "ndp": 9,
     "lib": 37,
     "bloc": 0,
@@ -2599,18 +2599,18 @@
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Windsor West",
-    "pc": 18,
+    "pc": 19,
     "ndp": 50,
     "lib": 19,
     "bloc": 0,
-    "grn": 9,
+    "grn": 10,
     "other": 3
   },
   {
     "province_code": "ON",
     "province": "Ontario",
     "riding": "Windsor—Tecumseh",
-    "pc": 24,
+    "pc": 25,
     "ndp": 42,
     "lib": 21,
     "bloc": 0,
@@ -2637,7 +2637,7 @@
     "lib": 37,
     "bloc": 0,
     "grn": 9,
-    "other": 9
+    "other": 8
   },
   {
     "province_code": "ON",
@@ -2654,20 +2654,20 @@
     "province_code": "PE",
     "province": "Prince Edward Island",
     "riding": "Cardigan",
-    "pc": 22,
+    "pc": 23,
     "ndp": 4,
-    "lib": 43,
+    "lib": 40,
     "bloc": 0,
-    "grn": 26,
-    "other": 5
+    "grn": 27,
+    "other": 6
   },
   {
     "province_code": "PE",
     "province": "Prince Edward Island",
     "riding": "Charlottetown",
-    "pc": 31,
-    "ndp": 14,
-    "lib": 38,
+    "pc": 33,
+    "ndp": 15,
+    "lib": 35,
     "bloc": 0,
     "grn": 15,
     "other": 2
@@ -2676,22 +2676,22 @@
     "province_code": "PE",
     "province": "Prince Edward Island",
     "riding": "Egmont",
-    "pc": 34,
-    "ndp": 10,
-    "lib": 44,
+    "pc": 35,
+    "ndp": 11,
+    "lib": 42,
     "bloc": 0,
-    "grn": 10,
+    "grn": 11,
     "other": 1
   },
   {
     "province_code": "PE",
     "province": "Prince Edward Island",
     "riding": "Malpeque",
-    "pc": 26,
+    "pc": 27,
     "ndp": 6,
-    "lib": 46,
+    "lib": 43,
     "bloc": 0,
-    "grn": 21,
+    "grn": 22,
     "other": 2
   },
   {
@@ -2699,41 +2699,8 @@
     "province": "Quebec",
     "riding": "Abitibi—Baie-James—Nunavik—Eeyou",
     "pc": 14,
-    "ndp": 22,
-    "lib": 31,
-    "bloc": 18,
-    "grn": 9,
-    "other": 5
-  },
-  {
-    "province_code": "QC",
-    "province": "Quebec",
-    "riding": "Abitibi—Témiscamingue",
-    "pc": 11,
-    "ndp": 22,
+    "ndp": 23,
     "lib": 32,
-    "bloc": 20,
-    "grn": 8,
-    "other": 7
-  },
-  {
-    "province_code": "QC",
-    "province": "Quebec",
-    "riding": "Ahuntsic-Cartierville",
-    "pc": 12,
-    "ndp": 15,
-    "lib": 47,
-    "bloc": 12,
-    "grn": 9,
-    "other": 5
-  },
-  {
-    "province_code": "QC",
-    "province": "Quebec",
-    "riding": "Alfred-Pellan",
-    "pc": 16,
-    "ndp": 10,
-    "lib": 45,
     "bloc": 17,
     "grn": 9,
     "other": 4
@@ -2741,11 +2708,44 @@
   {
     "province_code": "QC",
     "province": "Quebec",
+    "riding": "Abitibi—Témiscamingue",
+    "pc": 11,
+    "ndp": 24,
+    "lib": 32,
+    "bloc": 19,
+    "grn": 8,
+    "other": 6
+  },
+  {
+    "province_code": "QC",
+    "province": "Quebec",
+    "riding": "Ahuntsic-Cartierville",
+    "pc": 13,
+    "ndp": 16,
+    "lib": 47,
+    "bloc": 12,
+    "grn": 9,
+    "other": 4
+  },
+  {
+    "province_code": "QC",
+    "province": "Quebec",
+    "riding": "Alfred-Pellan",
+    "pc": 16,
+    "ndp": 11,
+    "lib": 46,
+    "bloc": 16,
+    "grn": 8,
+    "other": 3
+  },
+  {
+    "province_code": "QC",
+    "province": "Quebec",
     "riding": "Argenteuil—La Petite-Nation",
     "pc": 16,
-    "ndp": 10,
-    "lib": 43,
-    "bloc": 18,
+    "ndp": 11,
+    "lib": 44,
+    "bloc": 17,
     "grn": 9,
     "other": 3
   },
@@ -2754,29 +2754,29 @@
     "province": "Quebec",
     "riding": "Avignon—La Mitis—Matane—Matapédia",
     "pc": 10,
-    "ndp": 11,
+    "ndp": 12,
     "lib": 46,
     "bloc": 20,
     "grn": 6,
-    "other": 7
+    "other": 6
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Beauce",
-    "pc": 36,
+    "pc": 37,
     "ndp": 0,
-    "lib": 17,
+    "lib": 18,
     "bloc": 5,
     "grn": 7,
-    "other": 35
+    "other": 33
   },
   {
     "province_code": "QC",
     "province": "Quebec",
-    "riding": "Beauport-Côte-de-Beaupré-Île d’Orléans-Charlevoix",
+    "riding": "Beauport-Côte-de-Beaupré-Île d'Orléans-Charlevoix",
     "pc": 42,
-    "ndp": 6,
+    "ndp": 7,
     "lib": 25,
     "bloc": 17,
     "grn": 7,
@@ -2787,9 +2787,9 @@
     "province": "Quebec",
     "riding": "Beauport—Limoilou",
     "pc": 37,
-    "ndp": 11,
-    "lib": 24,
-    "bloc": 14,
+    "ndp": 12,
+    "lib": 25,
+    "bloc": 13,
     "grn": 9,
     "other": 5
   },
@@ -2798,11 +2798,11 @@
     "province": "Quebec",
     "riding": "Bécancour—Nicolet—Saurel",
     "pc": 16,
-    "ndp": 8,
+    "ndp": 9,
     "lib": 24,
     "bloc": 40,
-    "grn": 10,
-    "other": 2
+    "grn": 9,
+    "other": 1
   },
   {
     "province_code": "QC",
@@ -2810,7 +2810,7 @@
     "riding": "Bellechasse—Les Etchemins—Lévis",
     "pc": 57,
     "ndp": 0,
-    "lib": 19,
+    "lib": 20,
     "bloc": 10,
     "grn": 10,
     "other": 3
@@ -2820,29 +2820,29 @@
     "province": "Quebec",
     "riding": "Beloeil—Chambly",
     "pc": 14,
-    "ndp": 16,
-    "lib": 29,
-    "bloc": 28,
-    "grn": 10,
-    "other": 4
+    "ndp": 17,
+    "lib": 30,
+    "bloc": 27,
+    "grn": 9,
+    "other": 3
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Bourassa",
-    "pc": 11,
-    "ndp": 4,
-    "lib": 48,
+    "pc": 12,
+    "ndp": 5,
+    "lib": 50,
     "bloc": 14,
     "grn": 8,
-    "other": 15
+    "other": 12
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Brome—Missisquoi",
     "pc": 17,
-    "ndp": 10,
+    "ndp": 11,
     "lib": 44,
     "bloc": 16,
     "grn": 9,
@@ -2853,19 +2853,19 @@
     "province": "Quebec",
     "riding": "Brossard—Saint-Lambert",
     "pc": 18,
-    "ndp": 10,
+    "ndp": 11,
     "lib": 52,
     "bloc": 10,
-    "grn": 9,
-    "other": 2
+    "grn": 8,
+    "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Charlesbourg—Haute-Saint-Charles",
     "pc": 49,
-    "ndp": 5,
-    "lib": 22,
+    "ndp": 6,
+    "lib": 23,
     "bloc": 11,
     "grn": 9,
     "other": 3
@@ -2875,10 +2875,10 @@
     "province": "Quebec",
     "riding": "Châteauguay—Lacolle",
     "pc": 16,
-    "ndp": 9,
+    "ndp": 10,
     "lib": 40,
-    "bloc": 24,
-    "grn": 9,
+    "bloc": 23,
+    "grn": 8,
     "other": 3
   },
   {
@@ -2886,9 +2886,9 @@
     "province": "Quebec",
     "riding": "Chicoutimi—Le Fjord",
     "pc": 22,
-    "ndp": 15,
-    "lib": 31,
-    "bloc": 20,
+    "ndp": 16,
+    "lib": 32,
+    "bloc": 19,
     "grn": 9,
     "other": 3
   },
@@ -2897,20 +2897,20 @@
     "province": "Quebec",
     "riding": "Compton—Stanstead",
     "pc": 17,
-    "ndp": 12,
+    "ndp": 13,
     "lib": 38,
-    "bloc": 20,
+    "bloc": 19,
     "grn": 8,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Dorval—Lachine—LaSalle",
     "pc": 16,
-    "ndp": 7,
+    "ndp": 8,
     "lib": 55,
-    "bloc": 9,
+    "bloc": 8,
     "grn": 9,
     "other": 4
   },
@@ -2919,32 +2919,32 @@
     "province": "Quebec",
     "riding": "Drummond",
     "pc": 24,
-    "ndp": 15,
+    "ndp": 16,
     "lib": 27,
-    "bloc": 23,
-    "grn": 10,
-    "other": 2
+    "bloc": 22,
+    "grn": 9,
+    "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Gaspésie—Les Îles-de-la-Madeleine",
     "pc": 11,
-    "ndp": 17,
+    "ndp": 19,
     "lib": 39,
-    "bloc": 20,
-    "grn": 8,
-    "other": 5
+    "bloc": 19,
+    "grn": 7,
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Gatineau",
     "pc": 12,
-    "ndp": 12,
-    "lib": 55,
-    "bloc": 9,
-    "grn": 8,
+    "ndp": 13,
+    "lib": 56,
+    "bloc": 8,
+    "grn": 7,
     "other": 4
   },
   {
@@ -2952,10 +2952,10 @@
     "province": "Quebec",
     "riding": "Hochelaga",
     "pc": 12,
-    "ndp": 16,
+    "ndp": 17,
     "lib": 29,
-    "bloc": 27,
-    "grn": 11,
+    "bloc": 26,
+    "grn": 10,
     "other": 6
   },
   {
@@ -2963,7 +2963,7 @@
     "province": "Quebec",
     "riding": "Honoré-Mercier",
     "pc": 16,
-    "ndp": 5,
+    "ndp": 6,
     "lib": 56,
     "bloc": 12,
     "grn": 7,
@@ -2974,52 +2974,52 @@
     "province": "Quebec",
     "riding": "Hull—Aylmer",
     "pc": 13,
-    "ndp": 16,
-    "lib": 51,
-    "bloc": 6,
-    "grn": 9,
-    "other": 5
-  },
-  {
-    "province_code": "QC",
-    "province": "Quebec",
-    "riding": "Joliette",
-    "pc": 14,
-    "ndp": 11,
-    "lib": 28,
-    "bloc": 33,
-    "grn": 10,
-    "other": 4
-  },
-  {
-    "province_code": "QC",
-    "province": "Quebec",
-    "riding": "Jonquière",
-    "pc": 22,
-    "ndp": 15,
-    "lib": 27,
-    "bloc": 22,
+    "ndp": 17,
+    "lib": 52,
+    "bloc": 5,
     "grn": 8,
     "other": 5
   },
   {
     "province_code": "QC",
     "province": "Quebec",
-    "riding": "La Pointe-de-l’Île",
-    "pc": 12,
-    "ndp": 11,
+    "riding": "Joliette",
+    "pc": 15,
+    "ndp": 12,
     "lib": 28,
     "bloc": 33,
     "grn": 9,
-    "other": 7
+    "other": 3
+  },
+  {
+    "province_code": "QC",
+    "province": "Quebec",
+    "riding": "Jonquière",
+    "pc": 22,
+    "ndp": 16,
+    "lib": 28,
+    "bloc": 22,
+    "grn": 8,
+    "other": 4
+  },
+  {
+    "province_code": "QC",
+    "province": "Quebec",
+    "riding": "La Pointe-de-l'Île",
+    "pc": 12,
+    "ndp": 13,
+    "lib": 28,
+    "bloc": 33,
+    "grn": 8,
+    "other": 6
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "La Prairie",
     "pc": 17,
-    "ndp": 8,
-    "lib": 36,
+    "ndp": 9,
+    "lib": 37,
     "bloc": 25,
     "grn": 9,
     "other": 4
@@ -3029,10 +3029,10 @@
     "province": "Quebec",
     "riding": "Lac-Saint-Jean",
     "pc": 44,
-    "ndp": 12,
+    "ndp": 14,
     "lib": 18,
-    "bloc": 18,
-    "grn": 7,
+    "bloc": 17,
+    "grn": 6,
     "other": 1
   },
   {
@@ -3041,9 +3041,9 @@
     "riding": "Lac-Saint-Louis",
     "pc": 22,
     "ndp": 0,
-    "lib": 63,
-    "bloc": 2,
-    "grn": 10,
+    "lib": 64,
+    "bloc": 1,
+    "grn": 9,
     "other": 3
   },
   {
@@ -3051,21 +3051,21 @@
     "province": "Quebec",
     "riding": "LaSalle—Émard—Verdun",
     "pc": 11,
-    "ndp": 13,
-    "lib": 45,
-    "bloc": 17,
-    "grn": 12,
-    "other": 2
+    "ndp": 15,
+    "lib": 46,
+    "bloc": 16,
+    "grn": 11,
+    "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Laurentides—Labelle",
     "pc": 15,
-    "ndp": 12,
-    "lib": 32,
-    "bloc": 29,
-    "grn": 9,
+    "ndp": 13,
+    "lib": 33,
+    "bloc": 28,
+    "grn": 8,
     "other": 3
   },
   {
@@ -3073,18 +3073,18 @@
     "province": "Quebec",
     "riding": "Laurier—Sainte-Marie",
     "pc": 7,
-    "ndp": 20,
+    "ndp": 22,
     "lib": 23,
     "bloc": 27,
     "grn": 12,
-    "other": 10
+    "other": 9
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Laval—Les Îles",
     "pc": 23,
-    "ndp": 5,
+    "ndp": 6,
     "lib": 48,
     "bloc": 11,
     "grn": 8,
@@ -3097,7 +3097,7 @@
     "pc": 58,
     "ndp": 4,
     "lib": 19,
-    "bloc": 10,
+    "bloc": 9,
     "grn": 7,
     "other": 2
   },
@@ -3106,20 +3106,20 @@
     "province": "Quebec",
     "riding": "Longueuil—Charles-LeMoyne",
     "pc": 15,
-    "ndp": 9,
-    "lib": 35,
-    "bloc": 26,
-    "grn": 10,
-    "other": 5
+    "ndp": 10,
+    "lib": 36,
+    "bloc": 25,
+    "grn": 9,
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Longueuil—Saint-Hubert",
     "pc": 13,
-    "ndp": 16,
-    "lib": 30,
-    "bloc": 27,
+    "ndp": 17,
+    "lib": 31,
+    "bloc": 26,
     "grn": 10,
     "other": 3
   },
@@ -3128,10 +3128,10 @@
     "province": "Quebec",
     "riding": "Louis-Hébert",
     "pc": 32,
-    "ndp": 6,
+    "ndp": 7,
     "lib": 35,
     "bloc": 13,
-    "grn": 10,
+    "grn": 9,
     "other": 4
   },
   {
@@ -3140,19 +3140,19 @@
     "riding": "Louis-Saint-Laurent",
     "pc": 59,
     "ndp": 4,
-    "lib": 19,
+    "lib": 20,
     "bloc": 9,
-    "grn": 8,
-    "other": 2
+    "grn": 7,
+    "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Manicouagan",
     "pc": 15,
-    "ndp": 3,
+    "ndp": 4,
     "lib": 29,
-    "bloc": 42,
+    "bloc": 41,
     "grn": 8,
     "other": 3
   },
@@ -3161,19 +3161,19 @@
     "province": "Quebec",
     "riding": "Marc-Aurèle-Fortin",
     "pc": 17,
-    "ndp": 10,
+    "ndp": 11,
     "lib": 43,
-    "bloc": 22,
-    "grn": 9,
+    "bloc": 21,
+    "grn": 8,
     "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
-    "riding": "Mégantic—L’Érable",
+    "riding": "Mégantic—L'Érable",
     "pc": 42,
-    "ndp": 7,
-    "lib": 27,
+    "ndp": 8,
+    "lib": 28,
     "bloc": 11,
     "grn": 9,
     "other": 3
@@ -3183,19 +3183,19 @@
     "province": "Quebec",
     "riding": "Mirabel",
     "pc": 15,
-    "ndp": 15,
-    "lib": 26,
-    "bloc": 33,
-    "grn": 10,
-    "other": 2
+    "ndp": 16,
+    "lib": 27,
+    "bloc": 32,
+    "grn": 9,
+    "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Montarville",
     "pc": 16,
-    "ndp": 10,
-    "lib": 32,
+    "ndp": 11,
+    "lib": 33,
     "bloc": 27,
     "grn": 9,
     "other": 5
@@ -3205,22 +3205,22 @@
     "province": "Quebec",
     "riding": "Montcalm",
     "pc": 14,
-    "ndp": 9,
-    "lib": 26,
-    "bloc": 36,
+    "ndp": 10,
+    "lib": 27,
+    "bloc": 35,
     "grn": 8,
-    "other": 7
+    "other": 6
   },
   {
     "province_code": "QC",
     "province": "Quebec",
-    "riding": "Montmagny—L’Islet—Kamouraska—Rivière-du-Loup",
+    "riding": "Montmagny—L'Islet—Kamouraska—Rivière-du-Loup",
     "pc": 35,
-    "ndp": 9,
-    "lib": 27,
+    "ndp": 10,
+    "lib": 28,
     "bloc": 15,
     "grn": 8,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "QC",
@@ -3228,86 +3228,86 @@
     "riding": "Mount Royal",
     "pc": 24,
     "ndp": 6,
-    "lib": 51,
+    "lib": 52,
     "bloc": 9,
     "grn": 7,
-    "other": 3
+    "other": 2
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Notre-Dame-de-Grâce—Westmount",
     "pc": 19,
-    "ndp": 7,
+    "ndp": 8,
     "lib": 58,
-    "bloc": 2,
-    "grn": 10,
-    "other": 5
+    "bloc": 1,
+    "grn": 9,
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Outremont",
     "pc": 14,
-    "ndp": 25,
-    "lib": 33,
+    "ndp": 27,
+    "lib": 34,
     "bloc": 8,
-    "grn": 13,
-    "other": 6
+    "grn": 12,
+    "other": 5
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Papineau",
     "pc": 10,
-    "ndp": 11,
+    "ndp": 12,
     "lib": 52,
     "bloc": 11,
-    "grn": 10,
-    "other": 7
+    "grn": 9,
+    "other": 6
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Pierre-Boucher—Les Patriotes—Verchères",
     "pc": 15,
-    "ndp": 11,
-    "lib": 29,
+    "ndp": 12,
+    "lib": 30,
     "bloc": 30,
-    "grn": 13,
-    "other": 2
+    "grn": 12,
+    "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Pierrefonds—Dollard",
     "pc": 25,
-    "ndp": 2,
+    "ndp": 3,
     "lib": 59,
-    "bloc": 3,
+    "bloc": 2,
     "grn": 8,
-    "other": 3
+    "other": 2
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Pontiac",
     "pc": 19,
-    "ndp": 9,
+    "ndp": 10,
     "lib": 55,
-    "bloc": 7,
-    "grn": 8,
+    "bloc": 6,
+    "grn": 7,
     "other": 3
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Portneuf—Jacques-Cartier",
-    "pc": 50,
-    "ndp": 7,
-    "lib": 20,
-    "bloc": 10,
-    "grn": 9,
+    "pc": 51,
+    "ndp": 8,
+    "lib": 21,
+    "bloc": 9,
+    "grn": 8,
     "other": 3
   },
   {
@@ -3315,10 +3315,10 @@
     "province": "Quebec",
     "riding": "Québec",
     "pc": 27,
-    "ndp": 12,
-    "lib": 28,
-    "bloc": 18,
-    "grn": 11,
+    "ndp": 13,
+    "lib": 29,
+    "bloc": 17,
+    "grn": 10,
     "other": 4
   },
   {
@@ -3326,10 +3326,10 @@
     "province": "Quebec",
     "riding": "Repentigny",
     "pc": 16,
-    "ndp": 8,
-    "lib": 26,
+    "ndp": 9,
+    "lib": 27,
     "bloc": 34,
-    "grn": 9,
+    "grn": 8,
     "other": 6
   },
   {
@@ -3337,32 +3337,32 @@
     "province": "Quebec",
     "riding": "Richmond—Arthabaska",
     "pc": 39,
-    "ndp": 9,
-    "lib": 23,
-    "bloc": 16,
-    "grn": 8,
-    "other": 5
+    "ndp": 10,
+    "lib": 24,
+    "bloc": 15,
+    "grn": 7,
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Rimouski-Neigette—Témiscouata—Les Basques",
     "pc": 13,
-    "ndp": 28,
-    "lib": 27,
-    "bloc": 19,
+    "ndp": 29,
+    "lib": 28,
+    "bloc": 18,
     "grn": 8,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Rivière-des-Mille-Îles",
     "pc": 15,
-    "ndp": 14,
+    "ndp": 15,
     "lib": 34,
-    "bloc": 26,
-    "grn": 9,
+    "bloc": 25,
+    "grn": 8,
     "other": 3
   },
   {
@@ -3370,44 +3370,44 @@
     "province": "Quebec",
     "riding": "Rivière-du-Nord",
     "pc": 14,
-    "ndp": 15,
-    "lib": 25,
-    "bloc": 32,
-    "grn": 10,
-    "other": 5
+    "ndp": 16,
+    "lib": 26,
+    "bloc": 31,
+    "grn": 9,
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Rosemont—La Petite-Patrie",
     "pc": 8,
-    "ndp": 29,
-    "lib": 20,
-    "bloc": 21,
-    "grn": 12,
-    "other": 10
+    "ndp": 31,
+    "lib": 21,
+    "bloc": 20,
+    "grn": 11,
+    "other": 9
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Saint-Hyacinthe—Bagot",
     "pc": 22,
-    "ndp": 14,
+    "ndp": 15,
     "lib": 27,
     "bloc": 23,
     "grn": 9,
-    "other": 5
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Saint-Jean",
     "pc": 16,
-    "ndp": 14,
+    "ndp": 15,
     "lib": 35,
-    "bloc": 25,
+    "bloc": 24,
     "grn": 9,
-    "other": 2
+    "other": 1
   },
   {
     "province_code": "QC",
@@ -3415,8 +3415,8 @@
     "riding": "Saint-Laurent",
     "pc": 24,
     "ndp": 1,
-    "lib": 59,
-    "bloc": 4,
+    "lib": 60,
+    "bloc": 3,
     "grn": 9,
     "other": 4
   },
@@ -3427,8 +3427,8 @@
     "pc": 15,
     "ndp": 5,
     "lib": 64,
-    "bloc": 7,
-    "grn": 8,
+    "bloc": 6,
+    "grn": 7,
     "other": 3
   },
   {
@@ -3436,10 +3436,10 @@
     "province": "Quebec",
     "riding": "Saint-Maurice—Champlain",
     "pc": 21,
-    "ndp": 6,
-    "lib": 41,
+    "ndp": 7,
+    "lib": 42,
     "bloc": 18,
-    "grn": 9,
+    "grn": 8,
     "other": 4
   },
   {
@@ -3447,9 +3447,9 @@
     "province": "Quebec",
     "riding": "Salaberry—Suroît",
     "pc": 15,
-    "ndp": 15,
-    "lib": 29,
-    "bloc": 28,
+    "ndp": 16,
+    "lib": 30,
+    "bloc": 27,
     "grn": 7,
     "other": 5
   },
@@ -3458,8 +3458,8 @@
     "province": "Quebec",
     "riding": "Shefford",
     "pc": 18,
-    "ndp": 9,
-    "lib": 39,
+    "ndp": 10,
+    "lib": 40,
     "bloc": 21,
     "grn": 9,
     "other": 3
@@ -3469,21 +3469,21 @@
     "province": "Quebec",
     "riding": "Sherbrooke",
     "pc": 14,
-    "ndp": 20,
+    "ndp": 22,
     "lib": 30,
     "bloc": 20,
-    "grn": 9,
-    "other": 7
+    "grn": 8,
+    "other": 6
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Terrebonne",
-    "pc": 16,
-    "ndp": 11,
-    "lib": 27,
-    "bloc": 33,
-    "grn": 9,
+    "pc": 17,
+    "ndp": 12,
+    "lib": 28,
+    "bloc": 32,
+    "grn": 8,
     "other": 4
   },
   {
@@ -3491,9 +3491,9 @@
     "province": "Quebec",
     "riding": "Thérèse-De Blainville",
     "pc": 17,
-    "ndp": 11,
+    "ndp": 12,
     "lib": 34,
-    "bloc": 27,
+    "bloc": 26,
     "grn": 10,
     "other": 1
   },
@@ -3502,42 +3502,42 @@
     "province": "Quebec",
     "riding": "Trois-Rivières",
     "pc": 24,
-    "ndp": 17,
-    "lib": 29,
-    "bloc": 16,
-    "grn": 9,
-    "other": 5
+    "ndp": 18,
+    "lib": 30,
+    "bloc": 15,
+    "grn": 8,
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Vaudreuil—Soulanges",
     "pc": 19,
-    "ndp": 8,
-    "lib": 47,
+    "ndp": 9,
+    "lib": 48,
     "bloc": 14,
     "grn": 9,
-    "other": 2
+    "other": 1
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs",
     "pc": 17,
-    "ndp": 9,
+    "ndp": 10,
     "lib": 51,
-    "bloc": 8,
-    "grn": 12,
-    "other": 5
+    "bloc": 7,
+    "grn": 11,
+    "other": 4
   },
   {
     "province_code": "QC",
     "province": "Quebec",
     "riding": "Vimy",
     "pc": 18,
-    "ndp": 7,
+    "ndp": 8,
     "lib": 46,
-    "bloc": 16,
+    "bloc": 15,
     "grn": 9,
     "other": 4
   },
@@ -3546,62 +3546,18 @@
     "province": "Saskatchewan",
     "riding": "Battlefords—Lloydminster",
     "pc": 58,
-    "ndp": 12,
-    "lib": 7,
+    "ndp": 17,
+    "lib": 9,
     "bloc": 0,
     "grn": 6,
-    "other": 16
+    "other": 10
   },
   {
     "province_code": "SK",
     "province": "Saskatchewan",
     "riding": "Carlton Trail—Eagle Creek",
-    "pc": 70,
-    "ndp": 10,
-    "lib": 8,
-    "bloc": 0,
-    "grn": 8,
-    "other": 3
-  },
-  {
-    "province_code": "SK",
-    "province": "Saskatchewan",
-    "riding": "Cypress Hills—Grasslands",
-    "pc": 75,
-    "ndp": 6,
-    "lib": 5,
-    "bloc": 0,
-    "grn": 12,
-    "other": 2
-  },
-  {
-    "province_code": "SK",
-    "province": "Saskatchewan",
-    "riding": "Desnethé—Missinippi—Churchill River",
-    "pc": 37,
-    "ndp": 27,
-    "lib": 25,
-    "bloc": 0,
-    "grn": 8,
-    "other": 3
-  },
-  {
-    "province_code": "SK",
-    "province": "Saskatchewan",
-    "riding": "Moose Jaw—Lake Centre—Lanigan",
-    "pc": 67,
+    "pc": 66,
     "ndp": 13,
-    "lib": 8,
-    "bloc": 0,
-    "grn": 7,
-    "other": 5
-  },
-  {
-    "province_code": "SK",
-    "province": "Saskatchewan",
-    "riding": "Prince Albert",
-    "pc": 54,
-    "ndp": 25,
     "lib": 11,
     "bloc": 0,
     "grn": 8,
@@ -3610,21 +3566,65 @@
   {
     "province_code": "SK",
     "province": "Saskatchewan",
-    "riding": "Regina—Lewvan",
-    "pc": 38,
-    "ndp": 26,
-    "lib": 21,
+    "riding": "Cypress Hills—Grasslands",
+    "pc": 71,
+    "ndp": 8,
+    "lib": 7,
     "bloc": 0,
-    "grn": 7,
-    "other": 7
+    "grn": 12,
+    "other": 2
   },
   {
     "province_code": "SK",
     "province": "Saskatchewan",
-    "riding": "Regina—Qu’Appelle",
-    "pc": 52,
-    "ndp": 22,
-    "lib": 13,
+    "riding": "Desnethé—Missinippi—Churchill River",
+    "pc": 33,
+    "ndp": 30,
+    "lib": 27,
+    "bloc": 0,
+    "grn": 8,
+    "other": 3
+  },
+  {
+    "province_code": "SK",
+    "province": "Saskatchewan",
+    "riding": "Moose Jaw—Lake Centre—Lanigan",
+    "pc": 65,
+    "ndp": 16,
+    "lib": 9,
+    "bloc": 0,
+    "grn": 7,
+    "other": 4
+  },
+  {
+    "province_code": "SK",
+    "province": "Saskatchewan",
+    "riding": "Prince Albert",
+    "pc": 49,
+    "ndp": 29,
+    "lib": 12,
+    "bloc": 0,
+    "grn": 7,
+    "other": 3
+  },
+  {
+    "province_code": "SK",
+    "province": "Saskatchewan",
+    "riding": "Regina—Lewvan",
+    "pc": 35,
+    "ndp": 29,
+    "lib": 24,
+    "bloc": 0,
+    "grn": 7,
+    "other": 6
+  },
+  {
+    "province_code": "SK",
+    "province": "Saskatchewan",
+    "riding": "Regina—Qu'Appelle",
+    "pc": 47,
+    "ndp": 25,
+    "lib": 15,
     "bloc": 0,
     "grn": 11,
     "other": 2
@@ -3633,9 +3633,9 @@
     "province_code": "SK",
     "province": "Saskatchewan",
     "riding": "Regina—Wascana",
-    "pc": 37,
-    "ndp": 6,
-    "lib": 46,
+    "pc": 33,
+    "ndp": 8,
+    "lib": 49,
     "bloc": 0,
     "grn": 8,
     "other": 3
@@ -3644,31 +3644,9 @@
     "province_code": "SK",
     "province": "Saskatchewan",
     "riding": "Saskatoon West",
-    "pc": 44,
-    "ndp": 28,
-    "lib": 14,
-    "bloc": 0,
-    "grn": 7,
-    "other": 6
-  },
-  {
-    "province_code": "SK",
-    "province": "Saskatchewan",
-    "riding": "Saskatoon—Grasswood",
-    "pc": 46,
-    "ndp": 27,
-    "lib": 16,
-    "bloc": 0,
-    "grn": 8,
-    "other": 3
-  },
-  {
-    "province_code": "SK",
-    "province": "Saskatchewan",
-    "riding": "Saskatoon—University",
-    "pc": 47,
-    "ndp": 23,
-    "lib": 19,
+    "pc": 42,
+    "ndp": 31,
+    "lib": 15,
     "bloc": 0,
     "grn": 7,
     "other": 5
@@ -3676,10 +3654,32 @@
   {
     "province_code": "SK",
     "province": "Saskatchewan",
+    "riding": "Saskatoon—Grasswood",
+    "pc": 41,
+    "ndp": 31,
+    "lib": 17,
+    "bloc": 0,
+    "grn": 7,
+    "other": 3
+  },
+  {
+    "province_code": "SK",
+    "province": "Saskatchewan",
+    "riding": "Saskatoon—University",
+    "pc": 43,
+    "ndp": 25,
+    "lib": 22,
+    "bloc": 0,
+    "grn": 6,
+    "other": 4
+  },
+  {
+    "province_code": "SK",
+    "province": "Saskatchewan",
     "riding": "Souris—Moose Mountain",
-    "pc": 76,
-    "ndp": 6,
-    "lib": 4,
+    "pc": 72,
+    "ndp": 9,
+    "lib": 6,
     "bloc": 0,
     "grn": 12,
     "other": 2
@@ -3688,11 +3688,11 @@
     "province_code": "SK",
     "province": "Saskatchewan",
     "riding": "Yorkton—Melville",
-    "pc": 67,
-    "ndp": 13,
-    "lib": 9,
+    "pc": 63,
+    "ndp": 16,
+    "lib": 10,
     "bloc": 0,
-    "grn": 9,
+    "grn": 8,
     "other": 3
   },
   {
@@ -3704,6 +3704,6 @@
     "lib": 37,
     "bloc": 0,
     "grn": 12,
-    "other": 5
+    "other": 4
   }
 ]
