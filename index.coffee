@@ -4,6 +4,7 @@ import React        from "react"
 import { render }   from "react-dom"
 import axios        from 'axios'
 import * as Sentry  from '@sentry/browser'
+import debounce     from 'underscore-es/debounce'
 
 if dsn = process.env.SENTRY_DSN_FRONTEND
   Sentry.init { dsn, environment }
@@ -35,6 +36,10 @@ getRiding = (lat, lng)->
   { data } = await axios.get "#{process.env.RIDING_URL}/#{lat.toFixed 2},#{lng.toFixed 2}"
   data
 
+fixVh = ->
+  document.documentElement.style.setProperty '--vh', "#{window.innerHeight * 0.01}px"
+
+
 class App extends React.Component
   constructor: ->
     super arguments...
@@ -45,6 +50,8 @@ class App extends React.Component
 
   componentDidMount: ->
     @autoLocate()
+    fixVh()
+    window.addEventListener 'resize', debounce fixVh, 200
 
   autoLocate: =>
     try

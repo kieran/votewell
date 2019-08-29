@@ -39,6 +39,7 @@ $screen-desktop-max: 1440px
   flex-direction: column
   width: 100%
   min-height: 100vh
+  min-height: calc(100 * var(--vh, 1vh))
 
   .spinner
     flex: 1
@@ -68,6 +69,7 @@ $screen-desktop-max: 1440px
     flex-direction: column
     flex: 1
     height: calc(100vh - 82px)
+    height: calc(100 * var(--vh, 1vh) - 82px)
     background: $light
 
     .riding-selector
@@ -142,7 +144,8 @@ $screen-desktop-max: 1440px
 
     background: $dark
     color: $light
-    min-height: calc(100vh)
+    min-height: 100vh
+    min-height: calc(100 * var(--vh, 1vh))
     svg
       height: 25px
 
