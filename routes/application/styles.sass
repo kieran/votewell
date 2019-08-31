@@ -32,6 +32,8 @@ $screen-desktop-max: 1440px
   max-width: $screen-laptop-max
   +laptop
     max-width: $screen-tablet-max
+  +tablet
+    max-width: $screen-phone-max
 
 
 .ridings
@@ -166,6 +168,7 @@ $screen-desktop-max: 1440px
 
     .top
       +constrain
+      padding: 0 1.5em
       min-height: 120px
       display: flex
       justify-content: space-between
@@ -190,6 +193,7 @@ $screen-desktop-max: 1440px
 
     .bottom
       +constrain
+      padding: 0 1.5em
       border-top: 1px solid $dark-gray
       height: 80px
 
