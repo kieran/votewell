@@ -21,11 +21,15 @@ import {
   TwitterShareButton
   RedditShareButton
   EmailShareButton
-  FacebookIcon
-  TwitterIcon
-  RedditIcon
-  EmailIcon
 } from 'react-share'
+
+import {
+  FaFacebookSquare
+  FaTwitter
+  FaRedditAlien
+  FaEnvelope
+} from 'react-icons/fa'
+
 
 # assets
 import grn from '/assets/grn.png'
@@ -113,9 +117,14 @@ class Application extends React.Component
 
   footer: ->
     <footer key='footer'>
-      <div className="description">
+      <div className="top">
+        <Logo/>
+        {@share()}
       </div>
-      {@attribution()}
+      <div className="bottom">
+        {@links()}
+        {@languageSelector()}
+      </div>
     </footer>
 
   helmet: ->
@@ -130,19 +139,19 @@ class Application extends React.Component
     url = window.location.href
     <div className="share" key="share">
       <FacebookShareButton url={url}>
-        <FacebookIcon size={32} round={true}/>
+        <FaFacebookSquare/>
       </FacebookShareButton>
       <TwitterShareButton url={url}>
-        <TwitterIcon size={32} round={true}/>
+        <FaTwitter/>
       </TwitterShareButton>
       <RedditShareButton url={url}>
-        <RedditIcon size={32} round={true}/>
+        <FaRedditAlien/>
       </RedditShareButton>
       <EmailShareButton
         url={window.location.href}
         subject={"VoteWell: #{t 'A strategic voting tool for the 2019 Canadian federal election'}"}
       >
-        <EmailIcon size={32} round={true}/>
+        <FaEnvelope/>
       </EmailShareButton>
     </div>
 
@@ -207,9 +216,9 @@ class Application extends React.Component
       />
     </div>
 
-  attribution: ->
-    { t, i18n } = @props
-    <div className="attribution" key="attribution">
+  links: ->
+    { t } = @props
+    <div className="links" key="links">
       <a href={t "votelink"}>
         {t "Where do I vote?"}
       </a>
@@ -222,9 +231,15 @@ class Application extends React.Component
       <a href="https://github.com/kieran/votewell">
         {t "Code"}
       </a>
+    </div>
+
+  languageSelector: ->
+    { i18n } = @props
+    <div className="lamnguageSelector" key="lamnguageSelector">
       {if (i18n.language or navigator.language or 'en').match /^en/
         <a onClick={=>@setLang 'fr'}>Français</a>
       else
         <a onClick={=>@setLang 'en'}>English</a>
       }
     </div>
+

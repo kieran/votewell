@@ -4,7 +4,7 @@ $dark: #1F2125
 $border: #E0E0E0
 $gray: #D9D9D9
 $text-gray: #6F7880
-
+$dark-gray: #36383B
 
 $screen-phone-max: 768px
 $screen-tablet-max: 992px
@@ -70,6 +70,7 @@ $screen-desktop-max: 1440px
     flex: 1
     min-height: calc(100vh - 82px)
     min-height: calc(100 * var(--vh, 1vh) - 82px)
+    transition: min-height 0.25s ease-in
     background: $light
 
     .riding-selector
@@ -154,17 +155,42 @@ $screen-desktop-max: 1440px
 
     background: $dark
     color: $light
-    min-height: 100vh
-    min-height: calc(100 * var(--vh, 1vh))
+    // min-height: 100vh
+    // min-height: calc(100 * var(--vh, 1vh))
+    // transition: min-height 0.25s ease-in
     svg
       height: 25px
 
     > *
       width: 100%
 
-    .attribution
+    .top
       +constrain
-      border-top: 1px solid $gray
+      min-height: 120px
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+      .share
+        display: flex
+        flex-direction: row
+        div
+          color: $dark-gray
+          cursor: pointer
+          &:hover
+            color: $light
+          svg
+            height: 32px
+            width: 32px
+            margin: 0 8px
+          &:last-of-type
+            svg
+              margin-right: 0
+
+
+    .bottom
+      +constrain
+      border-top: 1px solid $dark-gray
       height: 80px
 
       display: flex
@@ -172,8 +198,17 @@ $screen-desktop-max: 1440px
       justify-content: space-between
       align-items: center
       align-self: flex-end
+      font-size: 16px
+      font-weight: 500
 
-      font-size: 20px
+      .links
+        a
+          padding: 0 1.5em
+          border-left: 1px solid $dark-gray
+          &:first-of-type
+            padding-left: 0
+            border-left: none
+
       a, a:hover, a:visited, span
         color: white
         text-decoration: none
