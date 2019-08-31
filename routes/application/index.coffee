@@ -186,20 +186,20 @@ class Application extends React.Component
     { t } = @props
     <div className="result-text">
       <small>
-        A strategic vote in your riding
+        {t 'A strategic vote in your riding'}
         <span className='br'> </span>
-        is not necessary
+        {t 'is not necessary'}
       </small>
-      Please vote for your preferred candidate.
+      {t 'Please vote for your preferred candidate.'}
     </div>
 
   party: (party)->
     { t } = @props
     <div className="result-text">
       <small>
-        A strategic vote in your riding
+        {t 'A strategic vote in your riding'}
         <span className='br'> </span>
-        is a vote for
+        {t 'is a vote for'}
       </small>
       <img
         className="party"
