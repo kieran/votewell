@@ -23,13 +23,10 @@ import {
   EmailShareButton
 } from 'react-share'
 
-import {
-  FaFacebookSquare
-  FaTwitter
-  FaRedditAlien
-  FaEnvelope
-} from 'react-icons/fa'
-
+import Facebook from 'react-icons/lib/fa/facebook-square'
+import Twitter  from 'react-icons/lib/fa/twitter'
+import Reddit   from 'react-icons/lib/fa/reddit-alien'
+import Envelope from 'react-icons/lib/fa/envelope'
 
 # assets
 import grn from '/assets/grn.png'
@@ -139,19 +136,19 @@ class Application extends React.Component
     url = window.location.href
     <div className="share" key="share">
       <FacebookShareButton url={url}>
-        <FaFacebookSquare/>
+        <Facebook/>
       </FacebookShareButton>
       <TwitterShareButton url={url}>
-        <FaTwitter/>
+        <Twitter/>
       </TwitterShareButton>
       <RedditShareButton url={url}>
-        <FaRedditAlien/>
+        <Reddit/>
       </RedditShareButton>
       <EmailShareButton
         url={window.location.href}
         subject={"VoteWell: #{t 'A strategic voting tool for the 2019 Canadian federal election'}"}
       >
-        <FaEnvelope/>
+        <Envelope/>
       </EmailShareButton>
     </div>
 

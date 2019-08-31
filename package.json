@@ -9,7 +9,7 @@
     "dev": "npm-run-all -p serve api",
     "serve": "npx parcel serve ./index.html",
     "dist": "npx parcel build --no-cache ./index.html",
-    "api": "nodemon --watch data  --watch server.coffee ./server.coffee",
+    "api": "nodemon --watch data --watch server.coffee ./server.coffee",
     "up_api": "up start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update_polls": "npx coffee data/update_polls.coffee"
@@ -38,7 +38,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-i18next": "^10.11.4",
-    "react-icons": "^3.7.0",
+    "react-icons": "^2.2.7",
     "react-select": "^1.2.1",
     "react-share": "^3.0.0",
     "react-spinkit": "^3.0.0",
