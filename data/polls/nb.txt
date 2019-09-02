@@ -1,12 +1,12 @@
 New Brunswick riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Acadie—Bathurst Lib.  44  17  27  0 11  1 LIB
-Beauséjour  Lib.  52  21  9 0 15  2 LIB
-Fredericton Lib.  27  33  6 0 31  3 LEANS CON
-Fundy Royal Lib.  20  47  10  0 19  4 CON
-Madawaska—Restigouche Lib.  35  35  17  0 11  2 TOSS-UP
-Miramichi—Grand Lake  Lib.  39  40  8 0 11  1 LEANS CON
-Moncton—Riverview—Dieppe  Lib.  40  33  10  0 15  2 LEANS LIB
-New Brunswick Southwest Lib.  25  47  9 0 16  3 CON
-Saint John—Rothesay Lib.  28  42  10  0 18  2 CON
-Tobique—Mactaquac Lib.  23  59  4 0 12  2 CON
+Acadie—Bathurst Lib.  41  19  27  0 11  1 LIB
+Beauséjour  Lib.  49  24  9 0 16  2 LIB
+Fredericton Lib.  25  36  6 0 31  3 LEANS CON
+Fundy Royal Lib.  18  49  10  0 19  4 CON
+Madawaska—Restigouche Lib.  31  39  17  0 11  2 CON
+Miramichi—Grand Lake  Lib.  36  42  8 0 12  1 LEANS CON
+Moncton—Riverview—Dieppe  Lib.  36  36  10  0 16  2 TOSS-UP
+New Brunswick Southwest Lib.  22  50  9 0 16  3 CON
+Saint John—Rothesay Lib.  25  44  10  0 18  2 CON
+Tobique—Mactaquac Lib.  20  62  4 0 12  1 CON
