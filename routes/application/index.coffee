@@ -145,7 +145,7 @@ class Application extends React.Component
         <Reddit/>
       </RedditShareButton>
       <EmailShareButton
-        url={window.location.href}
+        url={url}
         subject={"VoteWell: #{t 'A strategic voting tool for the 2019 Canadian federal election'}"}
       >
         <Envelope/>
@@ -239,4 +239,3 @@ class Application extends React.Component
         <a onClick={=>@setLang 'en'}>English</a>
       }
     </div>
-
