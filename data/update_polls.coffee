@@ -23,8 +23,8 @@ polls_regex = ///^
   (?<ndp>\d+)       \s+ # NDP
   (?<bloc>\d+)      \s+ # Bloc
   (?<grn>\d+)       \s+ # Green
-  (?<other>\d+)     \s+ # Other
-  [\w\s-]{1,20}         # (projection)
+  (?<other>\d+)         # Other
+  .*                    # (projection etc)
 $///mg
 
 
