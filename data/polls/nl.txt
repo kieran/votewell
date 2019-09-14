@@ -1,9 +1,9 @@
 Newfoundland and Labrador riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Avalon  Lib.  58  19  5 0 4 13  LIB
-Bonavista—Burin—Trinity Lib.  67  20  2 0 9 3 LIB
-Coast of Bays—Central—Notre Dame  Lib.  56  31  2 0 7 4 LIB
-Labrador  Lib.  57  28  7 0 6 2 LIB
-Long Range Mountains  Lib.  51  31  4 0 12  2 LIB
-St. John's East Lib.  41  18  31  0 7 3 LIB
-St. John's South—Mount Pearl  Lib.  46  14  28  0 10  3 LIB
+Avalon  Lib.  59  18  5 0 4 14  LIB
+Bonavista—Burin—Trinity Lib.  69  19  2 0 8 3 LIB
+Coast of Bays—Central—Notre Dame  Lib.  58  30  2 0 6 4 LIB
+Labrador  Lib.  60  27  6 0 5 2 LIB
+Long Range Mountains  Lib.  54  29  4 0 10  3 LIB
+St. John's East Lib.  43  17  31  0 5 3 LIB
+St. John's South—Mount Pearl  Lib.  49  12  27  0 9 3 LIB
