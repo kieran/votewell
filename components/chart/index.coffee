@@ -13,8 +13,8 @@ class MyBar extends Bar
 colours =
   pc:     '#2d368c'
   lib:    '#e9243d'
-  ndp:    '#ff9900'
-  grn:    '#348c35'
+  ndp:    '#f99e29'
+  grn:    '#3D9B35' # <-- official colour, logo is #348c35 :-/
   bloc:   '#00A8ED'
   other:  '#aaaaaa'
 
