@@ -147,6 +147,43 @@ $screen-desktop-max: 1440px
       width: 100%
       margin-bottom: -5px // recharts, y?
 
+  section.faq
+    background: white
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+    padding: 90px 0 60px 0
+    max-width: 600px
+    +laptop
+      max-width: 500px
+    +tablet
+      max-width: 400px
+
+    h2
+      font-family: $font-family
+      text-align: center
+      display: block
+      font-size: 24px
+      line-height: 1.1em
+      font-weight: 700
+      color: $dark
+      margin-top: 1.5em
+      margin-bottom: 0
+    p
+      font-family: $font-family
+      text-align: center
+      display: block
+      font-size: 18px
+      line-height: 1.4em
+      color: $text-gray
+      margin-top: 1em
+    a
+      color: $text-gray
+      text-decoration: none
+      border-bottom: 1px dashed $text-gray
+      &:hover
+        border-top: 1px dashed $text-gray
+
   footer
     display: flex
     flex-direction: column

@@ -91,6 +91,7 @@ class Application extends React.Component
           @helmet()
           @header()
           @main()
+          @faq()
           @footer()
         ]
       else
@@ -111,6 +112,20 @@ class Application extends React.Component
       {@reco()}
       {@chart()}
     </main>
+
+  faq: ->
+    <section key='faq' className='faq'>
+      <h2>What is this?</h2>
+      <p>There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
+      <p>To "un-split" the vote, this tool will tell you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
+      <h2>What is strategic voting?</h2>
+      <p>Stragtegic voting is essentially a manual version of a <a href="https://en.wikipedia.org/wiki/Ranked_voting">ranked ballot</a>, where your vote counts towards your top choice that could win.</p>
+      <p><a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">Electoral reform</a>, although promised in the 2015 federal election, will do this automatically, making this tool obsolete.</p>
+      <h2>What if I want the Conservatives to win?</h2>
+      <p>You should vote Conservative! Since there's no split on the right, this tool is not necessary. Thank you for participating in our shared civic duty.</p>
+      <h2>Who are you?</h2>
+      <p>I'm <a href="https://kieran.ca">Kieran Huggins</a> from Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
+    </section>
 
   footer: ->
     <footer key='footer'>
