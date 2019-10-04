@@ -64,6 +64,9 @@ class Application extends React.Component
     if riding = evt?.target?.value or evt?.value
       @props.setRiding riding
 
+  isEnglish: ->
+    (@props.i18n.language or navigator.language or 'en').match /^en/
+
   setLang: (lang)=>
     @props.i18n.changeLanguage lang
 
@@ -114,18 +117,32 @@ class Application extends React.Component
     </main>
 
   faq: ->
-    <section key='faq' className='faq'>
-      <h2>What is this?</h2>
-      <p>There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
-      <p>To "un-split" the vote, this tool will tell you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
-      <h2>What is strategic voting?</h2>
-      <p>Stragtegic voting is essentially a manual version of a <a href="https://en.wikipedia.org/wiki/Ranked_voting">ranked ballot</a>, where your vote counts towards your top choice that could win.</p>
-      <p><a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">Electoral reform</a>, although promised in the 2015 federal election, will do this automatically, making this tool obsolete.</p>
-      <h2>What if I want the Conservatives to win?</h2>
-      <p>You should vote Conservative! Since there's no split on the right, this tool is not necessary. Thank you for participating in our shared civic duty.</p>
-      <h2>Who are you?</h2>
-      <p>I'm <a href="https://kieran.ca">Kieran Huggins</a> from Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
-    </section>
+    if @isEnglish()
+      <section key='faq' className='faq'>
+        <h2>What is this?</h2>
+        <p>There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
+        <p>To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
+        <h2>What is strategic voting?</h2>
+        <p>Stragtegic voting is essentially a manual version of a <a href="https://en.wikipedia.org/wiki/Ranked_voting">ranked ballot</a>, where your vote counts towards your top choice that could win.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">Electoral reform</a>, although promised in the 2015 federal election, will do this automatically, making this tool obsolete.</p>
+        <h2>What if I want the Conservatives to win?</h2>
+        <p>You should vote Conservative! Since there's no split on the right, this tool is not necessary. Thank you for participating in our shared civic duty.</p>
+        <h2>Who are you?</h2>
+        <p>I'm <a href="https://kieran.ca">Kieran Huggins</a> from Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
+      </section>
+    else
+      <section key='faq' className='faq'>
+        <h2>(fr) What is this?</h2>
+        <p>(fr) There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
+        <p>(fr) To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
+        <h2>(fr) What is strategic voting?</h2>
+        <p>(fr) Stragtegic voting is essentially a manual version of a <a href="https://en.wikipedia.org/wiki/Ranked_voting">ranked ballot</a>, where your vote counts towards your top choice that could win.</p>
+        <p>(fr) <a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">Electoral reform</a>, although promised in the 2015 federal election, will do this automatically, making this tool obsolete.</p>
+        <h2>(fr) What if I want the Conservatives to win?</h2>
+        <p>(fr) You should vote Conservative! Since there's no split on the right, this tool is not necessary. Thank you for participating in our shared civic duty.</p>
+        <h2>(fr) Who are you?</h2>
+        <p>(fr) I'm <a href="https://kieran.ca">Kieran Huggins</a> from Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
+      </section>
 
   footer: ->
     <footer key='footer'>
@@ -246,9 +263,8 @@ class Application extends React.Component
     </div>
 
   languageSelector: ->
-    { i18n } = @props
     <div className="lamnguageSelector" key="lamnguageSelector">
-      {if (i18n.language or navigator.language or 'en').match /^en/
+      {if @isEnglish()
         <a onClick={=>@setLang 'fr'}>Français</a>
       else
         <a onClick={=>@setLang 'en'}>English</a>

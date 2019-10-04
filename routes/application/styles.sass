@@ -70,10 +70,11 @@ $screen-desktop-max: 1440px
     display: flex
     flex-direction: column
     flex: 1
-    min-height: calc(100vh - 82px)
-    min-height: calc(100 * var(--vh, 1vh) - 82px)
+    min-height: calc(100vh - 82px + 1px)
+    min-height: calc(100 * var(--vh, 1vh) - 82px + 1px)
     transition: min-height 0.25s ease-in
     background: $light
+    border-bottom: 1px solid $border
 
     .riding-selector
       height: 100px
@@ -119,6 +120,8 @@ $screen-desktop-max: 1440px
         text-align: center
         display: block
         font-size: 50px
+        +phone
+          font-size: 36px
         line-height: 1.1em
         font-weight: 700
         color: $dark
@@ -158,10 +161,14 @@ $screen-desktop-max: 1440px
       max-width: 500px
     +tablet
       max-width: 400px
+    +phone
+      padding: 2em
 
     h2
       font-family: $font-family
       text-align: center
+      +phone
+        text-align: left
       display: block
       font-size: 24px
       line-height: 1.1em
@@ -171,12 +178,12 @@ $screen-desktop-max: 1440px
       margin-bottom: 0
     p
       font-family: $font-family
-      text-align: center
+      text-align: left
       display: block
       font-size: 18px
       line-height: 1.4em
       color: $text-gray
-      margin-top: 1em
+      margin: 0.5em 0
     a
       color: $text-gray
       text-decoration: none
@@ -220,7 +227,8 @@ $screen-desktop-max: 1440px
         display: flex
         flex-direction: row
         div
-          color: $dark-gray
+          // color: $dark-gray
+          color: rgba($light, 0.33)
           cursor: pointer
           &:hover
             color: $light
