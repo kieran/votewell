@@ -4,7 +4,7 @@ import React        from "react"
 import { render }   from "react-dom"
 import axios        from 'axios'
 import * as Sentry  from '@sentry/browser'
-import debounce     from 'underscore-es/debounce'
+import throttle     from 'underscore-es/throttle'
 
 if dsn = process.env.SENTRY_DSN_FRONTEND
   Sentry.init { dsn, environment }
@@ -51,7 +51,7 @@ class App extends React.Component
   componentDidMount: ->
     @autoLocate()
     fixVh()
-    window.addEventListener 'resize', debounce fixVh, 200
+    window.addEventListener 'resize', throttle fixVh, 200
 
   autoLocate: =>
     try
