@@ -122,26 +122,32 @@ class Application extends React.Component
         <h2>What is this?</h2>
         <p>There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
         <p>To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
+
         <h2>What is strategic voting?</h2>
         <p>Stragtegic voting is essentially a manual version of a <a href="https://en.wikipedia.org/wiki/Ranked_voting">ranked ballot</a>, where your vote counts towards your top choice that could win.</p>
         <p><a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">Electoral reform</a>, although promised in the 2015 federal election, will do this automatically, making this tool obsolete.</p>
+
         <h2>What if I want the Conservatives to win?</h2>
         <p>You should vote Conservative! Since there's no split on the right, this tool is not necessary. Thank you for participating in our shared civic duty.</p>
+
         <h2>Who are you?</h2>
-        <p>I'm <a href="https://kieran.ca">Kieran Huggins</a> from Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
+        <p>I'm <a href="https://kieran.ca">Kieran Huggins</a>, a software developer in Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
       </section>
     else
       <section key='faq' className='faq'>
-        <h2>(fr) What is this?</h2>
-        <p>(fr) There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
-        <p>(fr) To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
-        <h2>(fr) What is strategic voting?</h2>
-        <p>(fr) Stragtegic voting is essentially a manual version of a <a href="https://en.wikipedia.org/wiki/Ranked_voting">ranked ballot</a>, where your vote counts towards your top choice that could win.</p>
-        <p>(fr) <a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">Electoral reform</a>, although promised in the 2015 federal election, will do this automatically, making this tool obsolete.</p>
-        <h2>(fr) What if I want the Conservatives to win?</h2>
-        <p>(fr) You should vote Conservative! Since there's no split on the right, this tool is not necessary. Thank you for participating in our shared civic duty.</p>
-        <h2>(fr) Who are you?</h2>
-        <p>(fr) I'm <a href="https://kieran.ca">Kieran Huggins</a> from Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
+        <h2>Qu'est-ce que c'est que ça?</h2>
+        <p>Il ya a trois partis politiques de Gauche au Canada, et il y a seulement un de Droite. Cela cause souvent une émiettement des voix gauches et par contraste, les voix de Droite sont plus puissantes.</p>
+        <p>Afin de unifier le vote, cet outil vous informe si un vote utile est nécessaire dans votre circonsription électorale, et, si oui, lequel des parties est en tête.</p>
+
+        <h2>Qu’est-ce c’est un vote utile?</h2>
+        <p>Un vote utile est une version d’un <a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">vote cumulatif</a>, dans laquelle on donne la voix au parti politique avec la meilleure probabilité de gagner.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">La réforme électorale</a>, quoique promît dans l’élection féderale de 2015, va faire ce tâche automatiquement et va rendre cet outil obsolète.</p>
+
+        <h2>...Et si je veux que le parti Conservateur remporte l’élection?</h2>
+        <p>Vous devriez donner votre voix au parti Conservateur! Puisque il n’y a pas d’émiettement des voix droites, cet outil n’est pas nécessaire. Merci d’avoir participer à notre devoir civique en commun.</p>
+
+        <h2>Qui êtes-vous?</h2>
+        <p>Je m’appelle <a href="https://kieran.ca">Kieran Huggins</a> et je viens de Toronto, Canada. Bien que j’aie des tendences gauchistes, je ne suis pas affilié à aucun parti politique.</p>
       </section>
 
   footer: ->

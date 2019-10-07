@@ -4,7 +4,7 @@ translation:
   "Un outil de vote stratégique pour les élections fédérales canadiennes de 2019"
 
   "A strategic vote in your riding": \
-  "Un vote stratégique dans votre circonscription"
+  "Un vote stratégique dans votre circonscription électorale"
 
   "is a vote for": \
   "est un vote pour"
