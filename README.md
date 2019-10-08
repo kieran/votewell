@@ -1,6 +1,6 @@
 # VoteWell
 
-![image](https://user-images.githubusercontent.com/3444/41066564-3b7dd04a-69b0-11e8-8a5e-6318af2139cf.png)
+![image](https://user-images.githubusercontent.com/3444/66440328-ab848880-ea00-11e9-8a7a-9c0b3d6679df.png)
 
 ## Running locally
 
@@ -13,6 +13,11 @@ npm install
 ### run:
 ```console
 npm run dev
+```
+
+### build:
+```console
+npm run dist
 ```
 
 ## Sources
