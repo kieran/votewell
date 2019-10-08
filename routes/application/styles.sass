@@ -1,9 +1,9 @@
 $font-family: franklin-gothic-urw, serif
-$light: #fcfcfc
+$light: #fafafa
 $dark: #1F2125
 $border: #E0E0E0
 $gray: #D9D9D9
-$text-gray: #6F7880
+$text-gray: #6F7881
 $dark-gray: #36383B
 
 $screen-phone-max: 768px
@@ -111,7 +111,8 @@ $screen-desktop-max: 1440px
       align-items: center
 
       img.party
-        max-width: 90vw
+        width: 350px
+        max-width: 70vw
         margin: 0 auto
         height: auto
 
@@ -133,7 +134,7 @@ $screen-desktop-max: 1440px
           font-weight: 500
           text-transform: uppercase
           display: block
-          margin-bottom: 0.66em
+          margin-bottom: 1.5em
 
         .br
           display: inline
@@ -163,8 +164,8 @@ $screen-desktop-max: 1440px
     display: flex
     flex-direction: column
     margin: 0 auto
-    padding: 90px 0 60px 0
-    max-width: 600px
+    padding: 40px 0 100px 0
+    max-width: 700px
     +laptop
       max-width: 500px
     +tablet
@@ -178,18 +179,18 @@ $screen-desktop-max: 1440px
       +phone
         text-align: left
       display: block
-      font-size: 24px
-      line-height: 1.1em
+      font-size: 30px
+      line-height: 1.3em
       font-weight: 700
       color: $dark
-      margin-top: 1.5em
+      margin-top: 2em
       margin-bottom: 0
     p
       font-family: $font-family
       text-align: left
       display: block
       font-size: 18px
-      line-height: 1.4em
+      line-height: 1.5em
       color: $text-gray
       margin: 0.5em 0
     a
@@ -210,9 +211,6 @@ $screen-desktop-max: 1440px
 
     background: $dark
     color: $light
-    // min-height: 100vh
-    // min-height: calc(100 * var(--vh, 1vh))
-    // transition: min-height 0.25s ease-in
 
     > *
       width: 100%
