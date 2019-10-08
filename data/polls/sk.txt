@@ -1,16 +1,16 @@
 Saskatchewan riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Battlefords—Lloydminster  Con.  8 57  12  0 6 17  CON
-Carlton Trail—Eagle Creek Con.  8 70  13  0 8 1 CON
-Cypress Hills—Grasslands  Con.  6 74  9 0 10  1 CON
-Desnethé—Missinippi—Churchill River NDP 24  37  30  0 7 2 LEANS CON
-Moose Jaw—Lake Centre—Lanigan Con.  9 64  16  0 7 4 CON
-Prince Albert Con.  12  55  25  0 7 2 CON
-Regina—Lewvan NDP 21  38  29  0 7 6 LEANS CON
-Regina—Qu'Appelle Con.  14  52  24  0 9 2 CON
-Regina—Wascana  Lib.  45  37  9 0 8 2 LEANS LIB
-Saskatoon West  NDP 15  41  32  0 6 6 LEANS CON
-Saskatoon—Grasswood Con.  18  47  27  0 7 2 CON
-Saskatoon—University  Con.  19  47  25  0 6 3 CON
-Souris—Moose Mountain Con.  5 75  9 0 9 1 CON
-Yorkton—Melville  Con.  10  66  15  0 8 2 CON
+Battlefords—Lloydminster  Con.  8 56  15  0 5 15  CON
+Carlton Trail—Eagle Creek Con.  9 68  15  0 7 1 CON
+Cypress Hills—Grasslands  Con.  7 72  11  0 9 1 CON
+Desnethé—Missinippi—Churchill River NDP 24  35  32  0 7 2 LEANS CON
+Moose Jaw—Lake Centre—Lanigan Con.  10  62  19  0 7 3 CON
+Prince Albert Con.  12  52  28  0 7 1 CON
+Regina—Lewvan NDP 21  37  31  0 6 5 LEANS CON
+Regina—Qu'Appelle Con.  14  50  26  0 9 1 CON
+Regina—Wascana  Lib.  44  36  11  0 7 2 LEANS LIB
+Saskatoon West  NDP 15  39  34  0 6 5 LEANS CON
+Saskatoon—Grasswood Con.  18  45  30  0 6 1 CON
+Saskatoon—University  Con.  19  45  27  0 6 3 CON
+Souris—Moose Mountain Con.  6 73  11  0 9 1 CON
+Yorkton—Melville  Con.  10  63  17  0 8 2 CON

@@ -1,16 +1,16 @@
 Manitoba riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Brandon—Souris  Con.  19  63  5 0 11  1 CON
-Charleswood—St. James—Assiniboia—Headingley Lib.  29  41  6 0 8 16  CON
-Churchill—Keewatinook Aski  NDP 23  22  46  0 5 4 NDP
-Dauphin—Swan River—Neepawa  Con.  12  54  10  0 8 16  CON
-Elmwood—Transcona NDP 12  42  37  0 7 2 LEANS CON
-Kildonan—St. Paul Lib.  25  52  12  0 6 5 CON
-Portage—Lisgar  Con.  8 71  5 0 9 7 CON
-Provencher  Con.  16  69  5 0 8 1 CON
-Saint Boniface—Saint Vital  Lib.  39  42  11  0 7 1 LEANS CON
-Selkirk—Interlake—Eastman Con.  13  60  12  0 9 6 CON
-Winnipeg Centre Lib.  37  24  25  0 10  5 LEANS LIB
-Winnipeg North  Lib.  45  28  15  0 8 3 LIB
-Winnipeg South  Lib.  40  48  5 0 6 1 LEANS CON
-Winnipeg South Centre Lib.  40  41  9 0 8 1 TOSS-UP
+Brandon—Souris  Con.  21  60  7 0 11  1 CON
+Charleswood—St. James—Assiniboia—Headingley Lib.  30  38  9 0 8 15  LEANS CON
+Churchill—Keewatinook Aski  NDP 24  19  49  0 5 3 NDP
+Dauphin—Swan River—Neepawa  Con.  13  52  13  0 8 14  CON
+Elmwood—Transcona NDP 13  38  40  0 7 2 LEANS NDP
+Kildonan—St. Paul Lib.  26  49  14  0 6 5 CON
+Portage—Lisgar  Con.  9 68  8 0 9 6 CON
+Provencher  Con.  18  66  7 0 8 1 CON
+Saint Boniface—Saint Vital  Lib.  40  39  13  0 7 1 LEANS LIB
+Selkirk—Interlake—Eastman Con.  15  56  14  0 9 5 CON
+Winnipeg Centre Lib.  38  22  27  0 10  4 LEANS LIB
+Winnipeg North  Lib.  46  26  18  0 8 2 LIB
+Winnipeg South  Lib.  42  45  7 0 5 1 LEANS CON
+Winnipeg South Centre Lib.  41  38  11  0 8 1 LEANS LIB
