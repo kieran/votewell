@@ -4,19 +4,13 @@ import React        from "react"
 import { render }   from "react-dom"
 import axios        from 'axios'
 import * as Sentry  from '@sentry/browser'
+import throttle     from 'underscore-es/throttle'
 
 if dsn = process.env.SENTRY_DSN_FRONTEND
   Sentry.init { dsn, environment }
 
 import './styles'
 import './locales'
-
-# bundle assets - full URL in html
-import './assets/votewell.png'
-import './assets/favicon-128x128.png'
-import './assets/favicon-64x64.png'
-import './assets/favicon-32x32.png'
-import './assets/favicon-16x16.png'
 
 # routes
 import Application  from '/routes/application'
@@ -42,6 +36,10 @@ getRiding = (lat, lng)->
   { data } = await axios.get "#{process.env.RIDING_URL}/#{lat.toFixed 2},#{lng.toFixed 2}"
   data
 
+fixVh = ->
+  document.documentElement.style.setProperty '--vh', "#{window.innerHeight * 0.01}px"
+
+
 class App extends React.Component
   constructor: ->
     super arguments...
@@ -52,6 +50,8 @@ class App extends React.Component
 
   componentDidMount: ->
     @autoLocate()
+    fixVh()
+    window.addEventListener 'resize', throttle fixVh, 200
 
   autoLocate: =>
     try

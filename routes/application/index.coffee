@@ -14,25 +14,24 @@ import './styles'
 # components
 import Spinner  from 'react-spinkit'
 import Chart    from '/components/chart'
-import Marker   from '/assets/map-marker.svg'
-
+import Logo     from '/assets/votewell.anim.svg'
 
 import {
   FacebookShareButton
   TwitterShareButton
   RedditShareButton
   EmailShareButton
-  FacebookIcon
-  TwitterIcon
-  RedditIcon
-  EmailIcon
 } from 'react-share'
+
+import Facebook from 'react-icons/lib/fa/facebook-square'
+import Twitter  from 'react-icons/lib/fa/twitter'
+import Reddit   from 'react-icons/lib/fa/reddit-alien'
+import Envelope from 'react-icons/lib/fa/envelope'
 
 # assets
 import grn from '/assets/grn.png'
 import lib from '/assets/lib.png'
 import ndp from '/assets/ndp.png'
-import anyone from '/assets/anyone.png'
 
 parties =
   lib:
@@ -46,7 +45,6 @@ parties =
     img: grn
   anyone:
     name: "Anyone"
-    img: anyone
 
 leftists = Object.keys parties
 
@@ -65,6 +63,9 @@ class Application extends React.Component
   selectRiding: (evt)=>
     if riding = evt?.target?.value or evt?.value
       @props.setRiding riding
+
+  isEnglish: ->
+    (@props.i18n.language or navigator.language or 'en').match /^en/
 
   setLang: (lang)=>
     @props.i18n.changeLanguage lang
@@ -91,15 +92,75 @@ class Application extends React.Component
       {if @props.riding
         [
           @helmet()
-          @share()
-          @reco()
-          @chart()
-          @attribution()
+          @header()
+          @main()
+          @faq()
+          @footer()
         ]
       else
-        @spinner()
+        <div className="spinner">
+          <Logo/>
+        </div>
       }
     </div>
+
+  header: ->
+    <header key='header'>
+      <Logo/>
+    </header>
+
+  main: ->
+    <main key='main'>
+      {@selector()}
+      {@reco()}
+      {@chart()}
+    </main>
+
+  faq: ->
+    if @isEnglish()
+      <section key='faq' className='faq'>
+        <h2>What is this?</h2>
+        <p>There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
+        <p>To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
+
+        <h2>What is strategic voting?</h2>
+        <p>Stragtegic voting is essentially a manual version of a <a href="https://en.wikipedia.org/wiki/Ranked_voting">ranked ballot</a>, where your vote counts towards your top choice that could win.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">Electoral reform</a>, although promised in the 2015 federal election, will do this automatically, making this tool obsolete.</p>
+
+        <h2>What if I want the Conservatives to win?</h2>
+        <p>You should vote Conservative! Since there's no split on the right, this tool is not necessary. Thank you for participating in our shared civic duty.</p>
+
+        <h2>Who are you?</h2>
+        <p>I'm <a href="https://kieran.ca">Kieran Huggins</a>, a software developer in Toronto, Canada. While I clearly have leftist politics, I am not affiliated with any political party.</p>
+      </section>
+    else
+      <section key='faq' className='faq'>
+        <h2>Qu'est-ce que c'est que ça?</h2>
+        <p>Il ya a trois partis politiques de Gauche au Canada, et il y a seulement un de Droite. Cela cause souvent une émiettement des voix gauches et par contraste, les voix de Droite sont plus puissantes.</p>
+        <p>Afin de unifier le vote, cet outil vous informe si un vote utile est nécessaire dans votre circonsription électorale, et, si oui, lequel des parties est en tête.</p>
+
+        <h2>Qu’est-ce c’est un vote utile?</h2>
+        <p>Un vote utile est une version d’un <a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">vote cumulatif</a>, dans laquelle on donne la voix au parti politique avec la meilleure probabilité de gagner.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Electoral_reform#Canada">La réforme électorale</a>, quoique promît dans l’élection féderale de 2015, va faire ce tâche automatiquement et va rendre cet outil obsolète.</p>
+
+        <h2>...Et si je veux que le parti Conservateur remporte l’élection?</h2>
+        <p>Vous devriez donner votre voix au parti Conservateur! Puisque il n’y a pas d’émiettement des voix droites, cet outil n’est pas nécessaire. Merci d’avoir participer à notre devoir civique en commun.</p>
+
+        <h2>Qui êtes-vous?</h2>
+        <p>Je m’appelle <a href="https://kieran.ca">Kieran Huggins</a> et je viens de Toronto, Canada. Bien que j’aie des tendences gauchistes, je ne suis pas affilié à aucun parti politique.</p>
+      </section>
+
+  footer: ->
+    <footer key='footer'>
+      <div className="top">
+        <Logo/>
+        {@share()}
+      </div>
+      <div className="bottom">
+        {@links()}
+        {@languageSelector()}
+      </div>
+    </footer>
 
   helmet: ->
     { t } = @props
@@ -113,19 +174,19 @@ class Application extends React.Component
     url = window.location.href
     <div className="share" key="share">
       <FacebookShareButton url={url}>
-        <FacebookIcon size={32} round={true}/>
+        <Facebook/>
       </FacebookShareButton>
       <TwitterShareButton url={url}>
-        <TwitterIcon size={32} round={true}/>
+        <Twitter/>
       </TwitterShareButton>
       <RedditShareButton url={url}>
-        <RedditIcon size={32} round={true}/>
+        <Reddit/>
       </RedditShareButton>
       <EmailShareButton
-        url={window.location.href}
+        url={url}
         subject={"VoteWell: #{t 'A strategic voting tool for the 2019 Canadian federal election'}"}
       >
-        <EmailIcon size={32} round={true}/>
+        <Envelope/>
       </EmailShareButton>
     </div>
 
@@ -134,57 +195,68 @@ class Application extends React.Component
       <Spinner className="ball-triangle-path"/>
     </div>
 
+  selector: ->
+    <div className="riding-selector">
+      <ReactSelect
+        style={{width: Math.min( 650, window.innerWidth * 0.9 )}}
+        clearable={false}
+        value={@props.riding}
+        options={(label: poll.riding.replace(/—/g,' / '), value: poll.riding, group: poll.province for poll in @props.polls)}
+        onChange={@selectRiding}
+        autoBlur={probablyMobile}
+      />
+    </div>
+
   reco: ->
-    { t } = @props
+    party = @bestOption()
     <div className="reco" key="reco">
-      <h1>
-        {t 'A strategic vote in'}
-      </h1>
-      <div className="riding-selector">
-        <ReactSelect
-          style={{width: 350}}
-          clearable={false}
-          value={@props.riding}
-          options={(label: poll.riding, value: poll.riding, group: poll.province for poll in @props.polls)}
-          onChange={@selectRiding}
-          autoBlur={probablyMobile}
-        />
-        <div className="locator">
-          {<Spinner name="ball-scale-ripple-multiple" /> if @props.locating}
-          <Marker
-            className="map-marker"
-            onClick={@props.autoLocate}
-          />
-        </div>
-      </div>
-      {if @bestOption().name is 'Anyone'
-        <h1>
-          {t 'is not necessary!'}
-          <br/>
-          {t 'Please vote for your preferred candidate.'}
-        </h1>
+      {if party.name is 'Anyone'
+        @anyone()
       else
-        <h1>
-          {t 'is a vote for'}
-        </h1>
+        @party party
       }
-      <img src={@bestOption().img} alt={"#{@bestOption().name}"}/>
+    </div>
+
+  anyone: ->
+    { t } = @props
+    <div className="result-text">
+      <small>
+        {t 'A strategic vote in your riding'}
+        <span className='br'> </span>
+        {t 'is not necessary'}
+      </small>
+      {t 'Please vote for your preferred candidate.'}
+    </div>
+
+  party: (party)->
+    { t } = @props
+    <div className="result-text">
+      <small>
+        {t 'A strategic vote in your riding'}
+        <span className='br'> </span>
+        {t 'is a vote for'}
+      </small>
+      <img
+        className="party"
+        src={party.img}
+        alt={"#{party.name}"}
+      />
     </div>
 
   chart: ->
     <div className="chart" key="chart">
-      <Chart data={@pollData()} height={150}/>
+      <Chart
+        data={@pollData()}
+        height={150}
+      />
     </div>
 
-  attribution: ->
-    { t, i18n } = @props
-    <div className="attribution" key="attribution">
-      <a href={t "votelink"} style={{color:'black'}}>
+  links: ->
+    { t } = @props
+    <div className="links" key="links">
+      <a href={t "votelink"}>
         {t "Where do I vote?"}
       </a>
-      <span>
-        {t "Sources"}:
-      </span>
       <a href="https://calculatedpolitics.ca/2019-canadian-federal-election/">
         {t "Projections"}
       </a>
@@ -194,7 +266,11 @@ class Application extends React.Component
       <a href="https://github.com/kieran/votewell">
         {t "Code"}
       </a>
-      {if (i18n.language or navigator.language or 'en').match /^en/
+    </div>
+
+  languageSelector: ->
+    <div className="lamnguageSelector" key="lamnguageSelector">
+      {if @isEnglish()
         <a onClick={=>@setLang 'fr'}>Français</a>
       else
         <a onClick={=>@setLang 'en'}>English</a>
