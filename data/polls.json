@@ -2829,6 +2829,17 @@
   {
     "province_code": "QC",
     "province": "Quebec",
+    "riding": "Berthier—Maskinongé",
+    "pc": 14,
+    "ndp": 28,
+    "lib": 22,
+    "bloc": 34,
+    "grn": 2,
+    "other": 0
+  },
+  {
+    "province_code": "QC",
+    "province": "Quebec",
     "riding": "Bourassa",
     "pc": 11,
     "ndp": 4,
