@@ -50,6 +50,7 @@ leftists = Object.keys parties
 
 sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> sum(arr) / arr.length
+top_2 = (arr=[])-> arr.sort(); arr.reverse(); arr[0...2]
 probablyMobile = matchMedia?('(orientation: portrait) and (max-width: 600px)')?.matches or false
 
 export default \
@@ -78,10 +79,11 @@ class Application extends React.Component
     sorted = sortBy(@pollData(), 'value').reverse()
 
     # vote strategically if there are more
-    # right-votes than the avg of all left votes (+ a 20% margin)
+    # right votes than the avg of the
+    # leading two left votes (+ a 20% margin, for safety)
     left  = (poll.value for poll in sorted when poll.name in leftists)
     right = (poll.value for poll in sorted when poll.name not in leftists)
-    return parties['anyone'] if avg(left) >= sum(right) * 1.2
+    return parties['anyone'] if avg(top_2(left)) >= sum(right) * 1.2
 
     # otherwise, choose the first leftist candidate
     for obj in sorted
