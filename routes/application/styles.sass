@@ -171,7 +171,8 @@ $screen-desktop-max: 1440px
     +tablet
       max-width: 400px
     +phone
-      padding: 2em
+      padding-left: 2em
+      padding-right: 2em
 
     h2
       font-family: $font-family
@@ -211,6 +212,12 @@ $screen-desktop-max: 1440px
 
     background: $dark
     color: $light
+    a, svg
+      opacity: 0.5
+      transition: all 0.15s
+      &:hover
+        opacity: 1
+
 
     > *
       width: 100%
@@ -234,8 +241,6 @@ $screen-desktop-max: 1440px
         display: flex
         flex-direction: row
         div
-          // color: $dark-gray
-          color: rgba($light, 0.33)
           cursor: pointer
           &:hover
             color: $light
@@ -285,6 +290,6 @@ $screen-desktop-max: 1440px
             border: 0
 
       a, a:hover, a:visited, span
-        color: white
+        color: inherit
         text-decoration: none
         cursor: pointer
