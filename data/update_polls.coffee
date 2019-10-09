@@ -16,7 +16,7 @@ provinces =
   YT: 'Yukon'
 
 polls_regex = ///^
-  (?<riding>.+\w)   \s+ # Riding name
+  (?<riding>.+\S)   \s+ # Riding name
   [\w.]+            \s+ # (incumbant)
   (?<lib>\d+)       \s+ # Liberal
   (?<pc>\d+)        \s+ # Conservative
