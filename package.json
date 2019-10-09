@@ -6,6 +6,7 @@
   "author": "Kieran Huggins",
   "license": "ISC",
   "scripts": {
+    "start": "npm-run-all -p serve api",
     "dev": "npm-run-all -p serve api",
     "serve": "npx parcel serve ./index.html",
     "dist": "npx parcel build --no-cache ./index.html",
