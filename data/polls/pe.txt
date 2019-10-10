@@ -1,6 +1,6 @@
 Prince Edward Island (PEI) riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Cardigan  Lib.  39  21  7 0 29  4 LIB
-Charlottetown Lib.  36  32  11  0 19  2 LEANS LIB
-Egmont  Lib.  45  33  11  0 10  1 LIB
-Malpeque  Lib.  46  26  7 0 20  2 LIB
+Cardigan  Lib.  37  22  8 0 29  5 LEANS LIB
+Charlottetown Lib.  32  34  13  0 19  2 TOSS-UP
+Egmont  Lib.  41  36  12  0 10  1 LEANS LIB
+Malpeque  Lib.  42  28  9 0 20  2 LIB
