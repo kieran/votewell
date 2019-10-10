@@ -45,6 +45,8 @@ parties =
     img: grn
   anyone:
     name: "Anyone"
+  other:
+    name: 'Other'
 
 leftists = Object.keys parties
 
@@ -238,11 +240,15 @@ class Application extends React.Component
         <span className='br'> </span>
         {t 'is a vote for'}
       </small>
-      <img
-        className="party"
-        src={party.img}
-        alt={"#{party.name}"}
-      />
+      {if party.img
+        <img
+          className="party"
+          src={party.img}
+          alt={"#{party.name}"}
+        />
+      else
+        <div style={{fontSize: '1.5em'}}>{party.name}</div>
+      }
     </div>
 
   chart: ->
