@@ -23,7 +23,7 @@ import {
   EmailShareButton
 } from 'react-share'
 
-import Facebook from 'react-icons/lib/fa/facebook-square'
+import Facebook from 'react-icons/lib/fa/facebook'
 import Twitter  from 'react-icons/lib/fa/twitter'
 import Reddit   from 'react-icons/lib/fa/reddit-alien'
 import Envelope from 'react-icons/lib/fa/envelope'
@@ -175,21 +175,21 @@ class Application extends React.Component
     { t } = @props
     url = window.location.href
     <div className="share" key="share">
-      <FacebookShareButton url={url}>
-        <Facebook/>
-      </FacebookShareButton>
-      <TwitterShareButton url={url}>
-        <Twitter/>
-      </TwitterShareButton>
-      <RedditShareButton url={url}>
-        <Reddit/>
-      </RedditShareButton>
       <EmailShareButton
         url={url}
         subject={"VoteWell: #{t 'A strategic voting tool for the 2019 Canadian federal election'}"}
       >
         <Envelope/>
       </EmailShareButton>
+      <TwitterShareButton url={url}>
+        <Twitter/>
+      </TwitterShareButton>
+      <FacebookShareButton url={url}>
+        <Facebook/>
+      </FacebookShareButton>
+      <RedditShareButton url={url}>
+        <Reddit/>
+      </RedditShareButton>
     </div>
 
   spinner: ->
