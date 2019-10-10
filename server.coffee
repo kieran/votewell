@@ -31,7 +31,7 @@ ridingAt = (lat, lng)->
       reject 'Not Found'
 
 router.get '/:lat,:lng', (ctx)->
-  ctx.set 'Cache-Control', "public, max-age=#{24*60*60}"
+  ctx.set 'Cache-Control', "public, max-age=#{7*24*60*60}"
   try
     ctx.body = await ridingAt ctx.params.lat, ctx.params.lng
   catch err
