@@ -147,9 +147,11 @@ $screen-desktop-max: 1440px
 
     .chart
       +constrain
-      height: 150px
+      +phone
+        padding: 0 1em
+      height: 250px
+      margin-top: -100px
       width: 100%
-      margin-bottom: -5px // recharts, y?
 
       .my-tooltip
         background: $dark
@@ -296,4 +298,3 @@ $screen-desktop-max: 1440px
       .lamnguageSelector
         width: 200px
         text-align: right
-
