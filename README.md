@@ -1,6 +1,6 @@
 # VoteWell
 
-![image](https://user-images.githubusercontent.com/3444/66440328-ab848880-ea00-11e9-8a7a-9c0b3d6679df.png)
+![image](https://user-images.githubusercontent.com/3444/66625862-fb5f7d00-ebc3-11e9-9c57-51cde77fae06.png)
 
 ## Running locally
 
