@@ -15,7 +15,6 @@
       max-width: 250px
       color: $dark
 
-
   header
     display: flex
     justify-content: center
@@ -124,12 +123,12 @@
 
 
   section.faq
+    +constrain
     background: white
     display: flex
     flex-direction: column
     margin: 0 auto
-    padding: 40px 0 100px 0
-    max-width: 700px
+    padding: 40px 0
     +laptop
       max-width: 500px
     +tablet
@@ -138,39 +137,13 @@
       padding-left: 2em
       padding-right: 2em
 
-    h2
-      font-family: $font-family
-      text-align: center
-      +phone
-        text-align: left
-      display: block
-      font-size: 30px
-      line-height: 1.3em
-      font-weight: 700
-      color: $dark
-      margin-top: 2em
-      margin-bottom: 0
-    p
-      font-family: $font-family
-      text-align: left
-      display: block
-      font-size: 18px
-      line-height: 1.5em
-      color: $text-gray
-      margin: 0.5em 0
-    a
-      color: $text-gray
-      text-decoration: none
-      border-bottom: 1px dashed $text-gray
-      &:hover
-        border-top: 1px dashed $text-gray
-
+    img
+      vertical-align: text-bottom
 
   footer
     display: flex
     flex-direction: column
     justify-content: space-between
-    // align-items: center
 
     font-family: $font-family
 
@@ -181,7 +154,6 @@
       transition: all 0.15s
       &:hover
         opacity: 1
-
 
     > *
       width: 100%
