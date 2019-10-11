@@ -4,15 +4,13 @@
 
 ## Running locally
 
-### install:
 ```console
+# install
 nvm use
 npm install
-```
 
-### run:
-```console
-npm run dev
+# run
+npm start
 ```
 
 ### build:
