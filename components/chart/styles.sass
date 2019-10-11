@@ -1,0 +1,60 @@
+$pc:     #2d368c
+$lib:    #e9243d
+$ndp:    #f99e29
+$grn:    #3D9B35 // <-- official colour, logo is #348c35 :-/
+$bloc:   #00A8ED
+$other:  #aaaaaa
+
+.Chart
+  height: 250px
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  position: relative
+
+  .bar::before
+    opacity: 0
+    top: 0
+
+    transition: all 0.2s ease-in-out
+  &:hover, &.hover
+    .bar::before
+      top: -1em
+      opacity: 1
+
+  .bar
+    transition: all 0.3s ease-in-out
+    &::before
+      display: block
+      content: attr(title)"%"
+      position: relative
+      width: 100%
+      text-align: center
+      line-height: 0
+      font-weight: bold
+      font-size: 1.2em
+
+    &.pc
+      background-color: $pc
+      &::before
+        color: $pc
+    &.lib
+      background-color: $lib
+      &::before
+        color: $lib
+    &.ndp
+      background-color: $ndp
+      &::before
+        color: $ndp
+    &.grn
+      background-color: $grn
+      &::before
+        color: $grn
+    &.bloc
+      background-color: $bloc
+      &::before
+        color: $bloc
+    &.other
+      background-color: $other
+      &::before
+        color: $other

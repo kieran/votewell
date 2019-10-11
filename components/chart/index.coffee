@@ -1,45 +1,29 @@
 import React        from "react"
 
-# components
-import ResponsiveContainer from 'recharts/es6/component/ResponsiveContainer'
-import BarChart from 'recharts/es6/chart/BarChart'
-import Bar      from 'recharts/es6/cartesian/Bar'
-import Cell     from 'recharts/es6/component/Cell'
-import Tooltip  from 'recharts/es6/component/Tooltip'
-
-class MyBar extends Bar
-  render: ->
-    <Bar {@props...}/>
-
-class MyTooltip extends React.Component
-  render: ->
-    { active, payload, label } = @props
-    return null unless active
-    {value} = payload[0]
-    <div className="my-tooltip">{value}%</div>
-
-colours =
-  pc:     '#2d368c'
-  lib:    '#e9243d'
-  ndp:    '#f99e29'
-  grn:    '#3D9B35' # <-- official colour, logo is #348c35 :-/
-  bloc:   '#00A8ED'
-  other:  '#aaaaaa'
+import './styles.sass'
 
 export default \
 class Chart extends React.Component
-  @defaultProps:
-    height: 250
+  constructor: ->
+    super arguments...
+    @state =
+      showPercentages: false
+
+  togglePercentages: =>
+    @setState showPercentages: not @state.showPercentages
 
   render: ->
-    <ResponsiveContainer width='100%' height={@props.height}>
-      <BarChart data={@props.data}>
-        <Tooltip
-          cursor={false}
-          content={<MyTooltip/>}
+    width = 100 / (@props.data.length + 1)
+    <div
+      className="Chart #{if @state.showPercentages then 'hover' else ''}"
+      onClick={@togglePercentages}
+    >
+      {for entry in @props.data
+        <div
+          className="bar #{entry.name}"
+          key={entry.name}
+          title={entry.value}
+          style={height: "#{entry.value}%", width: "#{width}%"}
         />
-        <Bar dataKey="value">
-          {<Cell className={entry.name} key={entry.name} fill={colours[entry.name]}/> for entry in @props.data}
-        </Bar>
-      </BarChart>
-    </ResponsiveContainer>
+      }
+    </div>

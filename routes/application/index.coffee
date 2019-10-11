@@ -12,7 +12,6 @@ import 'react-select/dist/react-select.css'
 import './styles'
 
 # components
-import Spinner  from 'react-spinkit'
 import Chart    from '/components/chart'
 import Logo     from '/assets/votewell.anim.svg'
 
@@ -192,11 +191,6 @@ class Application extends React.Component
       </RedditShareButton>
     </div>
 
-  spinner: ->
-    <div className="spinner">
-      <Spinner className="ball-triangle-path"/>
-    </div>
-
   selector: ->
     <div className="riding-selector">
       <ReactSelect
@@ -247,10 +241,7 @@ class Application extends React.Component
 
   chart: ->
     <div className="chart" key="chart">
-      <Chart
-        data={@pollData()}
-        height={150}
-      />
+      <Chart data={@pollData()}/>
     </div>
 
   links: ->
