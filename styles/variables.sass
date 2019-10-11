@@ -1,0 +1,44 @@
+$font-family: franklin-gothic-urw, serif
+
+$light:     #fafafa
+$dark:      #1F2125
+$border:    #E0E0E0
+$gray:      #D9D9D9
+$text-gray: #6F7881
+$dark-gray: #36383B
+
+$pc:        #2d368c
+$lib:       #e9243d
+$ndp:       #f99e29
+$grn:       #3D9B35 // <-- official colour, logo is #348c35 :-/
+$bloc:      #00A8ED
+$other:     #aaaaaa
+
+$screen-phone-max:    768px
+$screen-tablet-max:   992px
+$screen-laptop-max:   1200px
+$screen-desktop-max:  1440px
+
+=phone
+  @media only screen and (max-width: $screen-phone-max)
+    @content
+
+=tablet
+  @media only screen and (max-width: $screen-tablet-max)
+    @content
+
+=laptop
+  @media only screen and (max-width: $screen-laptop-max)
+    @content
+
+=desktop
+  @media only screen and (max-width: $screen-desktop-max)
+    @content
+
+=constrain
+  margin: 0 auto
+  max-width: 1000px
+  +laptop
+    max-width: $screen-tablet-max
+  +tablet
+    max-width: $screen-phone-max
