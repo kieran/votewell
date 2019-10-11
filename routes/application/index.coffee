@@ -79,8 +79,8 @@ class Application extends React.Component
 
   leftists: =>
     leftists = "lib ndp grn anyone".split ' '
-    # include `other` for granville / JWR
-    return [ leftists..., 'other' ] if @props.riding is 'Vancouver Granville'
+    return [ leftists..., 'other' ] if @props.riding is 'Vancouver Granville' # JWR
+    return [ leftists..., 'other' ] if @props.riding is 'Markham—Stouffville' # Philpott
     leftists
 
   bestOption: =>
