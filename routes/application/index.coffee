@@ -45,14 +45,14 @@ parties =
   grn:
     name: "Green Party"
     img: grn
+  other:
+    name: "Independent"
   anyone:
     name: "Anyone"
 
-leftists = Object.keys parties
-
 sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> sum(arr) / arr.length
-top_2 = (arr=[])-> arr.sort(); arr.reverse(); arr[0...2]
+top_2 = (arr=[])-> arr.sort((a,b)->a-b); arr.reverse(); arr[0...2]
 probablyMobile = matchMedia?('(orientation: portrait) and (max-width: 600px)')?.matches or false
 
 export default \
@@ -77,19 +77,25 @@ class Application extends React.Component
     polls = @pollsFor @props.riding
     (name: key, value: val for key, val of polls when val and key in 'pc lib ndp grn bloc other'.split ' ')
 
+  leftists: =>
+    leftists = "lib ndp grn anyone".split ' '
+    # include `other` for granville / JWR
+    return [ leftists..., 'other' ] if @props.riding is 'Vancouver Granville'
+    leftists
+
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
 
     # vote strategically if there are more
     # right votes than the avg of the
     # leading two left votes (+ a 20% margin, for safety)
-    left  = (poll.value for poll in sorted when poll.name in leftists)
-    right = (poll.value for poll in sorted when poll.name not in leftists)
+    left  = (poll.value for poll in sorted when poll.name in @leftists())
+    right = (poll.value for poll in sorted when poll.name not in @leftists())
     return parties['anyone'] if avg(top_2(left)) >= sum(right) * 1.2
 
     # otherwise, choose the first leftist candidate
     for obj in sorted
-      return parties[obj.name] if obj.name in leftists
+      return parties[obj.name] if obj.name in @leftists()
 
   render: ->
     <div className="ridings">
@@ -262,17 +268,22 @@ class Application extends React.Component
 
   party: (party)->
     { t } = @props
+    {name, img} = party
     <div className="result-text">
       <small>
         {t 'A strategic vote in your riding'}
         <span className='br'> </span>
         {t 'is a vote for'}
       </small>
-      <img
-        className="party"
-        src={party.img}
-        alt={"#{party.name}"}
-      />
+      {if img
+        <img
+          className="party"
+          src={img}
+          alt={"#{name}"}
+        />
+      else
+        <h2>{name}</h2>
+      }
     </div>
 
   chart: ->
