@@ -1,7 +1,7 @@
 import React  from "react"
 import cx     from "classnames"
 
-import './styles.sass'
+import './styles'
 
 export default \
 class Chart extends React.Component
@@ -16,7 +16,7 @@ class Chart extends React.Component
   render: ->
     width = 100 / (@props.data.length + 1)
     <div
-      className="Chart #{cx @state}"
+      className={cx 'Chart', @state}
       onClick={@touchHover}
     >
       {for {name, value} in @props.data

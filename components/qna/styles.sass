@@ -1,0 +1,68 @@
+.Qna
+  overflow: hidden
+  padding: 1em 0
+  transition: all 0.5s ease-in-out
+  .answer
+    max-height: 0
+    opacity: 0
+    transition: all 0.5s ease-in-out
+  &.open
+    .answer
+      max-height: 500px
+      opacity: 1
+
+  border-bottom: 1px solid $border
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  &:last-child
+    border-bottom: none
+
+  // appear clickable
+  .question
+    cursor: pointer
+
+  // + - signs
+  .question h2::before
+    content: "+"
+    float: right
+    font-size: 0.8em
+    font-weight: normal
+    color: $text-gray
+  &.open
+    .question h2::before
+      content: "–"
+
+  .question
+    h2
+      font-family: $font-family
+      text-align: left
+      display: block
+      font-size: 30px
+      +phone
+        font-size: 24px
+      font-weight: 500
+      color: $dark
+      margin: 0.5em 0
+
+  .answer
+    p
+      font-family: $font-family
+      text-align: left
+      display: block
+      font-size: 18px
+      line-height: 1.5em
+      color: $text-gray
+      margin: 0.5em 0
+    a:not(.imglink)
+      color: $text-gray
+      text-decoration: none
+      border-bottom: 1px dashed $text-gray
+      &:hover
+        border-top: 1px dashed $text-gray
+    blockquote
+      margin-left: 0
+      padding-left: 1em
+      border-left: 5px solid rgba($border, 0.5)
+      p
+        font-size: 0.9em

@@ -1,41 +1,3 @@
-$font-family: franklin-gothic-urw, serif
-$light: #fafafa
-$dark: #1F2125
-$border: #E0E0E0
-$gray: #D9D9D9
-$text-gray: #6F7881
-$dark-gray: #36383B
-
-$screen-phone-max: 768px
-$screen-tablet-max: 992px
-$screen-laptop-max: 1200px
-$screen-desktop-max: 1440px
-
-=phone
-  @media only screen and (max-width: $screen-phone-max)
-    @content
-
-=tablet
-  @media only screen and (max-width: $screen-tablet-max)
-    @content
-
-=laptop
-  @media only screen and (max-width: $screen-laptop-max)
-    @content
-
-=desktop
-  @media only screen and (max-width: $screen-desktop-max)
-    @content
-
-=constrain
-  margin: 0 auto
-  max-width: 1000px
-  +laptop
-    max-width: $screen-tablet-max
-  +tablet
-    max-width: $screen-phone-max
-
-
 .ridings
   display: flex
   flex-direction: column
@@ -52,7 +14,6 @@ $screen-desktop-max: 1440px
     svg
       max-width: 250px
       color: $dark
-
 
   header
     display: flex
@@ -162,53 +123,23 @@ $screen-desktop-max: 1440px
 
 
   section.faq
+    +constrain
     background: white
     display: flex
     flex-direction: column
     margin: 0 auto
-    padding: 40px 0 100px 0
-    max-width: 700px
-    +laptop
-      max-width: 500px
-    +tablet
-      max-width: 400px
+    padding: 40px 0
     +phone
       padding-left: 2em
       padding-right: 2em
 
-    h2
-      font-family: $font-family
-      text-align: center
-      +phone
-        text-align: left
-      display: block
-      font-size: 30px
-      line-height: 1.3em
-      font-weight: 700
-      color: $dark
-      margin-top: 2em
-      margin-bottom: 0
-    p
-      font-family: $font-family
-      text-align: left
-      display: block
-      font-size: 18px
-      line-height: 1.5em
-      color: $text-gray
-      margin: 0.5em 0
-    a
-      color: $text-gray
-      text-decoration: none
-      border-bottom: 1px dashed $text-gray
-      &:hover
-        border-top: 1px dashed $text-gray
-
+    img
+      vertical-align: text-bottom
 
   footer
     display: flex
     flex-direction: column
     justify-content: space-between
-    // align-items: center
 
     font-family: $font-family
 
@@ -219,7 +150,6 @@ $screen-desktop-max: 1440px
       transition: all 0.15s
       &:hover
         opacity: 1
-
 
     > *
       width: 100%
