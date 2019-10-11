@@ -1,4 +1,5 @@
-import React        from "react"
+import React  from "react"
+import cx     from "classnames"
 
 import './styles.sass'
 
@@ -7,23 +8,23 @@ class Chart extends React.Component
   constructor: ->
     super arguments...
     @state =
-      showPercentages: false
+      hover: false
 
-  togglePercentages: =>
-    @setState showPercentages: not @state.showPercentages
+  touchHover: =>
+    @setState hover: not @state.hover
 
   render: ->
     width = 100 / (@props.data.length + 1)
     <div
-      className="Chart #{if @state.showPercentages then 'hover' else ''}"
-      onClick={@togglePercentages}
+      className="Chart #{cx @state}"
+      onClick={@touchHover}
     >
-      {for entry in @props.data
+      {for {name, value} in @props.data
         <div
-          className="bar #{entry.name}"
-          key={entry.name}
-          title={entry.value}
-          style={height: "#{entry.value}%", width: "#{width}%"}
+          className="bar #{name}"
+          key={name}
+          title={"#{value}%"}
+          style={height: "#{value}%", width: "#{width}%"}
         />
       }
     </div>

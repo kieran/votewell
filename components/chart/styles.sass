@@ -16,17 +16,17 @@ $other:  #aaaaaa
     opacity: 0
     top: 0
 
-    transition: all 0.2s ease-in-out
+    transition: all 0.2s ease-out
   &:hover, &.hover
     .bar::before
       top: -1em
       opacity: 1
 
   .bar
-    transition: all 0.3s ease-in-out
+    transition: all 0.3s ease-out
     &::before
       display: block
-      content: attr(title)"%"
+      content: attr(title)
       position: relative
       width: 100%
       text-align: center
