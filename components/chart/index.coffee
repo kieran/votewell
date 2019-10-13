@@ -23,7 +23,8 @@ class Chart extends React.Component
         <div
           className="bar #{name}"
           key={name}
-          title={"#{value}%"}
+          title={"#{name} #{value}%"}
+          data-percent={"#{value}%"}
           style={height: "#{value}%", width: "#{width}%"}
         />
       }
