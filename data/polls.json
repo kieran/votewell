@@ -399,9 +399,9 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Burnaby South",
-    "pc": 30,
-    "ndp": 26,
-    "lib": 28,
+    "pc": 25,
+    "ndp": 35,
+    "lib": 23,
     "bloc": 0,
     "grn": 10,
     "other": 6
@@ -415,7 +415,7 @@
     "lib": 22,
     "bloc": 0,
     "grn": 8,
-    "other": 11
+    "other": 10
   },
   {
     "province_code": "BC",
@@ -443,9 +443,9 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Cloverdale—Langley City",
-    "pc": 37,
+    "pc": 36,
     "ndp": 13,
-    "lib": 37,
+    "lib": 38,
     "bloc": 0,
     "grn": 12,
     "other": 1
@@ -454,7 +454,7 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Coquitlam—Port Coquitlam",
-    "pc": 33,
+    "pc": 34,
     "ndp": 18,
     "lib": 29,
     "bloc": 0,
@@ -477,7 +477,7 @@
     "province": "British Columbia",
     "riding": "Cowichan—Malahat—Langford",
     "pc": 18,
-    "ndp": 32,
+    "ndp": 31,
     "lib": 17,
     "bloc": 0,
     "grn": 29,
@@ -487,7 +487,7 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Delta",
-    "pc": 38,
+    "pc": 39,
     "ndp": 13,
     "lib": 36,
     "bloc": 0,
@@ -502,7 +502,7 @@
     "ndp": 30,
     "lib": 19,
     "bloc": 0,
-    "grn": 30,
+    "grn": 31,
     "other": 2
   },
   {
@@ -524,7 +524,7 @@
     "ndp": 17,
     "lib": 20,
     "bloc": 0,
-    "grn": 12,
+    "grn": 13,
     "other": 17
   },
   {
@@ -544,7 +544,7 @@
     "riding": "Kootenay—Columbia",
     "pc": 39,
     "ndp": 33,
-    "lib": 11,
+    "lib": 10,
     "bloc": 0,
     "grn": 15,
     "other": 2
@@ -553,9 +553,9 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Langley—Aldergrove",
-    "pc": 48,
+    "pc": 47,
     "ndp": 10,
-    "lib": 27,
+    "lib": 28,
     "bloc": 0,
     "grn": 12,
     "other": 4
@@ -591,7 +591,7 @@
     "lib": 22,
     "bloc": 0,
     "grn": 12,
-    "other": 9
+    "other": 10
   },
   {
     "province_code": "BC",
@@ -641,7 +641,7 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Port Moody—Coquitlam",
-    "pc": 25,
+    "pc": 26,
     "ndp": 34,
     "lib": 26,
     "bloc": 0,
@@ -656,7 +656,7 @@
     "ndp": 11,
     "lib": 13,
     "bloc": 0,
-    "grn": 13,
+    "grn": 12,
     "other": 9
   },
   {
@@ -679,7 +679,7 @@
     "lib": 8,
     "bloc": 0,
     "grn": 70,
-    "other": 2
+    "other": 3
   },
   {
     "province_code": "BC",
@@ -696,7 +696,7 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "South Okanagan—West Kootenay",
-    "pc": 25,
+    "pc": 26,
     "ndp": 35,
     "lib": 23,
     "bloc": 0,
@@ -729,7 +729,7 @@
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Surrey Centre",
-    "pc": 22,
+    "pc": 23,
     "ndp": 22,
     "lib": 41,
     "bloc": 0,
@@ -753,16 +753,16 @@
     "riding": "Vancouver Centre",
     "pc": 14,
     "ndp": 17,
-    "lib": 49,
+    "lib": 50,
     "bloc": 0,
     "grn": 14,
-    "other": 5
+    "other": 6
   },
   {
     "province_code": "BC",
     "province": "British Columbia",
     "riding": "Vancouver East",
-    "pc": 12,
+    "pc": 13,
     "ndp": 45,
     "lib": 19,
     "bloc": 0,
@@ -800,7 +800,7 @@
     "lib": 51,
     "bloc": 0,
     "grn": 9,
-    "other": 4
+    "other": 3
   },
   {
     "province_code": "BC",
@@ -830,7 +830,7 @@
     "riding": "West Vancouver—Sunshine Coast—Sea to Sky Country",
     "pc": 27,
     "ndp": 7,
-    "lib": 45,
+    "lib": 46,
     "bloc": 0,
     "grn": 17,
     "other": 3
@@ -2810,7 +2810,7 @@
     "riding": "Bellechasse—Les Etchemins—Lévis",
     "pc": 51,
     "ndp": 5,
-    "lib": 17,
+    "lib": 16,
     "bloc": 18,
     "grn": 10,
     "other": 0
@@ -3163,7 +3163,7 @@
     "pc": 10,
     "ndp": 8,
     "lib": 23,
-    "bloc": 54,
+    "bloc": 53,
     "grn": 6,
     "other": 0
   },
@@ -3469,7 +3469,7 @@
     "province": "Quebec",
     "riding": "Shefford",
     "pc": 13,
-    "ndp": 13,
+    "ndp": 12,
     "lib": 35,
     "bloc": 32,
     "grn": 8,

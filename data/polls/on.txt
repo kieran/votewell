@@ -14,8 +14,8 @@ Brampton South  Lib.  44  33  13  0 8 2 LIB
 Brampton West Lib.  48  30  14  0 7 2 LIB
 Brantford—Brant Con.  32  40  13  0 9 6 LEANS CON
 Bruce—Grey—Owen Sound Con.  30  45  12  0 11  2 CON
-Burlington  Lib.  41  39  10  0 9 2 TOSS-UP
-Cambridge Lib.  34  35  16  0 10  5 TOSS-UP
+Burlington  Lib.  41  39  10  0 9 2 LEANS LIB
+Cambridge Lib.  34  35  16  0 10  5 LEANS CON
 Carleton  Con.  27  55  7 0 10  2 CON
 Chatham-Kent—Leamington Con.  31  50  15  0 2 1 CON
 Davenport Lib.  42  14  29  0 10  4 LIB
@@ -72,7 +72,7 @@ Niagara Falls Con.  29  41  19  0 9 2 CON
 Niagara West  Con.  24  42  12  0 9 14  CON
 Nickel Belt Lib.  34  15  41  0 9 2 LEANS NDP
 Nipissing—Timiskaming Lib.  44  28  17  0 9 2 LIB
-Northumberland—Peterborough South Lib.  35  37  17  0 10  1 TOSS-UP
+Northumberland—Peterborough South Lib.  35  37  17  0 10  1 LEANS CON
 Oakville  Lib.  42  40  7 0 8 2 LEANS LIB
 Oakville North—Burlington Lib.  40  39  8 0 7 5 LEANS LIB
 Orléans Lib.  52  29  10  0 8 2 LIB
@@ -114,7 +114,7 @@ University—Rosedale Lib.  40  15  30  0 9 5 LEANS LIB
 Vaughan—Woodbridge  Lib.  40  42  6 0 6 6 LEANS CON
 Waterloo  Lib.  45  22  16  0 15  2 LIB
 Wellington—Halton Hills Con.  27  48  9 0 12  3 CON
-Whitby  Lib.  39  38  11  0 8 3 TOSS-UP
+Whitby  Lib.  39  38  11  0 8 3 LEANS LIB
 Willowdale  Lib.  45  35  9 0 8 3 LIB
 Windsor West  NDP 35  20  40  0 1 3 LEANS NDP
 Windsor—Tecumseh  NDP 19  24  46  0 8 3 NDP
