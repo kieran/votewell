@@ -22,7 +22,7 @@ polls_regex = ///^
   (?<pc>\d+)        \s+ # Conservative
   (?<ndp>\d+)       \s+ # NDP
   (?<bloc>\d+)      \s+ # Bloc
-  (?<grn>\d+)       \s+ # Green
+  (?<gpc>\d+)       \s+ # Green
   (?<other>\d+)         # Other
   .*                    # (projection etc)
 $///mg
@@ -33,7 +33,7 @@ for province_code, province of provinces
   polls = fs.readFileSync "#{__dirname}/polls/#{province_code.toLowerCase()}.txt", "utf8"
 
   while res = polls_regex.exec polls
-    { riding, pc, ndp, lib, bloc, grn, other } = res.groups
+    { riding, pc, ndp, lib, bloc, gpc, other } = res.groups
     ret.push {
       province_code
       province
@@ -42,7 +42,7 @@ for province_code, province of provinces
       ndp:    parseInt ndp
       lib:    parseInt lib
       bloc:   parseInt bloc
-      grn:    parseInt grn
+      gpc:    parseInt gpc
       other:  parseInt other
     }
 

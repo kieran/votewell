@@ -31,7 +31,7 @@ import Reddit   from 'react-icons/lib/fa/reddit-alien'
 import Envelope from 'react-icons/lib/fa/envelope'
 
 # assets
-import grn from '/assets/grn.png'
+import gpc from '/assets/gpc.png'
 import lib from '/assets/lib.png'
 import ndp from '/assets/ndp.png'
 
@@ -42,9 +42,9 @@ parties =
   ndp:
     name: "NDP"
     img: ndp
-  grn:
+  gpc:
     name: "Green Party"
-    img: grn
+    img: gpc
   other:
     name: "Independent"
   anyone:
@@ -75,10 +75,10 @@ class Application extends React.Component
 
   pollData: =>
     polls = @pollsFor @props.riding
-    (name: key, value: val for key, val of polls when val and key in 'pc lib ndp grn bloc other'.split ' ')
+    (name: key, value: val for key, val of polls when val and key in 'pc lib ndp gpc bloc other'.split ' ')
 
   leftists: =>
-    leftists = "lib ndp grn anyone".split ' '
+    leftists = "lib ndp gpc anyone".split ' '
     return [ leftists..., 'other' ] if @props.riding is 'Vancouver Granville' # JWR
     return [ leftists..., 'other' ] if @props.riding is 'Markham—Stouffville' # Philpott
     leftists
