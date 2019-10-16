@@ -1,44 +1,44 @@
 BC riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Abbotsford  CON 20  54  11  0 13  3 CON
-Burnaby North—Seymour LIB 28  29  26  0 12  5 TOSS-UP
-Burnaby South NDP 23  25  36  0 10  6 LEANS NDP
-Cariboo—Prince George CON 22  39  21  0 7 10  CON
-Central Okanagan—Similkameen—Nicola CON 32  36  17  0 12  2 LEANS CON
-Chilliwack—Hope CON 21  47  15  0 12  6 CON
-Cloverdale—Langley City LIB 38  37  13  0 11  1 TOSS-UP
-Coquitlam—Port Coquitlam  LIB 29  34  19  0 10  8 LEANS CON
-Courtenay—Alberni NDP 14  31  34  0 17  3 LEANS NDP
-Cowichan—Malahat—Langford NDP 17  19  32  0 28  4 LEANS NDP
-Delta LIB 36  39  13  0 10  2 LEANS CON
-Esquimalt—Saanich—Sooke NDP 19  18  31  0 30  2 TOSS-UP
-Fleetwood—Port Kells  LIB 37  34  12  0 8 8 LEANS LIB
-Kamloops—Thompson—Cariboo CON 20  34  17  0 12  17  CON
-Kelowna—Lake Country  LIB 44  37  12  0 5 2 LEANS LIB
-Kootenay—Columbia NDP 10  40  34  0 15  2 LEANS CON
-Langley—Aldergrove  CON 27  48  10  0 11  4 CON
-Mission—Matsqui—Fraser Canyon LIB 30  36  14  0 12  9 LEANS CON
-Nanaimo—Ladysmith GRN 11  25  25  0 32  7 LEANS GRN
-New Westminster—Burnaby NDP 22  17  39  0 12  9 NDP
-North Island—Powell River NDP 15  29  37  0 17  2 LEANS NDP
-North Okanagan—Shuswap  CON 22  42  22  0 12  1 CON
-North Vancouver LIB 48  28  4 0 17  3 LIB
-Pitt Meadows—Maple Ridge  LIB 26  35  26  0 9 5 LEANS CON
-Port Moody—Coquitlam  NDP 26  26  35  0 11  3 LEANS NDP
-Prince George—Peace River—Northern Rockies  CON 13  54  12  0 12  9 CON
-Richmond Centre CON 32  48  9 0 10  1 CON
-Saanich—Gulf Islands  GRN 8 16  4 0 70  3 GRN
-Skeena—Bulkley Valley NDP 11  27  46  0 8 8 NDP
-South Okanagan—West Kootenay  NDP 23  26  35  0 12  4 LEANS NDP
-South Surrey—White Rock LIB 30  49  6 0 11  5 CON
-Steveston—Richmond East LIB 36  40  10  0 10  3 LEANS CON
-Surrey Centre LIB 41  23  22  0 11  3 LIB
-Surrey—Newton LIB 49  19  24  0 6 2 LIB
-Vancouver Centre  LIB 49  15  17  0 13  5 LIB
-Vancouver East  NDP 19  13  46  0 19  3 NDP
-Vancouver Granville LIB 26  24  15  0 8 27  TOSS-UP
-Vancouver Kingsway  NDP 22  24  35  0 10  9 LEANS NDP
-Vancouver Quadra  LIB 51  29  8 0 9 3 LIB
-Vancouver South LIB 44  30  12  0 9 5 LIB
-Victoria  NDP 20  17  31  0 26  6 LEANS NDP
-West Vancouver—Sunshine Coast—Sea to Sky Country  LIB 46  28  7 0 17  3 LIB
+Abbotsford  CON 20  54  12  0 11  3 CON
+Burnaby North—Seymour LIB 32  19  32  0 11  5 TOSS-UP
+Burnaby South NDP 22  24  38  0 9 7 NDP
+Cariboo—Prince George CON 21  38  22  0 7 12  CON
+Central Okanagan—Similkameen—Nicola CON 32  36  19  0 11  3 LEANS CON
+Chilliwack—Hope CON 20  46  16  0 11  7 CON
+Cloverdale—Langley City LIB 37  37  14  0 10  1 TOSS-UP
+Coquitlam—Port Coquitlam  LIB 28  33  20  0 9 9 LEANS CON
+Courtenay—Alberni NDP 14  31  36  0 16  3 LEANS NDP
+Cowichan—Malahat—Langford NDP 17  19  33  0 27  4 LEANS NDP
+Delta LIB 36  39  14  0 9 2 LEANS CON
+Esquimalt—Saanich—Sooke NDP 19  18  33  0 28  2 LEANS NDP
+Fleetwood—Port Kells  LIB 37  33  13  0 7 10  LEANS LIB
+Kamloops—Thompson—Cariboo CON 19  32  18  0 11  19  CON
+Kelowna—Lake Country  LIB 43  36  14  0 4 3 LEANS LIB
+Kootenay—Columbia NDP 10  39  35  0 13  2 LEANS CON
+Langley—Aldergrove  CON 27  47  11  0 10  4 CON
+Mission—Matsqui—Fraser Canyon LIB 29  35  15  0 11  10  LEANS CON
+Nanaimo—Ladysmith GRN 11  25  26  0 31  8 LEANS GRN
+New Westminster—Burnaby NDP 21  17  41  0 11  11  NDP
+North Island—Powell River NDP 15  29  39  0 16  2 NDP
+North Okanagan—Shuswap  CON 22  42  24  0 11  1 CON
+North Vancouver LIB 47  27  5 0 16  4 LIB
+Pitt Meadows—Maple Ridge  LIB 25  34  27  0 8 6 LEANS CON
+Port Moody—Coquitlam  NDP 25  26  36  0 10  4 LEANS NDP
+Prince George—Peace River—Northern Rockies  CON 13  54  13  0 11  10  CON
+Richmond Centre CON 32  47  11  0 9 1 CON
+Saanich—Gulf Islands  GRN 8 16  5 0 68  3 GRN
+Skeena—Bulkley Valley NDP 10  26  47  0 7 9 NDP
+South Okanagan—West Kootenay  NDP 22  26  37  0 11  5 NDP
+South Surrey—White Rock LIB 29  48  7 0 10  6 CON
+Steveston—Richmond East LIB 36  40  11  0 9 4 LEANS CON
+Surrey Centre LIB 40  23  24  0 10  4 LIB
+Surrey—Newton LIB 48  19  25  0 6 2 LIB
+Vancouver Centre  LIB 49  15  18  0 12  6 LIB
+Vancouver East  NDP 19  13  47  0 18  3 NDP
+Vancouver Granville LIB 25  22  16  0 7 30  LEANS OTH
+Vancouver Kingsway  NDP 21  23  36  0 9 11  NDP
+Vancouver Quadra  LIB 50  29  9 0 8 4 LIB
+Vancouver South LIB 43  30  13  0 8 5 LIB
+Victoria  NDP 19  17  32  0 24  7 LEANS NDP
+West Vancouver—Sunshine Coast—Sea to Sky Country  LIB 46  27  8 0 16  3 LIB

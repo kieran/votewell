@@ -1,36 +1,36 @@
 Alberta riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Banff—Airdrie CON 19  65  9 0 7 1 CON
-Battle River—Crowfoot CON 5 82  7 0 6 1 CON
-Bow River CON 6 79  7 0 5 3 CON
-Calgary Centre  LIB 39  48  7 0 5 2 LEANS CON
-Calgary Confederation CON 31  53  8 0 6 2 CON
-Calgary Forest Lawn CON 26  49  13  0 6 6 CON
-Calgary Heritage  CON 20  66  8 0 4 2 CON
-Calgary Midnapore CON 15  69  9 0 6 1 CON
-Calgary Nose Hill CON 19  62  10  0 5 4 CON
-Calgary Rocky Ridge CON 21  67  6 0 4 1 CON
-Calgary Shepard CON 18  68  9 0 5 1 CON
-Calgary Signal Hill CON 24  63  6 0 5 3 CON
-Calgary Skyview LIB 37  41  10  0 5 7 LEANS CON
-Edmonton Centre LIB 31  38  26  0 5 1 LEANS CON
-Edmonton Griesbach  CON 13  46  33  0 5 3 CON
-Edmonton Manning  CON 20  47  28  0 5 1 CON
-Edmonton Mill Woods LIB 35  43  13  0 5 4 LEANS CON
-Edmonton Riverbend  CON 22  52  19  0 5 2 CON
-Edmonton Strathcona NDP 24  40  27  0 5 4 CON
-Edmonton West CON 24  56  13  0 4 2 CON
-Edmonton—Wetaskiwin CON 15  67  12  0 5 2 CON
-Foothills CON 8 77  7 0 6 2 CON
-Fort McMurray—Cold Lake CON 20  63  9 0 4 3 CON
-Grande Prairie—Mackenzie  CON 9 74  9 0 5 3 CON
-Lakeland  CON 7 77  10  0 4 2 CON
-Lethbridge  CON 12  56  24  0 5 3 CON
-Medicine Hat—Cardston—Warner  CON 12  71  10  0 5 2 CON
-Peace River—Westlock  CON 5 71  16  0 6 2 CON
-Red Deer—Lacombe  CON 9 73  12  0 5 1 CON
-Red Deer—Mountain View  CON 7 78  8 0 5 2 CON
-Sherwood Park—Fort Saskatchewan CON 13  64  12  0 5 6 CON
-St. Albert—Edmonton CON 16  56  11  0 3 13  CON
-Sturgeon River—Parkland CON 8 71  11  0 7 2 CON
-Yellowhead  CON 8 73  10  0 5 3 CON
+Banff—Airdrie CON 18  64  10  0 7 1 CON
+Battle River—Crowfoot CON 4 81  8 0 6 1 CON
+Bow River CON 6 79  8 0 5 3 CON
+Calgary Centre  LIB 38  48  8 0 5 2 LEANS CON
+Calgary Confederation CON 31  53  9 0 6 2 CON
+Calgary Forest Lawn CON 26  49  14  0 6 6 CON
+Calgary Heritage  CON 20  65  9 0 4 2 CON
+Calgary Midnapore CON 14  68  10  0 6 1 CON
+Calgary Nose Hill CON 19  62  11  0 5 4 CON
+Calgary Rocky Ridge CON 20  67  7 0 4 1 CON
+Calgary Shepard CON 17  67  10  0 5 1 CON
+Calgary Signal Hill CON 24  62  7 0 5 2 CON
+Calgary Skyview LIB 37  40  11  0 5 7 LEANS CON
+Edmonton Centre LIB 30  37  28  0 5 1 LEANS CON
+Edmonton Griesbach  CON 13  45  35  0 5 3 CON
+Edmonton Manning  CON 19  45  30  0 5 1 CON
+Edmonton Mill Woods LIB 35  42  14  0 5 4 LEANS CON
+Edmonton Riverbend  CON 21  51  20  0 5 2 CON
+Edmonton Strathcona NDP 23  40  29  0 5 4 CON
+Edmonton West CON 23  56  15  0 4 2 CON
+Edmonton—Wetaskiwin CON 14  66  14  0 5 2 CON
+Foothills CON 8 76  8 0 6 2 CON
+Fort McMurray—Cold Lake CON 20  62  11  0 4 3 CON
+Grande Prairie—Mackenzie  CON 8 74  10  0 5 3 CON
+Lakeland  CON 6 76  11  0 4 2 CON
+Lethbridge  CON 11  55  26  0 5 3 CON
+Medicine Hat—Cardston—Warner  CON 12  70  11  0 5 2 CON
+Peace River—Westlock  CON 5 70  17  0 6 2 CON
+Red Deer—Lacombe  CON 9 72  13  0 5 1 CON
+Red Deer—Mountain View  CON 6 77  9 0 5 2 CON
+Sherwood Park—Fort Saskatchewan CON 13  63  14  0 5 6 CON
+St. Albert—Edmonton CON 16  56  12  0 3 13  CON
+Sturgeon River—Parkland CON 8 71  13  0 7 2 CON
+Yellowhead  CON 8 73  11  0 5 3 CON
