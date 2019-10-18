@@ -13,7 +13,7 @@ translation:
   "n'est pas nécessaire"
 
   "Please vote for your preferred candidate.": \
-  "S'il vous plaît voter pour votre candidat préféré."
+  "S'il vous plaît votez pour votre candidat préféré."
 
   "Where do I vote?":     "Où puis-je voter?"
   "Sources":              "Sources"
