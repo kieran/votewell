@@ -1,13 +1,13 @@
 Nova Scotia riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Cape Breton—Canso LIB 51  21  15  0 12  1 LIB
-Central Nova  LIB 30  29  16  0 20  5 TOSS-UP
-Cumberland—Colchester LIB 34  46  6 0 11  3 CON
-Dartmouth—Cole Harbour  LIB 50  17  21  0 11  1 LIB
-Halifax LIB 32  14  38  0 13  4 LEANS NDP
-Halifax West  LIB 44  21  20  0 13  1 LIB
-Kings—Hants LIB 46  24  6 0 19  4 LIB
-Sackville—Preston—Chezzetcook LIB 30  23  25  0 19  2 LEANS LIB
-South Shore—St. Margarets LIB 47  25  15  0 10  3 LIB
-Sydney—Victoria LIB 45  23  15  0 12  5 LIB
-West Nova LIB 41  32  13  0 14  1 LEANS LIB
+Cape Breton—Canso LIB 52  20  15  0 12  1 LIB
+Central Nova  LIB 30  28  15  0 21  5 LEANS LIB
+Cumberland—Colchester LIB 34  45  6 0 11  3 CON
+Dartmouth—Cole Harbour  LIB 51  16  21  0 11  1 LIB
+Halifax LIB 33  13  38  0 13  4 LEANS NDP
+Halifax West  LIB 45  20  20  0 14  1 LIB
+Kings—Hants LIB 47  23  6 0 20  4 LIB
+Sackville—Preston—Chezzetcook LIB 31  22  25  0 20  2 LEANS LIB
+South Shore—St. Margarets LIB 48  24  15  0 10  3 LIB
+Sydney—Victoria LIB 46  22  15  0 12  5 LIB
+West Nova LIB 41  31  13  0 14  1 LIB
