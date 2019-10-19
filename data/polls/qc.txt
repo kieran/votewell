@@ -1,80 +1,80 @@
 Québec riding-by-riding vote projection
 Riding name:  Incumbent Lib.  Con.  NDP Bloc  Green Other Projected winner
-Abitibi—Baie-James—Nunavik—Eeyou  NDP 30  9 25  29  6 1 TOSS-UP
-Abitibi—Témiscamingue NDP 27  7 29  30  5 2 TOSS-UP
-Ahuntsic-Cartierville LIB 45  7 19  22  6 1 LIB
-Alfred-Pellan LIB 42  11  13  27  6 1 LIB
-Argenteuil—La Petite-Nation LIB 41  11  14  28  6 0 LIB
-Avignon—La Mitis—Matane—Matapédia LIB 42  6 15  31  4 1 LIB
-Beauce  CON 15  32  3 14  4 32  TOSS-UP
-Beauport-Côte-de-Beaupré-Île d'Orléans-Charlevoix CON 24  33  9 29  5 0 LEANS CON
-Beauport—Limoilou CON 24  31  13  24  6 3 LEANS CON
+Abitibi—Baie-James—Nunavik—Eeyou  NDP 29  9 24  29  7 1 TOSS-UP
+Abitibi—Témiscamingue NDP 27  6 28  31  6 2 LEANS BQ
+Ahuntsic-Cartierville LIB 45  6 18  23  6 1 LIB
+Alfred-Pellan LIB 42  10  13  28  6 1 LIB
+Argenteuil—La Petite-Nation LIB 41  10  14  29  6 0 LIB
+Avignon—La Mitis—Matane—Matapédia LIB 42  6 15  32  4 1 LIB
+Beauce  CON 15  31  3 14  4 33  TOSS-UP
+Beauport-Côte-de-Beaupré-Île d'Orléans-Charlevoix CON 24  32  9 29  5 0 LEANS CON
+Beauport—Limoilou CON 24  30  13  24  7 3 LEANS CON
 Bécancour—Nicolet—Saurel  BQ  20  10  11  53  6 0 BQ
-Bellechasse—Les Etchemins—Lévis CON 18  50  6 19  8 0 CON
-Beloeil—Chambly NDP 20  9 19  46  6 1 BQ
-Berthier—Maskinongé NDP 19  10  30  40  1 0 LEANS BQ
+Bellechasse—Les Etchemins—Lévis CON 18  49  6 19  8 0 CON
+Beloeil—Chambly NDP 20  8 19  47  6 1 BQ
+Berthier—Maskinongé NDP 19  10  30  40  1 0 BQ
 Bourassa  LIB 49  8 6 25  6 6 LIB
-Brome—Missisquoi  LIB 42  11  14  27  6 1 LIB
+Brome—Missisquoi  LIB 42  10  13  27  7 1 LIB
 Brossard—Saint-Lambert  LIB 49  12  14  19  6 0 LIB
-Charlesbourg—Haute-Saint-Charles  CON 21  43  11  20  6 0 CON
-Châteauguay—Lacolle LIB 36  11  13  35  5 0 TOSS-UP
-Chicoutimi—Le Fjord CON 28  29  13  24  7 0 TOSS-UP
-Compton—Stanstead LIB 35  12  16  31  5 1 LEANS LIB
-Dorval—Lachine—LaSalle  LIB 53  11  11  18  6 1 LIB
-Drummond  NDP 24  17  19  34  6 0 LEANS BQ
+Charlesbourg—Haute-Saint-Charles  CON 21  42  11  21  6 0 CON
+Châteauguay—Lacolle LIB 36  10  13  35  6 0 TOSS-UP
+Chicoutimi—Le Fjord CON 28  28  12  24  7 0 TOSS-UP
+Compton—Stanstead LIB 35  11  16  31  6 1 LEANS LIB
+Dorval—Lachine—LaSalle  LIB 53  10  11  19  7 1 LIB
+Drummond  NDP 24  17  19  34  7 0 LEANS BQ
 Gaspésie—Les Îles-de-la-Madeleine LIB 37  6 20  32  4 1 LEANS LIB
-Gatineau  LIB 53  8 16  17  5 0 LIB
-Hochelaga NDP 29  6 15  44  1 4 BQ
-Honoré-Mercier  LIB 54  12  8 21  5 1 LIB
+Gatineau  LIB 53  8 16  18  6 0 LIB
+Hochelaga NDP 29  6 15  45  1 4 BQ
+Honoré-Mercier  LIB 54  11  7 21  5 1 LIB
 Hull—Aylmer LIB 50  7 20  15  6 2 LIB
 Joliette  BQ  24  9 14  46  6 1 BQ
-Jonquière NDP 21  22  17  34  4 2 LEANS BQ
-La Pointe-de-l'Île  BQ  24  7 15  46  5 2 BQ
-La Prairie  LIB 33  11  12  37  6 1 LEANS BQ
-Lac-Saint-Jean  LIB 35  25  6 20  4 10  LEANS LIB
-Lac-Saint-Louis LIB 63  17  3 10  7 0 LIB
-LaSalle—Émard—Verdun  LIB 42  7 17  26  8 0 LIB
-Laurentides—Labelle LIB 29  9 15  42  5 0 BQ
-Laurier—Sainte-Marie  NDP 33  4 21  36  2 4 LEANS BQ
-Laval—Les Îles  LIB 46  18  11  20  5 0 LIB
-Lévis—Lotbinière  CON 19  50  6 19  5 0 CON
-Longueuil—Charles-LeMoyne LIB 32  9 13  37  7 2 LEANS BQ
-Longueuil—Saint-Hubert  NDP 27  8 15  37  12  0 LEANS BQ
+Jonquière NDP 21  21  17  34  5 2 BQ
+La Pointe-de-l'Île  BQ  24  7 15  47  6 2 BQ
+La Prairie  LIB 33  11  12  38  6 1 LEANS BQ
+Lac-Saint-Jean  LIB 35  24  6 20  5 10  LIB
+Lac-Saint-Louis LIB 63  16  3 10  7 0 LIB
+LaSalle—Émard—Verdun  LIB 42  6 17  27  8 0 LIB
+Laurentides—Labelle LIB 29  9 14  42  6 0 BQ
+Laurier—Sainte-Marie  NDP 33  3 21  37  2 4 LEANS BQ
+Laval—Les Îles  LIB 46  17  10  21  5 0 LIB
+Lévis—Lotbinière  CON 19  49  6 20  6 0 CON
+Longueuil—Charles-LeMoyne LIB 32  8 13  37  7 2 LEANS BQ
+Longueuil—Saint-Hubert  NDP 27  7 14  38  13  0 BQ
 Louis-Hébert  LIB 33  26  11  23  7 0 LEANS LIB
-Louis-Saint-Laurent CON 19  51  7 18  5 0 CON
-Manicouagan BQ  24  9 8 54  4 0 BQ
-Marc-Aurèle-Fortin  LIB 38  11  13  32  5 0 LEANS LIB
-Mégantic—L'Érable CON 25  36  12  21  6 0 CON
-Mirabel BQ  26  9 15  44  6 0 BQ
-Montarville LIB 29  10  13  39  6 3 BQ
-Montcalm  BQ  23  9 12  49  5 2 BQ
-Montmagny—L'Islet—Kamouraska—Rivière-du-Loup  CON 21  24  13  35  5 1 BQ
-Mount Royal LIB 51  19  8 18  5 0 LIB
-Notre-Dame-de-Grâce—Westmount LIB 56  14  12  10  7 1 LIB
-Outremont LIB 32  8 27  17  13  3 LEANS LIB
+Louis-Saint-Laurent CON 19  50  7 18  6 0 CON
+Manicouagan BQ  24  9 8 55  5 0 BQ
+Marc-Aurèle-Fortin  LIB 38  11  13  32  6 0 LEANS LIB
+Mégantic—L'Érable CON 25  35  12  22  6 0 LEANS CON
+Mirabel BQ  26  9 15  45  6 0 BQ
+Montarville LIB 29  9 13  40  6 3 BQ
+Montcalm  BQ  22  8 12  49  5 2 BQ
+Montmagny—L'Islet—Kamouraska—Rivière-du-Loup  CON 21  24  13  36  5 1 BQ
+Mount Royal LIB 51  18  8 18  5 0 LIB
+Notre-Dame-de-Grâce—Westmount LIB 56  13  11  10  8 1 LIB
+Outremont LIB 32  8 27  17  14  3 LEANS LIB
 Papineau  LIB 48  4 14  19  7 7 LIB
-Pierre-Boucher—Les Patriotes—Verchères  BQ  26  9 14  42  8 0 BQ
-Pierrefonds—Dollard LIB 58  20  8 9 5 0 LIB
-Pontiac LIB 54  14  12  14  5 1 LIB
-Portneuf—Jacques-Cartier  CON 19  45  12  19  5 0 CON
-Québec  LIB 27  21  16  28  7 1 LEANS BQ
-Repentigny  BQ  22  9 12  46  5 6 BQ
-Richmond—Arthabaska CON 21  36  10  26  5 1 LEANS CON
-Rimouski-Neigette—Témiscouata—Les Basques NDP 26  11  24  34  5 1 LEANS BQ
-Rivière-des-Mille-Îles  LIB 32  9 13  27  5 12  LEANS LIB
-Rivière-du-Nord BQ  23  8 18  44  6 1 BQ
-Rosemont—La Petite-Patrie NDP 19  4 39  26  8 5 NDP
-Saint-Hyacinthe—Bagot NDP 24  16  17  35  6 1 BQ
-Saint-Jean  LIB 28  7 15  33  5 13  LEANS BQ
+Pierre-Boucher—Les Patriotes—Verchères  BQ  26  9 14  43  8 0 BQ
+Pierrefonds—Dollard LIB 59  19  8 9 5 0 LIB
+Pontiac LIB 54  13  12  14  6 1 LIB
+Portneuf—Jacques-Cartier  CON 19  44  11  20  6 0 CON
+Québec  LIB 27  20  15  29  8 1 LEANS BQ
+Repentigny  BQ  22  9 11  47  5 6 BQ
+Richmond—Arthabaska CON 22  35  10  27  5 1 LEANS CON
+Rimouski-Neigette—Témiscouata—Les Basques NDP 26  10  23  35  5 1 LEANS BQ
+Rivière-des-Mille-Îles  LIB 32  9 13  28  5 12  LEANS LIB
+Rivière-du-Nord BQ  23  7 18  44  7 1 BQ
+Rosemont—La Petite-Patrie NDP 19  4 38  26  8 5 NDP
+Saint-Hyacinthe—Bagot NDP 24  15  17  36  6 1 BQ
+Saint-Jean  LIB 28  6 14  33  6 13  LEANS BQ
 Saint-Laurent LIB 59  19  5 10  7 0 LIB
-Saint-Léonard—Saint-Michel  LIB 63  11  7 14  5 0 LIB
-Saint-Maurice—Champlain LIB 39  16  10  29  6 1 LIB
-Salaberry—Suroît  NDP 26  9 18  40  4 2 BQ
-Shefford  LIB 36  12  13  32  6 0 LEANS LIB
+Saint-Léonard—Saint-Michel  LIB 63  10  6 14  6 0 LIB
+Saint-Maurice—Champlain LIB 39  15  10  29  6 1 LIB
+Salaberry—Suroît  NDP 26  9 18  41  5 2 BQ
+Shefford  LIB 36  12  13  33  7 0 LEANS LIB
 Sherbrooke  NDP 27  9 25  31  6 2 LEANS BQ
-Terrebonne  BQ  24  10  14  46  5 0 BQ
-Thérèse-De Blainville LIB 30  12  14  38  6 0 LEANS BQ
+Terrebonne  BQ  24  10  14  47  5 0 BQ
+Thérèse-De Blainville LIB 30  11  14  39  7 0 LEANS BQ
 Trois-Rivières  NDP 27  18  21  27  6 1 TOSS-UP
 Vaudreuil—Soulanges LIB 45  13  12  24  6 0 LIB
-Ville-Marie—Le Sud-Ouest—Île-des-Soeurs LIB 48  11  13  15  11  1 LIB
-Vimy  LIB 43  13  11  26  6 1 LIB
+Ville-Marie—Le Sud-Ouest—Île-des-Soeurs LIB 48  11  13  15  12  1 LIB
+Vimy  LIB 43  12  11  26  7 1 LIB
