@@ -17,7 +17,7 @@
 
   [[redirects]]
     from = "/riding_for/*"
-    to = "https://api.votewell.ca/:splat"
+    to = "https://34rslm8t5k.execute-api.us-east-1.amazonaws.com/production/:splat"
     status = 200
 
 # Here is another way to define context specific environment variables.
@@ -27,7 +27,7 @@
 
   [[redirects]]
     from = "/riding_for/*"
-    to = "https://api-staging.votewell.ca/:splat"
+    to = "https://34rslm8t5k.execute-api.us-east-1.amazonaws.com/staging/:splat"
     status = 200
 
 

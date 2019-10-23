@@ -5,7 +5,7 @@
     "us-east-1"
   ],
   "proxy": {
-    "command": "npm run api"
+    "command": "node ./server.js"
   },
   "stages": {
     "staging": {
