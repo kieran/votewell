@@ -19,11 +19,11 @@ class Chart extends React.Component
       className={cx 'Chart', @state}
       onClick={@touchHover}
     >
-      {for {name, value} in @props.data
+      {for {name, value, party} in @props.data
         <div
           className="bar #{name}"
           key={name}
-          title={"#{name} #{value}%"}
+          title={party.name}
           data-percent={"#{value}%"}
           style={height: "#{value}%", width: "#{width}%"}
         />
