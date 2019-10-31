@@ -27,27 +27,8 @@
       font-weight: bold
       font-size: 1.2em
 
-    &.pc
-      background-color: $pc
-      &::before
-        color: $pc
-    &.lib
-      background-color: $lib
-      &::before
-        color: $lib
-    &.ndp
-      background-color: $ndp
-      &::before
-        color: $ndp
-    &.gpc
-      background-color: $gpc
-      &::before
-        color: $gpc
-    &.bloc
-      background-color: $bloc
-      &::before
-        color: $bloc
-    &.other
-      background-color: $other
-      &::before
-        color: $other
+    @each $name, $color in $parties
+      &.#{$name}
+        background-color: $color
+        &:before
+          color: $color
