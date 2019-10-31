@@ -68,5 +68,6 @@ typings/
 
 # cache directories
 .cache
-
+.DS_Store
 dist/
+data/current
