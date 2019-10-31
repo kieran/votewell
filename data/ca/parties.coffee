@@ -1,27 +1,37 @@
-import gpc from './gpc.png'
-import lib from './lib.png'
-import ndp from './ndp.png'
+import images from './*.png'
 
 export default \
 parties =
+
+  # main
   pc:
     name: "Conservative Party"
     leans: 'right'
+    img: images.pc
   lib:
     name: "Liberal Party"
     leans: 'left'
-    img: lib
+    img: images.lib
+
+  # secondary
   ndp:
     name: "NDP"
     leans: 'left'
-    img: ndp
+    img: images.ndp
   gpc:
     name: "Green Party"
     leans: 'left'
-    img: gpc
+    img: images.gpc
+
+  # single-issue
   bloc:
     name: "Bloc Quebecois"
+    img: images.bloc
+
+  # other
   other:
     name: "Independent"
+    img: images.other
+
   anyone:
     name: "Anyone"
