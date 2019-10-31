@@ -7,7 +7,7 @@
 
 [build]
   publish = "dist"
-  command = "npm run dist"
+  command = "npm run build"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
@@ -18,6 +18,16 @@
   [[redirects]]
     from = "/riding_for/*"
     to = "https://34rslm8t5k.execute-api.us-east-1.amazonaws.com/production/:splat"
+    status = 200
+
+[context.uk]
+  [context.uk.environment]
+    NODE_ENV = "production"
+    COUNTRY = "uk"
+
+  [[redirects]]
+    from = "/riding_for/*"
+    to = "https://api.votewell.ca/:splat"
     status = 200
 
 # Here is another way to define context specific environment variables.
