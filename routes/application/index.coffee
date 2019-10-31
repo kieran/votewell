@@ -18,37 +18,14 @@ import Logo     from '/assets/votewell.anim.svg'
 
 import CPLogo   from '/assets/cp-light.png'
 
-import {
-  FacebookShareButton
-  TwitterShareButton
-  RedditShareButton
-  EmailShareButton
-} from 'react-share'
-
+import FacebookShareButton  from 'react-share/es/FacebookShareButton'
+import TwitterShareButton   from 'react-share/es/TwitterShareButton'
+import RedditShareButton    from 'react-share/es/RedditShareButton'
+import EmailShareButton     from 'react-share/es/EmailShareButton'
 import Facebook from 'react-icons/lib/fa/facebook'
 import Twitter  from 'react-icons/lib/fa/twitter'
 import Reddit   from 'react-icons/lib/fa/reddit-alien'
 import Envelope from 'react-icons/lib/fa/envelope'
-
-# assets
-import gpc from '/assets/gpc.png'
-import lib from '/assets/lib.png'
-import ndp from '/assets/ndp.png'
-
-parties =
-  lib:
-    name: "Liberal Party"
-    img: lib
-  ndp:
-    name: "NDP"
-    img: ndp
-  gpc:
-    name: "Green Party"
-    img: gpc
-  other:
-    name: "Independent"
-  anyone:
-    name: "Anyone"
 
 sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> sum(arr) / arr.length
@@ -75,10 +52,10 @@ class Application extends React.Component
 
   pollData: =>
     polls = @pollsFor @props.riding
-    (name: key, value: val for key, val of polls when val and key in 'pc lib ndp gpc bloc other'.split ' ')
+    (name: key, value: polls[key], party: party for key, party of @props.parties when polls[key])
 
   leftists: =>
-    leftists = "lib ndp gpc anyone".split ' '
+    leftists = (key for key, val of @props.parties when val.leans is 'left')
     return [ leftists..., 'other' ] if @props.riding is 'Vancouver Granville' # JWR
     return [ leftists..., 'other' ] if @props.riding is 'Markham—Stouffville' # Philpott
     leftists
@@ -91,11 +68,11 @@ class Application extends React.Component
     # leading two left votes (+ a 20% margin, for safety)
     left  = (poll.value for poll in sorted when poll.name in @leftists())
     right = (poll.value for poll in sorted when poll.name not in @leftists())
-    return parties['anyone'] if avg(top_2(left)) >= sum(right) * 1.2
+    return @props.parties['anyone'] if avg(top_2(left)) >= sum(right) * 1.2
 
     # otherwise, choose the first leftist candidate
     for obj in sorted
-      return parties[obj.name] if obj.name in @leftists()
+      return @props.parties[obj.name] if obj.name in @leftists()
 
   render: ->
     <div className="ridings">
@@ -141,7 +118,7 @@ class Application extends React.Component
         </Qna>
 
         <Qna question="What if I want the Conservatives to win?">
-          <p>You should vote Conservative! Since there's no split on the right, this tool is not necessary.</p>
+          <p>You should vote Conservative! Since there’s no split on the right, this tool is not necessary.</p>
           <p>Thank you for participating in our shared civic duty.</p>
         </Qna>
 
@@ -166,7 +143,7 @@ class Application extends React.Component
         </Qna>
 
         <Qna question="Who are you?">
-          <p>I'm <a href="https://kieran.ca">Kieran Huggins</a>, a software developer in Toronto, Canada.</p>
+          <p>I’m <a href="https://kieran.ca">Kieran Huggins</a>, a software developer in Toronto, Canada.</p>
           <p>While I clearly have leftist politics, I am not affiliated with any political party.</p>
         </Qna>
       </section>
@@ -174,7 +151,7 @@ class Application extends React.Component
       <section key='faq' className='faq'>
         <Qna question="Qu'est-ce que c'est que ça?">
           <p>Il y a trois partis politiques de Gauche au Canada et seulement un à Droite. Cela cause souvent une éparpillement des voix de gauche et par contraste, les voix de droite sont plus puissantes.</p>
-          <p>Afin d'unifier le vote, cet outil vous informe si un vote utile est nécessaire dans votre circonsription électorale, et, si oui, lequel des partis est en tête.</p>
+          <p>Afin d’unifier le vote, cet outil vous informe si un vote utile est nécessaire dans votre circonsription électorale, et, si oui, lequel des partis est en tête.</p>
         </Qna>
 
         <Qna question="Qu’est-ce q'un vote utile?">
@@ -183,7 +160,7 @@ class Application extends React.Component
         </Qna>
 
         <Qna question="...Et si je veux que le parti Conservateur remporte l’élection?">
-          <p>Vous devriez donner votre voix au parti Conservateur! Puisque il n’y a pas d'éparpillement des voix à droite, cet outil n’est pas nécessaire.</p>
+          <p>Vous devriez donner votre voix au parti Conservateur! Puisque il n’y a pas d’éparpillement des voix à droite, cet outil n’est pas nécessaire.</p>
           <p>Merci d’avoir participé à notre devoir civique commun.</p>
         </Qna>
 
