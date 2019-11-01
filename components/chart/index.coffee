@@ -20,6 +20,7 @@ class Chart extends React.Component
       onClick={@touchHover}
     >
       {for {name, value, party} in @props.data
+        value = value.toFixed(0) if value > 5
         <div
           className="bar #{name}"
           key={name}
