@@ -6,6 +6,8 @@ import throttle     from 'underscore-es/throttle'
 import './styles'
 import './locales'
 
+gtag? 'config', process.env.ANALYTICS_ID
+
 import parties from "/data/current/parties"
 
 # routes
@@ -59,6 +61,7 @@ do ->
         @setState locating: true
         {latitude, longitude} = await getLocation()
         if latitude and longitude and riding = await getRiding latitude, longitude
+          gtag? 'event', 'riding-select-auto', event_category: 'engagement', event_label: riding
           @setRiding matchRiding riding
       catch err
         # retry a timeout once
@@ -69,6 +72,7 @@ do ->
         @setState locating: false
 
     setRiding: (riding)=>
+      gtag? 'event', 'riding-select', event_category: 'engagement', event_label: riding
       @setState { riding }
 
     setParties: (country)=>
