@@ -26,15 +26,10 @@ parties =
     leans: 'left'
     img: images.lib
 
-  ukip:
-    name: "UK Independence Party"
-    leans: 'right'
-    img: images.ukip
   uup:
     name: "Ulster Unionist Party"
     leans: 'right'
     img: images.uup
-
   green:
     name: "Green Party"
     leans: 'left'
@@ -56,9 +51,11 @@ parties =
     leans: 'left'
     img: images.alliance
 
-  min:
-    name: "MIN" # what is this?
-    img: images.min
+  # minor parties
+  ukip:
+    name: "UK Independence Party"
+    leans: 'right'
+    img: images.ukip
 
   # single-issue
   brexit:
@@ -67,8 +64,12 @@ parties =
 
   # other
   other:
-    name: "Independent"
+    name: "Other"
     img: images.other
+
+  min: # https://en.wikipedia.org/wiki/Sylvia_Hermon (right-leaning)
+    name: "Independent"
+    img: images.min
 
   anyone:
     name: "Anyone"
