@@ -42,6 +42,7 @@ class Application extends React.Component
 
   selectRiding: (evt)=>
     if riding = evt?.target?.value or evt?.value
+      gtag? 'event', "riding-select", event_category: 'engagement', event_label: riding
       @props.setRiding riding
 
   isEnglish: ->

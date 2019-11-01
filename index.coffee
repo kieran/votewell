@@ -72,7 +72,6 @@ do ->
         @setState locating: false
 
     setRiding: (riding)=>
-      gtag? 'event', 'riding-select', event_category: 'engagement', event_label: riding
       @setState { riding }
 
     setParties: (country)=>
