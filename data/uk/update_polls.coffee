@@ -16,7 +16,6 @@ urls = [
   'https://www.electoralcalculus.co.uk/conlist_ni.html'
 ]
 
-
 do ->
   try
     for url in urls
@@ -25,19 +24,20 @@ do ->
       for riding in $ '.conlistseat'
 
         obj = {}
+        other = 0
 
         obj.riding = $(riding).find('.seat').text()
 
         for proj in $(riding).find 'table.center tr[class]'
-          name = $(proj).find('td').first().text()
-          perc = parseFloat $(proj).find('td').last().text().replace /[^\d\.]/g, ''
-          obj[name.toLowerCase()] = perc
+          name = $(proj).find('td').first().text().toLowerCase()
+          value = parseFloat $(proj).find('td').last().text().replace /[^\d\.]/g, ''
 
-        # rename oth -> other
-        obj.other = obj.oth
-        obj.oth = undefined
+          if value < 1 or name is 'oth'
+            other = parseFloat (other + value).toFixed 1
+          else
+            obj[name] = value
 
-        polls.push obj
+        polls.push { obj..., other }
 
     fs.writeFileSync "#{__dirname}/polls.json", JSON.stringify polls, undefined, 2
 
