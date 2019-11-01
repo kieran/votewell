@@ -32,3 +32,5 @@
         background-color: $color
         &:before
           color: $color
+          @if lightness($color) > 75%
+            color: darken($color, 33%)
