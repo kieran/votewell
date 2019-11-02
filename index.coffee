@@ -6,7 +6,8 @@ import throttle     from 'underscore-es/throttle'
 import './styles'
 import './election/locales'
 
-gtag? 'config', process.env.ANALYTICS_ID
+# provide GTM fallback
+window.gtag ?= -> window.dataLayer?.push arguments
 
 import parties from "/election/parties"
 
@@ -61,7 +62,7 @@ do ->
         @setState locating: true
         {latitude, longitude} = await getLocation()
         if latitude and longitude and riding = await getRiding latitude, longitude
-          gtag? 'event', 'riding-select-auto', event_category: 'engagement', event_label: riding
+          gtag 'event', 'riding-select-auto', event_category: 'engagement', event_label: riding
           @setRiding matchRiding riding
       catch err
         # retry a timeout once

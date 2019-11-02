@@ -42,7 +42,6 @@
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
     "react-i18next": "^10.11.4",
     "react-icons": "^2.2.7",
     "react-select": "^1.2.1",

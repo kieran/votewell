@@ -3,7 +3,6 @@ import { render }   from "react-dom"
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
 import ReactSelect  from 'react-select'
-import { Helmet }   from "react-helmet"
 import {
   withTranslation
 } from 'react-i18next'
@@ -42,7 +41,7 @@ class Application extends React.Component
 
   selectRiding: (evt)=>
     if riding = evt?.target?.value or evt?.value
-      gtag? 'event', "riding-select", event_category: 'engagement', event_label: riding
+      gtag 'event', "riding-select", event_category: 'engagement', event_label: riding
       @props.setRiding riding
 
   lang: =>
@@ -79,7 +78,6 @@ class Application extends React.Component
     <div className="ridings">
       {if @props.riding
         [
-          @helmet()
           @header()
           @main()
           @faq()
@@ -119,13 +117,6 @@ class Application extends React.Component
         {@languageSelector()}
       </div>
     </footer>
-
-  helmet: ->
-    { t } = @props
-    <Helmet key="helmet">
-      <meta name="description" content={t 'description'} />
-      <meta property="og:description" content={t 'description'} />
-    </Helmet>
 
   share: ->
     { t } = @props
