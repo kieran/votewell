@@ -106,7 +106,7 @@ class Application extends React.Component
 
   faq: ->
     Faq = faqs[@lang()] or faqs.en
-    <Faq/>
+    <Faq key='faq'/>
 
   footer: ->
     <footer key='footer'>
