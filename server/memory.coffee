@@ -3,7 +3,7 @@ tag     = require "@turf/tag"
 
 { COUNTRY } = process.env
 
-geoJson = JSON.parse fs.readFileSync "#{__dirname}/../data/#{COUNTRY}/ridings-sm.geojson", 'utf8'
+geoJson = JSON.parse fs.readFileSync "#{__dirname}/../elections/#{COUNTRY}/ridings-sm.geojson", 'utf8'
 
 module.exports = ridingAt = (lat, lng)->
   new Promise (resolve, reject)->

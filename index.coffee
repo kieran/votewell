@@ -4,11 +4,11 @@ import axios        from 'axios'
 import throttle     from 'underscore-es/throttle'
 
 import './styles'
-import './locales'
+import './election/locales'
 
 gtag? 'config', process.env.ANALYTICS_ID
 
-import parties from "/data/current/parties"
+import parties from "/election/parties"
 
 # routes
 import Application  from '/routes/application'
@@ -18,7 +18,7 @@ do ->
     Sentry = await import('@sentry/browser')
     Sentry.init { dsn, environment: process.env.NODE_ENV }
 
-  polls = await import('/data/current/polls.json')
+  polls = await import('/election/polls.json')
 
   # fuzzy riding name matcher
   # removes weird dash / apostrophe mis-matches

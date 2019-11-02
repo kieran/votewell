@@ -1,6 +1,6 @@
 export default \
-translation:
-  "A strategic voting tool for the 2019 Canadian federal election": \
+translation: {
+  "description": \
   "Un outil de vote stratégique pour les élections fédérales canadiennes de 2019"
 
   "A strategic vote in your riding": \
@@ -22,3 +22,4 @@ translation:
   "Code":                 "Code"
 
   "votelink":   "https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=f"
+}

@@ -14,8 +14,8 @@
     "api": "nodemon --watch data --watch ./server ./server/index.coffee",
     "up_api": "up start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "link": "cd ./data && rm -f ./current && ln -s ./${COUNTRY:-ca} ./current",
-    "update_polls": "npx coffee data/current/update_polls.coffee"
+    "link": "rm -f ./election && ln -s ./elections/${COUNTRY:-ca} ./election",
+    "update_polls": "npx coffee election/update_polls.coffee"
   },
   "dependencies": {
     "@babel/core": "^7.5.4",
