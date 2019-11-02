@@ -9,7 +9,7 @@ class Faq extends React.Component
       <Qna question="What is this?">
         <p>
           There are several parties in the UK with leftist politics, including being against a hard Brexit, while the vote on the right is far more cohesive. This often causes a "split vote" among progressive voters, giving the right
-          <a href="https://www.youtube.com/watch?v=r9rGX91rq5I">over-representative majorities in parliament.</a>
+          {' '}<a href="https://www.youtube.com/watch?v=r9rGX91rq5I">over-representative majorities in parliament.</a>
         </p>
         <p>To "un-split" the vote, this tool tells you if tactical voting is necessary in your constituency, and if so, which party is the leading choice.</p>
       </Qna>
@@ -36,9 +36,9 @@ class Faq extends React.Component
         </p>
       </Qna>
 
-      <Qna question="Do I need to register to vote?">
+      <Qna question="How do I register to vote?">
         <p>
-          Yes. If you haven’t voted at your current address before, you will need to
+          If you haven’t voted at your current address before, you will need to
           {' '}<a href="https://www.gov.uk/register-to-vote">register here</a>{' '}
           by November 26 at midnight.
         </p>

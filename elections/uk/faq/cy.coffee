@@ -16,8 +16,8 @@ class Faq extends React.Component
         <p>Byddai systemau pleidleisio cyfrannol fel y rhai a ddefnyddir yn etholiadau seneddau datganoledig yr Alban, Cymru a Gogledd Iwerddon, ac yn Senedd Ewrop yn cael cynrychiolaeth yn adlewyrchu‘r bleidlais yn awtomatig, gan wneud yr offeryn hwn yn ddarfodedig.</p>
       </Qna>
 
-      <Qna question="A oes angen i mi gofrestru i bleidleisio?">
-        <p>Ydw. Os nad ydych wedi pleidleisio yn eich cyfeiriad cyfredol o‘r blaen, bydd angen i chi gofrestru yma erbyn Tachwedd 26 am hanner nos.</p>
+      <Qna question="Sut mae cofrestru i bleidleisio?">
+        <p>Os nad ydych wedi pleidleisio yn eich cyfeiriad cyfredol o‘r blaen, bydd angen i chi gofrestru yma erbyn Tachwedd 26 am hanner nos.</p>
       </Qna>
 
       <Qna question="Beth os ydw i am i‘r Ceidwadwyr ennill?">
