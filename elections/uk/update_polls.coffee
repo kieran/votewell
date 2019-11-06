@@ -19,6 +19,7 @@ urls = [
 do ->
   try
     for url in urls
+      console.log "fetching #{url} ..."
       { data } = await axios url
       $ = cheerio.load data
       for riding in $ '.conlistseat'
