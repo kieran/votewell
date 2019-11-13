@@ -1,5201 +1,4825 @@
 [
   {
     "riding": "Aldershot",
-    "con": 46.8,
-    "lab": 19.7,
-    "lib": 16.9,
-    "green": 3.2,
-    "brexit": 11.7,
-    "other": 1.8
+    "con": 57,
+    "lab": 22.1,
+    "lib": 16.7,
+    "green": 2.7,
+    "other": 1.4
   },
   {
     "riding": "Aldridge-Brownhills",
-    "con": 53.1,
-    "lab": 18.5,
+    "con": 64.1,
+    "lab": 20.7,
     "lib": 11.8,
-    "brexit": 12.6,
-    "green": 1.8,
-    "other": 2.2
+    "green": 1.6,
+    "other": 1.8
   },
   {
     "riding": "Altrincham and Sale West",
-    "con": 41.9,
-    "lab": 27.5,
-    "lib": 17.5,
-    "green": 3,
-    "brexit": 8.9,
-    "other": 1.2
-  },
-  {
-    "riding": "Amber Valley",
-    "con": 44.5,
-    "lab": 26.6,
-    "lib": 9.5,
-    "green": 2.5,
-    "brexit": 15.2,
-    "other": 1.7
-  },
-  {
-    "riding": "Arundel and South Downs",
-    "con": 51.6,
-    "lab": 14.2,
-    "lib": 19.2,
-    "green": 3.7,
-    "brexit": 9.8,
-    "other": 1.6
-  },
-  {
-    "riding": "Ashfield",
-    "lab": 30.4,
-    "con": 38.9,
-    "lib": 9.6,
-    "green": 2.1,
-    "brexit": 17.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Ashford",
-    "con": 49.8,
-    "lab": 18.5,
-    "lib": 14.6,
-    "green": 3.1,
-    "brexit": 12.3,
-    "other": 1.7
-  },
-  {
-    "riding": "Ashton under Lyne",
-    "lab": 40.7,
-    "con": 32.1,
-    "lib": 8.3,
-    "green": 2.9,
-    "brexit": 14.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Aylesbury",
-    "con": 47.3,
-    "lab": 19.3,
-    "lib": 18.4,
-    "green": 2.9,
-    "brexit": 10.1,
-    "other": 1.9
-  },
-  {
-    "riding": "Banbury",
-    "con": 46.7,
-    "lab": 21.7,
-    "lib": 15.8,
-    "green": 3.3,
-    "brexit": 10,
-    "other": 2.5
-  },
-  {
-    "riding": "Barking",
-    "lab": 46.3,
-    "con": 28.6,
-    "green": 3.3,
-    "lib": 9,
-    "brexit": 11,
-    "other": 1.9
-  },
-  {
-    "riding": "Barnsley Central",
-    "lab": 40.8,
-    "con": 29,
-    "green": 2.9,
-    "lib": 8.2,
-    "brexit": 17,
-    "other": 2
-  },
-  {
-    "riding": "Barnsley East",
-    "lab": 38.8,
-    "con": 30.7,
-    "lib": 8,
-    "brexit": 18.5,
-    "green": 2,
-    "other": 2
-  },
-  {
-    "riding": "Barrow and Furness",
-    "lab": 32.5,
-    "con": 40.1,
-    "lib": 10.1,
+    "con": 49.4,
+    "lab": 29.6,
+    "lib": 17.3,
     "green": 2.6,
-    "brexit": 13.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Basildon and Billericay",
-    "con": 50.6,
-    "lab": 19.9,
-    "lib": 12.1,
-    "brexit": 13.7,
-    "green": 1.8,
-    "other": 1.9
-  },
-  {
-    "riding": "Basildon South and East Thurrock",
-    "con": 49,
-    "lab": 20.7,
-    "lib": 9.6,
-    "green": 2.3,
-    "brexit": 16.1,
-    "other": 2.4
-  },
-  {
-    "riding": "Basingstoke",
-    "con": 45.4,
-    "lab": 22.3,
-    "lib": 16.5,
-    "green": 2.9,
-    "brexit": 11,
-    "other": 2
-  },
-  {
-    "riding": "Bassetlaw",
-    "lab": 34.4,
-    "con": 38.8,
-    "lib": 8.5,
-    "brexit": 14.9,
-    "green": 2,
-    "other": 1.3
-  },
-  {
-    "riding": "Bath",
-    "lib": 51.9,
-    "con": 28.6,
-    "lab": 9.4,
-    "green": 3.9,
-    "brexit": 5,
-    "other": 1.1
-  },
-  {
-    "riding": "Batley and Spen",
-    "lab": 42,
-    "con": 34.8,
-    "lib": 8.1,
-    "green": 2.5,
-    "brexit": 11.7,
     "other": 1
   },
   {
-    "riding": "Battersea",
-    "lab": 31.7,
-    "con": 36.3,
-    "lib": 21.6,
-    "green": 4.3,
-    "brexit": 4.7,
-    "other": 1.4
-  },
-  {
-    "riding": "Beaconsfield",
-    "con": 53.5,
-    "lab": 14.2,
-    "lib": 18.4,
-    "green": 3,
-    "brexit": 9.4,
-    "other": 1.6
-  },
-  {
-    "riding": "Beckenham",
-    "con": 49.6,
-    "lab": 18.5,
-    "lib": 18.7,
-    "green": 3.4,
-    "brexit": 8.4,
+    "riding": "Amber Valley",
+    "con": 57.9,
+    "lab": 28.9,
+    "lib": 9.6,
+    "green": 2.2,
     "other": 1.5
   },
   {
-    "riding": "Bedford",
-    "lab": 30.8,
-    "con": 40.3,
-    "lib": 14.9,
-    "green": 3.5,
-    "brexit": 8.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Bedfordshire Mid",
-    "con": 50.8,
-    "lab": 17.4,
-    "lib": 16.7,
-    "green": 3.4,
-    "brexit": 9.6,
-    "other": 2
-  },
-  {
-    "riding": "Bedfordshire North East",
-    "con": 50.8,
-    "lab": 17.7,
-    "lib": 16.2,
-    "green": 2.9,
-    "brexit": 10.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Bedfordshire South West",
-    "con": 48.9,
-    "lab": 21,
-    "lib": 14.2,
-    "green": 3,
-    "brexit": 11,
-    "other": 1.9
-  },
-  {
-    "riding": "Bermondsey and Old Southwark",
-    "lab": 31.4,
-    "lib": 39.2,
-    "con": 19.6,
-    "green": 3.9,
-    "brexit": 4.6,
+    "riding": "Arundel and South Downs",
+    "con": 60.3,
+    "lab": 16.3,
+    "lib": 19,
+    "green": 3.1,
     "other": 1.3
   },
   {
-    "riding": "Berwick-upon-Tweed",
-    "con": 42.2,
-    "lab": 17,
-    "lib": 25.2,
+    "riding": "Ashfield",
+    "lab": 32.4,
+    "con": 41.5,
+    "lib": 9.4,
+    "green": 1.8,
+    "brexit": 13.5,
+    "other": 1.4
+  },
+  {
+    "riding": "Ashford",
+    "con": 60.5,
+    "lab": 20.9,
+    "lib": 14.5,
+    "green": 2.6,
+    "other": 1.5
+  },
+  {
+    "riding": "Ashton under Lyne",
+    "lab": 42.8,
+    "con": 34.4,
+    "lib": 8.1,
+    "green": 2.5,
+    "brexit": 10.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Aylesbury",
+    "con": 56,
+    "lab": 21.7,
+    "lib": 18.2,
     "green": 2.4,
-    "brexit": 12.1,
+    "other": 1.6
+  },
+  {
+    "riding": "Banbury",
+    "con": 55.5,
+    "lab": 24.1,
+    "lib": 15.6,
+    "green": 2.8,
+    "other": 2.1
+  },
+  {
+    "riding": "Barking",
+    "lab": 48.3,
+    "con": 30.2,
+    "green": 2.8,
+    "lib": 8.8,
+    "brexit": 8.3,
+    "other": 1.6
+  },
+  {
+    "riding": "Barnsley Central",
+    "lab": 42.8,
+    "con": 31.8,
+    "ukip": 1.1,
+    "green": 2.5,
+    "lib": 8.1,
+    "brexit": 13.1,
+    "other": 0.8
+  },
+  {
+    "riding": "Barnsley East",
+    "lab": 40.8,
+    "con": 33.3,
+    "ukip": 1.1,
+    "lib": 7.8,
+    "brexit": 14.5,
+    "green": 1.7,
+    "other": 0.8
+  },
+  {
+    "riding": "Barrow and Furness",
+    "lab": 34.5,
+    "con": 42.1,
+    "lib": 9.9,
+    "green": 2.2,
+    "brexit": 10.1,
+    "other": 1.3
+  },
+  {
+    "riding": "Basildon and Billericay",
+    "con": 62.6,
+    "lab": 22.2,
+    "lib": 12.1,
+    "green": 1.5,
+    "other": 1.6
+  },
+  {
+    "riding": "Basildon South and East Thurrock",
+    "con": 63.3,
+    "lab": 23,
+    "lib": 9.7,
+    "green": 2,
+    "other": 2
+  },
+  {
+    "riding": "Basingstoke",
+    "con": 54.9,
+    "lab": 24.7,
+    "lib": 16.3,
+    "green": 2.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Bassetlaw",
+    "lab": 36.5,
+    "con": 41.2,
+    "lib": 8.3,
+    "brexit": 11.2,
+    "green": 1.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Bath",
+    "lib": 52.9,
+    "con": 29.9,
+    "lab": 12.4,
+    "brexit": 3.9,
+    "other": 0.9
+  },
+  {
+    "riding": "Batley and Spen",
+    "lab": 44,
+    "con": 36.4,
+    "lib": 7.9,
+    "green": 2.2,
+    "brexit": 8.8,
+    "other": 0.9
+  },
+  {
+    "riding": "Battersea",
+    "lab": 33.7,
+    "con": 36.7,
+    "lib": 21.1,
+    "green": 3.7,
+    "brexit": 3.6,
     "other": 1.2
   },
   {
+    "riding": "Beaconsfield",
+    "con": 66.1,
+    "lab": 32.6,
+    "other": 1.3
+  },
+  {
+    "riding": "Beckenham",
+    "con": 56.8,
+    "lab": 20.7,
+    "lib": 18.4,
+    "green": 2.9,
+    "other": 1.2
+  },
+  {
+    "riding": "Bedford",
+    "lab": 32.8,
+    "con": 41.6,
+    "lib": 14.5,
+    "green": 3,
+    "brexit": 6.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Bedfordshire Mid",
+    "con": 59.2,
+    "lab": 19.7,
+    "lib": 16.5,
+    "green": 2.9,
+    "other": 1.7
+  },
+  {
+    "riding": "Bedfordshire North East",
+    "con": 60.1,
+    "lab": 20,
+    "lib": 16,
+    "green": 2.5,
+    "other": 1.5
+  },
+  {
+    "riding": "Bedfordshire South West",
+    "con": 58.5,
+    "lab": 23.3,
+    "lib": 14.1,
+    "green": 2.5,
+    "other": 1.6
+  },
+  {
+    "riding": "Bermondsey and Old Southwark",
+    "lab": 35.1,
+    "lib": 40.2,
+    "con": 20.1,
+    "brexit": 3.5,
+    "other": 1.1
+  },
+  {
+    "riding": "Berwick-upon-Tweed",
+    "con": 52.7,
+    "lab": 19.2,
+    "lib": 25.1,
+    "green": 2,
+    "other": 1
+  },
+  {
     "riding": "Bethnal Green and Bow",
-    "lab": 56.8,
-    "con": 19.8,
-    "lib": 12.7,
-    "green": 5.7,
-    "brexit": 4.3,
+    "lab": 58.8,
+    "con": 20,
+    "lib": 12.4,
+    "green": 4.9,
+    "brexit": 3.2,
     "other": 0.7
   },
   {
     "riding": "Beverley and Holderness",
-    "con": 46.9,
-    "lab": 23.2,
+    "con": 58.7,
+    "lab": 25.5,
     "lib": 12.6,
-    "green": 2.5,
-    "brexit": 13.5,
-    "other": 1.2
-  },
-  {
-    "riding": "Bexhill and Battle",
-    "con": 52.5,
-    "lab": 15,
-    "lib": 16.7,
-    "green": 2.7,
-    "brexit": 11.5,
-    "other": 1.7
-  },
-  {
-    "riding": "Bexleyheath and Crayford",
-    "con": 48.4,
-    "lab": 22.4,
-    "lib": 11.3,
-    "green": 2.6,
-    "brexit": 13.2,
-    "other": 2.2
-  },
-  {
-    "riding": "Birkenhead",
-    "lab": 50.6,
-    "con": 23.5,
-    "lib": 10.8,
-    "green": 3.9,
-    "brexit": 9.8,
-    "other": 1.5
-  },
-  {
-    "riding": "Birmingham Edgbaston",
-    "lab": 35.2,
-    "con": 36.3,
-    "lib": 15,
-    "green": 3.8,
-    "brexit": 8,
-    "other": 1.7
-  },
-  {
-    "riding": "Birmingham Erdington",
-    "lab": 37,
-    "con": 36.1,
-    "lib": 11.2,
-    "green": 3.3,
-    "brexit": 10.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Birmingham Hall Green",
-    "lab": 59.7,
-    "con": 20.1,
-    "lib": 12.6,
-    "green": 3,
-    "brexit": 3.9,
-    "other": 0.6
-  },
-  {
-    "riding": "Birmingham Hodge Hill",
-    "lab": 63.4,
-    "con": 19.8,
-    "lib": 7.3,
-    "green": 2.1,
-    "brexit": 6.6,
-    "other": 0.8
-  },
-  {
-    "riding": "Birmingham Ladywood",
-    "lab": 60.4,
-    "con": 18.9,
-    "lib": 11.5,
-    "green": 4.1,
-    "brexit": 4.3,
-    "other": 0.9
-  },
-  {
-    "riding": "Birmingham Northfield",
-    "lab": 32.5,
-    "con": 38.9,
-    "lib": 12.1,
-    "green": 3.4,
-    "brexit": 11.3,
-    "other": 1.8
-  },
-  {
-    "riding": "Birmingham Perry Barr",
-    "lab": 48.1,
-    "con": 28.8,
-    "lib": 10.9,
-    "green": 3.3,
-    "brexit": 7.6,
-    "other": 1.3
-  },
-  {
-    "riding": "Birmingham Selly Oak",
-    "lab": 38.8,
-    "con": 32,
-    "lib": 15.5,
-    "green": 4.5,
-    "brexit": 7.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Birmingham Yardley",
-    "lab": 38.2,
-    "con": 27.3,
-    "lib": 20.7,
-    "green": 2.4,
-    "brexit": 10,
-    "other": 1.4
-  },
-  {
-    "riding": "Bishop Auckland",
-    "lab": 32.2,
-    "con": 39.4,
-    "lib": 10.2,
-    "brexit": 13.9,
-    "green": 2.1,
-    "other": 2.1
-  },
-  {
-    "riding": "Blackburn",
-    "lab": 55.9,
-    "con": 26.5,
-    "lib": 6.4,
-    "brexit": 8.7,
-    "green": 1.6,
-    "other": 0.8
-  },
-  {
-    "riding": "Blackley and Broughton",
-    "lab": 51.4,
-    "con": 24.9,
-    "lib": 8.1,
-    "green": 3.2,
-    "brexit": 10.9,
-    "other": 1.4
-  },
-  {
-    "riding": "Blackpool North and Cleveleys",
-    "con": 41.6,
-    "lab": 30.2,
-    "lib": 8.8,
-    "green": 2.3,
-    "brexit": 15.5,
-    "other": 1.6
-  },
-  {
-    "riding": "Blackpool South",
-    "lab": 33.8,
-    "con": 37.6,
-    "lib": 8.3,
-    "green": 2.6,
-    "brexit": 16.1,
-    "other": 1.7
-  },
-  {
-    "riding": "Blaydon",
-    "lab": 36.2,
-    "con": 30.8,
-    "lib": 15.2,
-    "green": 2.8,
-    "brexit": 13.4,
-    "other": 1.7
-  },
-  {
-    "riding": "Blyth Valley",
-    "lab": 36,
-    "con": 34.4,
-    "lib": 11.7,
-    "green": 3.3,
-    "brexit": 13.2,
-    "other": 1.4
-  },
-  {
-    "riding": "Bognor Regis and Littlehampton",
-    "con": 51.6,
-    "lab": 16.2,
-    "lib": 14.3,
-    "green": 2.6,
-    "brexit": 13.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Bolsover",
-    "lab": 33.7,
-    "con": 36.9,
-    "lib": 8.7,
-    "brexit": 17.3,
-    "green": 1.9,
-    "other": 1.5
-  },
-  {
-    "riding": "Bolton North East",
-    "lab": 37.2,
-    "con": 37.1,
-    "lib": 9.3,
-    "green": 2.3,
-    "brexit": 12.8,
-    "other": 1.2
-  },
-  {
-    "riding": "Bolton South East",
-    "lab": 44.6,
-    "con": 30.4,
-    "lib": 7.3,
-    "green": 2.6,
-    "brexit": 13.7,
-    "other": 1.3
-  },
-  {
-    "riding": "Bolton West",
-    "con": 41,
-    "lab": 31.7,
-    "lib": 11,
-    "brexit": 13.1,
-    "green": 2,
-    "other": 1.3
-  },
-  {
-    "riding": "Bootle",
-    "lab": 54.7,
-    "con": 20.2,
-    "lib": 10,
-    "green": 3.5,
-    "brexit": 9.6,
-    "other": 1.9
-  },
-  {
-    "riding": "Boston and Skegness",
-    "con": 48.7,
-    "lab": 18.4,
-    "lib": 7.2,
-    "green": 1.9,
-    "brexit": 22,
-    "other": 1.9
-  },
-  {
-    "riding": "Bosworth",
-    "con": 45.4,
-    "lab": 17.2,
-    "lib": 20.4,
     "green": 2.2,
-    "brexit": 13.6,
-    "other": 1.2
-  },
-  {
-    "riding": "Bournemouth East",
-    "con": 44.5,
-    "lab": 22,
-    "lib": 17.2,
-    "green": 3.9,
-    "brexit": 10.5,
-    "other": 2.1
-  },
-  {
-    "riding": "Bournemouth West",
-    "con": 44.5,
-    "lab": 22,
-    "lib": 16.6,
-    "green": 4.2,
-    "brexit": 10.6,
-    "other": 2
-  },
-  {
-    "riding": "Bracknell",
-    "con": 49.1,
-    "lab": 18.7,
-    "lib": 17.1,
-    "brexit": 10.7,
-    "green": 2.3,
-    "other": 2.1
-  },
-  {
-    "riding": "Bradford East",
-    "lab": 55.8,
-    "con": 23.5,
-    "lib": 8.1,
-    "green": 2.1,
-    "brexit": 9.4,
     "other": 1
   },
   {
-    "riding": "Bradford South",
-    "lab": 39.3,
-    "con": 34.7,
-    "lib": 7.4,
-    "green": 2.5,
-    "brexit": 14.8,
-    "other": 1.3
+    "riding": "Bexhill and Battle",
+    "con": 62.6,
+    "lab": 17.2,
+    "lib": 16.5,
+    "green": 2.2,
+    "other": 1.4
   },
   {
-    "riding": "Bradford West",
-    "lab": 63.8,
-    "con": 20.8,
-    "lib": 5.4,
-    "green": 2.4,
-    "brexit": 7,
-    "other": 0.6
-  },
-  {
-    "riding": "Braintree",
-    "con": 51.8,
-    "lab": 17.6,
-    "lib": 13.3,
-    "green": 2.8,
-    "brexit": 12.9,
+    "riding": "Bexleyheath and Crayford",
+    "con": 60.1,
+    "lab": 24.6,
+    "lib": 11.3,
+    "green": 2.3,
     "other": 1.8
   },
   {
-    "riding": "Brent Central",
-    "lab": 49.6,
-    "con": 24.7,
-    "lib": 14.8,
-    "green": 3.9,
-    "brexit": 6,
-    "other": 1.1
-  },
-  {
-    "riding": "Brent North",
-    "lab": 43.2,
-    "con": 32.9,
-    "lib": 12.2,
-    "green": 4,
-    "brexit": 6,
-    "other": 1.7
-  },
-  {
-    "riding": "Brentford and Isleworth",
-    "lab": 37.6,
-    "con": 35.8,
-    "lib": 15.5,
-    "brexit": 6.7,
-    "green": 3.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Brentwood and Ongar",
-    "con": 54,
-    "lab": 13.6,
-    "lib": 16.5,
-    "green": 2.3,
-    "brexit": 11.9,
-    "other": 1.7
-  },
-  {
-    "riding": "Bridgwater and West Somerset",
-    "con": 47.9,
-    "lab": 17.1,
-    "lib": 17.5,
-    "green": 2.8,
-    "brexit": 13,
-    "other": 1.7
-  },
-  {
-    "riding": "Brigg and Goole",
-    "con": 47.9,
-    "lab": 23.3,
-    "lib": 8.9,
-    "green": 2.2,
-    "brexit": 16.3,
-    "other": 1.5
-  },
-  {
-    "riding": "Brighton Kemptown",
-    "lab": 34.6,
-    "con": 36.3,
-    "lib": 14.5,
-    "brexit": 8.4,
-    "green": 4.3,
-    "other": 2
-  },
-  {
-    "riding": "Brighton Pavilion",
-    "green": 48.3,
-    "lab": 14.3,
-    "con": 22.3,
-    "lib": 10.8,
-    "brexit": 3,
+    "riding": "Birkenhead",
+    "lab": 52.6,
+    "con": 24.9,
+    "lib": 10.5,
+    "green": 3.4,
+    "brexit": 7.4,
     "other": 1.3
   },
   {
-    "riding": "Bristol East",
-    "lab": 36.6,
-    "con": 34.4,
-    "lib": 13.7,
-    "green": 4.8,
-    "brexit": 8.9,
-    "other": 1.6
+    "riding": "Birmingham Edgbaston",
+    "lab": 37.3,
+    "con": 37.4,
+    "lib": 14.7,
+    "green": 3.3,
+    "brexit": 6,
+    "other": 1.4
   },
   {
-    "riding": "Bristol North West",
-    "lab": 30.1,
-    "con": 38.1,
-    "lib": 18.4,
-    "green": 4.1,
-    "brexit": 7.7,
+    "riding": "Birmingham Erdington",
+    "lab": 39,
+    "con": 37.7,
+    "lib": 11,
+    "green": 2.8,
+    "brexit": 8.1,
+    "other": 1.4
+  },
+  {
+    "riding": "Birmingham Hall Green",
+    "lab": 61.8,
+    "con": 19.8,
+    "lib": 12.3,
+    "green": 2.6,
+    "brexit": 3,
+    "other": 0.5
+  },
+  {
+    "riding": "Birmingham Hodge Hill",
+    "lab": 65.5,
+    "con": 19.9,
+    "lib": 7.1,
+    "green": 1.8,
+    "brexit": 5,
+    "other": 0.7
+  },
+  {
+    "riding": "Birmingham Ladywood",
+    "lab": 62.4,
+    "con": 18.9,
+    "lib": 11.2,
+    "green": 3.5,
+    "brexit": 3.2,
+    "other": 0.7
+  },
+  {
+    "riding": "Birmingham Northfield",
+    "lab": 34.5,
+    "con": 40.7,
+    "lib": 11.9,
+    "green": 3,
+    "brexit": 8.5,
     "other": 1.5
   },
   {
-    "riding": "Bristol South",
-    "lab": 34.6,
-    "con": 32.4,
+    "riding": "Birmingham Perry Barr",
+    "lab": 50.2,
+    "con": 29.6,
+    "lib": 10.7,
+    "green": 2.8,
+    "brexit": 5.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Birmingham Selly Oak",
+    "lab": 40.9,
+    "con": 33.1,
     "lib": 15.2,
-    "green": 6,
-    "brexit": 10,
+    "green": 3.9,
+    "brexit": 5.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Birmingham Yardley",
+    "lab": 40.2,
+    "con": 28.7,
+    "lib": 20.3,
+    "green": 2.1,
+    "brexit": 7.6,
+    "other": 1.2
+  },
+  {
+    "riding": "Bishop Auckland",
+    "lab": 34.2,
+    "con": 41.7,
+    "lib": 9.9,
+    "brexit": 10.5,
+    "green": 1.8,
     "other": 1.9
   },
   {
-    "riding": "Bristol West",
-    "lab": 32.2,
-    "con": 20.2,
-    "green": 23.3,
-    "lib": 20.9,
-    "brexit": 2.2,
-    "other": 1.1
+    "riding": "Blackburn",
+    "lab": 58,
+    "con": 27.1,
+    "lib": 6.2,
+    "brexit": 6.6,
+    "green": 1.4,
+    "other": 0.6
   },
   {
-    "riding": "Broadland",
-    "con": 48.7,
-    "lab": 17.9,
-    "lib": 17.9,
-    "green": 2.7,
-    "brexit": 11.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Bromley and Chislehurst",
-    "con": 46.7,
-    "lab": 21,
-    "lib": 17.5,
-    "green": 3.4,
-    "brexit": 9.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Bromsgrove",
-    "con": 51.4,
-    "lab": 18.9,
-    "lib": 15.4,
+    "riding": "Blackley and Broughton",
+    "lab": 53.5,
+    "con": 26.4,
+    "lib": 7.9,
     "green": 2.8,
-    "brexit": 9.9,
-    "other": 1.6
+    "brexit": 8.2,
+    "other": 1.2
   },
   {
-    "riding": "Broxbourne",
-    "con": 51.6,
-    "lab": 19.1,
-    "lib": 11.7,
-    "green": 2.6,
-    "brexit": 13.4,
-    "other": 1.7
-  },
-  {
-    "riding": "Broxtowe",
-    "con": 40,
-    "lab": 31,
-    "lib": 12.5,
-    "green": 2.9,
-    "brexit": 12.4,
-    "other": 1.3
-  },
-  {
-    "riding": "Buckingham",
-    "con": 57,
-    "green": 12.3,
-    "lab": 6,
-    "lib": 11.9,
-    "brexit": 11.2,
-    "other": 1.7
-  },
-  {
-    "riding": "Burnley",
+    "riding": "Blackpool North and Cleveleys",
+    "con": 55.2,
     "lab": 32.5,
-    "con": 32.5,
-    "lib": 16.3,
-    "green": 2.3,
-    "brexit": 14.9,
+    "lib": 9,
+    "green": 2,
     "other": 1.4
   },
   {
-    "riding": "Burton",
-    "con": 48.4,
-    "lab": 24.7,
-    "lib": 11.2,
-    "green": 2.6,
-    "brexit": 11.6,
+    "riding": "Blackpool South",
+    "lab": 35.8,
+    "con": 40.2,
+    "lib": 8.1,
+    "green": 2.2,
+    "brexit": 12.1,
+    "other": 1.6
+  },
+  {
+    "riding": "Blaydon",
+    "lab": 38.2,
+    "con": 33,
+    "lib": 14.8,
+    "green": 2.4,
+    "brexit": 10.1,
     "other": 1.5
   },
   {
+    "riding": "Blyth Valley",
+    "lab": 38,
+    "con": 36.5,
+    "lib": 11.5,
+    "green": 2.9,
+    "brexit": 9.9,
+    "other": 1.2
+  },
+  {
+    "riding": "Bognor Regis and Littlehampton",
+    "con": 63.4,
+    "lab": 18.7,
+    "lib": 14.2,
+    "green": 2.2,
+    "other": 1.6
+  },
+  {
+    "riding": "Bolsover",
+    "lab": 35.7,
+    "con": 39.5,
+    "lib": 8.5,
+    "brexit": 13.3,
+    "green": 1.6,
+    "other": 1.4
+  },
+  {
+    "riding": "Bolton North East",
+    "lab": 39.3,
+    "con": 38.9,
+    "lib": 9.1,
+    "green": 2,
+    "brexit": 9.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Bolton South East",
+    "lab": 46.7,
+    "con": 32.4,
+    "lib": 7.1,
+    "green": 2.3,
+    "brexit": 10.4,
+    "other": 1.1
+  },
+  {
+    "riding": "Bolton West",
+    "con": 52.2,
+    "lab": 33.9,
+    "lib": 11,
+    "green": 1.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Bootle",
+    "lab": 56.8,
+    "con": 21.6,
+    "lib": 9.8,
+    "green": 3,
+    "brexit": 7.3,
+    "other": 1.6
+  },
+  {
+    "riding": "Boston and Skegness",
+    "con": 68.4,
+    "lab": 20.8,
+    "ukip": 1,
+    "lib": 7.6,
+    "green": 1.6,
+    "other": 0.7
+  },
+  {
+    "riding": "Bosworth",
+    "con": 57.3,
+    "lab": 19.4,
+    "lib": 20.4,
+    "green": 1.9,
+    "other": 1
+  },
+  {
+    "riding": "Bournemouth East",
+    "con": 53.5,
+    "lab": 24.5,
+    "lib": 17,
+    "green": 3.3,
+    "other": 1.7
+  },
+  {
+    "riding": "Bournemouth West",
+    "con": 53.8,
+    "lab": 24.5,
+    "lib": 16.4,
+    "green": 3.6,
+    "other": 1.7
+  },
+  {
+    "riding": "Bracknell",
+    "con": 58.3,
+    "lab": 21.1,
+    "lib": 17,
+    "green": 2,
+    "other": 1.7
+  },
+  {
+    "riding": "Bradford East",
+    "lab": 57.8,
+    "con": 24.5,
+    "lib": 7.9,
+    "green": 1.8,
+    "brexit": 7.1,
+    "other": 0.9
+  },
+  {
+    "riding": "Bradford South",
+    "lab": 41.3,
+    "con": 37.1,
+    "lib": 7.2,
+    "green": 2.2,
+    "brexit": 11.1,
+    "other": 1.2
+  },
+  {
+    "riding": "Bradford West",
+    "lab": 65.8,
+    "con": 21,
+    "lib": 5.3,
+    "green": 2.1,
+    "brexit": 5.2,
+    "other": 0.5
+  },
+  {
+    "riding": "Braintree",
+    "con": 63.1,
+    "lab": 19.8,
+    "lib": 13.2,
+    "green": 2.4,
+    "other": 1.5
+  },
+  {
+    "riding": "Brent Central",
+    "lab": 51.6,
+    "con": 25.2,
+    "lib": 14.4,
+    "green": 3.4,
+    "brexit": 4.5,
+    "other": 0.9
+  },
+  {
+    "riding": "Brent North",
+    "lab": 45.3,
+    "con": 33.6,
+    "lib": 11.8,
+    "green": 3.5,
+    "brexit": 4.6,
+    "other": 1.2
+  },
+  {
+    "riding": "Brentford and Isleworth",
+    "lab": 39.6,
+    "con": 36.5,
+    "lib": 15.1,
+    "brexit": 5,
+    "green": 2.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Brentwood and Ongar",
+    "con": 64.7,
+    "lab": 15.5,
+    "lib": 16.4,
+    "green": 2,
+    "other": 1.5
+  },
+  {
+    "riding": "Bridgwater and West Somerset",
+    "con": 59.1,
+    "lab": 19.6,
+    "lib": 17.4,
+    "green": 2.4,
+    "other": 1.5
+  },
+  {
+    "riding": "Brigg and Goole",
+    "con": 62.2,
+    "lab": 25.6,
+    "lib": 9,
+    "green": 1.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Brighton Kemptown",
+    "lab": 36.8,
+    "con": 37.5,
+    "lib": 14.1,
+    "brexit": 6.4,
+    "green": 3.6,
+    "other": 1.6
+  },
+  {
+    "riding": "Brighton Pavilion",
+    "green": 45.9,
+    "lab": 24.1,
+    "con": 26.1,
+    "brexit": 2.8,
+    "other": 1.1
+  },
+  {
+    "riding": "Bristol East",
+    "lab": 39,
+    "con": 35.5,
+    "lib": 13.4,
+    "green": 4.1,
+    "brexit": 6.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Bristol North West",
+    "lab": 32.5,
+    "con": 38.9,
+    "lib": 18,
+    "green": 3.5,
+    "brexit": 5.8,
+    "other": 1.3
+  },
+  {
+    "riding": "Bristol South",
+    "lab": 36.9,
+    "con": 34,
+    "lib": 14.8,
+    "green": 5.1,
+    "brexit": 7.5,
+    "other": 1.6
+  },
+  {
+    "riding": "Bristol West",
+    "lab": 49.9,
+    "con": 25.5,
+    "green": 21,
+    "brexit": 2.6,
+    "other": 0.8
+  },
+  {
+    "riding": "Broadland",
+    "con": 58.4,
+    "lab": 20.1,
+    "lib": 17.7,
+    "green": 2.4,
+    "other": 1.4
+  },
+  {
+    "riding": "Bromley and Chislehurst",
+    "con": 55.2,
+    "lab": 23.2,
+    "lib": 17.3,
+    "green": 3,
+    "other": 1.4
+  },
+  {
+    "riding": "Bromsgrove",
+    "con": 59.9,
+    "lab": 21.1,
+    "lib": 15.3,
+    "green": 2.4,
+    "other": 1.3
+  },
+  {
+    "riding": "Broxbourne",
+    "con": 63.3,
+    "lab": 21.3,
+    "lib": 11.7,
+    "green": 2.2,
+    "other": 1.5
+  },
+  {
+    "riding": "Broxtowe",
+    "con": 53.9,
+    "lab": 45,
+    "other": 1.1
+  },
+  {
+    "riding": "Buckingham",
+    "con": 69.9,
+    "lab": 12.1,
+    "lib": 16.5,
+    "other": 1.5
+  },
+  {
+    "riding": "Burnley",
+    "lab": 34.5,
+    "con": 35,
+    "lib": 15.9,
+    "green": 2,
+    "brexit": 11.3,
+    "other": 1.3
+  },
+  {
+    "riding": "Burton",
+    "con": 58.4,
+    "lab": 26.9,
+    "lib": 11.2,
+    "green": 2.2,
+    "other": 1.3
+  },
+  {
     "riding": "Bury North",
-    "lab": 37.9,
-    "con": 38.1,
+    "lab": 39.9,
+    "con": 39.4,
+    "lib": 9.7,
+    "brexit": 8.3,
+    "green": 1.8,
+    "other": 0.9
+  },
+  {
+    "riding": "Bury South",
+    "lab": 38.9,
+    "con": 38.7,
     "lib": 9.9,
-    "brexit": 11,
+    "brexit": 9,
+    "green": 2.2,
+    "other": 1.3
+  },
+  {
+    "riding": "Bury St Edmunds",
+    "con": 61.4,
+    "lab": 32.5,
+    "green": 4.3,
+    "other": 1.8
+  },
+  {
+    "riding": "Calder Valley",
+    "con": 50.2,
+    "lab": 33.5,
+    "lib": 12.5,
+    "green": 2.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Camberwell and Peckham",
+    "lab": 51.3,
+    "con": 21.4,
+    "lib": 16.6,
+    "green": 5.8,
+    "brexit": 3.5,
+    "other": 1.4
+  },
+  {
+    "riding": "Camborne and Redruth",
+    "con": 51.6,
+    "lab": 27.5,
+    "lib": 16.6,
+    "green": 3,
+    "other": 1.4
+  },
+  {
+    "riding": "Cambridge",
+    "lab": 29.5,
+    "lib": 39.4,
+    "con": 21.7,
+    "green": 5.3,
+    "brexit": 3,
+    "other": 1.1
+  },
+  {
+    "riding": "Cambridgeshire North East",
+    "con": 65.6,
+    "lab": 18.6,
+    "lib": 11.9,
+    "green": 2.2,
+    "other": 1.8
+  },
+  {
+    "riding": "Cambridgeshire North West",
+    "con": 59.9,
+    "lab": 21.7,
+    "lib": 14.5,
+    "green": 2.5,
+    "other": 1.5
+  },
+  {
+    "riding": "Cambridgeshire South",
+    "con": 48.4,
+    "lab": 19.8,
+    "lib": 30.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Cambridgeshire South East",
+    "con": 50.3,
+    "lab": 19.5,
+    "lib": 29.1,
+    "other": 1.1
+  },
+  {
+    "riding": "Cannock Chase",
+    "con": 62.3,
+    "lab": 33.8,
+    "green": 2.3,
+    "other": 1.7
+  },
+  {
+    "riding": "Canterbury",
+    "lab": 27.9,
+    "con": 41,
+    "lib": 20.2,
+    "green": 3.7,
+    "brexit": 6,
+    "other": 1.2
+  },
+  {
+    "riding": "Carlisle",
+    "con": 54.2,
+    "lab": 32.5,
+    "lib": 10,
+    "green": 1.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Carshalton and Wallington",
+    "lib": 39.3,
+    "con": 37.2,
+    "lab": 13.8,
+    "green": 1.9,
+    "brexit": 6.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Castle Point",
+    "con": 68.6,
+    "lab": 18.4,
+    "lib": 10.1,
+    "green": 1.4,
+    "other": 1.5
+  },
+  {
+    "riding": "Charnwood",
+    "con": 60,
+    "lab": 24.5,
+    "lib": 11.9,
+    "green": 2.2,
+    "other": 1.3
+  },
+  {
+    "riding": "Chatham and Aylesford",
+    "con": 60.1,
+    "lab": 24.3,
+    "lib": 11.5,
+    "green": 2.3,
+    "other": 1.8
+  },
+  {
+    "riding": "Cheadle",
+    "con": 44,
+    "lib": 38.7,
+    "lab": 16.6,
+    "other": 0.8
+  },
+  {
+    "riding": "Chelmsford",
+    "con": 54.1,
+    "lab": 21.8,
+    "lib": 22.7,
+    "other": 1.4
+  },
+  {
+    "riding": "Chelsea and Fulham",
+    "con": 48.2,
+    "lab": 26.9,
+    "lib": 23.8,
+    "other": 1.1
+  },
+  {
+    "riding": "Cheltenham",
+    "con": 42.8,
+    "lib": 46,
+    "lab": 10.2,
+    "other": 1.1
+  },
+  {
+    "riding": "Chesham and Amersham",
+    "con": 57.7,
+    "lab": 15.2,
+    "lib": 23.3,
+    "green": 2.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Chester, City of",
+    "lab": 40.5,
+    "con": 36.9,
+    "lib": 12.2,
+    "brexit": 7.3,
     "green": 2.1,
     "other": 1.1
   },
   {
-    "riding": "Bury South",
-    "lab": 36.8,
-    "con": 37,
-    "lib": 10.1,
-    "brexit": 12,
+    "riding": "Chesterfield",
+    "lab": 37.2,
+    "con": 35.7,
+    "lib": 13.1,
     "green": 2.6,
-    "other": 1.5
-  },
-  {
-    "riding": "Bury St Edmunds",
-    "con": 48.7,
-    "lab": 18.1,
-    "lib": 16,
-    "green": 5,
-    "brexit": 10.1,
-    "other": 2.2
-  },
-  {
-    "riding": "Calder Valley",
-    "con": 39.7,
-    "lab": 31.3,
-    "lib": 12.5,
-    "green": 3,
-    "brexit": 12.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Camberwell and Peckham",
-    "lab": 49.2,
-    "con": 20.7,
-    "lib": 17.1,
-    "green": 6.8,
-    "brexit": 4.6,
-    "other": 1.7
-  },
-  {
-    "riding": "Camborne and Redruth",
-    "con": 42.5,
-    "lab": 25,
-    "lib": 16.7,
-    "green": 3.5,
-    "brexit": 10.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Cambridge",
-    "lab": 27.5,
-    "lib": 39.9,
-    "con": 21.2,
-    "green": 6.2,
-    "brexit": 4,
+    "brexit": 10.2,
     "other": 1.3
   },
   {
-    "riding": "Cambridgeshire North East",
-    "con": 52.4,
-    "lab": 16.4,
-    "lib": 11.9,
-    "green": 2.5,
-    "brexit": 14.8,
+    "riding": "Chichester",
+    "con": 58.7,
+    "lab": 16.6,
+    "lib": 20.5,
+    "green": 2.8,
+    "other": 1.3
+  },
+  {
+    "riding": "Chingford and Woodford Green",
+    "con": 50.5,
+    "lab": 30.8,
+    "lib": 14.3,
+    "green": 3.2,
+    "other": 1.2
+  },
+  {
+    "riding": "Chippenham",
+    "con": 51.1,
+    "lib": 33.2,
+    "lab": 14.5,
+    "other": 1.1
+  },
+  {
+    "riding": "Chipping Barnet",
+    "con": 46.5,
+    "lab": 31.5,
+    "lib": 17,
+    "green": 3.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Chorley",
+    "lab": 49.3,
+    "green": 2.2,
+    "brexit": 47.5,
+    "other": 1
+  },
+  {
+    "riding": "Christchurch",
+    "con": 65.5,
+    "lab": 14.8,
+    "lib": 16.4,
+    "green": 2.1,
+    "other": 1.2
+  },
+  {
+    "riding": "Cities of London and Westminster",
+    "con": 43.7,
+    "lab": 29,
+    "lib": 22.3,
+    "green": 3.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Clacton",
+    "con": 67.7,
+    "lab": 18.8,
+    "lib": 9.5,
+    "green": 1.9,
     "other": 2.1
   },
   {
-    "riding": "Cambridgeshire North West",
-    "con": 49.2,
-    "lab": 19.4,
-    "lib": 14.6,
-    "green": 2.9,
-    "brexit": 12.2,
-    "other": 1.7
+    "riding": "Cleethorpes",
+    "con": 60.3,
+    "lab": 27.2,
+    "lib": 9.3,
+    "green": 1.9,
+    "other": 1.3
   },
   {
-    "riding": "Cambridgeshire South",
-    "con": 42.5,
-    "lab": 16.2,
-    "lib": 29.6,
-    "green": 3.5,
+    "riding": "Colchester",
+    "con": 46.8,
+    "lab": 22.9,
+    "lib": 26,
+    "green": 2.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Colne Valley",
+    "lab": 35.6,
+    "con": 40.2,
+    "lib": 12.4,
+    "green": 2.6,
+    "brexit": 8.2,
+    "other": 1
+  },
+  {
+    "riding": "Congleton",
+    "con": 56.6,
+    "lab": 25.5,
+    "lib": 14.5,
+    "green": 2.2,
+    "other": 1.1
+  },
+  {
+    "riding": "Copeland",
+    "con": 53.8,
+    "lab": 32.9,
+    "lib": 10.2,
+    "green": 1.8,
+    "other": 1.3
+  },
+  {
+    "riding": "Corby",
+    "con": 53.5,
+    "lab": 32.9,
+    "lib": 10.1,
+    "green": 2.2,
+    "other": 1.3
+  },
+  {
+    "riding": "Cornwall North",
+    "con": 51.4,
+    "lib": 36.4,
+    "lab": 10.8,
+    "other": 1.3
+  },
+  {
+    "riding": "Cornwall South East",
+    "con": 55.5,
+    "lab": 15.6,
+    "lib": 25.1,
+    "green": 2.5,
+    "other": 1.3
+  },
+  {
+    "riding": "Cotswolds, The",
+    "con": 57.1,
+    "lab": 13.7,
+    "lib": 25.4,
+    "green": 2.5,
+    "other": 1.3
+  },
+  {
+    "riding": "Coventry North East",
+    "lab": 43.1,
+    "con": 33.6,
+    "lib": 11,
+    "green": 2.8,
+    "brexit": 8,
+    "other": 1.5
+  },
+  {
+    "riding": "Coventry North West",
+    "lab": 36,
+    "con": 38.6,
+    "lib": 12.7,
+    "green": 3.1,
+    "brexit": 8.1,
+    "other": 1.5
+  },
+  {
+    "riding": "Coventry South",
+    "lab": 36.8,
+    "con": 37.7,
+    "lib": 14,
+    "green": 3.3,
     "brexit": 6.8,
     "other": 1.4
   },
   {
-    "riding": "Cambridgeshire South East",
-    "con": 43.4,
-    "lab": 16.4,
-    "lib": 28.5,
-    "brexit": 8,
-    "green": 2.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Cannock Chase",
-    "con": 47.2,
-    "lab": 23.3,
-    "green": 2.6,
-    "lib": 10.7,
-    "brexit": 14.2,
-    "other": 2
-  },
-  {
-    "riding": "Canterbury",
-    "lab": 25.7,
-    "con": 39.9,
-    "lib": 20.6,
-    "green": 4.4,
-    "brexit": 7.9,
-    "other": 1.5
-  },
-  {
-    "riding": "Carlisle",
-    "con": 41.3,
-    "lab": 30.3,
-    "lib": 9.9,
-    "brexit": 14.8,
-    "green": 2.2,
-    "other": 1.5
-  },
-  {
-    "riding": "Carshalton and Wallington",
-    "lib": 39.7,
-    "con": 35.5,
-    "lab": 12.2,
-    "green": 2.2,
-    "brexit": 8.8,
-    "other": 1.5
-  },
-  {
-    "riding": "Castle Point",
-    "con": 54.8,
-    "lab": 16.2,
-    "lib": 9.9,
-    "brexit": 15.6,
-    "green": 1.7,
-    "other": 1.8
-  },
-  {
-    "riding": "Charnwood",
-    "con": 48,
-    "lab": 22.3,
-    "lib": 11.9,
-    "green": 2.5,
-    "brexit": 13.7,
-    "other": 1.6
-  },
-  {
-    "riding": "Chatham and Aylesford",
-    "con": 48.1,
-    "lab": 21.8,
-    "lib": 11.5,
-    "green": 2.7,
-    "brexit": 13.8,
-    "other": 2.1
-  },
-  {
-    "riding": "Cheadle",
-    "con": 36.7,
-    "lib": 38.3,
-    "lab": 14.2,
-    "brexit": 8.5,
-    "green": 1.4,
-    "other": 0.9
-  },
-  {
-    "riding": "Chelmsford",
-    "con": 45.1,
-    "lab": 18.4,
-    "lib": 21.8,
-    "green": 2.8,
-    "brexit": 10.2,
-    "other": 1.6
-  },
-  {
-    "riding": "Chelsea and Fulham",
-    "con": 43.1,
-    "lab": 23.2,
-    "lib": 22.7,
-    "green": 3.7,
-    "brexit": 5.9,
-    "other": 1.4
-  },
-  {
-    "riding": "Cheltenham",
-    "con": 35.9,
-    "lib": 45.3,
-    "lab": 8,
-    "green": 2.4,
-    "brexit": 7.2,
-    "other": 1.3
-  },
-  {
-    "riding": "Chesham and Amersham",
-    "con": 50.1,
-    "lab": 13.3,
-    "lib": 23.5,
-    "green": 3.2,
-    "brexit": 8.6,
-    "other": 1.4
-  },
-  {
-    "riding": "Chester, City of",
-    "lab": 38.5,
-    "con": 35.7,
-    "lib": 12.4,
-    "brexit": 9.6,
-    "green": 2.4,
-    "other": 1.3
-  },
-  {
-    "riding": "Chesterfield",
-    "lab": 35.1,
-    "con": 33.4,
-    "lib": 13.4,
-    "green": 3,
-    "brexit": 13.6,
-    "other": 1.5
-  },
-  {
-    "riding": "Chichester",
-    "con": 49.8,
-    "lab": 14.4,
-    "lib": 20.7,
-    "green": 3.4,
-    "brexit": 10.1,
-    "other": 1.7
-  },
-  {
-    "riding": "Chingford and Woodford Green",
-    "con": 43.5,
-    "lab": 28.6,
-    "lib": 14.5,
-    "green": 3.7,
-    "brexit": 8.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Chippenham",
-    "con": 43.3,
-    "lib": 32.8,
-    "lab": 11.9,
-    "brexit": 8.9,
-    "green": 1.8,
-    "other": 1.4
-  },
-  {
-    "riding": "Chipping Barnet",
-    "con": 41.1,
-    "lab": 29.4,
-    "lib": 17.3,
-    "green": 4.3,
-    "brexit": 6.4,
-    "other": 1.5
-  },
-  {
-    "riding": "Chorley",
-    "lab": 36.5,
-    "con": 37.6,
-    "lib": 10.1,
-    "green": 2.5,
-    "brexit": 12,
-    "other": 1.2
-  },
-  {
-    "riding": "Christchurch",
-    "con": 55.8,
-    "lab": 12.8,
-    "lib": 16.5,
-    "green": 2.5,
-    "brexit": 11,
-    "other": 1.5
-  },
-  {
-    "riding": "Cities of London and Westminster",
-    "con": 39.2,
-    "lab": 26.8,
-    "lib": 22.7,
-    "green": 4.4,
-    "brexit": 5.4,
-    "other": 1.5
-  },
-  {
-    "riding": "Clacton",
-    "con": 52.4,
-    "lab": 16.5,
-    "lib": 9.3,
-    "green": 2.2,
-    "brexit": 17,
-    "other": 2.5
-  },
-  {
-    "riding": "Cleethorpes",
-    "con": 45.5,
-    "lab": 24.9,
-    "lib": 9.2,
-    "green": 2.2,
-    "brexit": 16.7,
-    "other": 1.6
-  },
-  {
-    "riding": "Colchester",
-    "con": 38.8,
-    "lab": 20.7,
-    "lib": 26.3,
-    "green": 3.4,
-    "brexit": 9.1,
-    "other": 1.7
-  },
-  {
-    "riding": "Colne Valley",
-    "lab": 33.6,
-    "con": 38.6,
-    "lib": 12.6,
-    "green": 3,
-    "brexit": 10.9,
-    "other": 1.2
-  },
-  {
-    "riding": "Congleton",
-    "con": 45.8,
-    "lab": 23.3,
-    "lib": 14.6,
-    "green": 2.6,
-    "brexit": 12.5,
-    "other": 1.2
-  },
-  {
-    "riding": "Copeland",
-    "con": 41.8,
-    "lab": 30.7,
-    "lib": 10.2,
-    "brexit": 13.8,
-    "green": 2.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Corby",
-    "con": 41.2,
-    "lab": 30.7,
-    "lib": 10.1,
-    "green": 2.5,
-    "brexit": 14.1,
-    "other": 1.5
-  },
-  {
-    "riding": "Cornwall North",
-    "con": 41.8,
-    "lib": 36,
-    "lab": 8.8,
-    "brexit": 10.3,
-    "green": 1.5,
-    "other": 1.6
-  },
-  {
-    "riding": "Cornwall South East",
-    "con": 46.3,
-    "lab": 13.5,
-    "lib": 25.3,
-    "green": 3,
-    "brexit": 10.4,
-    "other": 1.5
-  },
-  {
-    "riding": "Cotswolds, The",
-    "con": 48.8,
-    "lab": 11.9,
-    "lib": 25.6,
-    "green": 3,
-    "brexit": 9.2,
-    "other": 1.6
-  },
-  {
-    "riding": "Coventry North East",
-    "lab": 41,
-    "con": 32.1,
-    "lib": 11.3,
-    "green": 3.2,
-    "brexit": 10.6,
-    "other": 1.8
-  },
-  {
-    "riding": "Coventry North West",
-    "lab": 33.9,
-    "con": 37,
-    "lib": 12.9,
-    "green": 3.6,
-    "brexit": 10.8,
-    "other": 1.8
-  },
-  {
-    "riding": "Coventry South",
-    "lab": 34.8,
-    "con": 36.3,
-    "lib": 14.3,
-    "green": 3.8,
-    "brexit": 9,
-    "other": 1.8
-  },
-  {
     "riding": "Crawley",
-    "con": 43.9,
-    "lab": 29.5,
-    "lib": 12.3,
-    "brexit": 10.4,
-    "green": 2.4,
-    "other": 1.5
+    "con": 52.6,
+    "lab": 31.9,
+    "lib": 12.2,
+    "green": 2,
+    "other": 1.3
   },
   {
     "riding": "Crewe and Nantwich",
-    "lab": 32.2,
-    "con": 40.2,
-    "lib": 10.1,
-    "brexit": 14.1,
-    "green": 2,
-    "other": 1.4
-  },
-  {
-    "riding": "Croydon Central",
-    "lab": 34,
-    "con": 39,
-    "lib": 12.8,
-    "green": 3.4,
-    "brexit": 9,
-    "other": 1.9
-  },
-  {
-    "riding": "Croydon North",
-    "lab": 48.7,
-    "con": 25.6,
-    "lib": 12.8,
-    "green": 4.5,
-    "brexit": 6.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Croydon South",
-    "con": 46.5,
-    "lab": 22.8,
-    "lib": 17,
-    "green": 3.3,
-    "brexit": 8.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Dagenham and Rainham",
-    "lab": 31.8,
-    "con": 40.1,
-    "green": 2.7,
-    "lib": 8.8,
-    "brexit": 14.3,
-    "other": 2.3
-  },
-  {
-    "riding": "Darlington",
     "lab": 34.3,
-    "con": 37.4,
-    "lib": 10.7,
-    "green": 2.8,
-    "brexit": 13.3,
-    "other": 1.5
-  },
-  {
-    "riding": "Dartford",
-    "con": 49.6,
-    "lab": 20.9,
-    "lib": 11.6,
-    "green": 2.6,
-    "brexit": 13.2,
-    "other": 2.1
-  },
-  {
-    "riding": "Daventry",
-    "con": 50.4,
-    "lab": 17.8,
-    "lib": 13.8,
-    "green": 2.6,
-    "brexit": 14.1,
-    "other": 1.3
-  },
-  {
-    "riding": "Denton and Reddish",
-    "lab": 41.3,
-    "con": 30.2,
-    "lib": 9.4,
-    "green": 3.1,
-    "brexit": 14.3,
-    "other": 1.8
-  },
-  {
-    "riding": "Derby North",
-    "lab": 33.6,
-    "con": 37.4,
-    "lib": 12.9,
-    "brexit": 12.3,
-    "green": 2.5,
-    "other": 1.3
-  },
-  {
-    "riding": "Derby South",
-    "lab": 43,
-    "con": 31.6,
-    "lib": 8.5,
-    "green": 2.7,
-    "brexit": 12.9,
-    "other": 1.3
-  },
-  {
-    "riding": "Derbyshire Dales",
-    "con": 47.9,
-    "lab": 21.4,
-    "lib": 14.9,
-    "green": 2.9,
-    "brexit": 11.6,
-    "other": 1.3
-  },
-  {
-    "riding": "Derbyshire Mid",
-    "con": 46.6,
-    "lab": 24.5,
-    "lib": 12.7,
-    "green": 3,
-    "brexit": 12,
-    "other": 1.1
-  },
-  {
-    "riding": "Derbyshire North East",
-    "con": 41.9,
-    "lab": 28.9,
-    "lib": 10.6,
-    "green": 2.5,
-    "brexit": 14.7,
-    "other": 1.4
-  },
-  {
-    "riding": "Derbyshire South",
-    "con": 46.2,
-    "lab": 25.1,
-    "lib": 11.1,
-    "green": 2.7,
-    "brexit": 13.8,
+    "con": 42.3,
+    "lib": 9.9,
+    "brexit": 10.6,
+    "green": 1.7,
     "other": 1.2
   },
   {
-    "riding": "Devizes",
-    "con": 51.1,
-    "lab": 13.8,
-    "lib": 18.5,
-    "green": 3.6,
-    "brexit": 11.1,
-    "other": 1.9
-  },
-  {
-    "riding": "Devon Central",
-    "con": 47,
-    "lab": 15.8,
-    "lib": 21.7,
-    "green": 3.7,
-    "brexit": 9.9,
-    "other": 1.9
-  },
-  {
-    "riding": "Devon East",
-    "con": 57.3,
-    "lab": 12.3,
-    "lib": 16.1,
-    "brexit": 10.8,
-    "green": 1.5,
-    "other": 1.9
-  },
-  {
-    "riding": "Devon North",
-    "con": 39.4,
-    "lib": 37.4,
-    "lab": 9.1,
-    "green": 2.2,
-    "brexit": 10.4,
+    "riding": "Croydon Central",
+    "lab": 36.1,
+    "con": 40.2,
+    "lib": 12.4,
+    "green": 2.9,
+    "brexit": 6.8,
     "other": 1.5
   },
   {
-    "riding": "Devon South West",
-    "con": 50.6,
-    "lab": 17.6,
-    "lib": 16,
-    "green": 3,
-    "brexit": 11.1,
+    "riding": "Croydon North",
+    "lab": 50.8,
+    "con": 26.5,
+    "lib": 12.5,
+    "green": 3.9,
+    "brexit": 5.1,
+    "other": 1.4
+  },
+  {
+    "riding": "Croydon South",
+    "con": 53.9,
+    "lab": 25,
+    "lib": 16.8,
+    "green": 2.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Dagenham and Rainham",
+    "lab": 33.9,
+    "con": 42.4,
+    "green": 2.3,
+    "lib": 8.6,
+    "brexit": 10.8,
+    "other": 2
+  },
+  {
+    "riding": "Darlington",
+    "lab": 36.3,
+    "con": 39.5,
+    "lib": 10.5,
+    "green": 2.4,
+    "brexit": 10,
+    "other": 1.3
+  },
+  {
+    "riding": "Dartford",
+    "con": 61.1,
+    "lab": 23.3,
+    "lib": 11.6,
+    "green": 2.2,
+    "other": 1.7
+  },
+  {
+    "riding": "Daventry",
+    "con": 62.8,
+    "lab": 20,
+    "lib": 13.9,
+    "green": 2.2,
+    "other": 1.1
+  },
+  {
+    "riding": "Denton and Reddish",
+    "lab": 43.3,
+    "con": 32.5,
+    "lib": 9.2,
+    "green": 2.7,
+    "brexit": 10.8,
     "other": 1.6
   },
   {
+    "riding": "Derby North",
+    "lab": 35.6,
+    "con": 39.2,
+    "lib": 12.7,
+    "brexit": 9.2,
+    "green": 2.2,
+    "other": 1.1
+  },
+  {
+    "riding": "Derby South",
+    "lab": 45.1,
+    "con": 33.5,
+    "lib": 8.3,
+    "green": 2.3,
+    "brexit": 9.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Derbyshire Dales",
+    "con": 58,
+    "lab": 23.6,
+    "lib": 14.8,
+    "green": 2.5,
+    "other": 1.1
+  },
+  {
+    "riding": "Derbyshire Mid",
+    "con": 57,
+    "lab": 26.7,
+    "lib": 12.7,
+    "green": 2.6,
+    "other": 1
+  },
+  {
+    "riding": "Derbyshire North East",
+    "con": 54.8,
+    "lab": 31.2,
+    "lib": 10.7,
+    "green": 2.1,
+    "other": 1.2
+  },
+  {
+    "riding": "Derbyshire South",
+    "con": 58.2,
+    "lab": 27.3,
+    "lib": 11.2,
+    "green": 2.3,
+    "other": 1
+  },
+  {
+    "riding": "Devizes",
+    "con": 61.1,
+    "lab": 16,
+    "lib": 18.3,
+    "green": 3.1,
+    "other": 1.6
+  },
+  {
+    "riding": "Devon Central",
+    "con": 55.5,
+    "lab": 18.2,
+    "lib": 21.6,
+    "green": 3.1,
+    "other": 1.6
+  },
+  {
+    "riding": "Devon East",
+    "con": 70.7,
+    "lab": 27.7,
+    "other": 1.7
+  },
+  {
+    "riding": "Devon North",
+    "con": 49,
+    "lib": 37.3,
+    "lab": 10.5,
+    "green": 1.9,
+    "other": 1.2
+  },
+  {
+    "riding": "Devon South West",
+    "con": 60,
+    "lab": 20.2,
+    "lib": 15.9,
+    "green": 2.6,
+    "other": 1.4
+  },
+  {
     "riding": "Devon West and Torridge",
-    "con": 47.2,
-    "lab": 13.3,
-    "lib": 23.6,
-    "green": 3.2,
-    "brexit": 10.7,
-    "other": 2.1
+    "con": 56.8,
+    "lab": 15.4,
+    "lib": 23.5,
+    "green": 2.7,
+    "other": 1.7
   },
   {
     "riding": "Dewsbury",
-    "lab": 38.7,
-    "con": 37.8,
-    "lib": 9.1,
-    "green": 2.7,
-    "brexit": 10.9,
+    "lab": 40.7,
+    "con": 39.2,
+    "lib": 8.9,
+    "green": 2.4,
+    "brexit": 8.1,
     "other": 0.8
   },
   {
     "riding": "Don Valley",
-    "lab": 35.3,
-    "con": 37.8,
-    "lib": 8.6,
-    "brexit": 15.1,
-    "green": 1.9,
-    "other": 1.3
+    "lab": 37.3,
+    "con": 40.2,
+    "lib": 8.4,
+    "brexit": 11.3,
+    "green": 1.6,
+    "other": 1.1
   },
   {
     "riding": "Doncaster Central",
-    "lab": 39.2,
-    "con": 33.4,
-    "lib": 8.6,
-    "brexit": 14.7,
-    "green": 2,
-    "other": 2.1
+    "lab": 41.2,
+    "con": 35.8,
+    "lib": 8.4,
+    "brexit": 11,
+    "green": 1.8,
+    "other": 1.8
   },
   {
     "riding": "Doncaster North",
-    "lab": 39.2,
-    "con": 30.7,
-    "lib": 8.1,
-    "brexit": 17.5,
-    "green": 2.2,
-    "other": 2.4
+    "lab": 41.2,
+    "con": 33.4,
+    "ukip": 1.1,
+    "lib": 7.9,
+    "brexit": 13.5,
+    "green": 1.9,
+    "other": 1
   },
   {
     "riding": "Dorset Mid and Poole North",
-    "con": 46.4,
-    "lib": 31.8,
-    "lab": 9.2,
-    "brexit": 9.8,
-    "green": 1.4,
-    "other": 1.3
+    "con": 55.4,
+    "lib": 31.6,
+    "lab": 10.7,
+    "green": 1.2,
+    "other": 1.1
   },
   {
     "riding": "Dorset North",
-    "con": 51.8,
-    "lab": 12.1,
-    "lib": 21.4,
-    "green": 2.9,
-    "brexit": 10.3,
-    "other": 1.4
+    "con": 61,
+    "lab": 14,
+    "lib": 21.3,
+    "green": 2.5,
+    "other": 1.2
   },
   {
     "riding": "Dorset South",
-    "con": 48.4,
-    "lab": 19.8,
-    "lib": 14.8,
-    "green": 4.1,
-    "brexit": 11.1,
-    "other": 1.7
+    "con": 58,
+    "lab": 22.4,
+    "lib": 14.7,
+    "green": 3.5,
+    "other": 1.4
   },
   {
     "riding": "Dorset West",
-    "con": 45.4,
-    "lib": 29.9,
-    "lab": 11.4,
-    "green": 2.8,
-    "brexit": 9,
-    "other": 1.4
+    "con": 53.5,
+    "lib": 29.7,
+    "lab": 13.2,
+    "green": 2.4,
+    "other": 1.2
   },
   {
     "riding": "Dover",
-    "con": 46.5,
-    "lab": 24,
-    "lib": 12.2,
-    "green": 2.7,
-    "brexit": 12.8,
-    "other": 1.9
+    "con": 57.5,
+    "lab": 26.4,
+    "lib": 12.1,
+    "green": 2.3,
+    "other": 1.6
   },
   {
     "riding": "Dudley North",
-    "lab": 29.4,
-    "con": 43.2,
-    "lib": 9.1,
-    "green": 2.2,
-    "brexit": 14.2,
-    "other": 1.9
+    "lab": 31.5,
+    "con": 45.4,
+    "lib": 8.9,
+    "green": 1.9,
+    "brexit": 10.7,
+    "other": 1.5
   },
   {
     "riding": "Dudley South",
-    "con": 48.1,
-    "lab": 23.1,
+    "con": 60.7,
+    "lab": 25.4,
     "lib": 10.4,
-    "green": 2.3,
-    "brexit": 14.3,
-    "other": 1.8
+    "green": 2,
+    "other": 1.5
   },
   {
     "riding": "Dulwich and West Norwood",
-    "lab": 42.6,
-    "con": 23.5,
-    "lib": 22.2,
-    "green": 6.4,
+    "lab": 60.9,
+    "con": 28.5,
+    "green": 5.5,
     "brexit": 3.8,
-    "other": 1.6
+    "other": 1.3
   },
   {
     "riding": "Durham North",
-    "lab": 39,
-    "con": 31.3,
-    "lib": 11.6,
-    "brexit": 14,
-    "green": 2.4,
-    "other": 1.7
+    "lab": 41,
+    "con": 33.5,
+    "lib": 11.4,
+    "brexit": 10.5,
+    "green": 2.1,
+    "other": 1.5
   },
   {
     "riding": "Durham North West",
-    "lab": 34.8,
-    "con": 33.9,
-    "lib": 13.5,
-    "green": 2.7,
-    "brexit": 13.5,
-    "other": 1.6
+    "lab": 36.8,
+    "con": 36.1,
+    "lib": 13.2,
+    "green": 2.3,
+    "brexit": 10.2,
+    "other": 1.4
   },
   {
     "riding": "Durham, City of",
-    "lab": 35.7,
-    "con": 29.9,
-    "lib": 19.2,
-    "green": 3.7,
-    "brexit": 9.8,
-    "other": 1.6
-  },
-  {
-    "riding": "Ealing Central and Acton",
-    "lab": 39.7,
-    "con": 32.9,
-    "lib": 18.1,
-    "brexit": 4.9,
-    "green": 3.2,
-    "other": 1.2
-  },
-  {
-    "riding": "Ealing North",
-    "lab": 44.7,
-    "con": 31.1,
-    "lib": 11.7,
-    "green": 3.7,
-    "brexit": 7.5,
-    "other": 1.3
-  },
-  {
-    "riding": "Ealing Southall",
-    "lab": 48.4,
-    "con": 26.3,
-    "lib": 12.6,
-    "green": 5,
-    "brexit": 6,
-    "other": 1.7
-  },
-  {
-    "riding": "Easington",
-    "lab": 43.4,
-    "con": 28.5,
-    "lib": 8.8,
-    "green": 2.8,
-    "brexit": 14.8,
-    "other": 1.7
-  },
-  {
-    "riding": "East Ham",
-    "lab": 62.7,
-    "con": 19.6,
-    "lib": 7.7,
-    "green": 3.2,
-    "brexit": 5.6,
-    "other": 1
-  },
-  {
-    "riding": "Eastbourne",
-    "lib": 43.3,
-    "con": 37.3,
-    "lab": 7.3,
-    "green": 1.6,
-    "brexit": 9.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Eastleigh",
-    "con": 42.2,
-    "lib": 31,
-    "lab": 12.7,
-    "green": 2.2,
-    "brexit": 10.4,
-    "other": 1.5
-  },
-  {
-    "riding": "Eddisbury",
-    "con": 46.2,
-    "lab": 23.5,
-    "lib": 13.9,
-    "green": 2.5,
-    "brexit": 12.4,
-    "other": 1.5
-  },
-  {
-    "riding": "Edmonton",
-    "lab": 51.2,
-    "con": 27,
-    "lib": 10.1,
-    "green": 3.3,
-    "brexit": 7.2,
-    "other": 1.1
-  },
-  {
-    "riding": "Ellesmere Port and Neston",
-    "lab": 39.3,
-    "con": 34.6,
-    "lib": 10.2,
-    "green": 2.5,
-    "brexit": 12,
-    "other": 1.4
-  },
-  {
-    "riding": "Elmet and Rothwell",
-    "con": 45.2,
-    "lab": 26.5,
-    "lib": 13,
-    "green": 2.6,
-    "brexit": 11.6,
-    "other": 1.1
-  },
-  {
-    "riding": "Eltham",
-    "lab": 34.3,
-    "con": 38.1,
-    "lib": 13.6,
-    "brexit": 8.9,
-    "green": 2.8,
-    "other": 2.3
-  },
-  {
-    "riding": "Enfield North",
-    "lab": 39.5,
-    "con": 35.7,
-    "lib": 12,
-    "green": 3.1,
-    "brexit": 8.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Enfield Southgate",
-    "lab": 34.5,
-    "con": 38.9,
-    "lib": 15.4,
-    "green": 3.7,
-    "brexit": 6.2,
-    "other": 1.4
-  },
-  {
-    "riding": "Epping Forest",
-    "con": 51.9,
-    "lab": 16.7,
-    "lib": 14.4,
-    "green": 3.1,
-    "brexit": 12.1,
-    "other": 1.9
-  },
-  {
-    "riding": "Epsom and Ewell",
-    "con": 49.3,
-    "lab": 15.5,
-    "lib": 22.2,
-    "green": 3,
-    "brexit": 8.5,
-    "other": 1.4
-  },
-  {
-    "riding": "Erewash",
-    "con": 41.7,
-    "lab": 29.4,
-    "lib": 9.9,
-    "green": 2.8,
-    "brexit": 14.5,
-    "other": 1.7
-  },
-  {
-    "riding": "Erith and Thamesmead",
-    "lab": 36.8,
-    "con": 35.4,
-    "lib": 11.3,
-    "green": 3.3,
-    "brexit": 11.1,
-    "other": 2.2
-  },
-  {
-    "riding": "Esher and Walton",
-    "con": 47.5,
-    "lab": 13.3,
-    "lib": 27.1,
-    "green": 2.6,
-    "brexit": 7.6,
-    "other": 1.9
-  },
-  {
-    "riding": "Exeter",
-    "lab": 36.5,
-    "con": 33.1,
-    "lib": 15.8,
-    "green": 4.9,
-    "brexit": 7.8,
-    "other": 1.9
-  },
-  {
-    "riding": "Fareham",
-    "con": 51.8,
-    "lab": 15.6,
-    "lib": 17.2,
-    "green": 2.9,
-    "brexit": 10.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Faversham and Kent Mid",
-    "con": 50.8,
-    "lab": 16.6,
-    "lib": 15.6,
-    "green": 3.2,
-    "brexit": 12,
-    "other": 1.7
-  },
-  {
-    "riding": "Feltham and Heston",
-    "lab": 41.9,
-    "con": 33.3,
-    "lib": 10.4,
-    "green": 3.9,
-    "brexit": 8.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Filton and Bradley Stoke",
-    "con": 43.3,
-    "lab": 24.7,
-    "lib": 17.4,
-    "green": 3.8,
-    "brexit": 9.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Finchley and Golders Green",
-    "con": 40.7,
-    "lab": 29.9,
-    "lib": 18.2,
-    "green": 4.1,
-    "brexit": 5.5,
-    "other": 1.6
-  },
-  {
-    "riding": "Folkestone and Hythe",
-    "con": 48.1,
-    "lab": 17.2,
-    "lib": 15.7,
-    "green": 3.9,
-    "brexit": 12.6,
-    "other": 2.4
-  },
-  {
-    "riding": "Forest of Dean",
-    "con": 47.7,
-    "lab": 21.1,
-    "lib": 14.1,
-    "green": 3.4,
-    "brexit": 11.5,
-    "other": 2.3
-  },
-  {
-    "riding": "Fylde",
-    "con": 47.5,
-    "lab": 23,
-    "lib": 12.9,
-    "green": 3,
-    "brexit": 12.4,
-    "other": 1.2
-  },
-  {
-    "riding": "Gainsborough",
-    "con": 48.4,
-    "lab": 20.4,
-    "lib": 13.5,
-    "green": 2.6,
-    "brexit": 14,
-    "other": 1.2
-  },
-  {
-    "riding": "Garston and Halewood",
-    "lab": 51.1,
-    "con": 23.2,
-    "lib": 12,
-    "green": 3.4,
-    "brexit": 8.8,
-    "other": 1.5
-  },
-  {
-    "riding": "Gateshead",
-    "lab": 43,
-    "con": 27.7,
-    "lib": 11,
-    "green": 3.5,
-    "brexit": 13.2,
-    "other": 1.6
-  },
-  {
-    "riding": "Gedling",
-    "lab": 35.1,
-    "con": 37.4,
-    "lib": 10.5,
-    "green": 2.8,
-    "brexit": 12.9,
-    "other": 1.3
-  },
-  {
-    "riding": "Gillingham and Rainham",
-    "con": 47.4,
-    "lab": 22.9,
-    "lib": 12.4,
-    "green": 2.7,
-    "brexit": 12.7,
-    "other": 2
-  },
-  {
-    "riding": "Gloucester",
-    "con": 44.1,
-    "lab": 25.2,
-    "lib": 14.1,
-    "green": 3,
-    "brexit": 11.8,
-    "other": 1.9
-  },
-  {
-    "riding": "Gosport",
-    "con": 51.2,
-    "lab": 17.1,
-    "lib": 13.8,
-    "green": 2.9,
-    "brexit": 13,
-    "other": 2
-  },
-  {
-    "riding": "Grantham and Stamford",
-    "con": 49.2,
-    "lab": 19.7,
-    "lib": 12.5,
-    "green": 2.3,
-    "brexit": 15,
-    "other": 1.3
-  },
-  {
-    "riding": "Gravesham",
-    "con": 48.4,
-    "lab": 22.9,
-    "lib": 11,
-    "green": 2.7,
-    "brexit": 13,
-    "other": 2
-  },
-  {
-    "riding": "Great Grimsby",
-    "lab": 33.2,
-    "con": 36,
-    "lib": 8.7,
-    "brexit": 17.8,
-    "green": 2.2,
-    "other": 2.1
-  },
-  {
-    "riding": "Great Yarmouth",
-    "con": 46.9,
-    "lab": 22.7,
-    "lib": 10.3,
-    "green": 2.6,
-    "brexit": 15.4,
-    "other": 2.1
-  },
-  {
-    "riding": "Greenwich and Woolwich",
-    "lab": 41.2,
-    "con": 28,
-    "lib": 17.7,
-    "green": 6,
-    "brexit": 5.7,
-    "other": 1.5
-  },
-  {
-    "riding": "Guildford",
-    "con": 43.2,
-    "lib": 32.5,
-    "lab": 12.7,
-    "green": 2.9,
-    "brexit": 7.1,
-    "other": 1.5
-  },
-  {
-    "riding": "Hackney North and Stoke Newington",
-    "lab": 47.3,
-    "con": 20.4,
-    "lib": 16.9,
-    "green": 10.4,
-    "brexit": 3.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Hackney South and Shoreditch",
-    "lab": 51.6,
-    "con": 18.9,
-    "lib": 16.6,
-    "green": 7.6,
-    "brexit": 3.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Halesowen and Rowley Regis",
-    "con": 45.8,
-    "lab": 25.6,
-    "lib": 10.9,
-    "green": 2.4,
-    "brexit": 13.2,
-    "other": 2
-  },
-  {
-    "riding": "Halifax",
-    "lab": 38.7,
-    "con": 36.1,
-    "lib": 8.7,
-    "brexit": 13,
-    "green": 2.1,
-    "other": 1.3
-  },
-  {
-    "riding": "Haltemprice and Howden",
-    "con": 48.5,
-    "lab": 21.9,
-    "lib": 13.7,
-    "green": 2.6,
-    "brexit": 12.2,
-    "other": 1.1
-  },
-  {
-    "riding": "Halton",
-    "lab": 47.1,
-    "con": 26.4,
-    "lib": 9.2,
-    "brexit": 12.7,
-    "green": 2.7,
-    "other": 1.9
-  },
-  {
-    "riding": "Hammersmith",
-    "lab": 42.9,
-    "con": 29.2,
-    "lib": 17,
-    "green": 4.5,
-    "brexit": 5.1,
-    "other": 1.3
-  },
-  {
-    "riding": "Hampshire East",
-    "con": 50.3,
-    "lab": 11.7,
-    "lib": 24.1,
-    "green": 3.1,
-    "brexit": 8.9,
-    "other": 1.9
-  },
-  {
-    "riding": "Hampshire North East",
-    "con": 51.8,
-    "lab": 11.8,
-    "lib": 23,
-    "green": 2.8,
-    "brexit": 8.8,
-    "other": 1.8
-  },
-  {
-    "riding": "Hampshire North West",
-    "con": 51.1,
-    "lab": 14.9,
-    "lib": 18.9,
-    "green": 2.8,
-    "brexit": 10.6,
-    "other": 1.6
-  },
-  {
-    "riding": "Hampstead and Kilburn",
-    "lab": 38.2,
-    "con": 31,
-    "lib": 20.5,
-    "green": 4.4,
-    "brexit": 4.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Harborough",
-    "con": 43.5,
-    "lab": 22.1,
-    "lib": 18.5,
-    "green": 3,
-    "brexit": 11.7,
-    "other": 1.2
-  },
-  {
-    "riding": "Harlow",
-    "con": 46.8,
-    "lab": 24.1,
-    "lib": 10.6,
-    "green": 2.7,
-    "brexit": 13.9,
-    "other": 1.9
-  },
-  {
-    "riding": "Harrogate and Knaresborough",
-    "con": 43,
-    "lib": 28.3,
-    "lab": 14.9,
-    "brexit": 10.5,
-    "green": 1.8,
-    "other": 1.5
-  },
-  {
-    "riding": "Harrow East",
-    "con": 43.8,
-    "lab": 31.4,
-    "lib": 12.4,
-    "green": 3.6,
-    "brexit": 7.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Harrow West",
-    "lab": 40.4,
-    "con": 34.6,
-    "lib": 13.1,
-    "green": 4,
-    "brexit": 6.4,
-    "other": 1.5
-  },
-  {
-    "riding": "Hartlepool",
-    "lab": 34.9,
-    "con": 33.7,
-    "lib": 8.3,
-    "brexit": 18.8,
-    "green": 2.2,
-    "other": 2
-  },
-  {
-    "riding": "Harwich and North Essex",
-    "con": 49.3,
-    "lab": 18.7,
-    "lib": 15.8,
-    "green": 3.1,
-    "brexit": 11.4,
-    "other": 1.8
-  },
-  {
-    "riding": "Hastings and Rye",
-    "con": 42,
-    "lab": 28.4,
-    "lib": 13.7,
-    "brexit": 11.1,
-    "green": 2.5,
-    "other": 2.2
-  },
-  {
-    "riding": "Havant",
-    "con": 49.9,
-    "lab": 16.5,
-    "lib": 14.5,
-    "green": 3,
-    "brexit": 13.4,
-    "other": 2.8
-  },
-  {
-    "riding": "Hayes and Harlington",
-    "lab": 45.3,
-    "con": 31.7,
-    "lib": 8.9,
-    "green": 3.5,
-    "brexit": 9.1,
-    "other": 1.5
-  },
-  {
-    "riding": "Hazel Grove",
-    "con": 37.7,
-    "lib": 33.5,
-    "lab": 14.8,
-    "green": 2.1,
-    "brexit": 10.8,
-    "other": 1
-  },
-  {
-    "riding": "Hemel Hempstead",
-    "con": 46.4,
-    "lab": 23.1,
-    "lib": 15.7,
-    "green": 3.1,
-    "brexit": 10.2,
-    "other": 1.5
-  },
-  {
-    "riding": "Hemsworth",
-    "lab": 37.5,
-    "con": 34.3,
-    "lib": 8.5,
-    "brexit": 16.1,
-    "green": 2,
-    "other": 1.6
-  },
-  {
-    "riding": "Hendon",
-    "con": 41.6,
-    "lab": 32.8,
-    "lib": 13.9,
-    "green": 3.4,
-    "brexit": 6.8,
-    "other": 1.5
-  },
-  {
-    "riding": "Henley",
-    "con": 48.4,
-    "lab": 12.9,
-    "lib": 24.9,
-    "green": 3.7,
-    "brexit": 8.3,
-    "other": 1.8
-  },
-  {
-    "riding": "Hereford and South Herefordshire",
-    "con": 49.7,
-    "lab": 16.4,
-    "lib": 16.8,
-    "green": 3.2,
-    "brexit": 12.1,
-    "other": 1.8
-  },
-  {
-    "riding": "Herefordshire North",
-    "con": 50.6,
-    "lab": 12.6,
-    "lib": 19.3,
-    "green": 4.6,
-    "brexit": 10.5,
-    "other": 2.3
-  },
-  {
-    "riding": "Hertford and Stortford",
-    "con": 49.3,
-    "lab": 17.7,
-    "lib": 19,
-    "green": 3.5,
-    "brexit": 9.1,
-    "other": 1.5
-  },
-  {
-    "riding": "Hertfordshire North East",
-    "con": 48.8,
-    "lab": 17.5,
-    "lib": 18.1,
-    "green": 4.9,
-    "brexit": 9.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Hertfordshire South West",
-    "con": 48.3,
-    "lab": 16,
-    "lib": 22.5,
-    "green": 3.1,
-    "brexit": 8.6,
-    "other": 1.6
-  },
-  {
-    "riding": "Hertsmere",
-    "con": 50.7,
-    "lab": 19,
-    "lib": 15.9,
-    "green": 2.9,
-    "brexit": 9.5,
-    "other": 1.9
-  },
-  {
-    "riding": "Hexham",
-    "con": 44.5,
-    "lab": 23.5,
-    "lib": 16.6,
-    "green": 3.3,
-    "brexit": 11,
-    "other": 1.2
-  },
-  {
-    "riding": "Heywood and Middleton",
-    "lab": 35.8,
-    "con": 35.8,
-    "lib": 9.3,
-    "brexit": 15.4,
-    "green": 2.1,
-    "other": 1.6
-  },
-  {
-    "riding": "High Peak",
-    "lab": 33.3,
-    "con": 38.4,
-    "lib": 13.4,
-    "brexit": 11.1,
-    "green": 2.5,
-    "other": 1.2
-  },
-  {
-    "riding": "Hitchin and Harpenden",
-    "con": 44.6,
-    "lab": 19.7,
-    "lib": 23,
-    "green": 3.5,
-    "brexit": 7,
-    "other": 2.1
-  },
-  {
-    "riding": "Holborn and St Pancras",
-    "lab": 43.9,
-    "con": 23.6,
-    "lib": 19.1,
-    "green": 8,
-    "brexit": 4.2,
-    "other": 1.3
-  },
-  {
-    "riding": "Hornchurch and Upminster",
-    "con": 52.3,
-    "lab": 17.9,
-    "lib": 10.6,
-    "green": 2.5,
-    "brexit": 14.5,
-    "other": 2.1
-  },
-  {
-    "riding": "Hornsey and Wood Green",
-    "lab": 39,
-    "lib": 32,
-    "con": 19.7,
-    "green": 4.8,
-    "brexit": 3.2,
-    "other": 1.3
-  },
-  {
-    "riding": "Horsham",
-    "con": 48.9,
-    "lab": 13.8,
-    "lib": 22.5,
-    "green": 3.1,
-    "brexit": 9.7,
-    "other": 2
-  },
-  {
-    "riding": "Houghton and Sunderland South",
-    "lab": 39,
-    "con": 31.5,
-    "lib": 9.3,
-    "green": 3,
-    "brexit": 15.1,
-    "other": 2.2
-  },
-  {
-    "riding": "Hove",
-    "lab": 38.1,
-    "con": 32.3,
-    "lib": 15.6,
-    "green": 5.4,
-    "brexit": 6.7,
-    "other": 1.9
-  },
-  {
-    "riding": "Huddersfield",
-    "lab": 43,
-    "con": 30.8,
-    "green": 4.9,
-    "lib": 9.9,
-    "brexit": 10.2,
-    "other": 1.2
-  },
-  {
-    "riding": "Hull East",
-    "lab": 37.6,
-    "con": 30.7,
-    "lib": 9,
-    "green": 2.9,
-    "brexit": 18,
-    "other": 1.9
-  },
-  {
-    "riding": "Hull North",
-    "lab": 41.2,
-    "con": 27.4,
-    "lib": 12.3,
-    "green": 4.2,
-    "brexit": 13.3,
-    "other": 1.5
-  },
-  {
-    "riding": "Hull West and Hessle",
     "lab": 37.7,
-    "con": 31.4,
-    "lib": 11.1,
-    "green": 2.8,
-    "brexit": 15.3,
-    "other": 1.7
-  },
-  {
-    "riding": "Huntingdon",
-    "con": 46.7,
-    "lab": 19.3,
-    "lib": 18.6,
-    "green": 3.1,
-    "brexit": 10.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Hyndburn",
-    "lab": 38,
-    "con": 36.4,
-    "lib": 7.8,
-    "brexit": 14.4,
-    "green": 2.1,
-    "other": 1.3
-  },
-  {
-    "riding": "Ilford North",
-    "lab": 38.8,
-    "con": 37.9,
-    "lib": 11.3,
-    "brexit": 7.5,
-    "green": 2.8,
-    "other": 1.7
-  },
-  {
-    "riding": "Ilford South",
-    "lab": 55.8,
-    "con": 25.3,
-    "lib": 9,
-    "green": 3.5,
-    "brexit": 5.5,
-    "other": 0.9
-  },
-  {
-    "riding": "Ipswich",
-    "lab": 29.9,
-    "con": 40.7,
-    "lib": 12.5,
-    "green": 3.7,
-    "brexit": 11.3,
-    "other": 1.9
-  },
-  {
-    "riding": "Isle of Wight",
-    "con": 46.9,
-    "lab": 14.2,
-    "green": 12.9,
-    "lib": 12.8,
-    "brexit": 11.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Islington North",
-    "lab": 45.5,
-    "con": 20.1,
-    "lib": 20.8,
-    "green": 8.2,
-    "brexit": 3.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Islington South and Finsbury",
-    "lab": 38.9,
-    "con": 24.6,
-    "lib": 24.4,
-    "green": 5.8,
-    "brexit": 5,
-    "other": 1.3
-  },
-  {
-    "riding": "Jarrow",
-    "lab": 42,
-    "con": 29.1,
-    "lib": 9.9,
-    "green": 3.1,
-    "brexit": 14.1,
-    "other": 1.7
-  },
-  {
-    "riding": "Keighley",
-    "lab": 34.9,
-    "con": 39.2,
-    "lib": 9.9,
-    "green": 2.7,
-    "brexit": 11.8,
-    "other": 1.4
-  },
-  {
-    "riding": "Kenilworth and Southam",
-    "con": 49.8,
-    "lab": 15.5,
-    "lib": 21.7,
-    "green": 2.9,
-    "brexit": 8.7,
-    "other": 1.4
-  },
-  {
-    "riding": "Kensington",
-    "lab": 28.9,
-    "con": 36.9,
-    "lib": 23,
-    "green": 4.2,
-    "brexit": 5.2,
-    "other": 1.9
-  },
-  {
-    "riding": "Kettering",
-    "con": 45.5,
-    "lab": 25.7,
-    "lib": 10.6,
-    "green": 3,
-    "brexit": 14,
-    "other": 1.2
-  },
-  {
-    "riding": "Kingston and Surbiton",
-    "lib": 47,
-    "con": 32.5,
-    "lab": 10.4,
-    "green": 2.2,
-    "brexit": 6.6,
-    "other": 1.3
-  },
-  {
-    "riding": "Kingswood",
-    "con": 46.8,
-    "lab": 23.8,
-    "lib": 13.8,
-    "green": 3.2,
-    "brexit": 10.8,
-    "other": 1.7
-  },
-  {
-    "riding": "Knowsley",
-    "lab": 55.8,
-    "con": 19.2,
-    "lib": 9.8,
-    "green": 3.1,
-    "brexit": 10.3,
-    "other": 1.8
-  },
-  {
-    "riding": "Lancashire West",
-    "lab": 38.7,
-    "con": 35.1,
-    "lib": 10.4,
-    "green": 3,
-    "brexit": 11.3,
-    "other": 1.6
-  },
-  {
-    "riding": "Lancaster and Fleetwood",
-    "lab": 36.5,
-    "con": 35.6,
-    "lib": 11.7,
-    "green": 4.2,
-    "brexit": 10.8,
-    "other": 1.2
-  },
-  {
-    "riding": "Leeds Central",
-    "lab": 47.9,
-    "con": 24.3,
-    "green": 5.2,
-    "lib": 10.1,
-    "brexit": 11.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Leeds East",
-    "lab": 43.5,
-    "con": 30.4,
-    "lib": 8.1,
-    "green": 2.7,
-    "brexit": 13.6,
-    "other": 1.7
-  },
-  {
-    "riding": "Leeds North East",
-    "lab": 45.1,
-    "con": 29.9,
-    "lib": 12.8,
-    "green": 3.7,
-    "brexit": 7.1,
-    "other": 1.3
-  },
-  {
-    "riding": "Leeds North West",
-    "lab": 27.2,
-    "lib": 38.2,
-    "con": 23,
-    "green": 4,
-    "brexit": 6.8,
-    "other": 0.9
-  },
-  {
-    "riding": "Leeds West",
-    "lab": 42.2,
-    "con": 28.1,
-    "green": 5.5,
-    "lib": 10,
-    "brexit": 12.6,
-    "other": 1.7
-  },
-  {
-    "riding": "Leicester East",
-    "lab": 52.1,
-    "con": 26.1,
-    "lib": 8,
-    "green": 4.1,
-    "brexit": 8.3,
-    "other": 1.3
-  },
-  {
-    "riding": "Leicester South",
-    "lab": 55.6,
-    "con": 22.6,
-    "lib": 10.1,
-    "green": 4.4,
-    "brexit": 6.4,
-    "other": 0.8
-  },
-  {
-    "riding": "Leicester West",
-    "lab": 42.4,
-    "con": 29.6,
-    "lib": 9.8,
-    "green": 4.2,
-    "brexit": 12.5,
-    "other": 1.4
-  },
-  {
-    "riding": "Leicestershire North West",
-    "con": 46.4,
-    "lab": 23.3,
-    "lib": 12.5,
-    "green": 2.7,
-    "brexit": 13.9,
-    "other": 1.2
-  },
-  {
-    "riding": "Leicestershire South",
-    "con": 48.4,
-    "lab": 20.8,
-    "lib": 12.4,
-    "green": 2.5,
-    "brexit": 14.5,
-    "other": 1.3
-  },
-  {
-    "riding": "Leigh",
-    "lab": 36.8,
-    "con": 34.8,
-    "lib": 9.2,
-    "brexit": 15.6,
-    "green": 2,
-    "other": 1.7
-  },
-  {
-    "riding": "Lewes",
-    "con": 38.5,
-    "lib": 43,
-    "lab": 8,
-    "brexit": 7.7,
-    "green": 1.6,
-    "other": 1.3
-  },
-  {
-    "riding": "Lewisham Deptford",
-    "lab": 46.9,
-    "con": 20.9,
-    "lib": 17.3,
-    "green": 9.3,
-    "brexit": 3.8,
-    "other": 2
-  },
-  {
-    "riding": "Lewisham East",
-    "lab": 42.5,
-    "con": 27.3,
-    "lib": 16.3,
-    "green": 4.7,
-    "brexit": 6.7,
-    "other": 2.5
-  },
-  {
-    "riding": "Lewisham West and Penge",
-    "lab": 41,
-    "con": 26.9,
-    "lib": 18.5,
-    "green": 5.5,
-    "brexit": 6,
-    "other": 2
-  },
-  {
-    "riding": "Leyton and Wanstead",
-    "lab": 48.4,
-    "con": 25.2,
-    "lib": 15.4,
-    "green": 5.1,
-    "brexit": 4.9,
-    "other": 1
-  },
-  {
-    "riding": "Lichfield",
-    "con": 52.1,
-    "lab": 17.6,
-    "lib": 15.1,
-    "green": 2.9,
-    "brexit": 10.7,
-    "other": 1.5
-  },
-  {
-    "riding": "Lincoln",
-    "lab": 33.5,
-    "con": 37.4,
-    "lib": 10.9,
-    "green": 2.8,
-    "brexit": 13.6,
-    "other": 1.7
-  },
-  {
-    "riding": "Liverpool Riverside",
-    "lab": 55,
-    "con": 17.8,
-    "green": 8.1,
-    "lib": 12.9,
-    "brexit": 5.1,
-    "other": 1.1
-  },
-  {
-    "riding": "Liverpool Walton",
-    "lab": 58.1,
-    "con": 18.1,
-    "lib": 9.4,
-    "green": 3.4,
-    "brexit": 9.4,
-    "other": 1.6
-  },
-  {
-    "riding": "Liverpool Wavertree",
-    "lab": 52.9,
-    "con": 19.5,
-    "lib": 15,
-    "green": 4.2,
-    "brexit": 7.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Liverpool West Derby",
-    "lab": 57.3,
-    "con": 18.9,
-    "lib": 9.6,
-    "green": 3.1,
-    "brexit": 9.2,
-    "other": 1.8
-  },
-  {
-    "riding": "Loughborough",
-    "con": 40.3,
-    "lab": 30.7,
-    "lib": 13,
-    "green": 3.5,
-    "brexit": 11.2,
-    "other": 1.2
-  },
-  {
-    "riding": "Louth and Horncastle",
-    "con": 49.6,
-    "lab": 19.2,
-    "lib": 10.2,
-    "brexit": 17.7,
-    "green": 1.6,
-    "other": 1.7
-  },
-  {
-    "riding": "Ludlow",
-    "con": 51.1,
-    "lab": 15,
-    "lib": 19.4,
-    "green": 2.7,
-    "brexit": 10.3,
-    "other": 1.5
-  },
-  {
-    "riding": "Luton North",
-    "lab": 44.4,
-    "con": 33.6,
-    "lib": 9.4,
-    "green": 2.9,
-    "brexit": 8.5,
-    "other": 1.2
-  },
-  {
-    "riding": "Luton South",
-    "lab": 44.4,
-    "con": 32.4,
-    "lib": 10.2,
-    "green": 2.9,
-    "brexit": 8.8,
-    "other": 1.4
-  },
-  {
-    "riding": "Macclesfield",
-    "con": 43.3,
-    "lab": 25.4,
-    "lib": 15.1,
-    "green": 3.4,
-    "brexit": 10.9,
-    "other": 2
-  },
-  {
-    "riding": "Maidenhead",
-    "con": 51.9,
-    "lab": 13.4,
-    "lib": 22.1,
-    "green": 2.4,
-    "brexit": 8.3,
-    "other": 1.9
-  },
-  {
-    "riding": "Maidstone and The Weald",
-    "con": 46.8,
-    "lab": 14.1,
-    "lib": 23.9,
-    "green": 2.5,
-    "brexit": 11,
-    "other": 1.7
-  },
-  {
-    "riding": "Makerfield",
-    "lab": 40.1,
-    "con": 33.1,
-    "lib": 9.5,
-    "brexit": 13.7,
-    "green": 2.2,
-    "other": 1.3
-  },
-  {
-    "riding": "Maldon",
-    "con": 55.1,
-    "lab": 14.1,
-    "lib": 14,
-    "green": 2.6,
-    "brexit": 12.3,
-    "other": 2
-  },
-  {
-    "riding": "Manchester Central",
-    "lab": 53.3,
-    "con": 20.2,
-    "lib": 11.9,
-    "green": 5.6,
-    "brexit": 7.8,
-    "other": 1.2
-  },
-  {
-    "riding": "Manchester Gorton",
-    "lab": 60.8,
-    "con": 16,
-    "lib": 11.2,
-    "green": 5.3,
-    "brexit": 5.9,
-    "other": 1
-  },
-  {
-    "riding": "Manchester Withington",
-    "lab": 48.3,
-    "lib": 24.5,
-    "con": 16.9,
-    "green": 5.3,
-    "brexit": 4,
-    "other": 1
-  },
-  {
-    "riding": "Mansfield",
-    "con": 40.1,
-    "lab": 30.3,
-    "lib": 7.9,
-    "brexit": 18,
-    "green": 2.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Meon Valley",
-    "con": 52.3,
-    "lab": 12.4,
-    "lib": 20.8,
-    "green": 2.6,
-    "brexit": 10.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Meriden",
-    "con": 51.1,
-    "lab": 17.4,
-    "lib": 14.6,
-    "green": 3.2,
-    "brexit": 12,
-    "other": 1.8
-  },
-  {
-    "riding": "Middlesbrough",
-    "lab": 45.7,
-    "con": 28.5,
-    "lib": 7.6,
-    "green": 2.8,
-    "brexit": 14,
-    "other": 1.4
-  },
-  {
-    "riding": "Middlesbrough South and Cleveland East",
-    "con": 40.9,
-    "lab": 31.7,
-    "lib": 9.9,
-    "brexit": 14.2,
-    "green": 2,
-    "other": 1.2
-  },
-  {
-    "riding": "Milton Keynes North",
-    "con": 42.1,
-    "lab": 28,
-    "lib": 15,
-    "green": 3.6,
-    "brexit": 9.6,
-    "other": 1.8
-  },
-  {
-    "riding": "Milton Keynes South",
-    "con": 42.2,
-    "lab": 28.5,
-    "lib": 13.7,
-    "green": 3.5,
-    "brexit": 10.3,
-    "other": 1.8
-  },
-  {
-    "riding": "Mitcham and Morden",
-    "lab": 45.2,
-    "con": 28.7,
-    "lib": 12.5,
-    "green": 3.8,
-    "brexit": 7.9,
-    "other": 1.7
-  },
-  {
-    "riding": "Mole Valley",
-    "con": 49.3,
-    "lib": 27.7,
-    "lab": 10,
-    "green": 2.8,
-    "brexit": 8.7,
-    "other": 1.5
-  },
-  {
-    "riding": "Morecambe and Lunesdale",
-    "con": 40.7,
-    "lab": 30.7,
-    "lib": 11,
-    "green": 2.6,
-    "brexit": 13.6,
-    "other": 1.5
-  },
-  {
-    "riding": "Morley and Outwood",
-    "con": 41.5,
-    "lab": 31.5,
-    "lib": 10.3,
-    "brexit": 13.3,
-    "green": 2.2,
-    "other": 1.2
-  },
-  {
-    "riding": "New Forest East",
-    "con": 50.7,
-    "lab": 12.9,
-    "lib": 21,
-    "green": 2.9,
-    "brexit": 11,
-    "other": 1.5
-  },
-  {
-    "riding": "New Forest West",
-    "con": 54,
-    "lab": 12.9,
-    "lib": 17.8,
-    "green": 3,
-    "brexit": 10.4,
-    "other": 1.9
-  },
-  {
-    "riding": "Newark",
-    "con": 49.1,
-    "lab": 21.1,
-    "lib": 12.8,
-    "brexit": 13.9,
-    "green": 1.8,
-    "other": 1.3
-  },
-  {
-    "riding": "Newbury",
-    "con": 47.7,
-    "lib": 28.9,
-    "lab": 10.5,
-    "green": 2.7,
-    "brexit": 8.6,
-    "other": 1.6
-  },
-  {
-    "riding": "Newcastle upon Tyne Central",
-    "lab": 46.6,
-    "con": 26.5,
-    "lib": 11.6,
-    "green": 3.8,
-    "brexit": 10.3,
-    "other": 1.2
-  },
-  {
-    "riding": "Newcastle upon Tyne East",
-    "lab": 43.2,
-    "con": 24.8,
-    "lib": 15.6,
-    "green": 5.6,
-    "brexit": 9.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Newcastle upon Tyne North",
-    "lab": 36.6,
-    "con": 32.9,
-    "lib": 13.7,
-    "green": 2.9,
-    "brexit": 12.3,
-    "other": 1.6
-  },
-  {
-    "riding": "Newcastle-under-Lyme",
-    "lab": 28.5,
-    "con": 42.7,
-    "lib": 13.6,
-    "brexit": 11.2,
-    "green": 2.4,
-    "other": 1.7
-  },
-  {
-    "riding": "Newton Abbot",
-    "con": 45.8,
-    "lab": 13.3,
-    "lib": 26.7,
-    "green": 2.5,
-    "brexit": 10.3,
-    "other": 1.5
-  },
-  {
-    "riding": "Norfolk Mid",
-    "con": 49.8,
-    "lab": 18.6,
-    "lib": 14.2,
-    "green": 3.1,
-    "brexit": 12.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Norfolk North",
-    "lib": 44.2,
-    "con": 36.5,
-    "lab": 7.5,
-    "brexit": 9.3,
-    "green": 1.3,
-    "other": 1.3
-  },
-  {
-    "riding": "Norfolk North West",
-    "con": 50.4,
-    "lab": 19.9,
-    "lib": 12,
-    "green": 2.8,
-    "brexit": 13.2,
-    "other": 1.8
-  },
-  {
-    "riding": "Norfolk South",
-    "con": 48.3,
-    "lab": 18.6,
-    "lib": 18.6,
-    "green": 3.4,
-    "brexit": 9.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Norfolk South West",
-    "con": 52,
-    "lab": 17.6,
-    "lib": 12.3,
-    "brexit": 14.2,
-    "green": 2,
-    "other": 1.9
-  },
-  {
-    "riding": "Normanton, Pontefract and Castleford",
-    "lab": 39,
-    "con": 32,
-    "lib": 7.9,
-    "brexit": 17.4,
-    "green": 2,
-    "other": 1.8
-  },
-  {
-    "riding": "Northampton North",
-    "con": 39.6,
-    "lab": 31.7,
-    "lib": 10.3,
-    "green": 3.1,
-    "brexit": 14,
-    "other": 1.4
-  },
-  {
-    "riding": "Northampton South",
-    "con": 39.4,
-    "lab": 31.8,
-    "lib": 10.1,
-    "green": 3.2,
-    "brexit": 14.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Northamptonshire South",
-    "con": 49.2,
-    "lab": 19.8,
-    "lib": 14,
-    "green": 3,
-    "brexit": 12.6,
-    "other": 1.5
-  },
-  {
-    "riding": "Norwich North",
-    "con": 41.8,
-    "lab": 28.4,
-    "lib": 13.3,
-    "green": 3.8,
-    "brexit": 10.6,
-    "other": 2
-  },
-  {
-    "riding": "Norwich South",
-    "lab": 32.7,
-    "con": 31,
-    "lib": 17.6,
-    "green": 10.6,
-    "brexit": 6.6,
-    "other": 1.5
-  },
-  {
-    "riding": "Nottingham East",
-    "lab": 50.9,
-    "con": 23.4,
-    "lib": 10.8,
-    "green": 5.6,
-    "brexit": 8,
-    "other": 1.2
-  },
-  {
-    "riding": "Nottingham North",
-    "lab": 41.1,
-    "con": 30.1,
-    "lib": 8.7,
-    "green": 3.3,
-    "brexit": 15.1,
-    "other": 1.7
-  },
-  {
-    "riding": "Nottingham South",
-    "lab": 44.4,
-    "con": 29,
-    "lib": 12.1,
-    "green": 4.4,
-    "brexit": 9,
-    "other": 1.1
-  },
-  {
-    "riding": "Nuneaton",
-    "con": 45.3,
-    "lab": 25.9,
-    "lib": 11.1,
-    "green": 2.8,
-    "brexit": 13.1,
-    "other": 1.8
-  },
-  {
-    "riding": "Old Bexley and Sidcup",
-    "con": 52.1,
-    "lab": 18.5,
-    "lib": 12.6,
-    "green": 2.6,
-    "brexit": 12.1,
-    "other": 2.1
-  },
-  {
-    "riding": "Oldham East and Saddleworth",
-    "lab": 39,
-    "con": 34.2,
-    "lib": 10.7,
-    "brexit": 13,
-    "green": 1.9,
-    "other": 1.2
-  },
-  {
-    "riding": "Oldham West and Royton",
-    "lab": 48.6,
-    "con": 28.6,
-    "lib": 7.3,
-    "green": 2.2,
-    "brexit": 12.2,
-    "other": 1.1
-  },
-  {
-    "riding": "Orpington",
-    "con": 52.4,
-    "lab": 15.5,
-    "lib": 16.6,
-    "green": 2.7,
-    "brexit": 11.2,
-    "other": 1.6
-  },
-  {
-    "riding": "Oxford East",
-    "lab": 38.3,
-    "con": 26,
-    "lib": 22,
-    "green": 7.1,
-    "brexit": 5.2,
-    "other": 1.5
-  },
-  {
-    "riding": "Oxford West and Abingdon",
-    "lib": 47.3,
-    "con": 34.3,
-    "lab": 9.1,
-    "brexit": 6.4,
-    "green": 1.8,
-    "other": 1.1
-  },
-  {
-    "riding": "Pendle",
-    "con": 40.5,
-    "lab": 35.6,
-    "lib": 8.1,
-    "green": 2.2,
-    "brexit": 12.7,
-    "other": 1
-  },
-  {
-    "riding": "Penistone and Stocksbridge",
-    "lab": 30.3,
-    "con": 39.5,
-    "lib": 11.1,
-    "brexit": 15.7,
-    "green": 1.8,
-    "other": 1.5
-  },
-  {
-    "riding": "Penrith and The Border",
-    "con": 48,
-    "lab": 19.2,
-    "lib": 14.7,
-    "green": 2.8,
-    "brexit": 13.7,
-    "other": 1.6
-  },
-  {
-    "riding": "Peterborough",
-    "lab": 32.3,
-    "con": 41.5,
-    "lib": 11,
-    "green": 3,
-    "brexit": 10.7,
-    "other": 1.4
-  },
-  {
-    "riding": "Plymouth Moor View",
-    "con": 45.5,
-    "lab": 24.8,
-    "lib": 11,
-    "green": 2.7,
-    "brexit": 14.1,
-    "other": 2
-  },
-  {
-    "riding": "Plymouth Sutton and Devonport",
-    "lab": 31.8,
-    "con": 37,
-    "lib": 14.6,
-    "green": 4.5,
-    "brexit": 10,
-    "other": 2.1
-  },
-  {
-    "riding": "Poole",
-    "con": 48.4,
-    "lab": 17.7,
-    "lib": 17.9,
-    "green": 3.1,
-    "brexit": 10.7,
-    "other": 2.1
-  },
-  {
-    "riding": "Poplar and Limehouse",
-    "lab": 52.1,
-    "con": 24.3,
-    "lib": 13.7,
-    "green": 4.2,
-    "brexit": 5,
-    "other": 0.9
-  },
-  {
-    "riding": "Portsmouth North",
-    "con": 47.1,
-    "lab": 21,
-    "lib": 13.7,
-    "green": 2.9,
-    "brexit": 13.4,
-    "other": 2
-  },
-  {
-    "riding": "Portsmouth South",
-    "lab": 24.3,
-    "con": 34.8,
-    "lib": 26,
-    "green": 4.2,
-    "brexit": 9.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Preston",
-    "lab": 48.3,
-    "con": 26.3,
-    "lib": 9.5,
-    "green": 3.3,
-    "brexit": 11.5,
-    "other": 1.2
-  },
-  {
-    "riding": "Pudsey",
-    "con": 40.1,
-    "lab": 32.9,
-    "lib": 12.8,
-    "brexit": 10.5,
-    "green": 2.4,
-    "other": 1.3
-  },
-  {
-    "riding": "Putney",
-    "con": 37.9,
-    "lab": 27.8,
-    "lib": 23.1,
-    "green": 4.5,
-    "brexit": 5.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Rayleigh and Wickford",
-    "con": 54.9,
-    "lab": 15.5,
-    "lib": 11.7,
-    "green": 2.4,
-    "brexit": 13.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Reading East",
-    "lab": 30.8,
-    "con": 38,
-    "lib": 18.5,
-    "green": 4.6,
-    "brexit": 6.5,
-    "other": 1.6
-  },
-  {
-    "riding": "Reading West",
-    "con": 42.8,
-    "lab": 27.6,
-    "lib": 15.7,
-    "green": 3.3,
-    "brexit": 9.1,
-    "other": 1.5
-  },
-  {
-    "riding": "Redcar",
-    "lab": 34.8,
-    "con": 32.9,
-    "lib": 13.1,
-    "brexit": 15.6,
-    "green": 2,
-    "other": 1.6
-  },
-  {
-    "riding": "Redditch",
-    "con": 47.2,
-    "lab": 24,
-    "lib": 12,
-    "green": 2.5,
-    "brexit": 12.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Reigate",
-    "con": 48.4,
-    "lab": 15.5,
-    "lib": 20.9,
-    "green": 4.3,
-    "brexit": 9.3,
-    "other": 1.6
-  },
-  {
-    "riding": "Ribble South",
-    "con": 44.6,
-    "lab": 26.9,
-    "lib": 11.2,
-    "green": 2.1,
-    "brexit": 13.7,
-    "other": 1.5
-  },
-  {
-    "riding": "Ribble Valley",
-    "con": 47.1,
-    "lab": 23.3,
-    "lib": 12.8,
-    "green": 2.8,
-    "brexit": 12.8,
-    "other": 1.2
-  },
-  {
-    "riding": "Richmond",
-    "con": 51,
-    "lab": 18,
-    "lib": 13.6,
-    "green": 3.5,
-    "brexit": 12.8,
-    "other": 1.1
-  },
-  {
-    "riding": "Richmond Park",
-    "con": 34.6,
-    "lib": 49.9,
-    "lab": 7.7,
-    "brexit": 4.9,
-    "green": 1.8,
-    "other": 1.1
-  },
-  {
-    "riding": "Rochdale",
-    "lab": 45.2,
-    "con": 28.9,
-    "lib": 12,
-    "brexit": 10.8,
-    "green": 2,
-    "other": 1.1
-  },
-  {
-    "riding": "Rochester and Strood",
-    "con": 47.4,
-    "lab": 22.4,
-    "lib": 11.4,
-    "green": 2.9,
-    "brexit": 13.9,
-    "other": 2.1
-  },
-  {
-    "riding": "Rochford and Southend East",
-    "con": 44.9,
-    "lab": 24.7,
-    "lib": 12.5,
-    "green": 3.5,
-    "brexit": 12.6,
-    "other": 1.9
-  },
-  {
-    "riding": "Romford",
-    "con": 51,
-    "lab": 20.1,
-    "lib": 10.5,
-    "green": 2.6,
-    "brexit": 13.9,
-    "other": 1.7
-  },
-  {
-    "riding": "Romsey and Southampton North",
-    "con": 45.2,
-    "lib": 30,
-    "lab": 12.6,
-    "green": 2.7,
-    "brexit": 7.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Rossendale and Darwen",
-    "con": 41.8,
-    "lab": 30.8,
-    "lib": 10.4,
-    "green": 2.7,
-    "brexit": 13,
-    "other": 1.3
-  },
-  {
-    "riding": "Rother Valley",
-    "lab": 32,
-    "con": 37.8,
-    "lib": 9.2,
-    "green": 2.4,
-    "brexit": 17,
-    "other": 1.6
-  },
-  {
-    "riding": "Rotherham",
-    "lab": 40.5,
-    "con": 30.3,
-    "lib": 8.7,
-    "brexit": 16.9,
-    "green": 1.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Rugby",
-    "con": 46.6,
-    "lab": 23.3,
-    "lib": 14.8,
-    "green": 3,
-    "brexit": 10.7,
-    "other": 1.6
-  },
-  {
-    "riding": "Ruislip, Northwood and Pinner",
-    "con": 49.4,
-    "lab": 20.2,
-    "lib": 17.1,
-    "green": 3.5,
-    "brexit": 8.3,
-    "other": 1.6
-  },
-  {
-    "riding": "Runnymede and Weybridge",
-    "con": 50.6,
-    "lab": 16.5,
-    "lib": 18.1,
-    "green": 3.3,
-    "brexit": 9.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Rushcliffe",
-    "con": 42.8,
-    "lab": 26.4,
-    "lib": 15.5,
-    "green": 4.2,
-    "brexit": 9.9,
-    "other": 1.2
-  },
-  {
-    "riding": "Rutland and Melton",
-    "con": 49.8,
-    "lab": 16.8,
-    "lib": 15.7,
-    "green": 3.1,
-    "brexit": 13.3,
-    "other": 1.3
-  },
-  {
-    "riding": "Saffron Walden",
-    "con": 50,
-    "lab": 13.8,
-    "lib": 22.5,
-    "brexit": 10.3,
-    "green": 1.9,
-    "other": 1.5
-  },
-  {
-    "riding": "Salford and Eccles",
-    "lab": 43.8,
-    "con": 27.8,
-    "lib": 10.9,
-    "green": 4,
-    "brexit": 12,
-    "other": 1.6
-  },
-  {
-    "riding": "Salisbury",
-    "con": 48.4,
-    "lab": 15.5,
-    "lib": 21.4,
-    "green": 3,
-    "brexit": 9.8,
-    "other": 1.9
-  },
-  {
-    "riding": "Scarborough and Whitby",
-    "con": 41.5,
-    "lab": 28.6,
-    "lib": 10.3,
-    "green": 3.1,
-    "brexit": 14.8,
-    "other": 1.8
-  },
-  {
-    "riding": "Scunthorpe",
-    "lab": 35.2,
-    "con": 37.7,
-    "lib": 7.8,
-    "brexit": 15.6,
-    "green": 2.2,
-    "other": 1.4
-  },
-  {
-    "riding": "Sedgefield",
-    "lab": 35.4,
-    "con": 36,
-    "lib": 10.2,
-    "green": 2.9,
-    "brexit": 14,
-    "other": 1.6
-  },
-  {
-    "riding": "Sefton Central",
-    "lab": 41,
-    "con": 32.8,
-    "lib": 13,
-    "green": 2.8,
-    "brexit": 9.3,
-    "other": 1.3
-  },
-  {
-    "riding": "Selby and Ainsty",
-    "con": 47.4,
-    "lab": 23.6,
-    "lib": 11.7,
-    "brexit": 14.1,
-    "green": 1.8,
-    "other": 1.3
-  },
-  {
-    "riding": "Sevenoaks",
-    "con": 52.6,
-    "lab": 13.8,
-    "lib": 18,
-    "green": 3.1,
-    "brexit": 11,
-    "other": 1.6
-  },
-  {
-    "riding": "Sheffield Brightside and Hillsborough",
-    "lab": 48,
-    "con": 25.7,
-    "lib": 8.1,
-    "green": 3.1,
-    "brexit": 13.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Sheffield Central",
-    "lab": 45.1,
-    "con": 20.5,
-    "green": 12.7,
-    "lib": 14.5,
-    "brexit": 6.1,
-    "other": 1.2
-  },
-  {
-    "riding": "Sheffield Hallam",
-    "lab": 22.9,
-    "lib": 42,
-    "con": 24.7,
-    "green": 3,
-    "brexit": 6.4,
-    "other": 0.9
-  },
-  {
-    "riding": "Sheffield Heeley",
-    "lab": 39.6,
-    "con": 29.9,
-    "lib": 12,
-    "green": 4.1,
-    "brexit": 12.8,
-    "other": 1.6
-  },
-  {
-    "riding": "Sheffield South East",
-    "lab": 40.6,
-    "con": 31.9,
-    "lib": 9,
-    "brexit": 14.8,
-    "green": 2.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Sherwood",
-    "con": 42.7,
-    "lab": 28.5,
-    "lib": 9.6,
-    "green": 2.5,
-    "brexit": 15.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Shipley",
-    "con": 42.3,
-    "lab": 30.2,
-    "lib": 13,
-    "brexit": 10.7,
-    "green": 2.7,
-    "other": 1.1
-  },
-  {
-    "riding": "Shrewsbury and Atcham",
-    "con": 44.1,
-    "lab": 23,
-    "lib": 17.5,
-    "green": 3.1,
-    "brexit": 10.5,
-    "other": 1.7
-  },
-  {
-    "riding": "Shropshire North",
-    "con": 50.1,
-    "lab": 19.2,
-    "lib": 14.5,
-    "green": 3.5,
-    "brexit": 11.2,
-    "other": 1.6
-  },
-  {
-    "riding": "Sittingbourne and Sheppey",
-    "con": 50.5,
-    "lab": 20.2,
-    "lib": 11.9,
-    "green": 2.3,
-    "brexit": 12.9,
-    "other": 2.3
-  },
-  {
-    "riding": "Skipton and Ripon",
-    "con": 50.1,
-    "lab": 20.4,
-    "green": 4.9,
-    "lib": 11.3,
-    "brexit": 12.1,
-    "other": 1.1
-  },
-  {
-    "riding": "Sleaford and North Hykeham",
-    "con": 50.7,
-    "lab": 18.7,
-    "lib": 11.5,
-    "green": 2,
-    "brexit": 15.2,
-    "other": 1.8
-  },
-  {
-    "riding": "Slough",
-    "lab": 44.9,
-    "con": 32.9,
-    "lib": 9.8,
-    "brexit": 8.2,
-    "green": 2.7,
-    "other": 1.6
-  },
-  {
-    "riding": "Solihull",
-    "con": 47.6,
-    "lab": 14,
-    "lib": 25.1,
-    "green": 2.4,
-    "brexit": 9.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Somerset North",
-    "con": 47.9,
-    "lab": 16.2,
-    "lib": 22.4,
-    "green": 3.6,
-    "brexit": 8.4,
-    "other": 1.5
-  },
-  {
-    "riding": "Somerset North East",
-    "con": 46.5,
-    "lab": 20.3,
-    "lib": 18.2,
-    "green": 3.4,
-    "brexit": 9.4,
-    "other": 2.1
-  },
-  {
-    "riding": "Somerton and Frome",
-    "con": 45.7,
-    "lib": 28.5,
-    "lab": 11.2,
-    "green": 3.3,
-    "brexit": 9.2,
-    "other": 2.1
-  },
-  {
-    "riding": "South Holland and The Deepings",
-    "con": 52.6,
-    "lab": 15.9,
-    "lib": 8.7,
-    "green": 2.2,
-    "brexit": 18.9,
-    "other": 1.7
-  },
-  {
-    "riding": "South Shields",
-    "lab": 40.9,
-    "con": 29.6,
-    "green": 4,
-    "lib": 8.6,
-    "brexit": 15.1,
-    "other": 1.8
-  },
-  {
-    "riding": "Southampton Itchen",
-    "con": 41.3,
-    "lab": 28.7,
-    "lib": 12.9,
-    "green": 3.7,
-    "brexit": 11.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Southampton Test",
-    "lab": 36.8,
-    "con": 33.9,
-    "lib": 14.6,
-    "brexit": 8.8,
-    "green": 3.8,
-    "other": 2.3
-  },
-  {
-    "riding": "Southend West",
-    "con": 46.9,
-    "lab": 21,
-    "lib": 15.4,
-    "green": 3.2,
-    "brexit": 11.4,
-    "other": 2.2
-  },
-  {
-    "riding": "Southport",
-    "con": 35.1,
-    "lab": 21.3,
-    "lib": 29,
-    "brexit": 11.5,
-    "green": 1.8,
-    "other": 1.3
-  },
-  {
-    "riding": "Spelthorne",
-    "con": 49.8,
-    "lab": 18.6,
-    "lib": 14.7,
-    "green": 2.8,
-    "brexit": 12.3,
-    "other": 1.7
-  },
-  {
-    "riding": "St Albans",
-    "con": 37.1,
-    "lib": 38.4,
-    "lab": 14.4,
-    "green": 2.6,
-    "brexit": 6.2,
-    "other": 1.2
-  },
-  {
-    "riding": "St Austell and Newquay",
-    "con": 43.4,
-    "lab": 16.4,
-    "lib": 25.4,
-    "brexit": 11.3,
-    "green": 1.9,
-    "other": 1.5
-  },
-  {
-    "riding": "St Helens North",
-    "lab": 41.1,
-    "con": 30.2,
-    "lib": 10.2,
-    "green": 3.4,
-    "brexit": 13.5,
-    "other": 1.6
-  },
-  {
-    "riding": "St Helens South and Whiston",
-    "lab": 43.7,
-    "con": 27.2,
-    "lib": 11.3,
-    "green": 3.7,
-    "brexit": 12.4,
-    "other": 1.7
-  },
-  {
-    "riding": "St Ives",
-    "con": 36.9,
-    "lib": 41.6,
-    "lab": 9.4,
-    "brexit": 8.9,
-    "green": 1.9,
-    "other": 1.3
-  },
-  {
-    "riding": "Stafford",
-    "con": 47.1,
-    "lab": 24.2,
-    "lib": 13.6,
-    "green": 3.4,
-    "brexit": 10,
-    "other": 1.7
-  },
-  {
-    "riding": "Staffordshire Moorlands",
-    "con": 50.3,
-    "lab": 21.2,
-    "lib": 12.7,
-    "green": 2.4,
-    "brexit": 11.9,
-    "other": 1.7
-  },
-  {
-    "riding": "Staffordshire South",
-    "con": 56,
-    "lab": 15.9,
-    "lib": 12,
-    "green": 2.5,
-    "brexit": 12,
-    "other": 1.5
-  },
-  {
-    "riding": "Stalybridge and Hyde",
-    "lab": 38.2,
-    "con": 34.4,
-    "lib": 10,
-    "green": 3.7,
-    "brexit": 12.5,
-    "other": 1.2
-  },
-  {
-    "riding": "Stevenage",
-    "con": 43.8,
-    "lab": 26.8,
-    "lib": 13.6,
-    "green": 3.4,
-    "brexit": 10.6,
-    "other": 1.8
-  },
-  {
-    "riding": "Stockport",
-    "lab": 42.5,
-    "con": 29.1,
-    "lib": 12.7,
-    "green": 3.7,
-    "brexit": 10.7,
-    "other": 1.3
-  },
-  {
-    "riding": "Stockton North",
-    "lab": 37.6,
-    "con": 34.5,
-    "lib": 8.2,
-    "green": 2.3,
-    "brexit": 15.7,
-    "other": 1.6
-  },
-  {
-    "riding": "Stockton South",
-    "lab": 33.6,
-    "con": 39.8,
-    "lib": 10.1,
-    "green": 2.4,
-    "brexit": 12.8,
-    "other": 1.3
-  },
-  {
-    "riding": "Stoke-on-Trent Central",
-    "lab": 32.7,
-    "con": 37.8,
-    "lib": 11,
-    "green": 3.1,
-    "brexit": 13.2,
-    "other": 2.2
-  },
-  {
-    "riding": "Stoke-on-Trent North",
-    "lab": 31.4,
-    "con": 41,
-    "lib": 10,
-    "green": 2.8,
-    "brexit": 13.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Stoke-on-Trent South",
-    "con": 43.1,
-    "lab": 29.4,
-    "lib": 10.7,
-    "green": 2.8,
-    "brexit": 12.3,
-    "other": 1.7
-  },
-  {
-    "riding": "Stone",
-    "con": 52.9,
-    "lab": 17.1,
-    "lib": 14.6,
-    "green": 2.3,
-    "brexit": 11.5,
-    "other": 1.6
-  },
-  {
-    "riding": "Stourbridge",
-    "con": 47.3,
-    "lab": 24.3,
-    "lib": 11.6,
-    "green": 2.4,
-    "brexit": 12.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Stratford-on-Avon",
-    "con": 50.2,
-    "lab": 14.2,
-    "lib": 21.6,
-    "green": 2.8,
-    "brexit": 9.3,
-    "other": 1.8
-  },
-  {
-    "riding": "Streatham",
-    "lab": 43,
-    "con": 24.6,
-    "lib": 20.4,
-    "green": 6.5,
-    "brexit": 4.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Stretford and Urmston",
-    "lab": 46.8,
-    "con": 28.4,
-    "lib": 10.2,
-    "green": 3.4,
-    "brexit": 9.9,
-    "other": 1.2
-  },
-  {
-    "riding": "Stroud",
-    "lab": 27.8,
-    "con": 42.2,
-    "lib": 15.4,
-    "green": 3.9,
-    "brexit": 8.9,
-    "other": 1.7
-  },
-  {
-    "riding": "Suffolk Central and Ipswich North",
-    "con": 50.2,
-    "lab": 18.2,
-    "lib": 15.1,
-    "green": 3.6,
-    "brexit": 11.2,
-    "other": 1.6
-  },
-  {
-    "riding": "Suffolk Coastal",
-    "con": 48.8,
-    "lab": 18.1,
-    "lib": 17.1,
-    "green": 3.6,
-    "brexit": 10.3,
-    "other": 2.2
-  },
-  {
-    "riding": "Suffolk South",
-    "con": 50.2,
-    "lab": 17.2,
-    "lib": 16.8,
-    "green": 3.3,
-    "brexit": 11,
-    "other": 1.6
-  },
-  {
-    "riding": "Suffolk West",
-    "con": 50.7,
-    "lab": 18.1,
-    "lib": 13.1,
-    "green": 2.8,
-    "brexit": 13.4,
-    "other": 1.9
-  },
-  {
-    "riding": "Sunderland Central",
-    "lab": 38,
-    "con": 32.6,
-    "lib": 10.9,
-    "green": 3.2,
-    "brexit": 13.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Surrey East",
-    "con": 51.7,
-    "lab": 13.5,
-    "lib": 19.7,
-    "green": 2.5,
-    "brexit": 10.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Surrey Heath",
-    "con": 51.7,
-    "lab": 13.9,
-    "lib": 20.2,
-    "green": 3.5,
-    "brexit": 9.2,
-    "other": 1.5
-  },
-  {
-    "riding": "Surrey South West",
-    "con": 53.1,
-    "lab": 11.3,
-    "lib": 24.3,
-    "brexit": 8,
-    "green": 1.9,
-    "other": 1.4
-  },
-  {
-    "riding": "Sussex Mid",
-    "con": 47.1,
-    "lab": 15.3,
-    "lib": 23.5,
-    "green": 3.1,
-    "brexit": 9.2,
-    "other": 1.9
-  },
-  {
-    "riding": "Sutton and Cheam",
-    "con": 42.4,
-    "lib": 32.4,
-    "lab": 13.2,
-    "green": 2.3,
-    "brexit": 8.4,
-    "other": 1.3
-  },
-  {
-    "riding": "Sutton Coldfield",
-    "con": 50.3,
-    "lab": 19.8,
-    "lib": 15.9,
-    "green": 2.8,
-    "brexit": 9.2,
-    "other": 1.9
-  },
-  {
-    "riding": "Swindon North",
-    "con": 45.9,
-    "lab": 23.7,
-    "lib": 13.6,
-    "green": 3.1,
-    "brexit": 11.8,
-    "other": 1.8
-  },
-  {
-    "riding": "Swindon South",
-    "con": 42.9,
-    "lab": 27,
-    "lib": 14.8,
-    "green": 3.3,
-    "brexit": 10.3,
-    "other": 1.7
-  },
-  {
-    "riding": "Tamworth",
-    "con": 49.7,
-    "lab": 21.4,
-    "lib": 12.6,
-    "brexit": 12.6,
-    "green": 2,
-    "other": 1.7
-  },
-  {
-    "riding": "Tatton",
-    "con": 46.9,
-    "lab": 20.7,
-    "lib": 17.3,
-    "green": 2.8,
-    "brexit": 10.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Taunton Deane",
-    "con": 43.1,
-    "lib": 32.5,
-    "lab": 10.5,
-    "green": 2.4,
-    "brexit": 10,
-    "other": 1.5
-  },
-  {
-    "riding": "Telford",
-    "con": 42.7,
-    "lab": 28.7,
-    "lib": 11.2,
-    "green": 3.2,
-    "brexit": 12.3,
-    "other": 1.9
-  },
-  {
-    "riding": "Tewkesbury",
-    "con": 49.1,
-    "lab": 13.6,
-    "lib": 22.5,
-    "green": 2.9,
-    "brexit": 10.3,
-    "other": 1.6
-  },
-  {
-    "riding": "Thanet North",
-    "con": 48.6,
-    "lab": 20.9,
-    "lib": 12.6,
-    "green": 2.6,
-    "brexit": 13.4,
-    "other": 2
-  },
-  {
-    "riding": "Thanet South",
-    "con": 46.1,
-    "lab": 23.3,
-    "lib": 12.3,
-    "green": 2.6,
-    "brexit": 13.5,
-    "other": 2.2
-  },
-  {
-    "riding": "Thirsk and Malton",
-    "con": 48.7,
-    "lab": 19.2,
-    "lib": 14,
-    "green": 2.6,
-    "brexit": 13.9,
-    "other": 1.7
-  },
-  {
-    "riding": "Thornbury and Yate",
-    "con": 42.3,
-    "lib": 37.5,
-    "lab": 8.5,
-    "green": 1.8,
-    "brexit": 8.6,
-    "other": 1.3
-  },
-  {
-    "riding": "Thurrock",
-    "con": 40.8,
-    "lab": 25.3,
-    "ukip": 1.2,
-    "lib": 9.2,
-    "brexit": 20.1,
-    "green": 2,
-    "other": 1.5
-  },
-  {
-    "riding": "Tiverton and Honiton",
-    "con": 50.6,
-    "lab": 16.1,
-    "lib": 17.6,
-    "green": 3.6,
-    "brexit": 10.5,
-    "other": 1.5
-  },
-  {
-    "riding": "Tonbridge and Malling",
-    "con": 52.4,
-    "lab": 14.4,
-    "lib": 17.2,
-    "green": 3.7,
-    "brexit": 10.7,
-    "other": 1.6
-  },
-  {
-    "riding": "Tooting",
-    "lab": 40.4,
     "con": 31.5,
-    "lib": 17.9,
-    "green": 4.4,
-    "brexit": 4.4,
-    "other": 1.3
-  },
-  {
-    "riding": "Torbay",
-    "con": 44,
-    "lib": 28.5,
-    "lab": 11.9,
-    "green": 2.1,
-    "brexit": 11.8,
-    "other": 1.6
-  },
-  {
-    "riding": "Totnes",
-    "con": 46.5,
-    "lab": 15.5,
-    "lib": 21.4,
-    "green": 4.6,
-    "brexit": 10.4,
-    "other": 1.6
-  },
-  {
-    "riding": "Tottenham",
-    "lab": 55.5,
-    "con": 19.4,
-    "lib": 13,
-    "green": 6,
-    "brexit": 5,
-    "other": 1.2
-  },
-  {
-    "riding": "Truro and Falmouth",
-    "con": 40,
-    "lab": 20.8,
-    "lib": 25.1,
-    "green": 3.6,
-    "brexit": 8.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Tunbridge Wells",
-    "con": 47.5,
-    "lab": 16.8,
-    "lib": 21,
-    "green": 3.5,
-    "brexit": 9.1,
-    "other": 2.2
-  },
-  {
-    "riding": "Twickenham",
-    "lib": 55.8,
-    "con": 29.7,
-    "lab": 7,
-    "brexit": 4.9,
-    "green": 1.5,
-    "other": 0.9
-  },
-  {
-    "riding": "Tynemouth",
-    "lab": 38.1,
-    "con": 34.1,
-    "lib": 12.1,
+    "lib": 18.8,
     "green": 3.2,
-    "brexit": 11.1,
-    "other": 1.4
-  },
-  {
-    "riding": "Tyneside North",
-    "lab": 41.8,
-    "con": 29.4,
-    "lib": 10.5,
-    "green": 3.2,
-    "brexit": 13.6,
-    "other": 1.6
-  },
-  {
-    "riding": "Uxbridge and South Ruislip",
-    "con": 44.8,
-    "lab": 26.4,
-    "lib": 13.3,
-    "green": 3.5,
-    "brexit": 10.4,
-    "other": 1.6
-  },
-  {
-    "riding": "Vauxhall",
-    "lab": 36.4,
-    "lib": 29.1,
-    "con": 22.9,
-    "green": 5.7,
-    "brexit": 3.9,
-    "other": 1.9
-  },
-  {
-    "riding": "Wakefield",
-    "lab": 35,
-    "con": 38.7,
-    "lib": 9,
-    "brexit": 13.7,
-    "green": 2.3,
-    "other": 1.5
-  },
-  {
-    "riding": "Wallasey",
-    "lab": 47.4,
-    "con": 26.6,
-    "lib": 9.8,
-    "green": 3.3,
-    "brexit": 11.3,
-    "other": 1.6
-  },
-  {
-    "riding": "Walsall North",
-    "con": 43.7,
-    "lab": 27.4,
-    "lib": 9.3,
-    "brexit": 15.5,
-    "green": 2.1,
-    "other": 2
-  },
-  {
-    "riding": "Walsall South",
-    "lab": 39.8,
-    "con": 36.5,
-    "lib": 9.3,
-    "brexit": 10.7,
-    "green": 2.3,
-    "other": 1.4
-  },
-  {
-    "riding": "Walthamstow",
-    "lab": 56.4,
-    "con": 20.7,
-    "lib": 12.4,
-    "green": 4.8,
-    "brexit": 4.8,
-    "other": 1
-  },
-  {
-    "riding": "Wansbeck",
-    "lab": 37.3,
-    "con": 32.5,
-    "lib": 12.3,
-    "green": 3.3,
-    "brexit": 13,
-    "other": 1.5
-  },
-  {
-    "riding": "Wantage",
-    "con": 45.9,
-    "lab": 16.2,
-    "lib": 24.1,
-    "green": 3.3,
-    "brexit": 9.1,
-    "other": 1.6
-  },
-  {
-    "riding": "Warley",
-    "lab": 44.4,
-    "con": 30.2,
-    "lib": 10.3,
-    "green": 3.4,
-    "brexit": 10,
-    "other": 1.6
-  },
-  {
-    "riding": "Warrington North",
-    "lab": 36.9,
-    "con": 34.9,
-    "lib": 10.2,
-    "green": 2.8,
-    "brexit": 13.6,
-    "other": 1.5
-  },
-  {
-    "riding": "Warrington South",
-    "lab": 32.4,
-    "con": 38.5,
-    "lib": 14.1,
-    "brexit": 10.8,
-    "green": 2.3,
-    "other": 1.9
-  },
-  {
-    "riding": "Warwick and Leamington",
-    "lab": 28.5,
-    "con": 39.7,
-    "lib": 18,
-    "green": 4.2,
-    "brexit": 7.8,
-    "other": 1.6
-  },
-  {
-    "riding": "Warwickshire North",
-    "con": 48.3,
-    "lab": 23.6,
-    "lib": 10.9,
-    "green": 2.7,
-    "brexit": 12.8,
-    "other": 1.7
-  },
-  {
-    "riding": "Washington and Sunderland West",
-    "lab": 39.8,
-    "con": 30.6,
-    "lib": 9.4,
-    "green": 3,
-    "brexit": 15.3,
-    "other": 1.8
-  },
-  {
-    "riding": "Watford",
-    "con": 41,
-    "lab": 26.8,
-    "lib": 18.6,
-    "green": 3,
-    "brexit": 9.2,
-    "other": 1.5
-  },
-  {
-    "riding": "Waveney",
-    "con": 46.6,
-    "lab": 23.1,
-    "green": 3.4,
-    "lib": 11.4,
-    "brexit": 13.3,
-    "other": 2.2
-  },
-  {
-    "riding": "Wealden",
-    "con": 51.1,
-    "lab": 13.9,
-    "lib": 19.4,
-    "green": 3.5,
-    "brexit": 10.5,
-    "other": 1.6
-  },
-  {
-    "riding": "Weaver Vale",
-    "lab": 34.6,
-    "con": 38.1,
-    "lib": 12.1,
-    "green": 3,
-    "brexit": 11,
-    "other": 1.3
-  },
-  {
-    "riding": "Wellingborough",
-    "con": 45.4,
-    "lab": 24.4,
-    "lib": 10.2,
-    "green": 2.9,
-    "brexit": 15.6,
-    "other": 1.4
-  },
-  {
-    "riding": "Wells",
-    "con": 40.6,
-    "lib": 38.7,
-    "lab": 8.6,
-    "brexit": 9,
-    "green": 1.6,
-    "other": 1.6
-  },
-  {
-    "riding": "Welwyn Hatfield",
-    "con": 44.7,
-    "lab": 23.3,
-    "lib": 16.7,
-    "green": 3.4,
-    "brexit": 10.1,
-    "other": 1.8
-  },
-  {
-    "riding": "Wentworth and Dearne",
-    "lab": 40.6,
-    "con": 31.8,
-    "lib": 9.2,
-    "brexit": 14.8,
-    "green": 2.1,
-    "other": 1.4
-  },
-  {
-    "riding": "West Bromwich East",
-    "lab": 36.2,
-    "con": 37.4,
-    "lib": 9.8,
-    "green": 3,
-    "brexit": 11.4,
-    "other": 2.2
-  },
-  {
-    "riding": "West Bromwich West",
-    "lab": 32.8,
-    "con": 38.8,
-    "lib": 9,
-    "green": 2.7,
-    "brexit": 14.7,
-    "other": 1.9
-  },
-  {
-    "riding": "West Ham",
-    "lab": 55.1,
-    "con": 22.7,
-    "lib": 10,
-    "green": 4.1,
-    "brexit": 6.7,
-    "other": 1.3
-  },
-  {
-    "riding": "Westminster North",
-    "lab": 43.3,
-    "con": 32,
-    "lib": 15.4,
-    "green": 3.6,
-    "brexit": 4.6,
-    "other": 1.2
-  },
-  {
-    "riding": "Westmorland and Lonsdale",
-    "lib": 45.5,
-    "con": 34.4,
-    "lab": 8.3,
-    "brexit": 9.5,
-    "green": 1.3,
-    "other": 1
-  },
-  {
-    "riding": "Weston-Super-Mare",
-    "con": 45.9,
-    "lab": 19.4,
-    "lib": 18.4,
-    "green": 2.8,
-    "brexit": 11.7,
-    "other": 1.8
-  },
-  {
-    "riding": "Wigan",
-    "lab": 40.4,
-    "con": 31.2,
-    "lib": 9.1,
-    "green": 2.9,
-    "brexit": 14.7,
-    "other": 1.7
-  },
-  {
-    "riding": "Wiltshire North",
-    "con": 48.3,
-    "lib": 26.2,
-    "lab": 11.5,
-    "green": 2.7,
-    "brexit": 9.5,
-    "other": 1.8
-  },
-  {
-    "riding": "Wiltshire South West",
-    "con": 49.8,
-    "lab": 16,
-    "lib": 18.2,
-    "green": 3.1,
-    "brexit": 10.8,
-    "other": 2.1
-  },
-  {
-    "riding": "Wimbledon",
-    "con": 39.7,
-    "lab": 22.6,
-    "lib": 27.2,
-    "green": 3.9,
-    "brexit": 5.3,
-    "other": 1.3
-  },
-  {
-    "riding": "Winchester",
-    "con": 40.1,
-    "lib": 41.6,
-    "lab": 8,
-    "green": 2.2,
-    "brexit": 6.8,
-    "other": 1.3
-  },
-  {
-    "riding": "Windsor",
-    "con": 51.7,
-    "lab": 15,
-    "lib": 20.7,
-    "green": 3.1,
-    "brexit": 8.1,
-    "other": 1.5
-  },
-  {
-    "riding": "Wirral South",
-    "lab": 38.3,
-    "con": 35.7,
-    "lib": 12.5,
-    "green": 2.7,
-    "brexit": 9.6,
-    "other": 1.3
-  },
-  {
-    "riding": "Wirral West",
-    "lab": 36.6,
-    "con": 37.5,
-    "lib": 12.7,
-    "green": 2.4,
-    "brexit": 9.5,
-    "other": 1.2
-  },
-  {
-    "riding": "Witham",
-    "con": 52.3,
-    "lab": 16.4,
-    "lib": 14.8,
-    "green": 3.9,
-    "brexit": 11,
-    "other": 1.5
-  },
-  {
-    "riding": "Witney",
-    "con": 46.5,
-    "lab": 13.6,
-    "lib": 26.4,
-    "green": 3.1,
-    "brexit": 8.9,
-    "other": 1.6
-  },
-  {
-    "riding": "Woking",
-    "con": 45.3,
-    "lab": 15.9,
-    "lib": 26.4,
-    "green": 2.7,
-    "brexit": 8.2,
-    "other": 1.5
-  },
-  {
-    "riding": "Wokingham",
-    "con": 46.3,
-    "lab": 15.5,
-    "lib": 26.5,
-    "green": 3.1,
     "brexit": 7.4,
     "other": 1.4
   },
   {
-    "riding": "Wolverhampton North East",
-    "lab": 32.7,
-    "con": 38.6,
-    "lib": 10.2,
-    "green": 3,
-    "brexit": 13.5,
-    "other": 2.1
+    "riding": "Ealing Central and Acton",
+    "lab": 41.7,
+    "con": 33.2,
+    "lib": 17.6,
+    "brexit": 3.7,
+    "green": 2.7,
+    "other": 0.9
   },
   {
-    "riding": "Wolverhampton South East",
-    "lab": 34.7,
-    "con": 36,
-    "lib": 10.1,
-    "green": 3.1,
-    "brexit": 13.9,
-    "other": 2.1
-  },
-  {
-    "riding": "Wolverhampton South West",
-    "lab": 32.4,
-    "con": 40.4,
-    "lib": 12.6,
+    "riding": "Ealing North",
+    "lab": 46.8,
+    "con": 31.9,
+    "lib": 11.4,
     "green": 3.2,
-    "brexit": 9.2,
-    "other": 2.2
+    "brexit": 5.7,
+    "other": 1.1
   },
   {
-    "riding": "Worcester",
-    "con": 42.6,
-    "lab": 27.1,
-    "lib": 14.2,
-    "green": 3.7,
-    "brexit": 10.5,
+    "riding": "Ealing Southall",
+    "lab": 50.5,
+    "con": 27.1,
+    "lib": 12.2,
+    "green": 4.3,
+    "brexit": 4.5,
+    "other": 1.4
+  },
+  {
+    "riding": "Easington",
+    "lab": 45.4,
+    "con": 30.9,
+    "lib": 8.6,
+    "green": 2.4,
+    "brexit": 11.2,
+    "other": 1.5
+  },
+  {
+    "riding": "East Ham",
+    "lab": 64.8,
+    "con": 19.8,
+    "lib": 7.5,
+    "green": 2.8,
+    "brexit": 4.2,
+    "other": 0.9
+  },
+  {
+    "riding": "Eastbourne",
+    "lib": 42.9,
+    "con": 39.4,
+    "lab": 8.3,
+    "green": 1.4,
+    "brexit": 6.9,
+    "other": 1.1
+  },
+  {
+    "riding": "Eastleigh",
+    "con": 51.5,
+    "lib": 30.8,
+    "lab": 14.6,
+    "green": 1.9,
+    "other": 1.2
+  },
+  {
+    "riding": "Eddisbury",
+    "con": 57,
+    "lab": 25.7,
+    "lib": 13.9,
+    "green": 2.2,
+    "other": 1.2
+  },
+  {
+    "riding": "Edmonton",
+    "lab": 53.3,
+    "con": 27.6,
+    "lib": 9.9,
+    "green": 2.9,
+    "brexit": 5.4,
+    "other": 1
+  },
+  {
+    "riding": "Ellesmere Port and Neston",
+    "lab": 41.3,
+    "con": 36.3,
+    "lib": 9.9,
+    "green": 2.2,
+    "brexit": 9,
+    "other": 1.2
+  },
+  {
+    "riding": "Elmet and Rothwell",
+    "con": 55.2,
+    "lab": 28.7,
+    "lib": 12.9,
+    "green": 2.2,
+    "other": 1
+  },
+  {
+    "riding": "Eltham",
+    "lab": 36.4,
+    "con": 39.4,
+    "lib": 13.2,
+    "brexit": 6.7,
+    "green": 2.4,
     "other": 1.9
   },
   {
-    "riding": "Worcestershire Mid",
-    "con": 53.3,
-    "lab": 14.8,
-    "lib": 15.6,
+    "riding": "Enfield North",
+    "lab": 41.6,
+    "con": 36.6,
+    "lib": 11.7,
+    "green": 2.7,
+    "brexit": 6.3,
+    "other": 1.2
+  },
+  {
+    "riding": "Enfield Southgate",
+    "lab": 36.5,
+    "con": 39.6,
+    "lib": 15,
+    "green": 3.2,
+    "brexit": 4.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Epping Forest",
+    "con": 62.6,
+    "lab": 18.9,
+    "lib": 14.3,
+    "green": 2.6,
+    "other": 1.5
+  },
+  {
+    "riding": "Epsom and Ewell",
+    "con": 56.5,
+    "lab": 17.8,
+    "lib": 22,
+    "green": 2.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Erewash",
+    "con": 54.6,
+    "lab": 31.6,
+    "lib": 10,
+    "green": 2.4,
+    "other": 1.5
+  },
+  {
+    "riding": "Erith and Thamesmead",
+    "lab": 38.9,
+    "con": 37.1,
+    "lib": 11,
     "green": 2.8,
-    "brexit": 11.9,
+    "brexit": 8.4,
+    "other": 1.8
+  },
+  {
+    "riding": "Esher and Walton",
+    "con": 54.4,
+    "lab": 16.3,
+    "lib": 27.8,
     "other": 1.6
   },
   {
-    "riding": "Worcestershire West",
-    "con": 50.5,
-    "lab": 14.5,
-    "lib": 20.1,
+    "riding": "Exeter",
+    "lab": 50.4,
+    "con": 37.3,
+    "green": 4.2,
+    "brexit": 6.6,
+    "other": 1.5
+  },
+  {
+    "riding": "Fareham",
+    "con": 61.3,
+    "lab": 17.9,
+    "lib": 17,
+    "green": 2.5,
+    "other": 1.4
+  },
+  {
+    "riding": "Faversham and Kent Mid",
+    "con": 61.3,
+    "lab": 19,
+    "lib": 15.5,
+    "green": 2.7,
+    "other": 1.4
+  },
+  {
+    "riding": "Feltham and Heston",
+    "lab": 44,
+    "con": 34.5,
+    "lib": 10.1,
+    "green": 3.4,
+    "brexit": 6.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Filton and Bradley Stoke",
+    "con": 51,
+    "lab": 27.2,
+    "lib": 17.2,
+    "green": 3.3,
+    "other": 1.4
+  },
+  {
+    "riding": "Finchley and Golders Green",
+    "con": 45.5,
+    "lab": 33.8,
+    "lib": 19.5,
+    "other": 1.3
+  },
+  {
+    "riding": "Folkestone and Hythe",
+    "con": 59.4,
+    "lab": 19.7,
+    "lib": 15.6,
+    "green": 3.3,
+    "other": 2
+  },
+  {
+    "riding": "Forest of Dean",
+    "con": 60.9,
+    "lab": 34.4,
+    "green": 2.9,
+    "other": 1.9
+  },
+  {
+    "riding": "Fylde",
+    "con": 58.3,
+    "lab": 25.2,
+    "lib": 12.8,
+    "green": 2.6,
+    "other": 1
+  },
+  {
+    "riding": "Gainsborough",
+    "con": 60.6,
+    "lab": 22.6,
+    "lib": 13.5,
+    "green": 2.2,
+    "other": 1
+  },
+  {
+    "riding": "Garston and Halewood",
+    "lab": 53.1,
+    "con": 24.3,
+    "lib": 11.7,
+    "green": 2.9,
+    "brexit": 6.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Gateshead",
+    "lab": 45,
+    "con": 29.8,
+    "lib": 10.8,
+    "green": 3,
+    "brexit": 9.9,
+    "other": 1.5
+  },
+  {
+    "riding": "Gedling",
+    "lab": 37.1,
+    "con": 39.4,
+    "lib": 10.3,
+    "green": 2.4,
+    "brexit": 9.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Gillingham and Rainham",
+    "con": 58.3,
+    "lab": 25.4,
+    "lib": 12.4,
+    "green": 2.3,
+    "other": 1.7
+  },
+  {
+    "riding": "Gloucester",
+    "con": 54.1,
+    "lab": 27.8,
+    "lib": 14,
+    "green": 2.5,
+    "other": 1.7
+  },
+  {
+    "riding": "Gosport",
+    "con": 62.6,
+    "lab": 19.5,
+    "lib": 13.7,
+    "green": 2.4,
+    "other": 1.7
+  },
+  {
+    "riding": "Grantham and Stamford",
+    "con": 62.3,
+    "lab": 21.9,
+    "lib": 12.6,
+    "green": 2,
+    "other": 1.2
+  },
+  {
+    "riding": "Gravesham",
+    "con": 59.7,
+    "lab": 25.3,
+    "lib": 11,
+    "green": 2.3,
+    "other": 1.6
+  },
+  {
+    "riding": "Great Grimsby",
+    "lab": 35.2,
+    "con": 38.7,
+    "ukip": 1,
+    "lib": 8.5,
+    "brexit": 13.9,
+    "green": 1.9,
+    "other": 0.9
+  },
+  {
+    "riding": "Great Yarmouth",
+    "con": 60.5,
+    "lab": 25,
+    "lib": 10.4,
+    "green": 2.2,
+    "other": 1.9
+  },
+  {
+    "riding": "Greenwich and Woolwich",
+    "lab": 43.3,
+    "con": 28.9,
+    "lib": 17.2,
+    "green": 5.1,
+    "brexit": 4.3,
+    "other": 1.2
+  },
+  {
+    "riding": "Guildford",
+    "con": 49.7,
+    "lib": 33.3,
+    "lab": 15.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Hackney North and Stoke Newington",
+    "lab": 49.3,
+    "con": 21.3,
+    "lib": 16.5,
+    "green": 8.9,
+    "brexit": 2.6,
+    "other": 1.2
+  },
+  {
+    "riding": "Hackney South and Shoreditch",
+    "lab": 53.7,
+    "con": 19.5,
+    "lib": 16.2,
+    "green": 6.5,
+    "brexit": 2.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Halesowen and Rowley Regis",
+    "con": 57.4,
+    "lab": 27.9,
+    "lib": 11,
+    "green": 2.1,
+    "other": 1.7
+  },
+  {
+    "riding": "Halifax",
+    "lab": 40.7,
+    "con": 38,
+    "lib": 8.5,
+    "brexit": 9.8,
+    "green": 1.8,
+    "other": 1.2
+  },
+  {
+    "riding": "Haltemprice and Howden",
+    "con": 59.1,
+    "lab": 24.1,
+    "lib": 13.7,
+    "green": 2.2,
+    "other": 1
+  },
+  {
+    "riding": "Halton",
+    "lab": 49.2,
+    "con": 28.3,
+    "lib": 9,
+    "brexit": 9.6,
+    "green": 2.3,
+    "other": 1.7
+  },
+  {
+    "riding": "Hammersmith",
+    "lab": 44.9,
+    "con": 29.7,
+    "lib": 16.6,
+    "green": 3.8,
+    "brexit": 3.9,
+    "other": 1.1
+  },
+  {
+    "riding": "Hampshire East",
+    "con": 58.5,
+    "lab": 13.4,
+    "lib": 23.9,
+    "green": 2.6,
+    "other": 1.6
+  },
+  {
+    "riding": "Hampshire North East",
+    "con": 59.9,
+    "lab": 13.6,
+    "lib": 22.8,
+    "green": 2.3,
+    "other": 1.4
+  },
+  {
+    "riding": "Hampshire North West",
+    "con": 60.4,
+    "lab": 17.1,
+    "lib": 18.7,
+    "green": 2.4,
+    "other": 1.4
+  },
+  {
+    "riding": "Hampstead and Kilburn",
+    "lab": 40.3,
+    "con": 31.4,
+    "lib": 20,
+    "green": 3.7,
+    "brexit": 3.4,
+    "other": 1.2
+  },
+  {
+    "riding": "Harborough",
+    "con": 53.8,
+    "lab": 24.3,
+    "lib": 18.4,
+    "green": 2.5,
+    "other": 1.1
+  },
+  {
+    "riding": "Harlow",
+    "con": 59,
+    "lab": 26.4,
+    "lib": 10.6,
+    "green": 2.3,
+    "other": 1.6
+  },
+  {
+    "riding": "Harrogate and Knaresborough",
+    "con": 52.3,
+    "lib": 28.8,
+    "lab": 17.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Harrow East",
+    "con": 49.8,
+    "lab": 33.6,
+    "lib": 12.2,
     "green": 3.1,
+    "other": 1.2
+  },
+  {
+    "riding": "Harrow West",
+    "lab": 42.5,
+    "con": 35.3,
+    "lib": 12.8,
+    "green": 3.4,
+    "brexit": 4.8,
+    "other": 1.2
+  },
+  {
+    "riding": "Hartlepool",
+    "lab": 36.9,
+    "con": 36.3,
+    "ukip": 1.2,
+    "lib": 8.2,
+    "brexit": 14.9,
+    "green": 1.9,
+    "other": 0.7
+  },
+  {
+    "riding": "Harwich and North Essex",
+    "con": 59.3,
+    "lab": 20.9,
+    "lib": 15.6,
+    "green": 2.7,
+    "other": 1.5
+  },
+  {
+    "riding": "Hastings and Rye",
+    "con": 51.6,
+    "lab": 30.8,
+    "lib": 13.6,
+    "green": 2.1,
+    "other": 1.9
+  },
+  {
+    "riding": "Havant",
+    "con": 61.8,
+    "lab": 18.9,
+    "lib": 14.5,
+    "green": 2.5,
+    "other": 2.3
+  },
+  {
+    "riding": "Hayes and Harlington",
+    "lab": 47.3,
+    "con": 32.8,
+    "lib": 8.7,
+    "green": 3,
+    "brexit": 6.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Hazel Grove",
+    "con": 47.3,
+    "lib": 34.1,
+    "lab": 17.7,
+    "other": 1
+  },
+  {
+    "riding": "Hemel Hempstead",
+    "con": 55.2,
+    "lab": 25.3,
+    "lib": 15.5,
+    "green": 2.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Hemsworth",
+    "lab": 39.5,
+    "con": 36.9,
+    "lib": 8.3,
+    "brexit": 12.2,
+    "green": 1.7,
+    "other": 1.4
+  },
+  {
+    "riding": "Hendon",
+    "con": 47.2,
+    "lab": 35,
+    "lib": 13.7,
+    "green": 2.9,
+    "other": 1.2
+  },
+  {
+    "riding": "Henley",
+    "con": 56,
+    "lab": 14.8,
+    "lib": 24.7,
+    "green": 3.1,
+    "other": 1.5
+  },
+  {
+    "riding": "Hereford and South Herefordshire",
+    "con": 60.4,
+    "lab": 18.6,
+    "lib": 16.7,
+    "green": 2.8,
+    "other": 1.5
+  },
+  {
+    "riding": "Herefordshire North",
+    "con": 60.7,
+    "lab": 14.3,
+    "lib": 19.2,
+    "green": 3.9,
+    "other": 2
+  },
+  {
+    "riding": "Hertford and Stortford",
+    "con": 57.1,
+    "lab": 19.9,
+    "lib": 18.8,
+    "green": 3,
+    "other": 1.2
+  },
+  {
+    "riding": "Hertfordshire North East",
+    "con": 56.9,
+    "lab": 19.7,
+    "lib": 17.9,
+    "green": 4.2,
+    "other": 1.4
+  },
+  {
+    "riding": "Hertfordshire South West",
+    "con": 61,
+    "lab": 37.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Hertsmere",
+    "con": 59,
+    "lab": 21.2,
+    "lib": 15.8,
+    "green": 2.5,
+    "other": 1.5
+  },
+  {
+    "riding": "Hexham",
+    "con": 54,
+    "lab": 25.6,
+    "lib": 16.4,
+    "green": 2.8,
+    "other": 1.1
+  },
+  {
+    "riding": "Heywood and Middleton",
+    "lab": 37.9,
+    "con": 38.2,
+    "lib": 9.1,
+    "brexit": 11.6,
+    "green": 1.8,
+    "other": 1.4
+  },
+  {
+    "riding": "High Peak",
+    "lab": 35.3,
+    "con": 40,
+    "lib": 13.1,
+    "brexit": 8.3,
+    "green": 2.2,
+    "other": 1
+  },
+  {
+    "riding": "Hitchin and Harpenden",
+    "con": 50.8,
+    "lab": 23.4,
+    "lib": 24.1,
+    "other": 1.7
+  },
+  {
+    "riding": "Holborn and St Pancras",
+    "lab": 46,
+    "con": 24.3,
+    "lib": 18.6,
+    "green": 6.9,
+    "brexit": 3.1,
+    "other": 1
+  },
+  {
+    "riding": "Hornchurch and Upminster",
+    "con": 65.1,
+    "lab": 20.2,
+    "lib": 10.6,
+    "green": 2.2,
+    "other": 1.8
+  },
+  {
+    "riding": "Hornsey and Wood Green",
+    "lab": 41.1,
+    "lib": 31.5,
+    "con": 19.8,
+    "green": 4.2,
+    "brexit": 2.4,
+    "other": 1.1
+  },
+  {
+    "riding": "Horsham",
+    "con": 57.6,
+    "lab": 15.8,
+    "lib": 22.3,
+    "green": 2.6,
+    "other": 1.7
+  },
+  {
+    "riding": "Houghton and Sunderland South",
+    "lab": 41,
+    "con": 34.1,
+    "ukip": 1,
+    "lib": 9,
+    "green": 2.6,
+    "brexit": 11.4,
+    "other": 1
+  },
+  {
+    "riding": "Hove",
+    "lab": 40.4,
+    "con": 33.3,
+    "lib": 15.2,
+    "green": 4.6,
+    "brexit": 5,
+    "other": 1.6
+  },
+  {
+    "riding": "Huddersfield",
+    "lab": 45,
+    "con": 32.4,
+    "green": 4.2,
+    "lib": 9.7,
+    "brexit": 7.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Hull East",
+    "lab": 39.6,
+    "con": 33.4,
+    "ukip": 1,
+    "lib": 8.8,
+    "green": 2.5,
+    "brexit": 14,
+    "other": 0.7
+  },
+  {
+    "riding": "Hull North",
+    "lab": 43.2,
+    "con": 29.7,
+    "lib": 12,
+    "green": 3.6,
+    "brexit": 10,
+    "other": 1.4
+  },
+  {
+    "riding": "Hull West and Hessle",
+    "lab": 39.7,
+    "con": 34.1,
+    "lib": 10.8,
+    "green": 2.4,
+    "brexit": 11.5,
+    "other": 1.5
+  },
+  {
+    "riding": "Huntingdon",
+    "con": 56.1,
+    "lab": 21.5,
+    "lib": 18.4,
+    "green": 2.7,
+    "other": 1.4
+  },
+  {
+    "riding": "Hyndburn",
+    "lab": 40.1,
+    "con": 38.5,
+    "lib": 7.6,
+    "brexit": 10.9,
+    "green": 1.8,
+    "other": 1.2
+  },
+  {
+    "riding": "Ilford North",
+    "lab": 40.8,
+    "con": 38.7,
+    "lib": 11,
+    "brexit": 5.7,
+    "green": 2.4,
+    "other": 1.4
+  },
+  {
+    "riding": "Ilford South",
+    "lab": 57.9,
+    "con": 25.5,
+    "lib": 8.8,
+    "green": 3,
+    "brexit": 4.2,
+    "other": 0.7
+  },
+  {
+    "riding": "Ipswich",
+    "lab": 32,
+    "con": 42.5,
+    "lib": 12.2,
+    "green": 3.1,
+    "brexit": 8.5,
+    "other": 1.7
+  },
+  {
+    "riding": "Isle of Wight",
+    "con": 61.5,
+    "lab": 26.1,
+    "green": 10.9,
+    "other": 1.5
+  },
+  {
+    "riding": "Islington North",
+    "lab": 47.6,
+    "con": 20.8,
+    "lib": 20.4,
+    "green": 7,
+    "brexit": 2.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Islington South and Finsbury",
+    "lab": 40.9,
+    "con": 25.2,
+    "lib": 24,
+    "green": 5,
+    "brexit": 3.8,
+    "other": 1
+  },
+  {
+    "riding": "Jarrow",
+    "lab": 44,
+    "con": 31.4,
+    "lib": 9.7,
+    "green": 2.7,
+    "brexit": 10.7,
+    "other": 1.5
+  },
+  {
+    "riding": "Keighley",
+    "lab": 36.9,
+    "con": 41,
+    "lib": 9.7,
+    "green": 2.3,
+    "brexit": 8.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Kenilworth and Southam",
+    "con": 57.3,
+    "lab": 17.6,
+    "lib": 21.5,
+    "green": 2.5,
+    "other": 1.2
+  },
+  {
+    "riding": "Kensington",
+    "lab": 31,
+    "con": 37.5,
+    "lib": 22.5,
+    "green": 3.6,
+    "brexit": 3.9,
+    "other": 1.5
+  },
+  {
+    "riding": "Kettering",
+    "con": 57.7,
+    "lab": 27.9,
+    "lib": 10.7,
+    "green": 2.6,
+    "other": 1
+  },
+  {
+    "riding": "Kingston and Surbiton",
+    "lib": 46.5,
+    "con": 33.9,
+    "lab": 11.6,
+    "green": 1.9,
+    "brexit": 5,
+    "other": 1.1
+  },
+  {
+    "riding": "Kingswood",
+    "con": 55.9,
+    "lab": 26.3,
+    "lib": 13.7,
+    "green": 2.7,
+    "other": 1.4
+  },
+  {
+    "riding": "Knowsley",
+    "lab": 57.8,
+    "con": 20.6,
+    "lib": 9.6,
+    "green": 2.7,
+    "brexit": 7.8,
+    "other": 1.5
+  },
+  {
+    "riding": "Lancashire West",
+    "lab": 40.7,
+    "con": 36.8,
+    "lib": 10.2,
+    "green": 2.6,
+    "brexit": 8.5,
+    "other": 1.3
+  },
+  {
+    "riding": "Lancaster and Fleetwood",
+    "lab": 38.6,
+    "con": 37.3,
+    "lib": 11.4,
+    "green": 3.6,
+    "brexit": 8.1,
+    "other": 1
+  },
+  {
+    "riding": "Leeds Central",
+    "lab": 50,
+    "con": 26.1,
+    "green": 4.5,
+    "lib": 9.9,
+    "brexit": 8.3,
+    "other": 1.2
+  },
+  {
+    "riding": "Leeds East",
+    "lab": 45.5,
+    "con": 32.5,
+    "lib": 8,
+    "green": 2.3,
+    "brexit": 10.2,
+    "other": 1.5
+  },
+  {
+    "riding": "Leeds North East",
+    "lab": 47.1,
+    "con": 30.7,
+    "lib": 12.5,
+    "green": 3.2,
+    "brexit": 5.3,
+    "other": 1
+  },
+  {
+    "riding": "Leeds North West",
+    "lab": 29.2,
+    "lib": 37.8,
+    "con": 23.7,
+    "green": 3.4,
+    "brexit": 5.1,
+    "other": 0.8
+  },
+  {
+    "riding": "Leeds West",
+    "lab": 44.2,
+    "con": 30.4,
+    "green": 4.7,
+    "lib": 9.7,
+    "brexit": 9.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Leicester East",
+    "lab": 54.1,
+    "con": 27.2,
+    "lib": 7.8,
+    "green": 3.6,
+    "brexit": 6.2,
+    "other": 1.1
+  },
+  {
+    "riding": "Leicester South",
+    "lab": 57.7,
+    "con": 23.2,
+    "lib": 9.9,
+    "green": 3.8,
+    "brexit": 4.8,
+    "other": 0.7
+  },
+  {
+    "riding": "Leicester West",
+    "lab": 44.4,
+    "con": 31.7,
+    "lib": 9.6,
+    "green": 3.6,
+    "brexit": 9.4,
+    "other": 1.2
+  },
+  {
+    "riding": "Leicestershire North West",
+    "con": 58.6,
+    "lab": 25.6,
+    "lib": 12.5,
+    "green": 2.3,
+    "other": 1
+  },
+  {
+    "riding": "Leicestershire South",
+    "con": 61.1,
+    "lab": 23.1,
+    "lib": 12.5,
+    "green": 2.1,
+    "other": 1.2
+  },
+  {
+    "riding": "Leigh",
+    "lab": 38.8,
+    "con": 37.2,
+    "lib": 9,
+    "brexit": 11.8,
+    "green": 1.7,
+    "other": 1.4
+  },
+  {
+    "riding": "Lewes",
+    "con": 45.7,
+    "lib": 42.8,
+    "lab": 9.2,
+    "green": 1.3,
+    "other": 1.1
+  },
+  {
+    "riding": "Lewisham Deptford",
+    "lab": 49,
+    "con": 21.8,
+    "lib": 16.8,
+    "green": 8,
+    "brexit": 2.8,
+    "other": 1.6
+  },
+  {
+    "riding": "Lewisham East",
+    "lab": 44.6,
+    "con": 28.4,
+    "lib": 15.9,
+    "green": 4,
+    "brexit": 5.1,
+    "other": 2
+  },
+  {
+    "riding": "Lewisham West and Penge",
+    "lab": 43.1,
+    "con": 27.9,
+    "lib": 18,
+    "green": 4.7,
+    "brexit": 4.6,
+    "other": 1.6
+  },
+  {
+    "riding": "Leyton and Wanstead",
+    "lab": 50.4,
+    "con": 25.6,
+    "lib": 15,
+    "green": 4.4,
+    "brexit": 3.7,
+    "other": 0.9
+  },
+  {
+    "riding": "Lichfield",
+    "con": 61.4,
+    "lab": 19.8,
+    "lib": 15,
+    "green": 2.5,
+    "other": 1.3
+  },
+  {
+    "riding": "Lincoln",
+    "lab": 35.5,
+    "con": 39.7,
+    "lib": 10.6,
+    "green": 2.4,
+    "brexit": 10.2,
+    "other": 1.5
+  },
+  {
+    "riding": "Liverpool Riverside",
+    "lab": 57,
+    "con": 18.6,
+    "green": 7,
+    "lib": 12.6,
+    "brexit": 3.9,
+    "other": 0.9
+  },
+  {
+    "riding": "Liverpool Walton",
+    "lab": 60.1,
+    "con": 19.3,
+    "lib": 9.2,
+    "green": 2.9,
+    "brexit": 7.1,
+    "other": 1.3
+  },
+  {
+    "riding": "Liverpool Wavertree",
+    "lab": 55,
+    "con": 20.3,
+    "lib": 14.6,
+    "green": 3.6,
+    "brexit": 5.3,
+    "other": 1.1
+  },
+  {
+    "riding": "Liverpool West Derby",
+    "lab": 59.4,
+    "con": 20.1,
+    "lib": 9.4,
+    "green": 2.7,
+    "brexit": 6.9,
+    "other": 1.6
+  },
+  {
+    "riding": "Loughborough",
+    "con": 50,
+    "lab": 32.9,
+    "lib": 13,
+    "green": 3,
+    "other": 1.1
+  },
+  {
+    "riding": "Louth and Horncastle",
+    "con": 65.3,
+    "lab": 21.5,
+    "lib": 10.4,
+    "green": 1.3,
+    "other": 1.5
+  },
+  {
+    "riding": "Ludlow",
+    "con": 60.3,
+    "lab": 17,
+    "lib": 19.3,
+    "green": 2.3,
+    "other": 1.2
+  },
+  {
+    "riding": "Luton North",
+    "lab": 46.4,
+    "con": 34.5,
+    "lib": 9.2,
+    "green": 2.5,
+    "brexit": 6.4,
+    "other": 1
+  },
+  {
+    "riding": "Luton South",
+    "lab": 46.4,
+    "con": 33.4,
+    "lib": 9.9,
+    "green": 2.5,
+    "brexit": 6.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Macclesfield",
+    "con": 52.9,
+    "lab": 27.6,
+    "lib": 15,
+    "green": 2.9,
+    "other": 1.6
+  },
+  {
+    "riding": "Maidenhead",
+    "con": 59.2,
+    "lab": 15.3,
+    "lib": 21.9,
+    "green": 2.1,
+    "other": 1.6
+  },
+  {
+    "riding": "Maidstone and The Weald",
+    "con": 56.5,
+    "lab": 16.2,
+    "lib": 23.7,
+    "green": 2.1,
+    "other": 1.5
+  },
+  {
+    "riding": "Makerfield",
+    "lab": 42.1,
+    "con": 35.2,
+    "lib": 9.3,
+    "brexit": 10.3,
+    "green": 1.9,
+    "other": 1.1
+  },
+  {
+    "riding": "Maldon",
+    "con": 66.2,
+    "lab": 16.1,
+    "lib": 13.9,
+    "green": 2.2,
+    "other": 1.6
+  },
+  {
+    "riding": "Manchester Central",
+    "lab": 55.3,
+    "con": 21.3,
+    "lib": 11.6,
+    "green": 4.8,
+    "brexit": 5.9,
+    "other": 1
+  },
+  {
+    "riding": "Manchester Gorton",
+    "lab": 62.8,
+    "con": 16.5,
+    "lib": 10.9,
+    "green": 4.5,
+    "brexit": 4.4,
+    "other": 0.8
+  },
+  {
+    "riding": "Manchester Withington",
+    "lab": 50.3,
+    "lib": 24.1,
+    "con": 17.2,
+    "green": 4.5,
+    "brexit": 3,
+    "other": 0.8
+  },
+  {
+    "riding": "Mansfield",
+    "con": 56,
+    "lab": 32.6,
+    "lib": 8.2,
+    "green": 1.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Meon Valley",
+    "con": 61.7,
+    "lab": 14.2,
+    "lib": 20.6,
+    "green": 2.2,
+    "other": 1.3
+  },
+  {
+    "riding": "Meriden",
+    "con": 61.6,
+    "lab": 19.6,
+    "lib": 14.6,
+    "green": 2.7,
+    "other": 1.5
+  },
+  {
+    "riding": "Middlesbrough",
+    "lab": 47.7,
+    "con": 30.6,
+    "lib": 7.5,
+    "green": 2.4,
+    "brexit": 10.5,
+    "other": 1.3
+  },
+  {
+    "riding": "Middlesbrough South and Cleveland East",
+    "con": 53.3,
+    "lab": 33.9,
+    "lib": 10,
+    "green": 1.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Milton Keynes North",
+    "con": 50.3,
+    "lab": 30.4,
+    "lib": 14.8,
+    "green": 3,
+    "other": 1.5
+  },
+  {
+    "riding": "Milton Keynes South",
+    "con": 51,
+    "lab": 30.9,
+    "lib": 13.6,
+    "green": 3,
+    "other": 1.4
+  },
+  {
+    "riding": "Mitcham and Morden",
+    "lab": 47.3,
+    "con": 29.7,
+    "lib": 12.2,
+    "green": 3.3,
+    "brexit": 6,
+    "other": 1.4
+  },
+  {
+    "riding": "Mole Valley",
+    "con": 57.4,
+    "lib": 27.5,
+    "lab": 11.6,
+    "green": 2.4,
+    "other": 1.2
+  },
+  {
+    "riding": "Morecambe and Lunesdale",
+    "con": 52.5,
+    "lab": 32.9,
+    "lib": 11,
+    "green": 2.3,
+    "other": 1.2
+  },
+  {
+    "riding": "Morley and Outwood",
+    "con": 53,
+    "lab": 33.7,
+    "lib": 10.3,
+    "green": 1.9,
+    "other": 1
+  },
+  {
+    "riding": "New Forest East",
+    "con": 60.7,
+    "lab": 14.9,
+    "lib": 20.8,
+    "green": 2.4,
+    "other": 1.3
+  },
+  {
+    "riding": "New Forest West",
+    "con": 63.5,
+    "lab": 14.8,
+    "lib": 17.6,
+    "green": 2.5,
+    "other": 1.6
+  },
+  {
+    "riding": "Newark",
+    "con": 61.2,
+    "lab": 23.4,
+    "lib": 12.8,
+    "green": 1.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Newbury",
+    "con": 55.7,
+    "lib": 28.7,
+    "lab": 12,
+    "green": 2.3,
+    "other": 1.3
+  },
+  {
+    "riding": "Newcastle upon Tyne Central",
+    "lab": 48.7,
+    "con": 27.9,
+    "lib": 11.4,
+    "green": 3.2,
+    "brexit": 7.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Newcastle upon Tyne East",
+    "lab": 45.2,
+    "con": 26.4,
+    "lib": 15.3,
+    "green": 4.8,
+    "brexit": 7,
+    "other": 1.2
+  },
+  {
+    "riding": "Newcastle upon Tyne North",
+    "lab": 38.6,
+    "con": 34.8,
+    "lib": 13.4,
+    "green": 2.5,
+    "brexit": 9.2,
+    "other": 1.5
+  },
+  {
+    "riding": "Newcastle-under-Lyme",
+    "lab": 30.6,
+    "con": 44.3,
+    "lib": 13.3,
+    "brexit": 8.4,
+    "green": 2,
+    "other": 1.4
+  },
+  {
+    "riding": "Newton Abbot",
+    "con": 54.8,
+    "lab": 15.3,
+    "lib": 26.5,
+    "green": 2.2,
+    "other": 1.2
+  },
+  {
+    "riding": "Norfolk Mid",
+    "con": 60.8,
+    "lab": 20.8,
+    "lib": 14.2,
+    "green": 2.7,
+    "other": 1.6
+  },
+  {
+    "riding": "Norfolk North",
+    "lib": 44.3,
+    "con": 38.7,
+    "lab": 8.9,
+    "brexit": 7,
+    "other": 1.1
+  },
+  {
+    "riding": "Norfolk North West",
+    "con": 61.9,
+    "lab": 22.1,
+    "lib": 12,
+    "green": 2.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Norfolk South",
+    "con": 56.6,
+    "lab": 20.8,
+    "lib": 18.4,
+    "green": 2.9,
+    "other": 1.2
+  },
+  {
+    "riding": "Norfolk South West",
+    "con": 64.4,
+    "lab": 19.9,
+    "lib": 12.3,
+    "green": 1.7,
+    "other": 1.6
+  },
+  {
+    "riding": "Normanton, Pontefract and Castleford",
+    "lab": 41,
+    "con": 34.6,
+    "lib": 7.7,
+    "brexit": 13.4,
+    "green": 1.7,
+    "other": 1.6
+  },
+  {
+    "riding": "Northampton North",
+    "con": 51.8,
+    "lab": 33.9,
+    "lib": 10.4,
+    "green": 2.7,
+    "other": 1.2
+  },
+  {
+    "riding": "Northampton South",
+    "con": 51.7,
+    "lab": 34,
+    "lib": 10.2,
+    "green": 2.8,
+    "other": 1.3
+  },
+  {
+    "riding": "Northamptonshire South",
+    "con": 60.2,
+    "lab": 22,
+    "lib": 14,
+    "green": 2.6,
+    "other": 1.2
+  },
+  {
+    "riding": "Norwich North",
+    "con": 51.2,
+    "lab": 30.6,
+    "lib": 13.2,
+    "green": 3.3,
+    "other": 1.7
+  },
+  {
+    "riding": "Norwich South",
+    "lab": 34.7,
+    "con": 32.7,
+    "lib": 17.2,
+    "green": 9.1,
+    "brexit": 4.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Nottingham East",
+    "lab": 52.9,
+    "con": 24.6,
+    "lib": 10.6,
+    "green": 4.8,
+    "brexit": 6,
+    "other": 1.1
+  },
+  {
+    "riding": "Nottingham North",
+    "lab": 43.1,
+    "con": 32.7,
+    "lib": 8.6,
+    "green": 2.8,
+    "brexit": 11.3,
+    "other": 1.6
+  },
+  {
+    "riding": "Nottingham South",
+    "lab": 46.4,
+    "con": 30.2,
+    "lib": 11.8,
+    "green": 3.8,
+    "brexit": 6.7,
+    "other": 1
+  },
+  {
+    "riding": "Nuneaton",
+    "con": 56.8,
+    "lab": 28.1,
+    "lib": 11.1,
+    "green": 2.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Old Bexley and Sidcup",
+    "con": 62.7,
+    "lab": 20.7,
+    "lib": 12.5,
+    "green": 2.3,
+    "other": 1.7
+  },
+  {
+    "riding": "Oldham East and Saddleworth",
+    "lab": 41,
+    "con": 36,
+    "lib": 10.4,
+    "brexit": 9.8,
+    "green": 1.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Oldham West and Royton",
+    "lab": 50.6,
+    "con": 30.2,
+    "lib": 7.1,
+    "green": 1.9,
+    "brexit": 9.2,
+    "other": 1
+  },
+  {
+    "riding": "Orpington",
+    "con": 62.3,
+    "lab": 17.6,
+    "lib": 16.4,
+    "green": 2.3,
+    "other": 1.4
+  },
+  {
+    "riding": "Oxford East",
+    "lab": 40.5,
+    "con": 26.9,
+    "lib": 21.5,
+    "green": 5.9,
+    "brexit": 3.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Oxford West and Abingdon",
+    "lib": 47.5,
+    "con": 35.6,
+    "lab": 11,
+    "brexit": 4.9,
+    "other": 1
+  },
+  {
+    "riding": "Pendle",
+    "con": 51.3,
+    "lab": 37.8,
+    "lib": 8.2,
+    "green": 1.9,
+    "other": 0.9
+  },
+  {
+    "riding": "Penistone and Stocksbridge",
+    "lab": 33.1,
+    "con": 42.2,
+    "lib": 11.5,
+    "brexit": 11.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Penrith and The Border",
+    "con": 60.1,
+    "lab": 21.5,
+    "lib": 14.6,
+    "green": 2.4,
+    "other": 1.4
+  },
+  {
+    "riding": "Peterborough",
+    "lab": 34.4,
+    "con": 43,
+    "lib": 10.8,
+    "green": 2.6,
+    "brexit": 8,
+    "other": 1.2
+  },
+  {
+    "riding": "Plymouth Moor View",
+    "con": 57.7,
+    "lab": 27.3,
+    "lib": 11,
+    "green": 2.3,
+    "other": 1.7
+  },
+  {
+    "riding": "Plymouth Sutton and Devonport",
+    "lab": 34.1,
+    "con": 38.4,
+    "lib": 14.3,
+    "green": 3.9,
+    "brexit": 7.5,
+    "other": 1.8
+  },
+  {
+    "riding": "Poole",
+    "con": 57.7,
+    "lab": 20.2,
+    "lib": 17.7,
+    "green": 2.7,
+    "other": 1.7
+  },
+  {
+    "riding": "Poplar and Limehouse",
+    "lab": 54.1,
+    "con": 24.5,
+    "lib": 13.3,
+    "green": 3.6,
+    "brexit": 3.8,
+    "other": 0.7
+  },
+  {
+    "riding": "Portsmouth North",
+    "con": 58.8,
+    "lab": 23.5,
+    "lib": 13.6,
+    "green": 2.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Portsmouth South",
+    "lab": 28.3,
+    "con": 36.3,
+    "lib": 27.2,
+    "brexit": 6.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Preston",
+    "lab": 50.3,
+    "con": 27.9,
+    "lib": 9.2,
+    "green": 2.8,
+    "brexit": 8.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Pudsey",
+    "con": 49.1,
+    "lab": 35,
+    "lib": 12.7,
+    "green": 2,
+    "other": 1.1
+  },
+  {
+    "riding": "Putney",
+    "con": 42.2,
+    "lab": 30,
+    "lib": 22.8,
+    "green": 3.8,
+    "other": 1.1
+  },
+  {
+    "riding": "Rayleigh and Wickford",
+    "con": 67.1,
+    "lab": 17.6,
+    "lib": 11.8,
+    "green": 2.1,
+    "other": 1.5
+  },
+  {
+    "riding": "Reading East",
+    "lab": 33,
+    "con": 38.8,
+    "lib": 18.1,
+    "green": 3.9,
+    "brexit": 4.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Reading West",
+    "con": 50.5,
+    "lab": 29.9,
+    "lib": 15.5,
+    "green": 2.8,
+    "other": 1.3
+  },
+  {
+    "riding": "Redcar",
+    "lab": 36.8,
+    "con": 35.5,
+    "lib": 12.8,
+    "brexit": 11.7,
+    "green": 1.8,
+    "other": 1.5
+  },
+  {
+    "riding": "Redditch",
+    "con": 58,
+    "lab": 26.3,
+    "lib": 12,
+    "green": 2.1,
+    "other": 1.5
+  },
+  {
+    "riding": "Reigate",
+    "con": 56.6,
+    "lab": 17.8,
+    "lib": 20.7,
+    "green": 3.6,
+    "other": 1.3
+  },
+  {
+    "riding": "Ribble South",
+    "con": 56.5,
+    "lab": 29.2,
+    "lib": 11.2,
+    "green": 1.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Ribble Valley",
+    "con": 58.3,
+    "lab": 25.5,
+    "lib": 12.8,
+    "green": 2.4,
+    "other": 1
+  },
+  {
+    "riding": "Richmond",
+    "con": 62.3,
+    "lab": 20.2,
+    "lib": 13.5,
+    "green": 3,
+    "other": 1
+  },
+  {
+    "riding": "Richmond Park",
+    "con": 39.3,
+    "lib": 50.3,
+    "lab": 9.6,
+    "other": 0.8
+  },
+  {
+    "riding": "Rochdale",
+    "lab": 47.2,
+    "con": 30.2,
+    "lib": 11.7,
+    "brexit": 8.2,
+    "green": 1.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Rochester and Strood",
+    "con": 59.5,
+    "lab": 24.8,
+    "lib": 11.5,
+    "green": 2.4,
+    "other": 1.8
+  },
+  {
+    "riding": "Rochford and Southend East",
+    "con": 56.1,
+    "lab": 26.9,
+    "lib": 12.4,
+    "green": 3,
+    "other": 1.6
+  },
+  {
+    "riding": "Romford",
+    "con": 63.3,
+    "lab": 22.4,
+    "lib": 10.5,
+    "green": 2.3,
+    "other": 1.5
+  },
+  {
+    "riding": "Romsey and Southampton North",
+    "con": 52.4,
+    "lib": 30.8,
+    "lab": 15.6,
+    "other": 1.3
+  },
+  {
+    "riding": "Rossendale and Darwen",
+    "con": 53.1,
+    "lab": 33,
+    "lib": 10.5,
+    "green": 2.3,
+    "other": 1
+  },
+  {
+    "riding": "Rother Valley",
+    "lab": 34,
+    "con": 40.4,
+    "lib": 9,
+    "green": 2.1,
+    "brexit": 13,
+    "other": 1.5
+  },
+  {
+    "riding": "Rotherham",
+    "lab": 42.5,
+    "con": 32.8,
+    "ukip": 1,
+    "lib": 8.5,
+    "brexit": 13,
+    "green": 1.7,
+    "other": 0.5
+  },
+  {
+    "riding": "Rugby",
+    "con": 55.9,
+    "lab": 25.5,
+    "lib": 14.7,
+    "green": 2.6,
+    "other": 1.4
+  },
+  {
+    "riding": "Ruislip, Northwood and Pinner",
+    "con": 56.5,
+    "lab": 22.4,
+    "lib": 16.8,
+    "green": 3,
+    "other": 1.3
+  },
+  {
+    "riding": "Runnymede and Weybridge",
+    "con": 59.1,
+    "lab": 18.9,
+    "lib": 17.9,
+    "green": 2.8,
+    "other": 1.3
+  },
+  {
+    "riding": "Rushcliffe",
+    "con": 51.7,
+    "lab": 30.3,
+    "lib": 17,
+    "other": 1
+  },
+  {
+    "riding": "Rutland and Melton",
+    "con": 61.5,
+    "lab": 19.1,
+    "lib": 15.7,
+    "green": 2.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Saffron Walden",
+    "con": 59.1,
+    "lab": 15.6,
+    "lib": 22.3,
+    "green": 1.6,
+    "other": 1.2
+  },
+  {
+    "riding": "Salford and Eccles",
+    "lab": 45.8,
+    "con": 29.7,
+    "lib": 10.6,
+    "green": 3.4,
+    "brexit": 9.1,
+    "other": 1.3
+  },
+  {
+    "riding": "Salisbury",
+    "con": 56.8,
+    "lab": 17.8,
+    "lib": 21.2,
+    "green": 2.6,
+    "other": 1.7
+  },
+  {
+    "riding": "Scarborough and Whitby",
+    "con": 54.6,
+    "lab": 30.8,
+    "lib": 10.4,
+    "green": 2.6,
+    "other": 1.5
+  },
+  {
+    "riding": "Scunthorpe",
+    "lab": 37.2,
+    "con": 40.3,
+    "lib": 7.6,
+    "brexit": 11.7,
+    "green": 1.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Sedgefield",
+    "lab": 37.4,
+    "con": 38.2,
+    "lib": 10,
+    "green": 2.5,
+    "brexit": 10.6,
+    "other": 1.4
+  },
+  {
+    "riding": "Sefton Central",
+    "lab": 43,
+    "con": 33.9,
+    "lib": 12.7,
+    "green": 2.4,
+    "brexit": 7,
+    "other": 1.1
+  },
+  {
+    "riding": "Selby and Ainsty",
+    "con": 59.7,
+    "lab": 25.9,
+    "lib": 11.7,
+    "green": 1.6,
+    "other": 1.2
+  },
+  {
+    "riding": "Sevenoaks",
+    "con": 62.4,
+    "lab": 15.9,
+    "lib": 17.8,
+    "green": 2.6,
+    "other": 1.4
+  },
+  {
+    "riding": "Sheffield Brightside and Hillsborough",
+    "lab": 50,
+    "con": 27.9,
+    "lib": 7.9,
+    "green": 2.7,
+    "brexit": 10.2,
+    "other": 1.5
+  },
+  {
+    "riding": "Sheffield Central",
+    "lab": 47.1,
+    "con": 22.3,
+    "green": 10.9,
+    "lib": 14.1,
+    "brexit": 4.6,
+    "other": 1
+  },
+  {
+    "riding": "Sheffield Hallam",
+    "lab": 24.9,
+    "lib": 41.6,
+    "con": 25.3,
+    "green": 2.5,
+    "brexit": 4.8,
+    "other": 0.8
+  },
+  {
+    "riding": "Sheffield Heeley",
+    "lab": 41.6,
+    "con": 32.1,
+    "lib": 11.8,
+    "green": 3.5,
+    "brexit": 9.6,
+    "other": 1.4
+  },
+  {
+    "riding": "Sheffield South East",
+    "lab": 42.6,
+    "con": 34.2,
+    "lib": 8.8,
+    "brexit": 11.1,
+    "green": 1.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Sherwood",
+    "con": 56.1,
+    "lab": 30.8,
+    "lib": 9.7,
+    "green": 2.1,
+    "other": 1.3
+  },
+  {
+    "riding": "Shipley",
+    "con": 51.4,
+    "lab": 32.4,
+    "lib": 13,
+    "green": 2.3,
+    "other": 1
+  },
+  {
+    "riding": "Shrewsbury and Atcham",
+    "con": 53.3,
+    "lab": 25.2,
+    "lib": 17.4,
+    "green": 2.7,
+    "other": 1.5
+  },
+  {
+    "riding": "Shropshire North",
+    "con": 59.9,
+    "lab": 21.4,
+    "lib": 14.4,
+    "green": 3,
+    "other": 1.4
+  },
+  {
+    "riding": "Sittingbourne and Sheppey",
+    "con": 61.7,
+    "lab": 22.6,
+    "lib": 11.9,
+    "green": 2,
+    "other": 1.8
+  },
+  {
+    "riding": "Skipton and Ripon",
+    "con": 60.9,
+    "lab": 22.6,
+    "green": 4.2,
+    "lib": 11.3,
+    "other": 1
+  },
+  {
+    "riding": "Sleaford and North Hykeham",
+    "con": 64.1,
+    "lab": 21,
+    "lib": 11.6,
+    "green": 1.7,
+    "other": 1.6
+  },
+  {
+    "riding": "Slough",
+    "lab": 47.1,
+    "con": 33.6,
+    "lib": 9.6,
+    "brexit": 6.2,
+    "green": 2.3,
+    "other": 1.3
+  },
+  {
+    "riding": "Solihull",
+    "con": 56,
+    "lab": 15.8,
+    "lib": 25,
+    "green": 2.1,
+    "other": 1.2
+  },
+  {
+    "riding": "Somerset North",
+    "con": 54.9,
+    "lab": 18.7,
+    "lib": 22.2,
+    "green": 3.1,
+    "other": 1.2
+  },
+  {
+    "riding": "Somerset North East",
+    "con": 54.5,
+    "lab": 22.8,
+    "lib": 18,
+    "green": 2.9,
+    "other": 1.7
+  },
+  {
+    "riding": "Somerton and Frome",
+    "con": 54.2,
+    "lib": 28.3,
+    "lab": 12.9,
+    "green": 2.8,
+    "other": 1.7
+  },
+  {
+    "riding": "South Holland and The Deepings",
+    "con": 69.6,
+    "lab": 18.1,
+    "lib": 8.9,
+    "green": 1.9,
+    "other": 1.4
+  },
+  {
+    "riding": "South Shields",
+    "lab": 42.9,
+    "con": 32.3,
+    "green": 3.4,
+    "lib": 8.4,
+    "brexit": 11.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Southampton Itchen",
+    "con": 51.3,
+    "lab": 31.2,
+    "lib": 12.9,
+    "green": 3.1,
+    "other": 1.5
+  },
+  {
+    "riding": "Southampton Test",
+    "lab": 39,
+    "con": 35.1,
+    "lib": 14.2,
+    "brexit": 6.6,
+    "green": 3.2,
+    "other": 1.9
+  },
+  {
+    "riding": "Southend West",
+    "con": 57,
+    "lab": 23.2,
+    "lib": 15.2,
+    "green": 2.7,
+    "other": 1.9
+  },
+  {
+    "riding": "Southport",
+    "con": 45.1,
+    "lab": 24.3,
+    "lib": 29.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Spelthorne",
+    "con": 60.5,
+    "lab": 21,
+    "lib": 14.6,
+    "green": 2.4,
+    "other": 1.4
+  },
+  {
+    "riding": "St Albans",
+    "con": 42.4,
+    "lib": 38.1,
+    "lab": 16.2,
+    "green": 2.3,
+    "other": 0.9
+  },
+  {
+    "riding": "St Austell and Newquay",
+    "con": 52.9,
+    "lab": 18.9,
+    "lib": 25.3,
+    "green": 1.7,
+    "other": 1.3
+  },
+  {
+    "riding": "St Helens North",
+    "lab": 43.1,
+    "con": 32.4,
+    "lib": 10,
+    "green": 2.9,
+    "brexit": 10.2,
+    "other": 1.5
+  },
+  {
+    "riding": "St Helens South and Whiston",
+    "lab": 45.8,
+    "con": 29.2,
+    "lib": 11.1,
+    "green": 3.2,
+    "brexit": 9.4,
+    "other": 1.4
+  },
+  {
+    "riding": "St Ives",
+    "con": 45,
+    "lib": 41.4,
+    "lab": 10.9,
+    "green": 1.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Stafford",
+    "con": 55.8,
+    "lab": 26.4,
+    "lib": 13.6,
+    "green": 2.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Staffordshire Moorlands",
+    "con": 60.6,
+    "lab": 23.4,
+    "lib": 12.7,
+    "green": 2,
+    "other": 1.4
+  },
+  {
+    "riding": "Staffordshire South",
+    "con": 66.5,
+    "lab": 18.1,
+    "lib": 12,
+    "green": 2.2,
+    "other": 1.3
+  },
+  {
+    "riding": "Stalybridge and Hyde",
+    "lab": 40.3,
+    "con": 36.3,
+    "lib": 9.7,
+    "green": 3.2,
+    "brexit": 9.4,
+    "other": 1.1
+  },
+  {
+    "riding": "Stevenage",
+    "con": 53.1,
+    "lab": 29,
+    "lib": 13.5,
+    "green": 2.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Stockport",
+    "lab": 44.6,
+    "con": 30.7,
+    "lib": 12.4,
+    "green": 3.2,
+    "brexit": 8,
+    "other": 1.2
+  },
+  {
+    "riding": "Stockton North",
+    "lab": 39.6,
+    "con": 37,
+    "lib": 8.1,
+    "green": 2,
+    "brexit": 11.8,
+    "other": 1.5
+  },
+  {
+    "riding": "Stockton South",
+    "lab": 35.6,
+    "con": 41.7,
+    "lib": 9.9,
+    "green": 2.1,
+    "brexit": 9.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Stoke-on-Trent Central",
+    "lab": 34.8,
+    "con": 40,
+    "lib": 10.7,
+    "green": 2.7,
+    "brexit": 10,
+    "other": 1.8
+  },
+  {
+    "riding": "Stoke-on-Trent North",
+    "lab": 33.5,
+    "con": 43.1,
+    "lib": 9.8,
+    "green": 2.4,
+    "brexit": 9.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Stoke-on-Trent South",
+    "con": 53.8,
+    "lab": 31.7,
+    "lib": 10.7,
+    "green": 2.4,
+    "other": 1.4
+  },
+  {
+    "riding": "Stone",
+    "con": 62.8,
+    "lab": 19.3,
+    "lib": 14.5,
+    "green": 2,
+    "other": 1.3
+  },
+  {
+    "riding": "Stourbridge",
+    "con": 58.4,
+    "lab": 26.5,
+    "lib": 11.6,
+    "green": 2.1,
+    "other": 1.4
+  },
+  {
+    "riding": "Stratford-on-Avon",
+    "con": 58.6,
+    "lab": 16.1,
+    "lib": 21.4,
+    "green": 2.4,
+    "other": 1.5
+  },
+  {
+    "riding": "Streatham",
+    "lab": 45.1,
+    "con": 25.1,
+    "lib": 20,
+    "green": 5.6,
+    "brexit": 3.1,
+    "other": 1.1
+  },
+  {
+    "riding": "Stretford and Urmston",
+    "lab": 48.8,
+    "con": 29.7,
+    "lib": 9.9,
+    "green": 2.9,
+    "brexit": 7.5,
+    "other": 1.1
+  },
+  {
+    "riding": "Stroud",
+    "lab": 41.5,
+    "con": 46.4,
+    "green": 3.3,
+    "brexit": 7.4,
+    "other": 1.4
+  },
+  {
+    "riding": "Suffolk Central and Ipswich North",
+    "con": 60.1,
+    "lab": 20.5,
+    "lib": 14.9,
+    "green": 3.1,
+    "other": 1.4
+  },
+  {
+    "riding": "Suffolk Coastal",
+    "con": 57.9,
+    "lab": 20.3,
+    "lib": 16.9,
+    "green": 3.1,
+    "other": 1.7
+  },
+  {
+    "riding": "Suffolk South",
+    "con": 59.8,
+    "lab": 19.4,
+    "lib": 16.6,
+    "green": 2.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Suffolk West",
+    "con": 62.6,
+    "lab": 20.4,
+    "lib": 13.1,
+    "green": 2.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Sunderland Central",
+    "lab": 40,
+    "con": 34.8,
+    "lib": 10.7,
+    "green": 2.8,
     "brexit": 10.1,
     "other": 1.6
   },
   {
-    "riding": "Workington",
-    "lab": 34.2,
-    "con": 37.8,
-    "lib": 9.8,
-    "brexit": 14.4,
+    "riding": "Surrey East",
+    "con": 61.5,
+    "lab": 15.5,
+    "lib": 19.6,
     "green": 2.1,
-    "other": 1.8
-  },
-  {
-    "riding": "Worsley and Eccles South",
-    "lab": 38,
-    "con": 35,
-    "lib": 9.9,
-    "green": 3.2,
-    "brexit": 12.5,
     "other": 1.4
   },
   {
-    "riding": "Worthing East and Shoreham",
-    "con": 44,
-    "lab": 23.8,
-    "lib": 15.6,
-    "green": 3.7,
-    "brexit": 10.7,
-    "other": 2.1
+    "riding": "Surrey Heath",
+    "con": 60,
+    "lab": 15.9,
+    "lib": 20,
+    "green": 2.9,
+    "other": 1.2
   },
   {
-    "riding": "Worthing West",
-    "con": 48,
-    "lab": 19.7,
-    "lib": 16,
-    "green": 3.6,
-    "brexit": 11,
-    "other": 1.7
+    "riding": "Surrey South West",
+    "con": 60.3,
+    "lab": 13.8,
+    "lib": 24.7,
+    "other": 1.2
   },
   {
-    "riding": "Wrekin, The",
-    "con": 47.8,
+    "riding": "Sussex Mid",
+    "con": 55.1,
+    "lab": 17.5,
+    "lib": 23.3,
+    "green": 2.6,
+    "other": 1.5
+  },
+  {
+    "riding": "Sutton and Cheam",
+    "con": 49.8,
+    "lib": 32.2,
+    "lab": 15,
+    "green": 2,
+    "other": 1.1
+  },
+  {
+    "riding": "Sutton Coldfield",
+    "con": 58.3,
+    "lab": 22,
+    "lib": 15.7,
+    "green": 2.4,
+    "other": 1.5
+  },
+  {
+    "riding": "Swindon North",
+    "con": 56,
+    "lab": 26.2,
+    "lib": 13.6,
+    "green": 2.6,
+    "other": 1.5
+  },
+  {
+    "riding": "Swindon South",
+    "con": 51.5,
+    "lab": 29.5,
+    "lib": 14.6,
+    "green": 2.9,
+    "other": 1.5
+  },
+  {
+    "riding": "Tamworth",
+    "con": 60.6,
+    "lab": 23.6,
+    "lib": 12.6,
+    "green": 1.7,
+    "other": 1.4
+  },
+  {
+    "riding": "Tatton",
+    "con": 56.1,
     "lab": 22.9,
-    "lib": 12.9,
-    "green": 2.7,
-    "brexit": 11.6,
-    "other": 2.1
+    "lib": 17.2,
+    "green": 2.4,
+    "other": 1.4
   },
   {
-    "riding": "Wycombe",
-    "con": 43.7,
-    "lab": 25.6,
-    "lib": 17.4,
-    "green": 3.4,
-    "brexit": 8.7,
+    "riding": "Taunton Deane",
+    "con": 52.4,
+    "lib": 33.2,
+    "lab": 13.1,
     "other": 1.3
   },
   {
-    "riding": "Wyre and Preston North",
-    "con": 47.5,
-    "lab": 24.2,
-    "lib": 12.8,
+    "riding": "Telford",
+    "con": 53.5,
+    "lab": 31,
+    "lib": 11.2,
+    "green": 2.8,
+    "other": 1.6
+  },
+  {
+    "riding": "Tewkesbury",
+    "con": 58.1,
+    "lab": 15.8,
+    "lib": 22.3,
     "green": 2.5,
-    "brexit": 11.9,
+    "other": 1.3
+  },
+  {
+    "riding": "Thanet North",
+    "con": 60.2,
+    "lab": 23.4,
+    "lib": 12.6,
+    "green": 2.2,
+    "other": 1.6
+  },
+  {
+    "riding": "Thanet South",
+    "con": 57.9,
+    "lab": 25.7,
+    "lib": 12.3,
+    "green": 2.2,
+    "other": 1.9
+  },
+  {
+    "riding": "Thirsk and Malton",
+    "con": 60.9,
+    "lab": 21.5,
+    "lib": 14,
+    "green": 2.2,
+    "other": 1.4
+  },
+  {
+    "riding": "Thornbury and Yate",
+    "con": 50.3,
+    "lib": 38,
+    "lab": 10.7,
+    "other": 1.1
+  },
+  {
+    "riding": "Thurrock",
+    "con": 58.7,
+    "lab": 27.7,
+    "ukip": 1.5,
+    "lib": 9.4,
+    "green": 1.7,
+    "other": 1
+  },
+  {
+    "riding": "Tiverton and Honiton",
+    "con": 59.6,
+    "lab": 18.5,
+    "lib": 17.5,
+    "green": 3.1,
+    "other": 1.3
+  },
+  {
+    "riding": "Tonbridge and Malling",
+    "con": 61.9,
+    "lab": 16.6,
+    "lib": 17,
+    "green": 3.1,
+    "other": 1.4
+  },
+  {
+    "riding": "Tooting",
+    "lab": 42.5,
+    "con": 31.9,
+    "lib": 17.5,
+    "green": 3.8,
+    "brexit": 3.3,
+    "other": 1.1
+  },
+  {
+    "riding": "Torbay",
+    "con": 54.7,
+    "lib": 28.3,
+    "lab": 13.8,
+    "green": 1.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Totnes",
+    "con": 55.9,
+    "lab": 19.8,
+    "lib": 23,
+    "other": 1.4
+  },
+  {
+    "riding": "Tottenham",
+    "lab": 57.5,
+    "con": 20,
+    "lib": 12.6,
+    "green": 5.1,
+    "brexit": 3.8,
+    "other": 0.9
+  },
+  {
+    "riding": "Truro and Falmouth",
+    "con": 47.4,
+    "lab": 23.3,
+    "lib": 24.9,
+    "green": 3.1,
+    "other": 1.3
+  },
+  {
+    "riding": "Tunbridge Wells",
+    "con": 55.5,
+    "lab": 20.6,
+    "lib": 22.1,
+    "other": 1.8
+  },
+  {
+    "riding": "Twickenham",
+    "lib": 56,
+    "con": 31,
+    "lab": 8.5,
+    "brexit": 3.7,
+    "other": 0.8
+  },
+  {
+    "riding": "Tynemouth",
+    "lab": 40.1,
+    "con": 35.7,
+    "lib": 11.9,
+    "green": 2.7,
+    "brexit": 8.4,
+    "other": 1.2
+  },
+  {
+    "riding": "Tyneside North",
+    "lab": 43.8,
+    "con": 31.6,
+    "lib": 10.3,
+    "green": 2.7,
+    "brexit": 10.2,
+    "other": 1.4
+  },
+  {
+    "riding": "Uxbridge and South Ruislip",
+    "con": 53.8,
+    "lab": 28.6,
+    "lib": 13.2,
+    "green": 3,
+    "other": 1.3
+  },
+  {
+    "riding": "Vauxhall",
+    "lab": 38.5,
+    "lib": 28.6,
+    "con": 23.4,
+    "green": 4.9,
+    "brexit": 3,
+    "other": 1.5
+  },
+  {
+    "riding": "Wakefield",
+    "lab": 37,
+    "con": 40.8,
+    "lib": 8.7,
+    "brexit": 10.3,
+    "green": 1.9,
+    "other": 1.2
+  },
+  {
+    "riding": "Wallasey",
+    "lab": 49.4,
+    "con": 28.3,
+    "lib": 9.6,
+    "green": 2.8,
+    "brexit": 8.5,
+    "other": 1.4
+  },
+  {
+    "riding": "Walsall North",
+    "con": 57.4,
+    "lab": 29.7,
+    "lib": 9.5,
+    "green": 1.8,
+    "other": 1.7
+  },
+  {
+    "riding": "Walsall South",
+    "lab": 41.8,
+    "con": 37.8,
+    "lib": 9.1,
+    "brexit": 8.1,
+    "green": 2,
+    "other": 1.2
+  },
+  {
+    "riding": "Walthamstow",
+    "lab": 58.4,
+    "con": 21,
+    "lib": 12,
+    "green": 4.1,
+    "brexit": 3.6,
+    "other": 0.8
+  },
+  {
+    "riding": "Wansbeck",
+    "lab": 39.3,
+    "con": 34.6,
+    "lib": 12.1,
+    "green": 2.8,
+    "brexit": 9.8,
+    "other": 1.4
+  },
+  {
+    "riding": "Wantage",
+    "con": 53.7,
+    "lab": 19.9,
+    "lib": 25.1,
+    "other": 1.3
+  },
+  {
+    "riding": "Warley",
+    "lab": 46.5,
+    "con": 31.6,
+    "lib": 10.1,
+    "green": 2.9,
+    "brexit": 7.6,
+    "other": 1.3
+  },
+  {
+    "riding": "Warrington North",
+    "lab": 38.9,
+    "con": 37.1,
+    "lib": 10,
+    "green": 2.4,
+    "brexit": 10.3,
+    "other": 1.4
+  },
+  {
+    "riding": "Warrington South",
+    "lab": 35.4,
+    "con": 40.2,
+    "lib": 14.7,
+    "brexit": 8.2,
+    "other": 1.6
+  },
+  {
+    "riding": "Warwick and Leamington",
+    "lab": 30.6,
+    "con": 40.9,
+    "lib": 17.6,
+    "green": 3.6,
+    "brexit": 5.9,
+    "other": 1.4
+  },
+  {
+    "riding": "Warwickshire North",
+    "con": 59.5,
+    "lab": 25.8,
+    "lib": 10.9,
+    "green": 2.3,
+    "other": 1.4
+  },
+  {
+    "riding": "Washington and Sunderland West",
+    "lab": 41.8,
+    "con": 33.2,
+    "ukip": 1,
+    "lib": 9.2,
+    "green": 2.6,
+    "brexit": 11.5,
+    "other": 0.7
+  },
+  {
+    "riding": "Watford",
+    "con": 49.1,
+    "lab": 30.2,
+    "lib": 19.5,
+    "other": 1.2
+  },
+  {
+    "riding": "Waveney",
+    "con": 58.4,
+    "lab": 25.4,
+    "green": 2.9,
+    "lib": 11.4,
+    "other": 1.8
+  },
+  {
+    "riding": "Wealden",
+    "con": 60.5,
+    "lab": 16,
+    "lib": 19.2,
+    "green": 3,
+    "other": 1.4
+  },
+  {
+    "riding": "Weaver Vale",
+    "lab": 36.6,
+    "con": 39.6,
+    "lib": 11.8,
+    "green": 2.6,
+    "brexit": 8.3,
+    "other": 1.1
+  },
+  {
+    "riding": "Wellingborough",
+    "con": 59.3,
+    "lab": 26.6,
+    "lib": 10.3,
+    "green": 2.5,
+    "other": 1.2
+  },
+  {
+    "riding": "Wells",
+    "con": 49,
+    "lib": 39.1,
+    "lab": 10.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Welwyn Hatfield",
+    "con": 53.5,
+    "lab": 25.5,
+    "lib": 16.5,
+    "green": 2.9,
+    "other": 1.6
+  },
+  {
+    "riding": "Wentworth and Dearne",
+    "lab": 42.6,
+    "con": 34.2,
+    "lib": 9,
+    "brexit": 11.1,
+    "green": 1.8,
+    "other": 1.2
+  },
+  {
+    "riding": "West Bromwich East",
+    "lab": 38.2,
+    "con": 39.2,
+    "lib": 9.6,
+    "green": 2.5,
+    "brexit": 8.6,
+    "other": 1.7
+  },
+  {
+    "riding": "West Bromwich West",
+    "lab": 34.8,
+    "con": 41.2,
+    "lib": 8.8,
+    "green": 2.3,
+    "brexit": 11.1,
+    "other": 1.7
+  },
+  {
+    "riding": "West Ham",
+    "lab": 57.2,
+    "con": 23.4,
+    "lib": 9.7,
+    "green": 3.6,
+    "brexit": 5.1,
+    "other": 1.1
+  },
+  {
+    "riding": "Westminster North",
+    "lab": 45.4,
+    "con": 32.1,
+    "lib": 15,
+    "green": 3.1,
+    "brexit": 3.5,
+    "other": 0.9
+  },
+  {
+    "riding": "Westmorland and Lonsdale",
+    "lib": 45.6,
+    "con": 36.5,
+    "lab": 9.8,
+    "brexit": 7.2,
+    "other": 0.9
+  },
+  {
+    "riding": "Weston-Super-Mare",
+    "con": 55.9,
+    "lab": 21.9,
+    "lib": 18.3,
+    "green": 2.4,
+    "other": 1.6
+  },
+  {
+    "riding": "Wigan",
+    "lab": 42.4,
+    "con": 33.5,
+    "lib": 8.9,
+    "green": 2.5,
+    "brexit": 11.1,
+    "other": 1.6
+  },
+  {
+    "riding": "Wiltshire North",
+    "con": 56.9,
+    "lib": 26,
+    "lab": 13.3,
+    "green": 2.3,
+    "other": 1.5
+  },
+  {
+    "riding": "Wiltshire South West",
+    "con": 59.1,
+    "lab": 18.5,
+    "lib": 18,
+    "green": 2.7,
+    "other": 1.7
+  },
+  {
+    "riding": "Wimbledon",
+    "con": 44.2,
+    "lab": 26.4,
+    "lib": 28.3,
+    "other": 1.1
+  },
+  {
+    "riding": "Winchester",
+    "con": 46.7,
+    "lib": 42.1,
+    "lab": 10.1,
+    "other": 1.1
+  },
+  {
+    "riding": "Windsor",
+    "con": 58.6,
+    "lab": 17.1,
+    "lib": 20.5,
+    "green": 2.6,
+    "other": 1.2
+  },
+  {
+    "riding": "Wirral South",
+    "lab": 40.3,
+    "con": 36.9,
+    "lib": 12.2,
+    "green": 2.3,
+    "brexit": 7.2,
+    "other": 1.1
+  },
+  {
+    "riding": "Wirral West",
+    "lab": 38.6,
+    "con": 38.7,
+    "lib": 12.4,
+    "green": 2.1,
+    "brexit": 7.2,
+    "other": 1.1
+  },
+  {
+    "riding": "Witham",
+    "con": 62,
+    "lab": 18.6,
+    "lib": 14.7,
+    "green": 3.3,
+    "other": 1.3
+  },
+  {
+    "riding": "Witney",
+    "con": 54.5,
+    "lab": 16.9,
+    "lib": 27.3,
+    "other": 1.3
+  },
+  {
+    "riding": "Woking",
+    "con": 52.1,
+    "lab": 18.3,
+    "lib": 26.1,
+    "green": 2.3,
+    "other": 1.3
+  },
+  {
+    "riding": "Wokingham",
+    "con": 52.4,
+    "lab": 17.7,
+    "lib": 26.2,
+    "green": 2.6,
+    "other": 1.1
+  },
+  {
+    "riding": "Wolverhampton North East",
+    "lab": 34.7,
+    "con": 40.8,
+    "lib": 10,
+    "green": 2.5,
+    "brexit": 10.2,
+    "other": 1.8
+  },
+  {
+    "riding": "Wolverhampton South East",
+    "lab": 36.8,
+    "con": 38.3,
+    "lib": 9.9,
+    "green": 2.7,
+    "brexit": 10.5,
+    "other": 1.8
+  },
+  {
+    "riding": "Wolverhampton South West",
+    "lab": 34.5,
+    "con": 41.8,
+    "lib": 12.3,
+    "green": 2.7,
+    "brexit": 6.9,
+    "other": 1.7
+  },
+  {
+    "riding": "Worcester",
+    "con": 51.8,
+    "lab": 29.3,
+    "lib": 14.1,
+    "green": 3.2,
+    "other": 1.5
+  },
+  {
+    "riding": "Worcestershire Mid",
+    "con": 63.9,
+    "lab": 16.8,
+    "lib": 15.5,
+    "green": 2.4,
+    "other": 1.4
+  },
+  {
+    "riding": "Worcestershire West",
+    "con": 59.6,
+    "lab": 16.5,
+    "lib": 20,
+    "green": 2.7,
+    "other": 1.3
+  },
+  {
+    "riding": "Workington",
+    "lab": 36.2,
+    "con": 40.1,
+    "lib": 9.6,
+    "brexit": 10.8,
+    "green": 1.8,
+    "other": 1.5
+  },
+  {
+    "riding": "Worsley and Eccles South",
+    "lab": 40,
+    "con": 36.9,
+    "lib": 9.7,
+    "green": 2.7,
+    "brexit": 9.5,
+    "other": 1.2
+  },
+  {
+    "riding": "Worthing East and Shoreham",
+    "con": 53.4,
+    "lab": 26.2,
+    "lib": 15.5,
+    "green": 3.1,
+    "other": 1.8
+  },
+  {
+    "riding": "Worthing West",
+    "con": 57.5,
+    "lab": 22.1,
+    "lib": 15.8,
+    "green": 3.1,
+    "other": 1.5
+  },
+  {
+    "riding": "Wrekin, The",
+    "con": 57.9,
+    "lab": 25.1,
+    "lib": 12.9,
+    "green": 2.4,
+    "other": 1.7
+  },
+  {
+    "riding": "Wycombe",
+    "con": 51,
+    "lab": 28,
+    "lib": 17.1,
+    "green": 2.8,
+    "other": 1.1
+  },
+  {
+    "riding": "Wyre and Preston North",
+    "con": 57.7,
+    "lab": 26.4,
+    "lib": 12.8,
+    "green": 2.2,
     "other": 1
   },
   {
     "riding": "Wyre Forest",
-    "con": 49.3,
-    "lab": 20.6,
-    "lib": 12.6,
-    "green": 2.7,
-    "brexit": 13,
-    "other": 1.8
+    "con": 60.7,
+    "lab": 22.8,
+    "lib": 12.7,
+    "green": 2.3,
+    "other": 1.6
   },
   {
     "riding": "Wythenshawe and Sale East",
-    "lab": 41.9,
-    "con": 30,
-    "lib": 11.5,
-    "green": 3.3,
-    "brexit": 11.7,
-    "other": 1.5
-  },
-  {
-    "riding": "Yeovil",
-    "con": 43.5,
-    "lib": 32.7,
-    "lab": 9.1,
-    "green": 2.1,
-    "brexit": 10.5,
-    "other": 2.1
-  },
-  {
-    "riding": "York Central",
-    "lab": 43.1,
-    "con": 28.3,
-    "lib": 14.4,
-    "brexit": 8,
-    "green": 4.9,
-    "other": 1.2
-  },
-  {
-    "riding": "York Outer",
-    "con": 41.9,
-    "lab": 25,
-    "lib": 19,
-    "green": 3.1,
-    "brexit": 9.8,
-    "other": 1.1
-  },
-  {
-    "riding": "Yorkshire East",
-    "con": 47.4,
-    "lab": 21.9,
-    "lib": 10.9,
-    "green": 2.6,
-    "brexit": 15.7,
+    "lab": 43.9,
+    "con": 31.7,
+    "lib": 11.3,
+    "green": 2.8,
+    "brexit": 8.9,
     "other": 1.4
   },
   {
-    "riding": "Aberavon",
-    "lab": 40.4,
-    "con": 23.6,
-    "plaid": 12.6,
-    "lib": 10.2,
-    "brexit": 10.8,
+    "riding": "Yeovil",
+    "con": 53.4,
+    "lib": 32.5,
+    "lab": 10.6,
     "green": 1.8,
-    "other": 0.7
+    "other": 1.7
   },
   {
-    "riding": "Aberconwy",
-    "con": 37.6,
-    "lab": 26.6,
-    "plaid": 12.3,
-    "lib": 12.3,
-    "brexit": 9.1,
-    "green": 1.5,
-    "other": 0.6
+    "riding": "York Central",
+    "lab": 45.1,
+    "con": 29.5,
+    "lib": 14.1,
+    "brexit": 6,
+    "green": 4.2,
+    "other": 1
   },
   {
-    "riding": "Alyn and Deeside",
-    "lab": 31.7,
-    "con": 36.3,
-    "plaid": 7.4,
-    "lib": 11.3,
-    "brexit": 11.1,
+    "riding": "York Outer",
+    "con": 50.5,
+    "lab": 28.5,
+    "lib": 20,
+    "other": 1
+  },
+  {
+    "riding": "Yorkshire East",
+    "con": 61.3,
+    "lab": 24.2,
+    "lib": 11,
+    "green": 2.2,
+    "other": 1.2
+  },
+  {
+    "riding": "Aberavon",
+    "lab": 42.5,
+    "con": 24.7,
+    "plaid": 12.6,
+    "lib": 10,
+    "brexit": 8.1,
     "green": 1.6,
     "other": 0.6
   },
   {
+    "riding": "Aberconwy",
+    "con": 44.7,
+    "lab": 28.8,
+    "plaid": 12.5,
+    "lib": 12.2,
+    "green": 1.3,
+    "other": 0.5
+  },
+  {
+    "riding": "Alyn and Deeside",
+    "lab": 33.7,
+    "con": 37.5,
+    "plaid": 7.4,
+    "lib": 11.1,
+    "brexit": 8.4,
+    "green": 1.4,
+    "other": 0.5
+  },
+  {
     "riding": "Arfon",
-    "plaid": 35.2,
-    "lab": 26.9,
-    "con": 19.3,
-    "lib": 10.9,
+    "plaid": 35.9,
+    "lab": 37.8,
+    "con": 21.4,
+    "brexit": 4.6,
+    "other": 0.4
+  },
+  {
+    "riding": "Blaenau Gwent",
+    "lab": 38,
+    "plaid": 21.4,
+    "con": 22.2,
+    "lib": 8.3,
+    "brexit": 7.9,
+    "green": 1.6,
+    "other": 0.5
+  },
+  {
+    "riding": "Brecon and Radnorshire",
+    "con": 47.2,
+    "lib": 35,
+    "lab": 17.4,
+    "other": 0.4
+  },
+  {
+    "riding": "Bridgend",
+    "lab": 33.1,
+    "con": 36.1,
+    "plaid": 8.8,
+    "lib": 12.2,
+    "brexit": 7.6,
+    "green": 1.4,
+    "other": 0.7
+  },
+  {
+    "riding": "Caerphilly",
+    "lab": 44.1,
+    "con": 30.2,
+    "plaid": 16.9,
+    "brexit": 8.3,
+    "other": 0.5
+  },
+  {
+    "riding": "Cardiff Central",
+    "lab": 44.1,
+    "con": 21.8,
+    "lib": 29.3,
+    "brexit": 4.4,
+    "other": 0.4
+  },
+  {
+    "riding": "Cardiff North",
+    "lab": 33.1,
+    "con": 36.2,
+    "plaid": 8.9,
+    "lib": 14.7,
+    "brexit": 5.3,
+    "green": 1.5,
+    "other": 0.5
+  },
+  {
+    "riding": "Cardiff South and Penarth",
+    "lab": 39.2,
+    "con": 29.3,
+    "plaid": 11.1,
+    "lib": 11.8,
+    "green": 2,
+    "brexit": 6.1,
+    "other": 0.5
+  },
+  {
+    "riding": "Cardiff West",
+    "lab": 37.4,
+    "con": 28.5,
+    "plaid": 14.3,
+    "lib": 12.1,
     "brexit": 5.5,
     "green": 1.7,
     "other": 0.4
   },
   {
-    "riding": "Blaenau Gwent",
-    "lab": 36,
-    "plaid": 21.4,
-    "con": 21.2,
-    "lib": 8.5,
-    "brexit": 10.5,
-    "green": 1.8,
-    "other": 0.6
-  },
-  {
-    "riding": "Brecon and Radnorshire",
-    "con": 38.7,
-    "lib": 31.6,
-    "lab": 12.2,
-    "plaid": 6.4,
-    "brexit": 9.5,
-    "green": 1.1,
-    "other": 0.5
-  },
-  {
-    "riding": "Bridgend",
-    "lab": 31,
-    "con": 35.1,
-    "plaid": 8.8,
-    "lib": 12.5,
-    "brexit": 10,
-    "green": 1.6,
-    "other": 0.9
-  },
-  {
-    "riding": "Caerphilly",
-    "lab": 33.2,
-    "con": 26.9,
-    "plaid": 16.2,
-    "lib": 10.7,
-    "green": 2.1,
-    "brexit": 10.3,
-    "other": 0.5
-  },
-  {
-    "riding": "Cardiff Central",
-    "lab": 35.6,
-    "con": 21.3,
-    "lib": 23.5,
-    "plaid": 11.2,
-    "green": 3.1,
-    "brexit": 4.8,
-    "other": 0.4
-  },
-  {
-    "riding": "Cardiff North",
-    "lab": 31,
-    "con": 35.8,
-    "plaid": 8.9,
-    "lib": 15,
-    "brexit": 7,
-    "green": 1.8,
-    "other": 0.5
-  },
-  {
-    "riding": "Cardiff South and Penarth",
-    "lab": 37.2,
-    "con": 28.6,
-    "plaid": 11.1,
-    "lib": 12,
-    "green": 2.3,
-    "brexit": 8.1,
-    "other": 0.5
-  },
-  {
-    "riding": "Cardiff West",
-    "lab": 35.4,
-    "con": 28.1,
-    "plaid": 14.3,
-    "lib": 12.4,
-    "brexit": 7.3,
-    "green": 2,
-    "other": 0.5
-  },
-  {
     "riding": "Carmarthen East and Dinefwr",
-    "plaid": 32.8,
-    "lab": 20.4,
-    "con": 26.8,
-    "lib": 9.5,
-    "brexit": 8.6,
-    "green": 1.5,
+    "plaid": 33.4,
+    "lab": 30,
+    "con": 29.3,
+    "brexit": 6.9,
     "other": 0.4
   },
   {
     "riding": "Carmarthen West and Pembrokeshire South",
-    "con": 39.8,
-    "lab": 25,
-    "plaid": 11.8,
+    "con": 48.5,
+    "lab": 27.2,
+    "plaid": 11.9,
     "lib": 10.6,
-    "brexit": 10.8,
-    "green": 1.4,
+    "green": 1.2,
     "other": 0.5
   },
   {
     "riding": "Ceredigion",
     "plaid": 25.5,
-    "lib": 30.5,
-    "lab": 13.4,
-    "con": 21.3,
-    "green": 2.1,
-    "brexit": 6.7,
-    "other": 0.5
+    "lib": 30,
+    "lab": 15,
+    "con": 22.1,
+    "green": 1.8,
+    "brexit": 5.1,
+    "other": 0.4
   },
   {
     "riding": "Clwyd South",
-    "lab": 31.1,
-    "con": 35.2,
+    "lab": 33.1,
+    "con": 36.4,
     "plaid": 9.9,
-    "lib": 10.5,
-    "brexit": 11.1,
-    "green": 1.6,
-    "other": 0.6
+    "lib": 10.3,
+    "brexit": 8.4,
+    "green": 1.4,
+    "other": 0.5
   },
   {
     "riding": "Clwyd West",
-    "con": 39.9,
-    "lab": 25,
-    "plaid": 12,
-    "lib": 11.6,
-    "brexit": 9.7,
-    "green": 1.3,
-    "other": 0.6
+    "con": 47.5,
+    "lab": 27.2,
+    "plaid": 12.2,
+    "lib": 11.5,
+    "green": 1.1,
+    "other": 0.5
   },
   {
     "riding": "Cynon Valley",
-    "lab": 36.9,
-    "con": 23.9,
+    "lab": 38.9,
+    "con": 25,
     "plaid": 16.1,
-    "lib": 10.2,
-    "brexit": 10.4,
-    "green": 1.9,
+    "lib": 10,
+    "brexit": 7.8,
+    "green": 1.6,
     "other": 0.6
   },
   {
     "riding": "Delyn",
-    "lab": 31.4,
-    "con": 36.7,
+    "lab": 33.5,
+    "con": 37.6,
     "plaid": 8.2,
-    "lib": 11.8,
-    "brexit": 9.9,
-    "green": 1.5,
-    "other": 0.6
+    "lib": 11.5,
+    "brexit": 7.5,
+    "green": 1.3,
+    "other": 0.5
   },
   {
     "riding": "Dwyfor Meirionnydd",
-    "plaid": 35.6,
-    "con": 27.7,
-    "lab": 16.4,
-    "lib": 10.1,
-    "brexit": 8.2,
-    "green": 1.5,
+    "plaid": 36.2,
+    "con": 30.3,
+    "lab": 26.4,
+    "brexit": 6.6,
     "other": 0.4
   },
   {
     "riding": "Gower",
-    "lab": 30.2,
-    "con": 37,
+    "lab": 32.3,
+    "con": 37.8,
     "plaid": 8.2,
-    "lib": 13.2,
-    "brexit": 9,
-    "green": 1.6,
-    "other": 0.6
+    "lib": 12.9,
+    "brexit": 6.8,
+    "green": 1.4,
+    "other": 0.5
   },
   {
     "riding": "Islwyn",
-    "lab": 35.5,
-    "con": 28.6,
+    "lab": 37.6,
+    "con": 29.9,
     "plaid": 11.5,
-    "lib": 10.4,
-    "brexit": 11.6,
-    "green": 1.8,
-    "other": 0.7
+    "lib": 10.2,
+    "brexit": 8.7,
+    "green": 1.5,
+    "other": 0.6
   },
   {
     "riding": "Llanelli",
-    "lab": 32.8,
-    "con": 26.4,
-    "plaid": 18.9,
-    "lib": 9.4,
-    "brexit": 10.4,
-    "green": 1.6,
+    "lab": 42.5,
+    "con": 29.3,
+    "plaid": 19.4,
+    "brexit": 8.2,
     "other": 0.5
   },
   {
     "riding": "Merthyr Tydfil and Rhymney",
-    "lab": 39.1,
-    "con": 23.5,
+    "lab": 41.1,
+    "con": 24.7,
     "plaid": 12.5,
-    "lib": 11.6,
-    "brexit": 10.8,
-    "green": 1.8,
-    "other": 0.7
-  },
-  {
-    "riding": "Monmouth",
-    "con": 43.7,
-    "lab": 22.7,
-    "lib": 14.7,
-    "plaid": 7.2,
-    "green": 2.1,
-    "brexit": 9.1,
+    "lib": 11.4,
+    "brexit": 8.2,
+    "green": 1.6,
     "other": 0.6
   },
   {
-    "riding": "Montgomeryshire",
-    "con": 40.7,
-    "lib": 26.8,
-    "lab": 12,
-    "plaid": 8.2,
-    "green": 1.5,
-    "brexit": 10.2,
+    "riding": "Monmouth",
+    "con": 51,
+    "lab": 24.8,
+    "lib": 14.6,
+    "plaid": 7.3,
+    "green": 1.8,
     "other": 0.5
   },
   {
+    "riding": "Montgomeryshire",
+    "con": 50,
+    "lib": 31.2,
+    "lab": 18.3,
+    "other": 0.4
+  },
+  {
     "riding": "Neath",
-    "lab": 34.4,
-    "con": 26.5,
+    "lab": 36.4,
+    "con": 27.5,
     "plaid": 15.9,
-    "lib": 10.6,
-    "brexit": 10.2,
-    "green": 1.8,
+    "lib": 10.4,
+    "brexit": 7.7,
+    "green": 1.5,
     "other": 0.5
   },
   {
     "riding": "Newport East",
-    "lab": 34,
-    "con": 32.4,
-    "lib": 11.6,
+    "lab": 36,
+    "con": 33.7,
+    "lib": 11.3,
     "plaid": 8.5,
-    "brexit": 11.3,
-    "green": 1.6,
-    "other": 0.7
+    "brexit": 8.5,
+    "green": 1.4,
+    "other": 0.6
   },
   {
     "riding": "Newport West",
-    "lab": 32.3,
-    "con": 34.8,
+    "lab": 34.4,
+    "con": 35.8,
     "plaid": 8.6,
-    "lib": 11.8,
-    "green": 2.1,
-    "brexit": 9.8,
+    "lib": 11.5,
+    "green": 1.8,
+    "brexit": 7.4,
     "other": 0.5
   },
   {
     "riding": "Ogmore",
-    "lab": 37.7,
-    "con": 26.9,
+    "lab": 39.8,
+    "con": 28,
     "plaid": 11.7,
-    "lib": 10.6,
-    "brexit": 10.6,
-    "green": 1.9,
-    "other": 0.7
+    "lib": 10.3,
+    "brexit": 8,
+    "green": 1.6,
+    "other": 0.6
   },
   {
     "riding": "Pontypridd",
-    "lab": 32.8,
-    "con": 27.2,
-    "plaid": 13.5,
-    "lib": 15.1,
-    "brexit": 8.9,
-    "green": 2,
+    "lab": 46.7,
+    "con": 31.1,
+    "plaid": 14.4,
+    "brexit": 7.3,
     "other": 0.5
   },
   {
     "riding": "Preseli Pembrokeshire",
-    "con": 38.5,
-    "lab": 27.4,
-    "plaid": 9.9,
+    "con": 47.3,
+    "lab": 29.6,
+    "plaid": 10.1,
     "lib": 11.1,
-    "brexit": 10.9,
-    "green": 1.5,
-    "other": 0.6
+    "green": 1.3,
+    "other": 0.5
   },
   {
     "riding": "Rhondda",
-    "lab": 39.2,
+    "lab": 41.2,
     "plaid": 22.4,
-    "con": 18,
-    "lib": 8.9,
-    "brexit": 9,
-    "green": 1.9,
+    "con": 18.7,
+    "lib": 8.7,
+    "brexit": 6.8,
+    "green": 1.7,
     "other": 0.5
   },
   {
     "riding": "Swansea East",
-    "lab": 37.8,
-    "con": 27.6,
+    "lab": 39.9,
+    "con": 28.9,
     "plaid": 10.4,
-    "lib": 10.4,
-    "green": 2,
-    "brexit": 11.1,
-    "other": 0.7
+    "lib": 10.2,
+    "green": 1.8,
+    "brexit": 8.4,
+    "other": 0.6
   },
   {
     "riding": "Swansea West",
-    "lab": 34.9,
-    "con": 28.8,
+    "lab": 36.9,
+    "con": 29.3,
     "plaid": 11.1,
-    "lib": 14.8,
-    "green": 2.6,
-    "brexit": 7.3,
-    "other": 0.6
+    "lib": 14.4,
+    "green": 2.3,
+    "brexit": 5.5,
+    "other": 0.5
   },
   {
     "riding": "Torfaen",
-    "lab": 34.4,
-    "con": 30.7,
+    "lab": 36.4,
+    "con": 32.2,
     "plaid": 9.9,
-    "lib": 10.6,
-    "brexit": 11.9,
-    "green": 1.8,
-    "other": 0.7
+    "lib": 10.4,
+    "brexit": 9,
+    "green": 1.6,
+    "other": 0.6
   },
   {
     "riding": "Vale of Clwyd",
-    "lab": 31.1,
-    "con": 37.3,
+    "lab": 33.2,
+    "con": 38.2,
     "plaid": 8.7,
-    "lib": 11,
-    "brexit": 9.8,
-    "green": 1.4,
-    "other": 0.6
+    "lib": 10.8,
+    "brexit": 7.4,
+    "green": 1.2,
+    "other": 0.5
   },
   {
     "riding": "Vale of Glamorgan",
-    "con": 39.4,
-    "lab": 27.3,
-    "plaid": 8.6,
-    "lib": 12.3,
-    "green": 1.8,
-    "brexit": 9.9,
-    "other": 0.7
-  },
-  {
-    "riding": "Wrexham",
-    "lab": 29.7,
-    "con": 37.1,
-    "plaid": 9.3,
-    "lib": 11.7,
-    "brexit": 10.1,
-    "green": 1.5,
+    "con": 50.8,
+    "lab": 47,
+    "green": 1.6,
     "other": 0.6
   },
   {
-    "riding": "Ynys Mon",
-    "lab": 27,
-    "con": 27.9,
-    "plaid": 24.8,
-    "lib": 9.4,
-    "brexit": 8.9,
-    "green": 1.4,
+    "riding": "Wrexham",
+    "lab": 31.8,
+    "con": 38,
+    "plaid": 9.3,
+    "lib": 11.4,
+    "brexit": 7.6,
+    "green": 1.3,
     "other": 0.5
+  },
+  {
+    "riding": "Ynys Mon",
+    "lab": 36.5,
+    "con": 30.5,
+    "plaid": 25.4,
+    "brexit": 7.1,
+    "other": 0.4
   },
   {
     "riding": "Aberdeen North",
@@ -5209,21 +4833,19 @@
   },
   {
     "riding": "Aberdeen South",
-    "con": 34.2,
-    "snp": 33.7,
-    "lab": 11.5,
-    "lib": 12.5,
-    "brexit": 5.3,
+    "con": 39.2,
+    "snp": 33.8,
+    "lab": 11.6,
+    "lib": 12.7,
     "green": 1.9,
     "other": 0.8
   },
   {
     "riding": "Aberdeenshire West and Kincardine",
-    "con": 39.9,
-    "snp": 34.2,
-    "lab": 6.1,
-    "lib": 13.7,
-    "brexit": 4.1,
+    "con": 43.7,
+    "snp": 34.3,
+    "lab": 6.2,
+    "lib": 13.8,
     "green": 1.4,
     "other": 0.6
   },
@@ -5239,11 +4861,10 @@
   },
   {
     "riding": "Angus",
-    "con": 37.2,
-    "snp": 40.4,
+    "con": 41.3,
+    "snp": 40.5,
     "lab": 7.2,
-    "lib": 8.7,
-    "brexit": 4.3,
+    "lib": 8.8,
     "green": 1.5,
     "other": 0.6
   },
@@ -5259,11 +4880,10 @@
   },
   {
     "riding": "Ayr Carrick and Cumnock",
-    "con": 32.2,
-    "snp": 36.4,
-    "lab": 14.8,
-    "lib": 8.6,
-    "brexit": 5.3,
+    "con": 37.2,
+    "snp": 36.5,
+    "lab": 14.9,
+    "lib": 8.7,
     "green": 1.9,
     "other": 0.8
   },
@@ -5289,21 +4909,19 @@
   },
   {
     "riding": "Banff and Buchan",
-    "con": 40,
-    "snp": 40.7,
-    "lab": 5.2,
-    "lib": 8.3,
-    "brexit": 3.8,
+    "con": 43.6,
+    "snp": 40.8,
+    "lab": 5.3,
+    "lib": 8.4,
     "green": 1.4,
     "other": 0.6
   },
   {
     "riding": "Berwickshire, Roxburgh and Selkirk",
-    "con": 45.9,
-    "snp": 34.3,
-    "lab": 4.7,
-    "lib": 9.4,
-    "brexit": 3.7,
+    "con": 49.4,
+    "snp": 34.4,
+    "lab": 4.8,
+    "lib": 9.5,
     "green": 1.3,
     "other": 0.6
   },
@@ -5339,21 +4957,19 @@
   },
   {
     "riding": "Dumfries and Galloway",
-    "con": 35.4,
-    "snp": 34.6,
-    "lab": 11.9,
-    "lib": 9.1,
-    "brexit": 5.3,
+    "con": 40.3,
+    "snp": 34.7,
+    "lab": 12,
+    "lib": 9.2,
     "green": 1.9,
     "other": 1.8
   },
   {
     "riding": "Dumfriesshire, Clydesdale and Tweeddale",
-    "con": 41.4,
-    "snp": 32.1,
-    "lab": 9.1,
-    "lib": 10,
-    "brexit": 4.8,
+    "con": 46,
+    "snp": 32.2,
+    "lab": 9.2,
+    "lib": 10.2,
     "green": 1.7,
     "other": 0.7
   },
@@ -5579,11 +5195,10 @@
   },
   {
     "riding": "Gordon",
-    "con": 32.8,
-    "snp": 37.6,
-    "lab": 6.5,
-    "lib": 16.8,
-    "brexit": 4.2,
+    "con": 36.7,
+    "snp": 37.7,
+    "lab": 6.6,
+    "lib": 16.9,
     "green": 1.5,
     "other": 0.6
   },
@@ -5669,11 +5284,10 @@
   },
   {
     "riding": "Moray",
-    "con": 39.6,
-    "snp": 40.5,
-    "lab": 6,
-    "lib": 7.3,
-    "brexit": 4.1,
+    "con": 43.4,
+    "snp": 40.6,
+    "lab": 6.1,
+    "lib": 7.4,
     "green": 1.4,
     "other": 1
   },
@@ -5700,11 +5314,10 @@
   },
   {
     "riding": "Ochil and South Perthshire",
-    "con": 33.5,
-    "snp": 37.5,
-    "lab": 11,
-    "lib": 9.9,
-    "brexit": 5.3,
+    "con": 38.5,
+    "snp": 37.6,
+    "lab": 11.1,
+    "lib": 10,
     "green": 1.9,
     "other": 0.8
   },
@@ -5750,11 +5363,10 @@
   },
   {
     "riding": "Renfrewshire East",
-    "con": 32.1,
-    "snp": 33.5,
-    "lab": 17.7,
-    "lib": 8.7,
-    "brexit": 5.3,
+    "con": 37,
+    "snp": 33.6,
+    "lab": 17.8,
+    "lib": 8.9,
     "green": 1.9,
     "other": 0.8
   },
@@ -5780,11 +5392,10 @@
   },
   {
     "riding": "Stirling",
-    "con": 29.1,
-    "snp": 39,
-    "lab": 13.1,
-    "lib": 10.1,
-    "brexit": 5.3,
+    "con": 34.1,
+    "snp": 39.1,
+    "lab": 13.2,
+    "lib": 10.2,
     "green": 1.9,
     "other": 1.5
   },
@@ -5819,51 +5430,41 @@
   {
     "riding": "Belfast East",
     "dup": 43.2,
-    "alliance": 39.7,
-    "uup": 6,
-    "sf": 2,
-    "green": 5,
-    "sdlp": 1.1,
-    "other": 2.9
+    "alliance": 44.9,
+    "uup": 7.1,
+    "other": 4.9
   },
   {
     "riding": "Belfast North",
-    "dup": 42.3,
-    "sf": 30.7,
-    "alliance": 14.8,
-    "sdlp": 6.2,
-    "green": 2,
-    "other": 4
+    "dup": 42.4,
+    "sf": 32.8,
+    "alliance": 19.4,
+    "other": 5.4
   },
   {
     "riding": "Belfast South",
     "dup": 21.3,
-    "sdlp": 15.2,
-    "alliance": 34.7,
-    "sf": 14.8,
-    "green": 7,
-    "uup": 5.1,
-    "other": 2
+    "sdlp": 22.5,
+    "alliance": 44.1,
+    "uup": 6.6,
+    "other": 5.5
   },
   {
     "riding": "Belfast West",
     "sf": 54.7,
     "dup": 18.3,
     "min": 7,
-    "sdlp": 6.1,
-    "alliance": 11.8,
-    "other": 2.1
+    "sdlp": 6.2,
+    "alliance": 11.9,
+    "other": 2
   },
   {
     "riding": "Down North",
-    "min": 43,
     "dup": 32.1,
-    "alliance": 10.9,
-    "green": 5,
-    "sf": 1,
-    "sdlp": 1.1,
-    "uup": 5,
-    "other": 2
+    "alliance": 28.5,
+    "green": 18.2,
+    "uup": 14.9,
+    "other": 6.3
   },
   {
     "riding": "Down South",
@@ -5877,10 +5478,10 @@
   {
     "riding": "Fermanagh and South Tyrone",
     "sf": 37.7,
-    "uup": 35.1,
+    "uup": 35.2,
     "sdlp": 9.2,
     "alliance": 14.8,
-    "other": 3.2
+    "other": 3.1
   },
   {
     "riding": "Foyle",
