@@ -3479,10 +3479,10 @@
   },
   {
     "riding": "Southport",
-    "con": 45.1,
+    "con": 45.6,
     "lab": 24.3,
     "lib": 29.6,
-    "other": 1.1
+    "other": 0.6
   },
   {
     "riding": "Spelthorne",
@@ -5401,158 +5401,158 @@
   },
   {
     "riding": "Antrim East",
-    "dup": 36.3,
-    "alliance": 30.7,
+    "dup": 35.3,
+    "alliance": 24.8,
     "uup": 17.1,
-    "sf": 7.9,
-    "sdlp": 1.2,
-    "other": 6.8
+    "sf": 7.3,
+    "sdlp": 7.6,
+    "other": 8
   },
   {
     "riding": "Antrim North",
-    "dup": 37.3,
-    "sf": 11.8,
+    "dup": 36.3,
+    "sf": 11,
     "uup": 10.1,
     "min": 8,
-    "alliance": 20.7,
-    "sdlp": 5.2,
-    "other": 6.8
+    "alliance": 14.8,
+    "sdlp": 11.9,
+    "other": 8
   },
   {
     "riding": "Antrim South",
-    "dup": 33.3,
+    "dup": 32.3,
     "uup": 13.1,
-    "sf": 15.8,
-    "alliance": 31.7,
-    "sdlp": 3.2,
-    "other": 2.9
+    "sf": 14.7,
+    "alliance": 25.8,
+    "sdlp": 10.2,
+    "other": 4.1
   },
   {
     "riding": "Belfast East",
-    "dup": 43.2,
-    "alliance": 44.9,
-    "uup": 7.1,
-    "other": 4.9
+    "dup": 42.3,
+    "alliance": 42.7,
+    "uup": 8,
+    "other": 7
   },
   {
     "riding": "Belfast North",
-    "dup": 42.4,
-    "sf": 32.8,
-    "alliance": 19.4,
-    "other": 5.4
+    "dup": 41.3,
+    "sf": 33.1,
+    "alliance": 18.2,
+    "other": 7.4
   },
   {
     "riding": "Belfast South",
-    "dup": 21.3,
-    "sdlp": 22.5,
-    "alliance": 44.1,
+    "dup": 20.3,
+    "sdlp": 29.1,
+    "alliance": 37.7,
     "uup": 6.6,
-    "other": 5.5
+    "other": 6.4
   },
   {
     "riding": "Belfast West",
-    "sf": 54.7,
-    "dup": 18.3,
+    "sf": 53.4,
+    "dup": 17.3,
     "min": 7,
-    "sdlp": 6.2,
-    "alliance": 11.9,
-    "other": 2
+    "sdlp": 11.2,
+    "alliance": 8.3,
+    "other": 2.8
   },
   {
     "riding": "Down North",
-    "dup": 32.1,
-    "alliance": 28.5,
-    "green": 18.2,
-    "uup": 14.9,
-    "other": 6.3
+    "dup": 31.3,
+    "alliance": 26.9,
+    "green": 19.2,
+    "uup": 15.3,
+    "other": 7.4
   },
   {
     "riding": "Down South",
-    "sf": 37.7,
-    "sdlp": 18.2,
-    "dup": 21.3,
+    "sf": 36.4,
+    "sdlp": 24.6,
+    "dup": 20.3,
     "uup": 5.1,
-    "alliance": 16.8,
-    "other": 1
+    "alliance": 11.7,
+    "other": 2
   },
   {
     "riding": "Fermanagh and South Tyrone",
-    "sf": 37.7,
-    "uup": 35.2,
-    "sdlp": 9.2,
-    "alliance": 14.8,
-    "other": 3.1
+    "sf": 36.4,
+    "uup": 35.1,
+    "sdlp": 14.5,
+    "alliance": 10.3,
+    "other": 3.8
   },
   {
     "riding": "Foyle",
-    "sf": 34.7,
-    "sdlp": 27.2,
-    "dup": 22.3,
+    "sf": 33.4,
+    "sdlp": 32.3,
+    "dup": 21.3,
     "min": 1,
-    "alliance": 11.8,
-    "other": 3
-  },
-  {
-    "riding": "Lagan Valley",
-    "dup": 42.2,
-    "uup": 12.1,
-    "alliance": 33.7,
-    "sdlp": 3.1,
-    "sf": 3.9,
-    "other": 4.9
-  },
-  {
-    "riding": "Londonderry East",
-    "dup": 38.5,
-    "sf": 22.7,
-    "sdlp": 2.2,
-    "uup": 6.1,
-    "alliance": 18.8,
-    "other": 11.7
-  },
-  {
-    "riding": "Newry and Armagh",
-    "sf": 42.7,
-    "dup": 18.3,
-    "sdlp": 15.2,
-    "uup": 10.1,
-    "alliance": 9.9,
+    "alliance": 8.3,
     "other": 3.9
   },
   {
-    "riding": "Strangford",
-    "dup": 42.3,
-    "alliance": 32.7,
+    "riding": "Lagan Valley",
+    "dup": 41.3,
     "uup": 12.1,
-    "sdlp": 3.1,
-    "sf": 3,
-    "other": 6.8
+    "alliance": 27.8,
+    "sdlp": 9.3,
+    "sf": 3.7,
+    "other": 5.9
+  },
+  {
+    "riding": "Londonderry East",
+    "dup": 37.2,
+    "sf": 21.4,
+    "sdlp": 9.2,
+    "uup": 6.1,
+    "alliance": 13.1,
+    "other": 13.1
+  },
+  {
+    "riding": "Newry and Armagh",
+    "sf": 41.4,
+    "dup": 17.3,
+    "sdlp": 19.7,
+    "uup": 10,
+    "alliance": 6.9,
+    "other": 4.7
+  },
+  {
+    "riding": "Strangford",
+    "dup": 41.3,
+    "alliance": 26.8,
+    "uup": 12.1,
+    "sdlp": 9.2,
+    "sf": 2.8,
+    "other": 7.9
   },
   {
     "riding": "Tyrone West",
-    "sf": 41.7,
-    "dup": 24.4,
-    "sdlp": 7.2,
+    "sf": 40.4,
+    "dup": 23.3,
+    "sdlp": 13.9,
     "uup": 4.1,
-    "alliance": 17.8,
-    "other": 4.9
+    "alliance": 12.4,
+    "other": 6
   },
   {
     "riding": "Ulster Mid",
-    "sf": 46.7,
-    "dup": 22.3,
-    "sdlp": 9.2,
+    "sf": 45.4,
+    "dup": 21.3,
+    "sdlp": 15.4,
     "uup": 3.1,
-    "alliance": 15.8,
-    "other": 2.9
+    "alliance": 11,
+    "other": 3.9
   },
   {
     "riding": "Upper Bann",
-    "dup": 36.3,
-    "sf": 25.7,
+    "dup": 35.3,
+    "sf": 24.4,
     "uup": 13.1,
-    "sdlp": 4.2,
-    "alliance": 17.8,
-    "other": 2.9
+    "sdlp": 10.9,
+    "alliance": 12.4,
+    "other": 4
   }
 ]
