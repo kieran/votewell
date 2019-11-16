@@ -1465,10 +1465,11 @@
   },
   {
     "riding": "Ellesmere Port and Neston",
-    "lab": 40.5,
-    "con": 46.1,
-    "lib": 9.9,
+    "lab": 40.2,
+    "con": 31.7,
+    "lib": 9.4,
     "green": 2.5,
+    "brexit": 15.1,
     "other": 1
   },
   {
