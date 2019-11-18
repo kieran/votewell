@@ -1,9 +1,9 @@
 fs      = require 'fs'
 tag     = require "@turf/tag"
 
-{ COUNTRY } = process.env
+{ ELECTION } = process.env
 
-geoJson = JSON.parse fs.readFileSync "#{__dirname}/../elections/#{COUNTRY}/ridings-sm.geojson", 'utf8'
+geoJson = JSON.parse fs.readFileSync "#{__dirname}/../election/ridings-sm.geojson", 'utf8'
 
 module.exports = ridingAt = (lat, lng)->
   new Promise (resolve, reject)->
@@ -19,7 +19,7 @@ module.exports = ridingAt = (lat, lng)->
         properties: {}
       ]
 
-    riding = (switch COUNTRY
+    riding = (switch ELECTION
       when 'ca' then tag points, geoJson, 'ENNAME',   'riding'
       when 'uk' then tag points, geoJson, 'pcon15nm', 'riding'
     )?.features[0]?.properties?.riding

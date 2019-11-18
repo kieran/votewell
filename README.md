@@ -5,17 +5,14 @@
 ## Running locally
 
 ```console
-# install
+# install & run
 nvm use
-npm install
-
-# run
-npm start
+make run
 ```
 
 ### build:
 ```console
-npm run dist
+make dist
 ```
 
 ## Sources

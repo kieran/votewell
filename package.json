@@ -6,15 +6,14 @@
   "author": "Kieran Huggins",
   "license": "ISC",
   "scripts": {
-    "start": "npm-run-all -s export link -p serve api",
-    "export": "export $(grep -v '^#' .env.${NODE_ENV:-development} | xargs)",
+    "start": "npm-run-all -p serve api",
     "serve": "npx parcel serve ./index.html",
-    "build": "npm-run-all -s export link dist",
+    "build": "npm run dist",
     "dist": "npx parcel build --no-cache ./index.html",
-    "api": "nodemon --watch data --watch ./server ./server/index.coffee",
+    "api": "node ./server/index.js",
+    "api_dev": "nodemon --watch election --watch ./server ./server/index.coffee",
     "up_api": "up start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "link": "rm -f ./election && ln -s ./elections/${COUNTRY:-ca} ./election",
     "update_polls": "npx coffee election/update_polls.coffee"
   },
   "dependencies": {

@@ -20,7 +20,7 @@ module.exports = ridingAt = (lat, lng)->
             coordinates: [ parseFloat(lng), parseFloat(lat) ]
     )
 
-    if riding = doc?.properties?.ENNAME or doc?.properties?.pcon15nm
+    if riding = doc?.properties?.name
       resolve riding
     else
       reject 'Not Found'
