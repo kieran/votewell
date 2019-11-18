@@ -4,10 +4,7 @@ mongo = null
 
 module.exports = ridingAt = (lat, lng)->
   # (re?)connect to mongo
-  unless mongo?
-    console.log 'Connecting to mongo...'
-    { MONGO_URL } = process.env
-    mongo = await MongoClient.connect MONGO_URL, useNewUrlParser: true
+  mongo = await connect() unless mongo?
 
   new Promise (resolve, reject)->
     return reject('Not Found') unless lat and lng
@@ -24,3 +21,10 @@ module.exports = ridingAt = (lat, lng)->
       resolve riding
     else
       reject 'Not Found'
+
+module.exports.connect = connect = ->
+  console.log 'Connecting to mongo...'
+  { MONGO_URL } = process.env
+  mongo = await MongoClient.connect MONGO_URL, useNewUrlParser: true
+  console.log "connected"
+  mongo

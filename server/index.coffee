@@ -44,4 +44,6 @@ if dsn = SENTRY_DSN_API
       scope.addEventProcessor (event)-> Sentry.Handlers.parseRequest event, ctx.request
       Sentry.captureException err
 
-app.listen PORT or 3000
+do ->
+  await ridingAt.connect() if ridingAt.connect?
+  app.listen PORT or 3000
