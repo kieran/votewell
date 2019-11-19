@@ -45,6 +45,6 @@ if dsn = SENTRY_DSN_API
       Sentry.captureException err
 
 setTimeout ->
-  await ridingAt.connect() if ridingAt.connect?
+  await ridingAt.connect?()
   app.listen PORT or 3000
-, 1000
+, 3000

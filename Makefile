@@ -60,7 +60,7 @@ seed_mongo:
 # needs .ONESHELL directive & bash
 docker_run:
 	set -m
-	npm run api &
+	node server/index.js &
 	mongod --fork --logpath /mongodb.log
 	fg %1
 
