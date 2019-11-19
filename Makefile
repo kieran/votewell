@@ -3,6 +3,7 @@ SHELL = /bin/bash
 
 NODE_ENV ?= development
 ELECTION ?= uk
+PORT ?= 3000
 
 include .env.${NODE_ENV}
 
@@ -55,6 +56,12 @@ seed_mongo:
 	mongoimport --db votewell -c ridings --jsonArray
 
 	mongo --host ${MONGO_URL} --eval 'db.ridings.createIndex({ geometry: "2dsphere" })'
+
+docker_build:
+	docker image build -t votewell:1.0 .
+
+docker_start:
+	docker run -it --publish 3000:${PORT} votewell:1.0
 
 # starts mongo as a background process, returning express to the foreground
 # needs .ONESHELL directive & bash
