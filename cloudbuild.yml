@@ -12,5 +12,35 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['beta', 'run', 'deploy', 'api', '--image', 'gcr.io/votewell/api', '--region', 'us-east1','--platform', 'managed', '--quiet']
 
+  # clean out old images
+- name: 'gcr.io/cloud-builders/gcloud-slim'
+  entrypoint: 'bash'
+  args:
+    - '-c'
+    - |
+      set -e
+
+      apt update && apt install -y jq
+
+      images="api"
+      for image in ${images[@]}; do
+        echo "Cleaning image ${image}"
+        c=0
+        image="gcr.io/$PROJECT_ID/${image}"
+        number_keep_images=3
+        date=$(gcloud container images list-tags $image --limit=unlimited \
+          --sort-by=~TIMESTAMP --format=json | TZ=/usr/share/zoneinfo/UTC jq -r '.['$number_keep_images'].timestamp.datetime | sub("(?<before>.*):"; .before ) | strptime("%Y-%m-%d %H:%M:%S%z") | mktime | strftime("%Y-%m-%d")')
+        for digest in $(gcloud container images list-tags $image --limit=unlimited --sort-by=~TIMESTAMP \
+          --filter="timestamp.datetime < '${date}'" --format='get(digest)'); do
+          (
+            set -x
+            gcloud container images delete -q --force-delete-tags "${image}@${digest}"
+          )
+          c=c+1
+        done
+        echo "Deleted ${c} images for ${image}." >&2
+      done
+
+
 images:
 - gcr.io/votewell/api
