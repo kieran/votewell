@@ -1,5 +1,7 @@
 # VoteWell
 
+[Blog post](https://kieran.ca/projects/votewell)
+
 ![image](https://user-images.githubusercontent.com/3444/66625862-fb5f7d00-ebc3-11e9-9c57-51cde77fae06.png)
 
 ## Running locally
