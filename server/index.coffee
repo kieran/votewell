@@ -1,7 +1,7 @@
 environment = process.env.NODE_ENV or 'development'
 
 Koa     = require 'koa'
-router  = require('koa-router')()
+router  = do require 'koa-router'
 cors    = require '@koa/cors'
 Sentry  = require '@sentry/node'
 path    = require 'path'
