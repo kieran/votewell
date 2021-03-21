@@ -74,6 +74,9 @@ class Application extends React.Component
     for obj in sorted
       return @props.parties[obj.name] if obj.name in @leftists()
 
+  electionPast: =>
+    (new Date).getTime() > (new Date @props.date).getTime() + 86400 * 1000
+
   render: ->
     <div className="ridings">
       {if @props.riding
@@ -94,6 +97,12 @@ class Application extends React.Component
     <header key='header'>
       <Logo/>
     </header>
+
+  notice: ->
+    return null unless @electionPast()
+    <div className="notice">
+      This election is now over. The data visible here represents the final polling numbers.
+    </div>
 
   main: ->
     <main key='main'>
@@ -154,6 +163,7 @@ class Application extends React.Component
   reco: ->
     party = @bestOption()
     <div className="reco" key="reco">
+      {@notice()}
       {if party.name is 'Anyone'
         @anyone()
       else

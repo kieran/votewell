@@ -9,7 +9,7 @@ import './election/locales'
 # provide GTM fallback
 window.gtag ?= -> window.dataLayer?.push arguments
 
-import parties from "/election/parties"
+import { parties, date } from "/election"
 
 # routes
 import Application  from '/routes/application'
@@ -83,6 +83,7 @@ do ->
       <Application
         polls={polls}
         parties={parties}
+        date={date}
         riding={@state.riding}
         setRiding={@setRiding}
         autoLocate={@autoLocate}

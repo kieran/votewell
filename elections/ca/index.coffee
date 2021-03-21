@@ -1,7 +1,8 @@
 import images from './*.png'
 
-export default \
-parties =
+export date = '2019-10-21'
+
+export parties =
 
   # main
   pc:
