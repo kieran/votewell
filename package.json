@@ -26,7 +26,7 @@
     "@svgr/parcel-plugin-svgr": "^4.3.3",
     "@turf/tag": "^5.1.5",
     "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.10",
     "classnames": "^2.2.6",
     "coffeescript": "^2.5.1",
     "dotenv": "^8.2.0",
