@@ -1,6 +1,6 @@
 import images from './*.png'
 
-export date = '2019-10-21'
+export date = '2021-09-20'
 
 export parties =
 

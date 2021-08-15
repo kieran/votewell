@@ -154,7 +154,7 @@ class Application extends React.Component
         style={{width: Math.min( 650, window.innerWidth * 0.9 )}}
         clearable={false}
         value={@props.riding}
-        options={(label: poll.riding.replace(/—/g,' / '), value: poll.riding, group: poll.province for poll in @props.polls)}
+        options={(label: poll.riding.replace(/—/g,' / '), value: poll.riding for poll in @props.polls)}
         onChange={@selectRiding}
         autoBlur={probablyMobile}
       />

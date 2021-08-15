@@ -1,7 +1,7 @@
 export default \
 translation: {
   "description": \
-  "A strategic voting tool for the 2019 Canadian federal election"
+  "A strategic voting tool for the 2021 Canadian federal election"
 
   "A strategic vote in your riding"
   "is a vote for"
@@ -21,5 +21,5 @@ translation: {
   "https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0"
 
   "datalink": \
-  "https://calculatedpolitics.ca/2019-canadian-federal-election/"
+  "https://calculatedpolitics.ca/projection/canadian-federal-election/"
 }

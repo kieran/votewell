@@ -26,7 +26,7 @@ class Faq extends React.Component
         <p>
           Polling data is aggregated by the good people at
           {' '}
-          <a className="imglink" href="https://calculatedpolitics.ca/2019-canadian-federal-election/">
+          <a className="imglink" href="https://calculatedpolitics.ca/projection/canadian-federal-election/">
             <img className="cp-logo" src={CPLogo} style={{height: '24px'}} alt={"Calculated Politics"} />
           </a>
         </p>
