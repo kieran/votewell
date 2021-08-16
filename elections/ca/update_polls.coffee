@@ -60,7 +60,7 @@ do ->
     if stdout
       await exec "git add #{__dirname}/polls.json"
       { stdout, stderr } = await exec "date +'%b %d at %l%p'"
-      await exec "git commit -m 'poll update - #{stdout.replace /\s+/, ' '}'"
+      await exec "git commit -m 'poll update - #{stdout.replace /\s+/g, ' '}'"
       await exec "git push origin master"
 
   catch err
