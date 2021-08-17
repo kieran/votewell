@@ -9,7 +9,7 @@
     "start": "npm-run-all -p serve api",
     "serve": "npx parcel serve ./index.html",
     "build": "npm run dist",
-    "dist": "npx parcel build --no-cache ./index.html",
+    "dist": "npx parcel build --no-cache --public-url https://votewell.ca ./index.html",
     "api": "node ./server/index.js",
     "api_dev": "nodemon --watch election --watch ./server ./server/index.coffee",
     "up_api": "up start",
