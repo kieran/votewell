@@ -53,6 +53,7 @@ do ->
             other:  parseInt other
           }
 
+    throw "unexpected number of polls: #{polls.length}" unless polls.length is 338
     fs.writeFileSync "#{__dirname}/polls.json", JSON.stringify polls, undefined, 2
 
     # push to GH if there are poll changes
