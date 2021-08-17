@@ -55,7 +55,6 @@ do ->
     componentDidMount: ->
       @autoLocate()
       fixVh()
-      window.addEventListener 'resize', throttle fixVh, 200
 
     autoLocate: =>
       try
@@ -75,10 +74,6 @@ do ->
     setRiding: (riding)=>
       @setState { riding }
 
-    setParties: (country)=>
-      parties = await party_data[country]
-      @setState { parties }
-
     render: ->
       <Application
         polls={polls}
@@ -86,7 +81,6 @@ do ->
         date={date}
         riding={@state.riding}
         setRiding={@setRiding}
-        autoLocate={@autoLocate}
         locating={@state.locating}
       />
 

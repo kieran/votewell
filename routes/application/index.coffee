@@ -1,5 +1,4 @@
-import React        from "react"
-import { render }   from "react-dom"
+import React        from 'react'
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
 import ReactSelect  from 'react-select'
@@ -56,8 +55,7 @@ class Application extends React.Component
 
   leftists: =>
     leftists = (key for key, val of @props.parties when val.leans is 'left')
-    return [ leftists..., 'other' ] if @props.riding is 'Vancouver Granville' # JWR
-    return [ leftists..., 'other' ] if @props.riding is 'Markham—Stouffville' # Philpott
+    leftists.push 'other' if @props.riding in ['Vancouver Granville', 'Markham—Stouffville'] # JWR, Philpott
     leftists
 
   bestOption: =>
@@ -78,19 +76,14 @@ class Application extends React.Component
     (new Date).getTime() > (new Date @props.date).getTime() + 86400 * 1000
 
   render: ->
+    { locating } = @props
     <div className="ridings">
-      {if @props.riding
-        [
-          @header()
-          @main()
-          @faq()
-          @footer()
-        ]
-      else
-        <div className="spinner">
-          <Logo/>
-        </div>
-      }
+      {[
+        @header()
+        @main()   unless locating
+        @faq()    unless locating
+        @footer() unless locating
+      ]}
     </div>
 
   header: ->
@@ -105,6 +98,7 @@ class Application extends React.Component
     </div>
 
   main: ->
+    return null unless @props.riding
     <main key='main'>
       {@selector()}
       {@reco()}

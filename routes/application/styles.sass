@@ -5,27 +5,28 @@
   min-height: 100vh
   min-height: calc(100 * var(--vh, 1vh))
 
-  .spinner
-    flex: 1
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-    svg
-      max-width: 250px
-      color: $dark
-
   header
     display: flex
     justify-content: center
     align-items: center
-
-    border-bottom: 1px solid $border
     background: white
     color: $dark
+
+    font-size: 1.5em
     height: 82px
+    transition: all 0.33s ease-in-out
+    box-shadow: inset 0 -1px 1px 0 $border
+
     svg
-      height: 25px
+      display: inline
+      height: 1em
+
+    &:only-child
+      flex: 1
+      flex-direction: row
+      font-size: 3em
+      height: 100vh
+      height: calc(100 * var(--vh, 1vh))
 
   main
     display: flex
