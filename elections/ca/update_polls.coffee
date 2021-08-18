@@ -37,6 +37,11 @@ do ->
 
       { data } = await axios url
 
+      # fix lack of spaces in tables
+      data = data
+        .replaceAll '</td>',  ' </td>'
+        .replaceAll '</tr>',  '\n</tr>'
+
       $ = cheerio.load data
       for table in $ 'table.row'
         text = $(table).text()
