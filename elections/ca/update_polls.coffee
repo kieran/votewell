@@ -6,6 +6,7 @@ util = require 'util'
 { exec } = require 'child_process'
 exec = util.promisify exec
 
+NUM_RIDINGS = 338
 polls = []
 
 urls = [
@@ -35,7 +36,12 @@ do ->
     for url in urls
       console.log "fetching #{url} ..."
 
-      { data } = await axios url
+      # the first req to this domain always gets a ECONNRESET for some reason
+      try
+        { data } = await axios url
+      catch
+        console.log "retrying #{url} ..."
+        { data } = await axios url
 
       # fix lack of spaces in tables
       data = data
@@ -58,7 +64,7 @@ do ->
             other:  parseInt other
           }
 
-    throw "unexpected number of polls: #{polls.length}" unless polls.length is 338
+    throw "unexpected number of ridings: #{polls.length}" unless polls.length is NUM_RIDINGS
     fs.writeFileSync "#{__dirname}/polls.json", JSON.stringify polls, undefined, 2
 
     # push to GH if there are poll changes
