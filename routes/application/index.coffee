@@ -28,6 +28,7 @@ import { languages } from '/election/locales'
 sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> sum(arr) / arr.length
 top_2 = (arr=[])-> arr.sort((a,b)->a-b); arr.reverse(); arr[0...2]
+rms = (arr=[])-> Math.sqrt 1/arr.length * sum arr.map (v)-> v*v
 probablyMobile = matchMedia?('(orientation: portrait) and (max-width: 600px)')?.matches or false
 
 export default \
@@ -54,23 +55,24 @@ class Application extends React.Component
     (name: key, value: polls[key], party: party for key, party of @props.parties when polls[key])
 
   leftists: =>
-    leftists = (key for key, val of @props.parties when val.leans is 'left')
-    leftists.push 'other' if @props.riding in ['Vancouver Granville', 'Markham—Stouffville'] # JWR, Philpott
-    leftists
+    ret = (key for key, val of @props.parties when val.leans is 'left')
+    ret.push 'other' if @props.riding in ['Vancouver Granville', 'Markham—Stouffville'] # JWR, Philpott
+    ret
 
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
+    leftists = @leftists()
 
-    # vote strategically if there are more
-    # right votes than the avg of the
-    # leading two left votes (+ a 20% margin, for safety)
-    left  = (poll.value for poll in sorted when poll.name in @leftists())
-    right = (poll.value for poll in sorted when poll.name not in @leftists())
-    return @props.parties['anyone'] if avg(top_2(left)) >= sum(right) * 1.2
+    # vote strategically iff the leading right party
+    # has over 90% the support of the RMS of
+    # the two leading leftist parties
+    lefts  = (poll.value for poll in sorted when poll.name in leftists)
+    right = Math.max (poll.value for poll in sorted when poll.name not in leftists)...
+    return @props.parties['anyone'] if right < 0.9 * rms top_2 lefts
 
     # otherwise, choose the first leftist candidate
     for obj in sorted
-      return @props.parties[obj.name] if obj.name in @leftists()
+      return @props.parties[obj.name] if obj.name in leftists
 
   electionPast: =>
     (new Date).getTime() > (new Date @props.date).getTime() + 86400 * 1000
