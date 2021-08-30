@@ -55,9 +55,7 @@ class Application extends React.Component
     (name: key, value: polls[key], party: party for key, party of @props.parties when polls[key])
 
   leftists: =>
-    ret = (key for key, val of @props.parties when val.leans is 'left')
-    ret.push 'other' if @props.riding in ['Vancouver Granville', 'Markham—Stouffville'] # JWR, Philpott
-    ret
+    (key for key, val of @props.parties when val.leans is 'left')
 
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
