@@ -1,17 +1,17 @@
 [
   {
     "riding": "Ajax",
-    "pc": 28,
-    "ndp": 16,
+    "pc": 29,
+    "ndp": 14,
     "lib": 54,
     "bloc": 0,
     "gpc": 1,
-    "other": 1
+    "other": 2
   },
   {
     "riding": "Algoma—Manitoulin—Kapuskasing",
-    "pc": 27,
-    "ndp": 47,
+    "pc": 28,
+    "ndp": 45,
     "lib": 18,
     "bloc": 0,
     "gpc": 3,
@@ -19,8 +19,8 @@
   },
   {
     "riding": "Aurora—Oak Ridges—Richmond Hill",
-    "pc": 37,
-    "ndp": 12,
+    "pc": 38,
+    "ndp": 11,
     "lib": 46,
     "bloc": 0,
     "gpc": 0,
@@ -29,7 +29,7 @@
   {
     "riding": "Barrie—Innisfil",
     "pc": 42,
-    "ndp": 29,
+    "ndp": 27,
     "lib": 25,
     "bloc": 0,
     "gpc": 0,
@@ -37,9 +37,9 @@
   },
   {
     "riding": "Barrie—Springwater—Oro-Medonte",
-    "pc": 41,
-    "ndp": 28,
-    "lib": 27,
+    "pc": 42,
+    "ndp": 26,
+    "lib": 28,
     "bloc": 0,
     "gpc": 0,
     "other": 4
@@ -47,25 +47,25 @@
   {
     "riding": "Bay of Quinte",
     "pc": 38,
-    "ndp": 20,
+    "ndp": 19,
     "lib": 34,
     "bloc": 0,
     "gpc": 3,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Beaches—East York",
-    "pc": 15,
-    "ndp": 27,
+    "pc": 16,
+    "ndp": 25,
     "lib": 50,
     "bloc": 0,
     "gpc": 4,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Brampton Centre",
-    "pc": 26,
-    "ndp": 25,
+    "pc": 27,
+    "ndp": 23,
     "lib": 44,
     "bloc": 0,
     "gpc": 0,
@@ -73,8 +73,8 @@
   },
   {
     "riding": "Brampton East",
-    "pc": 22,
-    "ndp": 34,
+    "pc": 23,
+    "ndp": 32,
     "lib": 41,
     "bloc": 0,
     "gpc": 0,
@@ -82,8 +82,8 @@
   },
   {
     "riding": "Brampton North",
-    "pc": 30,
-    "ndp": 23,
+    "pc": 31,
+    "ndp": 22,
     "lib": 46,
     "bloc": 0,
     "gpc": 0,
@@ -91,8 +91,8 @@
   },
   {
     "riding": "Brampton South",
-    "pc": 28,
-    "ndp": 23,
+    "pc": 29,
+    "ndp": 22,
     "lib": 44,
     "bloc": 0,
     "gpc": 0,
@@ -100,53 +100,53 @@
   },
   {
     "riding": "Brampton West",
-    "pc": 25,
-    "ndp": 25,
+    "pc": 26,
+    "ndp": 23,
     "lib": 45,
     "bloc": 0,
     "gpc": 0,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Brantford—Brant",
-    "pc": 41,
-    "ndp": 22,
-    "lib": 26,
+    "pc": 42,
+    "ndp": 20,
+    "lib": 27,
     "bloc": 0,
     "gpc": 4,
     "other": 7
   },
   {
     "riding": "Bruce—Grey—Owen Sound",
-    "pc": 46,
-    "ndp": 17,
+    "pc": 47,
+    "ndp": 15,
     "lib": 25,
     "bloc": 0,
     "gpc": 6,
-    "other": 7
-  },
-  {
-    "riding": "Burlington",
-    "pc": 36,
-    "ndp": 14,
-    "lib": 43,
-    "bloc": 0,
-    "gpc": 4,
-    "other": 3
-  },
-  {
-    "riding": "Cambridge",
-    "pc": 30,
-    "ndp": 24,
-    "lib": 34,
-    "bloc": 0,
-    "gpc": 4,
     "other": 8
   },
   {
+    "riding": "Burlington",
+    "pc": 37,
+    "ndp": 12,
+    "lib": 43,
+    "bloc": 0,
+    "gpc": 4,
+    "other": 4
+  },
+  {
+    "riding": "Cambridge",
+    "pc": 31,
+    "ndp": 22,
+    "lib": 34,
+    "bloc": 0,
+    "gpc": 4,
+    "other": 9
+  },
+  {
     "riding": "Carleton",
-    "pc": 50,
-    "ndp": 13,
+    "pc": 51,
+    "ndp": 12,
     "lib": 30,
     "bloc": 0,
     "gpc": 3,
@@ -154,35 +154,35 @@
   },
   {
     "riding": "Chatham-Kent—Leamington",
-    "pc": 48,
-    "ndp": 18,
+    "pc": 49,
+    "ndp": 16,
     "lib": 27,
     "bloc": 0,
     "gpc": 2,
-    "other": 6
+    "other": 7
   },
   {
     "riding": "Davenport",
     "pc": 9,
-    "ndp": 49,
-    "lib": 36,
+    "ndp": 47,
+    "lib": 37,
     "bloc": 0,
     "gpc": 2,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Don Valley East",
     "pc": 26,
-    "ndp": 17,
-    "lib": 53,
+    "ndp": 16,
+    "lib": 54,
     "bloc": 0,
     "gpc": 0,
-    "other": 3
+    "other": 4
   },
   {
     "riding": "Don Valley North",
     "pc": 37,
-    "ndp": 12,
+    "ndp": 11,
     "lib": 45,
     "bloc": 0,
     "gpc": 2,
@@ -190,35 +190,35 @@
   },
   {
     "riding": "Don Valley West",
-    "pc": 34,
-    "ndp": 11,
+    "pc": 35,
+    "ndp": 10,
     "lib": 48,
     "bloc": 0,
-    "gpc": 3,
-    "other": 4
-  },
-  {
-    "riding": "Dufferin—Caledon",
-    "pc": 43,
-    "ndp": 14,
-    "lib": 29,
-    "bloc": 0,
-    "gpc": 8,
-    "other": 6
-  },
-  {
-    "riding": "Durham",
-    "pc": 40,
-    "ndp": 28,
-    "lib": 27,
-    "bloc": 0,
-    "gpc": 0,
+    "gpc": 2,
     "other": 5
   },
   {
+    "riding": "Dufferin—Caledon",
+    "pc": 44,
+    "ndp": 13,
+    "lib": 29,
+    "bloc": 0,
+    "gpc": 7,
+    "other": 7
+  },
+  {
+    "riding": "Durham",
+    "pc": 41,
+    "ndp": 27,
+    "lib": 27,
+    "bloc": 0,
+    "gpc": 0,
+    "other": 6
+  },
+  {
     "riding": "Eglinton—Lawrence",
-    "pc": 36,
-    "ndp": 12,
+    "pc": 37,
+    "ndp": 11,
     "lib": 47,
     "bloc": 0,
     "gpc": 2,
@@ -226,17 +226,17 @@
   },
   {
     "riding": "Elgin—Middlesex—London",
-    "pc": 51,
-    "ndp": 22,
+    "pc": 52,
+    "ndp": 20,
     "lib": 17,
     "bloc": 0,
     "gpc": 3,
-    "other": 7
+    "other": 8
   },
   {
     "riding": "Essex",
-    "pc": 43,
-    "ndp": 38,
+    "pc": 44,
+    "ndp": 36,
     "lib": 13,
     "bloc": 0,
     "gpc": 1,
@@ -244,8 +244,8 @@
   },
   {
     "riding": "Etobicoke Centre",
-    "pc": 34,
-    "ndp": 13,
+    "pc": 35,
+    "ndp": 12,
     "lib": 49,
     "bloc": 0,
     "gpc": 0,
@@ -254,124 +254,124 @@
   {
     "riding": "Etobicoke North",
     "pc": 21,
-    "ndp": 17,
+    "ndp": 16,
     "lib": 56,
     "bloc": 0,
     "gpc": 0,
-    "other": 6
+    "other": 7
   },
   {
     "riding": "Etobicoke—Lakeshore",
-    "pc": 31,
-    "ndp": 16,
+    "pc": 32,
+    "ndp": 14,
     "lib": 46,
     "bloc": 0,
-    "gpc": 4,
+    "gpc": 3,
     "other": 4
   },
   {
     "riding": "Flamborough—Glanbrook",
-    "pc": 41,
-    "ndp": 21,
+    "pc": 42,
+    "ndp": 19,
     "lib": 30,
     "bloc": 0,
     "gpc": 3,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Glengarry—Prescott—Russell",
-    "pc": 38,
-    "ndp": 15,
-    "lib": 40,
+    "pc": 39,
+    "ndp": 13,
+    "lib": 39,
     "bloc": 0,
-    "gpc": 2,
-    "other": 6
-  },
-  {
-    "riding": "Guelph",
-    "pc": 20,
-    "ndp": 15,
-    "lib": 38,
-    "bloc": 0,
-    "gpc": 21,
-    "other": 6
-  },
-  {
-    "riding": "Haldimand—Norfolk",
-    "pc": 44,
-    "ndp": 27,
-    "lib": 20,
-    "bloc": 0,
-    "gpc": 0,
-    "other": 9
-  },
-  {
-    "riding": "Haliburton—Kawartha Lakes—Brock",
-    "pc": 52,
-    "ndp": 18,
-    "lib": 20,
-    "bloc": 0,
-    "gpc": 6,
-    "other": 4
-  },
-  {
-    "riding": "Hamilton Centre",
-    "pc": 14,
-    "ndp": 54,
-    "lib": 21,
-    "bloc": 0,
-    "gpc": 4,
+    "gpc": 1,
     "other": 7
   },
   {
-    "riding": "Hamilton East—Stoney Creek",
-    "pc": 26,
-    "ndp": 33,
-    "lib": 31,
+    "riding": "Guelph",
+    "pc": 21,
+    "ndp": 14,
+    "lib": 38,
     "bloc": 0,
-    "gpc": 4,
-    "other": 5
+    "gpc": 20,
+    "other": 7
   },
   {
-    "riding": "Hamilton Mountain",
-    "pc": 25,
-    "ndp": 40,
-    "lib": 26,
+    "riding": "Haldimand—Norfolk",
+    "pc": 45,
+    "ndp": 25,
+    "lib": 20,
     "bloc": 0,
-    "gpc": 3,
-    "other": 5
+    "gpc": 0,
+    "other": 10
   },
   {
-    "riding": "Hamilton West—Ancaster—Dundas",
-    "pc": 26,
-    "ndp": 24,
-    "lib": 41,
+    "riding": "Haliburton—Kawartha Lakes—Brock",
+    "pc": 53,
+    "ndp": 16,
+    "lib": 20,
     "bloc": 0,
     "gpc": 5,
     "other": 5
   },
   {
-    "riding": "Hastings—Lennox and Addington",
-    "pc": 45,
-    "ndp": 16,
-    "lib": 30,
+    "riding": "Hamilton Centre",
+    "pc": 15,
+    "ndp": 52,
+    "lib": 22,
+    "bloc": 0,
+    "gpc": 4,
+    "other": 8
+  },
+  {
+    "riding": "Hamilton East—Stoney Creek",
+    "pc": 27,
+    "ndp": 32,
+    "lib": 31,
     "bloc": 0,
     "gpc": 3,
+    "other": 6
+  },
+  {
+    "riding": "Hamilton Mountain",
+    "pc": 26,
+    "ndp": 38,
+    "lib": 26,
+    "bloc": 0,
+    "gpc": 3,
+    "other": 6
+  },
+  {
+    "riding": "Hamilton West—Ancaster—Dundas",
+    "pc": 26,
+    "ndp": 22,
+    "lib": 42,
+    "bloc": 0,
+    "gpc": 4,
     "other": 5
+  },
+  {
+    "riding": "Hastings—Lennox and Addington",
+    "pc": 46,
+    "ndp": 15,
+    "lib": 31,
+    "bloc": 0,
+    "gpc": 3,
+    "other": 6
   },
   {
     "riding": "Humber River—Black Creek",
     "pc": 17,
-    "ndp": 23,
+    "ndp": 22,
     "lib": 55,
     "bloc": 0,
     "gpc": 0,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Huron—Bruce",
-    "pc": 50,
-    "ndp": 19,
+    "pc": 52,
+    "ndp": 18,
     "lib": 26,
     "bloc": 0,
     "gpc": 0,
@@ -379,8 +379,8 @@
   },
   {
     "riding": "Kanata—Carleton",
-    "pc": 37,
-    "ndp": 15,
+    "pc": 38,
+    "ndp": 14,
     "lib": 40,
     "bloc": 0,
     "gpc": 4,
@@ -389,25 +389,25 @@
   {
     "riding": "Kenora",
     "pc": 33,
-    "ndp": 36,
+    "ndp": 34,
     "lib": 24,
     "bloc": 0,
     "gpc": 3,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Kingston and the Islands",
-    "pc": 21,
-    "ndp": 27,
+    "pc": 22,
+    "ndp": 26,
     "lib": 40,
     "bloc": 0,
     "gpc": 6,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "King—Vaughan",
     "pc": 45,
-    "ndp": 10,
+    "ndp": 9,
     "lib": 40,
     "bloc": 0,
     "gpc": 2,
@@ -415,26 +415,26 @@
   },
   {
     "riding": "Kitchener Centre",
-    "pc": 29,
-    "ndp": 25,
+    "pc": 30,
+    "ndp": 24,
     "lib": 24,
     "bloc": 0,
     "gpc": 18,
-    "other": 3
+    "other": 4
   },
   {
     "riding": "Kitchener South—Hespeler",
-    "pc": 34,
-    "ndp": 16,
+    "pc": 35,
+    "ndp": 14,
     "lib": 37,
     "bloc": 0,
     "gpc": 8,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Kitchener—Conestoga",
-    "pc": 38,
-    "ndp": 15,
+    "pc": 39,
+    "ndp": 14,
     "lib": 36,
     "bloc": 0,
     "gpc": 6,
@@ -443,7 +443,7 @@
   {
     "riding": "Lambton—Kent—Middlesex",
     "pc": 52,
-    "ndp": 19,
+    "ndp": 17,
     "lib": 20,
     "bloc": 0,
     "gpc": 3,
@@ -451,53 +451,53 @@
   },
   {
     "riding": "Lanark—Frontenac—Kingston",
-    "pc": 51,
-    "ndp": 18,
+    "pc": 52,
+    "ndp": 17,
     "lib": 19,
     "bloc": 0,
     "gpc": 7,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Leeds-Grenville-Thousand Islands and Rideau Lakes",
-    "pc": 52,
-    "ndp": 18,
+    "pc": 53,
+    "ndp": 16,
     "lib": 20,
     "bloc": 0,
     "gpc": 6,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "London North Centre",
-    "pc": 24,
-    "ndp": 26,
-    "lib": 39,
+    "pc": 25,
+    "ndp": 24,
+    "lib": 40,
     "bloc": 0,
     "gpc": 5,
-    "other": 6
+    "other": 7
   },
   {
     "riding": "London West",
     "pc": 26,
-    "ndp": 32,
+    "ndp": 30,
     "lib": 38,
     "bloc": 0,
     "gpc": 0,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "London—Fanshawe",
-    "pc": 25,
-    "ndp": 48,
+    "pc": 26,
+    "ndp": 47,
     "lib": 22,
     "bloc": 0,
     "gpc": 0,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Markham—Stouffville",
     "pc": 32,
-    "ndp": 14,
+    "ndp": 13,
     "lib": 53,
     "bloc": 0,
     "gpc": 1,
@@ -505,53 +505,53 @@
   },
   {
     "riding": "Markham—Thornhill",
-    "pc": 37,
-    "ndp": 11,
+    "pc": 38,
+    "ndp": 10,
     "lib": 46,
     "bloc": 0,
     "gpc": 1,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Markham—Unionville",
-    "pc": 49,
-    "ndp": 12,
+    "pc": 50,
+    "ndp": 11,
     "lib": 35,
     "bloc": 0,
     "gpc": 0,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Milton",
-    "pc": 35,
-    "ndp": 10,
+    "pc": 36,
+    "ndp": 9,
     "lib": 48,
     "bloc": 0,
-    "gpc": 3,
-    "other": 4
+    "gpc": 2,
+    "other": 5
   },
   {
     "riding": "Mississauga Centre",
-    "pc": 32,
-    "ndp": 13,
-    "lib": 49,
+    "pc": 33,
+    "ndp": 12,
+    "lib": 50,
     "bloc": 0,
     "gpc": 1,
     "other": 5
   },
   {
     "riding": "Mississauga East—Cooksville",
-    "pc": 34,
-    "ndp": 14,
-    "lib": 48,
+    "pc": 35,
+    "ndp": 13,
+    "lib": 47,
     "bloc": 0,
     "gpc": 0,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Mississauga—Erin Mills",
-    "pc": 35,
-    "ndp": 13,
+    "pc": 36,
+    "ndp": 12,
     "lib": 46,
     "bloc": 0,
     "gpc": 2,
@@ -560,7 +560,7 @@
   {
     "riding": "Mississauga—Lakeshore",
     "pc": 38,
-    "ndp": 11,
+    "ndp": 10,
     "lib": 46,
     "bloc": 0,
     "gpc": 2,
@@ -569,61 +569,61 @@
   {
     "riding": "Mississauga—Malton",
     "pc": 25,
-    "ndp": 17,
+    "ndp": 16,
     "lib": 52,
     "bloc": 0,
     "gpc": 1,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Mississauga—Streetsville",
     "pc": 36,
-    "ndp": 14,
-    "lib": 44,
+    "ndp": 12,
+    "lib": 45,
     "bloc": 0,
     "gpc": 2,
     "other": 4
   },
   {
     "riding": "Nepean",
-    "pc": 35,
-    "ndp": 17,
+    "pc": 36,
+    "ndp": 16,
     "lib": 41,
     "bloc": 0,
-    "gpc": 4,
+    "gpc": 3,
     "other": 4
   },
   {
     "riding": "Newmarket—Aurora",
-    "pc": 40,
-    "ndp": 15,
-    "lib": 36,
+    "pc": 41,
+    "ndp": 13,
+    "lib": 35,
     "bloc": 0,
     "gpc": 4,
-    "other": 6
+    "other": 7
   },
   {
     "riding": "Niagara Centre",
-    "pc": 31,
-    "ndp": 29,
+    "pc": 32,
+    "ndp": 27,
     "lib": 32,
     "bloc": 0,
     "gpc": 3,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Niagara Falls",
-    "pc": 34,
-    "ndp": 23,
+    "pc": 35,
+    "ndp": 22,
     "lib": 26,
     "bloc": 0,
     "gpc": 3,
-    "other": 13
+    "other": 15
   },
   {
     "riding": "Niagara West",
-    "pc": 48,
-    "ndp": 15,
+    "pc": 49,
+    "ndp": 14,
     "lib": 26,
     "bloc": 0,
     "gpc": 4,
@@ -631,53 +631,53 @@
   },
   {
     "riding": "Nickel Belt",
-    "pc": 21,
-    "ndp": 38,
-    "lib": 32,
+    "pc": 22,
+    "ndp": 29,
+    "lib": 39,
     "bloc": 0,
     "gpc": 3,
-    "other": 6
+    "other": 7
   },
   {
     "riding": "Nipissing—Timiskaming",
-    "pc": 28,
-    "ndp": 29,
-    "lib": 34,
+    "pc": 29,
+    "ndp": 28,
+    "lib": 33,
     "bloc": 0,
     "gpc": 0,
-    "other": 9
+    "other": 10
   },
   {
     "riding": "Northumberland—Peterborough South",
-    "pc": 41,
-    "ndp": 16,
+    "pc": 42,
+    "ndp": 15,
     "lib": 32,
     "bloc": 0,
     "gpc": 5,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Oakville",
-    "pc": 38,
-    "ndp": 12,
+    "pc": 39,
+    "ndp": 11,
     "lib": 42,
     "bloc": 0,
     "gpc": 3,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Oakville North—Burlington",
-    "pc": 41,
-    "ndp": 12,
+    "pc": 42,
+    "ndp": 11,
     "lib": 42,
     "bloc": 0,
     "gpc": 2,
-    "other": 3
+    "other": 4
   },
   {
     "riding": "Orléans",
-    "pc": 29,
-    "ndp": 15,
+    "pc": 30,
+    "ndp": 14,
     "lib": 49,
     "bloc": 0,
     "gpc": 2,
@@ -685,26 +685,26 @@
   },
   {
     "riding": "Oshawa",
-    "pc": 41,
-    "ndp": 32,
+    "pc": 42,
+    "ndp": 31,
     "lib": 19,
     "bloc": 0,
     "gpc": 3,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Ottawa Centre",
-    "pc": 20,
-    "ndp": 32,
+    "pc": 21,
+    "ndp": 30,
     "lib": 38,
     "bloc": 0,
     "gpc": 5,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Ottawa South",
     "pc": 24,
-    "ndp": 22,
+    "ndp": 20,
     "lib": 47,
     "bloc": 0,
     "gpc": 3,
@@ -712,8 +712,8 @@
   },
   {
     "riding": "Ottawa West—Nepean",
-    "pc": 29,
-    "ndp": 23,
+    "pc": 30,
+    "ndp": 21,
     "lib": 40,
     "bloc": 0,
     "gpc": 4,
@@ -721,8 +721,8 @@
   },
   {
     "riding": "Ottawa—Vanier",
-    "pc": 18,
-    "ndp": 26,
+    "pc": 19,
+    "ndp": 24,
     "lib": 45,
     "bloc": 0,
     "gpc": 4,
@@ -730,26 +730,26 @@
   },
   {
     "riding": "Oxford",
-    "pc": 50,
-    "ndp": 24,
+    "pc": 51,
+    "ndp": 22,
     "lib": 13,
     "bloc": 0,
     "gpc": 5,
-    "other": 8
+    "other": 9
   },
   {
     "riding": "Parkdale—High Park",
     "pc": 14,
-    "ndp": 34,
-    "lib": 44,
+    "ndp": 32,
+    "lib": 45,
     "bloc": 0,
     "gpc": 4,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Parry Sound—Muskoka",
     "pc": 43,
-    "ndp": 17,
+    "ndp": 16,
     "lib": 26,
     "bloc": 0,
     "gpc": 11,
@@ -757,8 +757,8 @@
   },
   {
     "riding": "Perth—Wellington",
-    "pc": 48,
-    "ndp": 24,
+    "pc": 49,
+    "ndp": 22,
     "lib": 23,
     "bloc": 0,
     "gpc": 0,
@@ -766,45 +766,45 @@
   },
   {
     "riding": "Peterborough—Kawartha",
-    "pc": 41,
-    "ndp": 24,
+    "pc": 42,
+    "ndp": 23,
     "lib": 25,
     "bloc": 0,
     "gpc": 5,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Pickering—Uxbridge",
-    "pc": 30,
-    "ndp": 21,
+    "pc": 31,
+    "ndp": 19,
     "lib": 44,
     "bloc": 0,
     "gpc": 0,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Renfrew—Nipissing—Pembroke",
-    "pc": 51,
-    "ndp": 16,
+    "pc": 52,
+    "ndp": 15,
     "lib": 15,
     "bloc": 0,
     "gpc": 3,
-    "other": 14
+    "other": 16
   },
   {
     "riding": "Richmond Hill",
     "pc": 41,
-    "ndp": 16,
+    "ndp": 15,
     "lib": 39,
     "bloc": 0,
     "gpc": 0,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Sarnia—Lambton",
-    "pc": 51,
-    "ndp": 24,
-    "lib": 15,
+    "pc": 52,
+    "ndp": 23,
+    "lib": 16,
     "bloc": 0,
     "gpc": 2,
     "other": 7
@@ -812,7 +812,7 @@
   {
     "riding": "Sault Ste. Marie",
     "pc": 32,
-    "ndp": 31,
+    "ndp": 29,
     "lib": 33,
     "bloc": 0,
     "gpc": 0,
@@ -820,26 +820,26 @@
   },
   {
     "riding": "Scarborough Centre",
-    "pc": 23,
-    "ndp": 18,
-    "lib": 46,
+    "pc": 24,
+    "ndp": 16,
+    "lib": 45,
     "bloc": 0,
     "gpc": 0,
-    "other": 13
+    "other": 15
   },
   {
     "riding": "Scarborough North",
-    "pc": 30,
-    "ndp": 17,
+    "pc": 31,
+    "ndp": 15,
     "lib": 50,
     "bloc": 0,
     "gpc": 0,
-    "other": 3
+    "other": 4
   },
   {
     "riding": "Scarborough Southwest",
     "pc": 20,
-    "ndp": 21,
+    "ndp": 20,
     "lib": 52,
     "bloc": 0,
     "gpc": 3,
@@ -847,35 +847,35 @@
   },
   {
     "riding": "Scarborough—Agincourt",
-    "pc": 40,
-    "ndp": 12,
-    "lib": 44,
+    "pc": 41,
+    "ndp": 11,
+    "lib": 45,
     "bloc": 0,
     "gpc": 0,
-    "other": 3
+    "other": 4
   },
   {
     "riding": "Scarborough—Guildwood",
     "pc": 23,
-    "ndp": 17,
+    "ndp": 16,
     "lib": 55,
     "bloc": 0,
     "gpc": 0,
-    "other": 6
+    "other": 7
   },
   {
     "riding": "Scarborough—Rouge Park",
-    "pc": 21,
-    "ndp": 19,
-    "lib": 55,
+    "pc": 22,
+    "ndp": 18,
+    "lib": 54,
     "bloc": 0,
     "gpc": 0,
     "other": 5
   },
   {
     "riding": "Simcoe North",
-    "pc": 45,
-    "ndp": 17,
+    "pc": 46,
+    "ndp": 15,
     "lib": 27,
     "bloc": 0,
     "gpc": 6,
@@ -884,115 +884,115 @@
   {
     "riding": "Simcoe—Grey",
     "pc": 44,
-    "ndp": 16,
+    "ndp": 15,
     "lib": 27,
     "bloc": 0,
     "gpc": 8,
-    "other": 5
-  },
-  {
-    "riding": "Spadina—Fort York",
-    "pc": 23,
-    "ndp": 13,
-    "lib": 48,
-    "bloc": 0,
-    "gpc": 3,
-    "other": 12
-  },
-  {
-    "riding": "St. Catharines",
-    "pc": 32,
-    "ndp": 26,
-    "lib": 35,
-    "bloc": 0,
-    "gpc": 3,
-    "other": 4
-  },
-  {
-    "riding": "Stormont—Dundas—South Glengarry",
-    "pc": 56,
-    "ndp": 18,
-    "lib": 19,
-    "bloc": 0,
-    "gpc": 2,
-    "other": 5
-  },
-  {
-    "riding": "Sudbury",
-    "pc": 20,
-    "ndp": 36,
-    "lib": 38,
-    "bloc": 0,
-    "gpc": 0,
     "other": 6
   },
   {
-    "riding": "Thornhill",
-    "pc": 55,
-    "ndp": 10,
-    "lib": 30,
+    "riding": "Spadina—Fort York",
+    "pc": 24,
+    "ndp": 12,
+    "lib": 48,
     "bloc": 0,
-    "gpc": 1,
-    "other": 3
+    "gpc": 3,
+    "other": 13
   },
   {
-    "riding": "Thunder Bay—Rainy River",
-    "pc": 31,
-    "ndp": 33,
-    "lib": 30,
+    "riding": "St. Catharines",
+    "pc": 33,
+    "ndp": 24,
+    "lib": 35,
     "bloc": 0,
-    "gpc": 2,
-    "other": 4
-  },
-  {
-    "riding": "Thunder Bay—Superior North",
-    "pc": 26,
-    "ndp": 26,
-    "lib": 37,
-    "bloc": 0,
-    "gpc": 5,
+    "gpc": 3,
     "other": 5
   },
   {
-    "riding": "Timmins—James Bay",
-    "pc": 27,
-    "ndp": 47,
+    "riding": "Stormont—Dundas—South Glengarry",
+    "pc": 57,
+    "ndp": 16,
     "lib": 19,
+    "bloc": 0,
+    "gpc": 2,
+    "other": 6
+  },
+  {
+    "riding": "Sudbury",
+    "pc": 21,
+    "ndp": 34,
+    "lib": 38,
     "bloc": 0,
     "gpc": 0,
     "other": 7
   },
   {
-    "riding": "Toronto Centre",
-    "pc": 13,
+    "riding": "Thornhill",
+    "pc": 55,
+    "ndp": 9,
+    "lib": 30,
+    "bloc": 0,
+    "gpc": 1,
+    "other": 4
+  },
+  {
+    "riding": "Thunder Bay—Rainy River",
+    "pc": 32,
+    "ndp": 29,
+    "lib": 32,
+    "bloc": 0,
+    "gpc": 2,
+    "other": 5
+  },
+  {
+    "riding": "Thunder Bay—Superior North",
+    "pc": 27,
     "ndp": 25,
-    "lib": 54,
+    "lib": 37,
     "bloc": 0,
     "gpc": 5,
-    "other": 3
+    "other": 6
+  },
+  {
+    "riding": "Timmins—James Bay",
+    "pc": 28,
+    "ndp": 46,
+    "lib": 19,
+    "bloc": 0,
+    "gpc": 0,
+    "other": 8
+  },
+  {
+    "riding": "Toronto Centre",
+    "pc": 13,
+    "ndp": 23,
+    "lib": 55,
+    "bloc": 0,
+    "gpc": 4,
+    "other": 4
   },
   {
     "riding": "Toronto—Danforth",
     "pc": 10,
-    "ndp": 41,
+    "ndp": 39,
     "lib": 41,
     "bloc": 0,
     "gpc": 4,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Toronto—St. Paul's",
     "pc": 24,
-    "ndp": 20,
-    "lib": 48,
+    "ndp": 18,
+    "lib": 49,
     "bloc": 0,
     "gpc": 4,
     "other": 4
   },
   {
     "riding": "University—Rosedale",
-    "pc": 17,
-    "ndp": 27,
+    "pc": 18,
+    "ndp": 26,
     "lib": 46,
     "bloc": 0,
     "gpc": 5,
@@ -1000,93 +1000,93 @@
   },
   {
     "riding": "Vaughan—Woodbridge",
-    "pc": 39,
-    "ndp": 12,
-    "lib": 44,
+    "pc": 40,
+    "ndp": 10,
+    "lib": 43,
     "bloc": 0,
     "gpc": 1,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Waterloo",
-    "pc": 25,
-    "ndp": 18,
+    "pc": 26,
+    "ndp": 16,
     "lib": 46,
     "bloc": 0,
     "gpc": 7,
-    "other": 4
+    "other": 5
   },
   {
     "riding": "Wellington—Halton Hills",
-    "pc": 48,
-    "ndp": 14,
+    "pc": 49,
+    "ndp": 13,
     "lib": 24,
     "bloc": 0,
     "gpc": 9,
-    "other": 5
+    "other": 6
   },
   {
     "riding": "Whitby",
-    "pc": 38,
-    "ndp": 18,
+    "pc": 39,
+    "ndp": 16,
     "lib": 38,
     "bloc": 0,
     "gpc": 3,
-    "other": 3
+    "other": 4
   },
   {
     "riding": "Willowdale",
-    "pc": 37,
-    "ndp": 13,
+    "pc": 38,
+    "ndp": 11,
     "lib": 44,
     "bloc": 0,
-    "gpc": 2,
-    "other": 5
+    "gpc": 1,
+    "other": 6
   },
   {
     "riding": "Windsor West",
     "pc": 20,
-    "ndp": 47,
+    "ndp": 46,
     "lib": 28,
     "bloc": 0,
     "gpc": 0,
-    "other": 5
-  },
-  {
-    "riding": "Windsor—Tecumseh",
-    "pc": 28,
-    "ndp": 35,
-    "lib": 30,
-    "bloc": 0,
-    "gpc": 2,
     "other": 6
   },
   {
+    "riding": "Windsor—Tecumseh",
+    "pc": 29,
+    "ndp": 33,
+    "lib": 30,
+    "bloc": 0,
+    "gpc": 2,
+    "other": 7
+  },
+  {
     "riding": "York Centre",
-    "pc": 35,
-    "ndp": 17,
+    "pc": 36,
+    "ndp": 16,
     "lib": 46,
     "bloc": 0,
     "gpc": 0,
-    "other": 2
+    "other": 3
   },
   {
     "riding": "York South—Weston",
-    "pc": 21,
-    "ndp": 22,
-    "lib": 52,
+    "pc": 22,
+    "ndp": 20,
+    "lib": 53,
     "bloc": 0,
-    "gpc": 2,
+    "gpc": 1,
     "other": 4
   },
   {
     "riding": "York—Simcoe",
-    "pc": 46,
-    "ndp": 24,
+    "pc": 47,
+    "ndp": 23,
     "lib": 22,
     "bloc": 0,
     "gpc": 0,
-    "other": 8
+    "other": 9
   },
   {
     "riding": "Abitibi—Baie-James—Nunavik—Eeyou",
