@@ -55,7 +55,10 @@ class Application extends React.Component
     (name: key, value: polls[key], party: party for key, party of @props.parties when polls[key])
 
   leftists: =>
-    (key for key, val of @props.parties when val.leans is 'left')
+    ret = (key for key, val of @props.parties when val.leans is 'left')
+    # remove Raj Saini (lib) from contenders, since he dropped out
+    ret = (key for key in ret when key isnt 'lib') if @props.riding is 'Kitchener Centre'
+    ret
 
   bestOption: =>
     sorted = sortBy(@pollData(), 'value').reverse()
@@ -91,11 +94,17 @@ class Application extends React.Component
       <Logo/>
     </header>
 
-  notice: ->
-    return null unless @electionPast()
-    <div className="notice">
-      This election is now over. The data visible here represents the final polling numbers.
-    </div>
+  notice: (msg)->
+    <div className="notice">{msg}</div>
+
+  notices: ->
+    electionOver  = @notice 'This election is now over. The data visible here represents the final polling numbers.'
+    rajSaini      = @notice 'Raj Saini (Liberal) has discontinued his campaign, though his name remains on the ballot.'
+
+    [
+      electionOver  if @electionPast()
+      rajSaini      if @props.riding is 'Kitchener Centre'
+    ]
 
   main: ->
     return null unless @props.riding
@@ -157,7 +166,7 @@ class Application extends React.Component
   reco: ->
     party = @bestOption()
     <div className="reco" key="reco">
-      {@notice()}
+      {@notices()}
       {if party.name is 'Anyone'
         @anyone()
       else
