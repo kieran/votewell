@@ -56,8 +56,8 @@ class Application extends React.Component
 
   leftists: =>
     ret = (key for key, val of @props.parties when val.leans is 'left')
-    # remove Raj Saini (lib) from contenders, since he dropped out
-    ret = (key for key in ret when key isnt 'lib') if @props.riding is 'Kitchener Centre'
+    # remove Raj Saini, Kevin Vuong (lib) from contenders, since they dropped out
+    ret = (key for key in ret when key isnt 'lib') if @props.riding in ['Kitchener Centre', 'Spadina—Fort York']
     ret
 
   bestOption: =>
@@ -100,10 +100,12 @@ class Application extends React.Component
   notices: ->
     electionOver  = @notice 'This election is now over. The data visible here represents the final polling numbers.'
     rajSaini      = @notice 'Raj Saini (Liberal) has discontinued his campaign, though his name remains on the ballot.'
+    kevinVuong    = @notice 'Kevin Vuong (Liberal) has discontinued his campaign, though his name remains on the ballot.'
 
     [
       electionOver  if @electionPast()
       rajSaini      if @props.riding is 'Kitchener Centre'
+      kevinVuong.   if @props.riding is 'Spadina—Fort York'
     ]
 
   main: ->
