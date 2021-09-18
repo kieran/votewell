@@ -105,7 +105,7 @@ class Application extends React.Component
     [
       electionOver  if @electionPast()
       rajSaini      if @props.riding is 'Kitchener Centre'
-      kevinVuong.   if @props.riding is 'Spadina—Fort York'
+      kevinVuong    if @props.riding is 'Spadina—Fort York'
     ]
 
   main: ->
