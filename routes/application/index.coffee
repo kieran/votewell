@@ -26,8 +26,8 @@ import faqs from '/election/faq'
 import { languages } from '/election/locales'
 
 sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
-avg = (arr=[])-> sum(arr) / arr.length
-top_2 = (arr=[])-> arr.sort((a,b)->a-b); arr.reverse(); arr[0...2]
+avg = (arr=[])-> 1 / arr.length * sum arr
+top_2 = (arr=[])-> arr.sort((a,b)->b-a)[0...2]
 rms = (arr=[])-> Math.sqrt 1/arr.length * sum arr.map (v)-> v*v
 probablyMobile = matchMedia?('(orientation: portrait) and (max-width: 600px)')?.matches or false
 
@@ -58,6 +58,8 @@ class Application extends React.Component
     ret = (key for key, val of @props.parties when val.leans is 'left')
     # remove Raj Saini, Kevin Vuong (lib) from contenders, since they dropped out
     ret = (key for key in ret when key isnt 'lib') if @props.riding in ['Kitchener Centre', 'Spadina—Fort York']
+    # remove Sidney Coles, Daniel Osborne (ndp) from contenders, since they dropped out
+    ret = (key for key in ret when key isnt 'ndp') if @props.riding in ["Toronto—St. Paul's", 'Cumberland—Colchester']
     ret
 
   bestOption: =>
@@ -99,13 +101,14 @@ class Application extends React.Component
 
   notices: ->
     electionOver  = @notice 'This election is now over. The data visible here represents the final polling numbers.'
-    rajSaini      = @notice 'Raj Saini (Liberal) has discontinued his campaign, though his name remains on the ballot.'
-    kevinVuong    = @notice 'Kevin Vuong (Liberal) has discontinued his campaign, though his name remains on the ballot.'
+    droppedOut    = (name, party)=> @notice "#{name} (#{party}) has discontinued their campaign, though their name remains on the ballot."
 
     [
       electionOver  if @electionPast()
-      rajSaini      if @props.riding is 'Kitchener Centre'
-      kevinVuong    if @props.riding is 'Spadina—Fort York'
+      droppedOut('Raj Saini', 'Liberal') if @props.riding is 'Kitchener Centre'
+      droppedOut('Kevin Vuong', 'Liberal') if @props.riding is 'Spadina—Fort York'
+      droppedOut('Sidney Coles', 'NDP') if @props.riding is "Toronto—St. Paul's"
+      droppedOut('Daniel Osborne', 'NDP') if @props.riding is 'Cumberland—Colchester'
     ]
 
   main: ->
