@@ -56,10 +56,10 @@ class Application extends React.Component
 
   leftists: =>
     ret = (key for key, val of @props.parties when val.leans is 'left')
-    # remove Raj Saini, Kevin Vuong (lib) from contenders, since they dropped out
-    ret = (key for key in ret when key isnt 'lib') if @props.riding in ['Kitchener Centre', 'Spadina—Fort York']
-    # remove Sidney Coles, Daniel Osborne (ndp) from contenders, since they dropped out
-    ret = (key for key in ret when key isnt 'ndp') if @props.riding in ["Toronto—St. Paul's", 'Cumberland—Colchester']
+    # # remove Raj Saini, Kevin Vuong (lib) from contenders, since they dropped out
+    # ret = (key for key in ret when key isnt 'lib') if @props.riding in ['Kitchener Centre', 'Spadina—Fort York']
+    # # remove Sidney Coles, Daniel Osborne (ndp) from contenders, since they dropped out
+    # ret = (key for key in ret when key isnt 'ndp') if @props.riding in ["Toronto—St. Paul's", 'Cumberland—Colchester']
     ret
 
   bestOption: =>
@@ -110,10 +110,10 @@ class Application extends React.Component
 
     [
       electionOver  if @electionPast()
-      droppedOut('Raj Saini', 'Liberal') if @props.riding is 'Kitchener Centre'
-      droppedOut('Kevin Vuong', 'Liberal') if @props.riding is 'Spadina—Fort York'
-      droppedOut('Sidney Coles', 'NDP') if @props.riding is "Toronto—St. Paul's"
-      droppedOut('Daniel Osborne', 'NDP') if @props.riding is 'Cumberland—Colchester'
+      # droppedOut('Raj Saini', 'Liberal') if @props.riding is 'Kitchener Centre'
+      # droppedOut('Kevin Vuong', 'Liberal') if @props.riding is 'Spadina—Fort York'
+      # droppedOut('Sidney Coles', 'NDP') if @props.riding is "Toronto—St. Paul's"
+      # droppedOut('Daniel Osborne', 'NDP') if @props.riding is 'Cumberland—Colchester'
     ]
 
   main: ->
