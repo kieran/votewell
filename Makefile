@@ -2,7 +2,7 @@
 SHELL = /bin/bash
 
 NODE_ENV ?= development
-ELECTION ?= ca
+ELECTION ?= on
 PORT ?= 3000
 
 include .env.${NODE_ENV}
