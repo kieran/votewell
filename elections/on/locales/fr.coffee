@@ -21,5 +21,5 @@ translation: {
   "Maps":                 "Plans"
   "Code":                 "Code"
 
-  "votelink":   "https://www.elections.ca/content.aspx?section=vot&dir=vote&document=index&lang=f"
+  "votelink":   "https://www.elections.on.ca/fr/voting-in-ontario/how-to-vote.html"
 }

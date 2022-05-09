@@ -65,7 +65,7 @@ class Faq extends React.Component
       </Qna>
 
       <Qna question="Who are you?">
-        <p>I’m <a href="https://kieran.ca">Kieran Huggins</a>, a software developer in Toronto, Canada.</p>
+        <p>I’m <a href="https://kieran.ca">Kieran Huggins</a>, a software developer in Victoria, Canada.</p>
         <p>While I clearly have leftist politics, I am not affiliated with any political party.</p>
         <p>Special thanks to <a href="http://jessefeld.com">Jesse Feld</a> for providing the domain name & loads of invaluable local political knowledge.</p>
       </Qna>

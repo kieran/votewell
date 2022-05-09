@@ -31,7 +31,7 @@ class Faq extends React.Component
       </Qna>
 
       <Qna question="Pwy wyt ti?">
-        <p>Kieran Huggins ydw i, datblygwr meddalwedd yn Toronto, Canada.</p>
+        <p>Kieran Huggins ydw i, datblygwr meddalwedd yn Victoria, Canada.</p>
         <p>Er fy mod yn amlwg â gwleidyddiaeth chwith, nid wyf yn gysylltiedig ag unrhyw blaid wleidyddol.</p>
         <p>Diolch yn arbennig i Jesse Feld am ddarparu enw parth a llwyth o wybodaeth wleidyddol leol amhrisiadwy.</p>
       </Qna>

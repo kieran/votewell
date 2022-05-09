@@ -22,7 +22,7 @@ class Faq extends React.Component
       </Qna>
 
       <Qna question="Qui êtes-vous?">
-        <p>Je m’appelle <a href="https://kieran.ca">Kieran Huggins</a> et je viens de Toronto, Canada.</p>
+        <p>Je m’appelle <a href="https://kieran.ca">Kieran Huggins</a> et je viens de Victoria, Canada.</p>
         <p>Bien que j’ai des tendences gauchistes, je ne suis affilié à aucun parti politique.</p>
       </Qna>
 
