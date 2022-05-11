@@ -10,7 +10,7 @@ NUM_RIDINGS = 124
 polls = []
 
 urls = [
-  'https://calculatedpolitics.ca/projection/next-ontario-provincial-election-projection/?break=cache'
+  "https://calculatedpolitics.ca/projection/next-ontario-provincial-election-projection/?t=#{Date.now()}"
 ]
 
 polls_regex = ///^
