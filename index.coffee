@@ -17,7 +17,7 @@ import Application  from '/routes/application'
 do ->
   if dsn = process.env.SENTRY_DSN_FRONTEND
     Sentry = await import('@sentry/browser')
-    Sentry.init { dsn, environment: process.env.NODE_ENV }
+    Sentry.init { dsn, environment: process.env.NODE_ENV, allowUrls: [ /votewell\.(ca|co\.uk)/ ] }
 
   polls = await import('/election/polls.json')
 
