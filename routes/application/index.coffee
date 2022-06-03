@@ -104,7 +104,7 @@ class Application extends React.Component
       This election is now over. The data visible here represents the final polling numbers.
       <br/>
       <br/>
-      Votewell will return in May for the 2022 Ontario election.
+      Votewell will return for the next Canadian election.
     </>
     droppedOut    = (name, party)=> @notice "#{name} (#{party}) has discontinued their campaign, though their name remains on the ballot."
 
