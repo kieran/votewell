@@ -20,6 +20,4 @@ translation: {
   "Projections":          "Projections"
   "Maps":                 "Plans"
   "Code":                 "Code"
-
-  "votelink":   "https://www.elections.on.ca/fr/voting-in-ontario/how-to-vote.html"
 }

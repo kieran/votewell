@@ -1,7 +1,7 @@
 export default \
 translation: {
   "description": \
-  "A strategic voting tool for the 2022 Ontario provincial election"
+  "A strategic voting tool for the 2024 BC provincial election"
 
   "A strategic vote in your riding"
   "is a vote for"
@@ -15,11 +15,11 @@ translation: {
   "Code"
 
   "votelink": \
-  "https://www.elections.on.ca/waystovote"
+  "https://elections.bc.ca/2024-provincial-election/where-to-vote/"
 
   "maplink": \
-  "https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0"
+  "https://catalogue.data.gov.bc.ca/dataset/1cba4b16-263f-4d42-8d84-f5fecaa03d1a"
 
   "datalink": \
-  "https://calculatedpolitics.ca/projection/next-ontario-provincial-election-projection/"
+  "https://338canada.com/bc/districts.htm"
 }
