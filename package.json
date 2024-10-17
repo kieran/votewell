@@ -48,6 +48,7 @@
     "underscore-es": "^1.9.8"
   },
   "devDependencies": {
-    "mem": ">=4.0.0"
+    "mem": ">=4.0.0",
+    "underscore": "^1.13.7"
   }
 }
