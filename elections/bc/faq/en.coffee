@@ -1,6 +1,5 @@
 import React    from "react"
 import Qna      from '/components/qna'
-import CPLogo   from '../cp-light.png'
 
 export default \
 class Faq extends React.Component
