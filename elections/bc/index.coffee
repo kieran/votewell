@@ -23,7 +23,7 @@ export parties =
     img: images.bcg
 
   # other
-  other:
+  ind:
     name: "Independent"
     img: images.other
 
