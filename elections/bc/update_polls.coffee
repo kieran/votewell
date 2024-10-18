@@ -1,7 +1,6 @@
 fs      = require 'fs'
 axios   = require 'axios'
 
-console.log axios
 cheerio = require 'cheerio'
 { chunk } = require 'underscore'
 
@@ -12,13 +11,6 @@ exec = util.promisify exec
 
 NUM_RIDINGS = 93
 polls = []
-
-# colours =
-#   cpbc: '#0101CC'
-#   bcg: '#269b26'
-#   ndp: '#E17C0D'
-#   # bcu: '#CA0017'
-#   ind: '???'
 
 do ->
   try
@@ -39,8 +31,6 @@ do ->
       projections = Object.fromEntries(chunk(ar, 4).map((a)=>[a[0].toLowerCase(),parseFloat(a[3].split('%')[0])]))
 
       polls.push { riding, ...projections }
-
-    console.log polls
 
     throw "unexpected number of ridings: #{polls.length}" unless polls.length is NUM_RIDINGS
     fs.writeFileSync "#{__dirname}/polls.json", JSON.stringify polls, undefined, 2
