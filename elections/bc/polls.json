@@ -29,8 +29,8 @@
   },
   {
     "riding": "Bulkley Valley-Stikine",
-    "ndp": 57,
-    "cpbc": 40,
+    "ndp": 56,
+    "cpbc": 41,
     "bcg": 3,
     "bcu": 0
   },
@@ -43,15 +43,15 @@
   },
   {
     "riding": "Burnaby East",
-    "ndp": 54,
+    "ndp": 55,
     "cpbc": 36,
     "bcg": 9,
     "bcu": 0
   },
   {
     "riding": "Burnaby North",
-    "ndp": 58,
-    "cpbc": 42,
+    "ndp": 59,
+    "cpbc": 41,
     "bcu": 0,
     "bcg": 0
   },
@@ -94,8 +94,8 @@
   },
   {
     "riding": "Columbia River-Revelstoke",
-    "cpbc": 56,
-    "ndp": 36,
+    "cpbc": 57,
+    "ndp": 35,
     "bcg": 8,
     "bcu": 0
   },
@@ -124,7 +124,7 @@
   {
     "riding": "Cowichan Valley",
     "ndp": 39,
-    "bcg": 33,
+    "bcg": 34,
     "cpbc": 28,
     "bcu": 0
   },
@@ -137,8 +137,8 @@
   },
   {
     "riding": "Delta South",
-    "cpbc": 59,
-    "ndp": 41,
+    "cpbc": 58,
+    "ndp": 42,
     "bcu": 0,
     "bcg": 0
   },
@@ -151,8 +151,8 @@
   },
   {
     "riding": "Fraser-Nicola",
-    "cpbc": 47,
-    "ndp": 44,
+    "cpbc": 48,
+    "ndp": 43,
     "bcg": 9,
     "bcu": 0
   },
@@ -165,21 +165,21 @@
   },
   {
     "riding": "Kamloops Centre",
-    "cpbc": 51,
+    "cpbc": 52,
     "ndp": 38,
     "bcg": 10,
     "bcu": 0
   },
   {
     "riding": "Kamloops-North Thompson",
-    "cpbc": 58,
-    "ndp": 35,
+    "cpbc": 59,
+    "ndp": 34,
     "bcg": 7,
     "bcu": 0
   },
   {
     "riding": "Kelowna Centre",
-    "cpbc": 49,
+    "cpbc": 50,
     "ndp": 31,
     "ind": 11,
     "bcg": 9,
@@ -187,15 +187,15 @@
   },
   {
     "riding": "Kelowna-Lake Country-Coldstream",
-    "cpbc": 56,
-    "ndp": 34,
+    "cpbc": 57,
+    "ndp": 33,
     "bcg": 10,
     "bcu": 0
   },
   {
     "riding": "Kelowna-Mission",
-    "cpbc": 50,
-    "ndp": 30,
+    "cpbc": 51,
+    "ndp": 29,
     "ind": 11,
     "bcg": 9,
     "bcu": 0
@@ -209,14 +209,14 @@
   },
   {
     "riding": "Kootenay-Monashee",
-    "ndp": 55,
+    "ndp": 54,
     "cpbc": 35,
     "bcg": 10,
     "bcu": 0
   },
   {
     "riding": "Kootenay-Rockies",
-    "cpbc": 48,
+    "cpbc": 49,
     "ndp": 34,
     "ind": 12,
     "bcg": 6,
@@ -224,7 +224,7 @@
   },
   {
     "riding": "Ladysmith-Oceanside",
-    "cpbc": 42,
+    "cpbc": 43,
     "ndp": 39,
     "bcg": 14,
     "ind": 5,
@@ -232,8 +232,8 @@
   },
   {
     "riding": "Langford-Highlands",
-    "ndp": 59,
-    "cpbc": 30,
+    "ndp": 58,
+    "cpbc": 31,
     "bcg": 11,
     "bcu": 0
   },
@@ -247,43 +247,43 @@
   },
   {
     "riding": "Langley-Walnut Grove",
-    "cpbc": 48,
-    "ndp": 45,
-    "bcg": 6,
+    "cpbc": 47,
+    "ndp": 44,
+    "bcg": 9,
     "bcu": 0
   },
   {
     "riding": "Langley-Willowbrook",
     "cpbc": 49,
-    "ndp": 46,
-    "bcg": 5,
+    "ndp": 45,
+    "bcg": 6,
     "bcu": 0
   },
   {
     "riding": "Maple Ridge East",
-    "ndp": 50,
-    "cpbc": 43,
+    "ndp": 49,
+    "cpbc": 45,
     "bcg": 7,
     "bcu": 0
   },
   {
     "riding": "Maple Ridge-Pitt Meadows",
-    "ndp": 57,
-    "cpbc": 43,
+    "ndp": 56,
+    "cpbc": 44,
     "bcu": 0,
     "bcg": 0
   },
   {
     "riding": "Mid Island-Pacific Rim",
-    "ndp": 55,
-    "cpbc": 29,
+    "ndp": 54,
+    "cpbc": 31,
     "bcg": 15,
     "bcu": 0
   },
   {
     "riding": "Nanaimo-Gabriola Island",
-    "ndp": 49,
-    "cpbc": 28,
+    "ndp": 47,
+    "cpbc": 30,
     "bcg": 23,
     "bcu": 0
   },
@@ -297,7 +297,7 @@
   {
     "riding": "Nechako Lakes",
     "cpbc": 65,
-    "ndp": 33,
+    "ndp": 32,
     "bcg": 2,
     "bcu": 0
   },
@@ -310,8 +310,8 @@
   },
   {
     "riding": "North Coast-Haida Gwaii",
-    "ndp": 68,
-    "cpbc": 32,
+    "ndp": 65,
+    "cpbc": 35,
     "bcu": 0,
     "bcg": 0
   },
@@ -333,26 +333,26 @@
     "riding": "North Vancouver-Seymour",
     "ndp": 45,
     "cpbc": 44,
-    "bcg": 11,
+    "bcg": 12,
     "bcu": 0
   },
   {
     "riding": "Oak Bay-Gordon Head",
-    "ndp": 44,
-    "cpbc": 34,
+    "ndp": 42,
+    "cpbc": 37,
     "bcg": 21,
     "bcu": 0
   },
   {
     "riding": "Peace River North",
-    "cpbc": 63,
-    "ind": 24,
+    "cpbc": 64,
+    "ind": 23,
     "ndp": 13,
     "bcu": 0
   },
   {
     "riding": "Peace River South",
-    "cpbc": 55,
+    "cpbc": 56,
     "ind": 27,
     "ndp": 18,
     "bcu": 0
@@ -360,7 +360,7 @@
   {
     "riding": "Penticton-Summerland",
     "cpbc": 52,
-    "ndp": 38,
+    "ndp": 37,
     "ind": 6,
     "bcg": 4,
     "bcu": 0
@@ -375,20 +375,20 @@
   {
     "riding": "Port Moody-Burquitlam",
     "ndp": 49,
-    "cpbc": 44,
+    "cpbc": 43,
     "bcg": 7,
     "bcu": 0
   },
   {
     "riding": "Powell River-Sunshine Coast",
     "ndp": 47,
-    "cpbc": 28,
+    "cpbc": 27,
     "bcg": 26,
     "bcu": 0
   },
   {
     "riding": "Prince George-Mackenzie",
-    "cpbc": 58,
+    "cpbc": 59,
     "ndp": 34,
     "bcg": 8,
     "bcu": 0
@@ -403,15 +403,15 @@
   },
   {
     "riding": "Prince George-Valemount",
-    "cpbc": 58,
-    "ndp": 32,
+    "cpbc": 59,
+    "ndp": 31,
     "bcg": 10,
     "bcu": 0
   },
   {
     "riding": "Richmond Centre",
-    "cpbc": 46,
     "ndp": 46,
+    "cpbc": 46,
     "ind": 8,
     "bcu": 0,
     "bcg": 0
@@ -425,14 +425,14 @@
   },
   {
     "riding": "Richmond-Queensborough",
-    "cpbc": 53,
-    "ndp": 47,
+    "cpbc": 50,
+    "ndp": 50,
     "bcu": 0,
     "bcg": 0
   },
   {
     "riding": "Richmond-Steveston",
-    "cpbc": 49,
+    "cpbc": 48,
     "ndp": 48,
     "ind": 3,
     "bcg": 1,
@@ -455,7 +455,7 @@
   },
   {
     "riding": "Salmon Arm-Shuswap",
-    "cpbc": 53,
+    "cpbc": 54,
     "ndp": 33,
     "bcg": 9,
     "ind": 4,
@@ -464,7 +464,7 @@
   {
     "riding": "Skeena",
     "cpbc": 55,
-    "ndp": 43,
+    "ndp": 42,
     "bcg": 2,
     "bcu": 0
   },
@@ -484,14 +484,14 @@
   },
   {
     "riding": "Surrey South",
-    "cpbc": 61,
-    "ndp": 39,
+    "cpbc": 60,
+    "ndp": 40,
     "bcu": 0,
     "bcg": 0
   },
   {
     "riding": "Surrey-Cloverdale",
-    "ndp": 48,
+    "ndp": 49,
     "cpbc": 45,
     "bcg": 6,
     "bcu": 0
@@ -512,7 +512,7 @@
   },
   {
     "riding": "Surrey-Newton",
-    "ndp": 54,
+    "ndp": 55,
     "cpbc": 41,
     "ind": 4,
     "bcu": 0,
@@ -556,15 +556,15 @@
   {
     "riding": "Vancouver-Kensington",
     "ndp": 55,
-    "cpbc": 37,
+    "cpbc": 36,
     "bcg": 8,
     "bcu": 0
   },
   {
     "riding": "Vancouver-Langara",
-    "cpbc": 47,
-    "ndp": 46,
-    "bcg": 8,
+    "cpbc": 48,
+    "ndp": 48,
+    "bcg": 4,
     "bcu": 0
   },
   {
@@ -583,8 +583,8 @@
   },
   {
     "riding": "Vancouver-Quilchena",
-    "cpbc": 55,
-    "ndp": 31,
+    "cpbc": 54,
+    "ndp": 32,
     "bcg": 14,
     "bcu": 0
   },
@@ -605,20 +605,20 @@
   {
     "riding": "Vancouver-Strathcona",
     "ndp": 59,
-    "cpbc": 28,
+    "cpbc": 27,
     "bcg": 13,
     "bcu": 0
   },
   {
     "riding": "Vancouver-West End",
-    "ndp": 57,
-    "cpbc": 31,
+    "ndp": 58,
+    "cpbc": 30,
     "bcg": 12,
     "bcu": 0
   },
   {
     "riding": "Vancouver-Yaletown",
-    "cpbc": 51,
+    "cpbc": 50,
     "ndp": 41,
     "bcg": 8,
     "bcu": 0
@@ -648,22 +648,22 @@
   {
     "riding": "West Kelowna-Peachland",
     "cpbc": 62,
-    "ndp": 34,
+    "ndp": 33,
     "ind": 4,
     "bcu": 0,
     "bcg": 0
   },
   {
     "riding": "West Vancouver-Capilano",
-    "cpbc": 45,
-    "ndp": 31,
+    "cpbc": 41,
+    "ndp": 32,
+    "ind": 16,
     "bcg": 12,
-    "ind": 12,
     "bcu": 0
   },
   {
     "riding": "West Vancouver-Sea to Sky",
-    "cpbc": 38,
+    "cpbc": 39,
     "bcg": 36,
     "ndp": 26,
     "bcu": 0
