@@ -1,32 +1,33 @@
 import images from './*.png'
 
-export date = '2025-02-27'
+export date = '2022-06-02'
 
 export parties =
 
   # main
-  pcpo:
-    name: "PC Party of Ontario"
+  pc:
+    name: "Conservative Party"
     leans: 'right'
-    img: images.pcpo
-  olp:
-    name: "Ontario Liberal Party"
+    img: images.pc
+  lib:
+    name: "Liberal Party"
     leans: 'left'
-    img: images.olp
+    img: images.lib
 
   # secondary
   ndp:
-    name: "Ontario NDP"
+    name: "NDP"
     leans: 'left'
     img: images.ndp
-  gpo:
+  gpc:
     name: "Green Party"
     leans: 'left'
-    img: images.gpo
+    img: images.gpc
 
   # other
   other:
     name: "Independent"
+    img: images.other
 
   anyone:
     name: "Anyone"

@@ -1,5 +1,6 @@
 import React    from "react"
 import Qna      from '/components/qna'
+import CPLogo   from '../cp-light.png'
 
 export default \
 class Faq extends React.Component
@@ -7,7 +8,7 @@ class Faq extends React.Component
     <section key='faq' className='faq'>
 
       <Qna question="What is this?">
-        <p>There are 3 provincial parties in Ontario with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
+        <p>There are 3 national parties in Canada with leftist politics, and only one that is right-leaning. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
         <p>To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
       </Qna>
 
@@ -25,13 +26,13 @@ class Faq extends React.Component
         <p>
           Polling data is aggregated by the good people at
           {' '}
-          <a className="imglink" href="https://338canada.com">338 Canada</a>
+          <a className="imglink" href="https://calculatedpolitics.ca/projection/next-ontario-provincial-election-projection/">
+            <img className="cp-logo" src={CPLogo} style={{height: '24px'}} alt={"Calculated Politics"} />
+          </a>
         </p>
         <blockquote>
-          <p>This projection is calculated using a mostly-proportional swing model adjusted with provincial and regional <a href="https://338canada.com/polls.htm" target="_blank">polls</a> conducted by professional pollsters. </p>
-          <p>This is <i>not</i> a poll, but a projection based on polls.</p>
-          <p>The 338Canada model also takes into account electoral history and other data.</p>
-          <p>Read more on 338Canada's methodology <a href="https://338canada.blogspot.com/2018/11/welcome-to-338canada.html#metho" target="_blank">here</a>.</p>
+          <p>The data you see here represents a projection of likely election outcomes in each riding using statistical methodology based on all publicly available polling data. CalculatedPolitics.ca is not a polling firm itself.</p>
+          <p>The accuracy of these projections is dependent upon the overall accuracy of the polling industry and we make no assurances of the polling industry’s accuracy in this or any other election.</p>
         </blockquote>
         <p>
           Riding boundaries are published by{' '}
