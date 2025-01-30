@@ -32,7 +32,7 @@ do ->
 
       ar = ($("#ridinghisto-#{riding_number - 1} > text").toArray().map (el)-> $(el).text()).slice(PROJ_COLUMNS-1)
 
-      projections = Object.fromEntries(chunk(ar, PROJ_COLUMNS).map((a)=>[a[0].toLowerCase(),parseFloat((a[3]).split('%')[0])]))
+      projections = Object.fromEntries(chunk(ar, PROJ_COLUMNS).map((a)=>[a[0].toLowerCase(),parseFloat((a[PROJ_COLUMNS-1]).split('%')[0])]))
 
       polls.push { riding, ...projections }
 
