@@ -24,8 +24,8 @@ export parties =
     leans: 'left'
     img: images.gpo
 
-  # other
-  other:
+  # other / independent
+  ind:
     name: "Independent"
 
   anyone:

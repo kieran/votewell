@@ -3,12 +3,14 @@
   padding: 1em 0
   transition: all 0.5s ease-in-out
   .answer
-    max-height: 0
+    // max-height: 0
+    height: 0
     opacity: 0
     transition: all 0.5s ease-in-out
   &.open
     .answer
-      max-height: 500px
+      height: max-content
+      // max-height: auto
       opacity: 1
 
   border-bottom: 1px solid $border

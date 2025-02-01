@@ -33,8 +33,9 @@ do ->
       ar = ($("#ridinghisto-#{riding_number - 1} > text").toArray().map (el)-> $(el).text()).slice(PROJ_COLUMNS-1)
 
       projections = Object.fromEntries(chunk(ar, PROJ_COLUMNS).map((a)=>[a[0].toLowerCase(),parseFloat((a[PROJ_COLUMNS-1]).split('%')[0])]))
+      incumbent = chunk(ar, PROJ_COLUMNS).map((a)=>[a[0].toLowerCase(),parseFloat((a[PROJ_COLUMNS-2]).split('%')[0])]).toSorted((a,b)-> b[1] - a[1])[0][0]
 
-      polls.push { riding, ...projections }
+      polls.push { riding, incumbent, ...projections }
 
     throw "unexpected number of ridings: #{polls.length}" unless polls.length is NUM_RIDINGS
     fs.writeFileSync "#{__dirname}/polls.json", JSON.stringify polls, undefined, 2

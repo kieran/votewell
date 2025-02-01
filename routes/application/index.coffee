@@ -11,6 +11,7 @@ import './styles'
 
 # components
 import Chart    from '/components/chart'
+import Qna      from '/components/qna'
 import Logo     from '/assets/votewell.anim.svg'
 
 import FacebookShareButton  from 'react-share/es/FacebookShareButton'
@@ -50,32 +51,38 @@ class Application extends React.Component
   setLang: (lang)=>
     @props.i18n.changeLanguage lang
 
-  pollData: =>
-    polls = @pollsFor @props.riding
-    (name: key, value: polls[key], party: party for key, party of @props.parties when polls[key])
+  pollDataFor: (riding)=>
+    polls = @pollsFor riding
+    (name: key, value: polls[key], party: party, incumbent: polls.incumbent is key for key, party of @props.parties when polls[key])
 
-  leftists: =>
-    ret = (key for key, val of @props.parties when val.leans is 'left')
-    # # remove Raj Saini, Kevin Vuong (lib) from contenders, since they dropped out
-    # ret = (key for key in ret when key isnt 'lib') if @props.riding in ['Kitchener Centre', 'Spadina—Fort York']
-    # # remove Sidney Coles, Daniel Osborne (ndp) from contenders, since they dropped out
-    # ret = (key for key in ret when key isnt 'ndp') if @props.riding in ["Toronto—St. Paul's", 'Cumberland—Colchester']
-    ret
+  bestOptionFor: (riding)=>
+    sorted = \
+      @pollDataFor riding
+      # prefer the incumbent in a tie
+      .toSorted (a,b)-> +b.incumbent - +a.incumbent
+      # prefer leading larty
+      .toSorted (a,b)-> b.value - a.value
 
-  bestOption: =>
-    sorted = sortBy(@pollData(), 'value').reverse()
-    leftists = @leftists()
+    # this is where we may override polling data
+    # e.g. when a candidate drops out, etc
+    # sorted = sorted.filter ...
+
+    leftists = (a for a in sorted when a.party.leans is 'left')
+    righties = (a for a in sorted when a.party.leans isnt 'left')
 
     # vote strategically iff the leading right party
     # has over 90% the support of the RMS of
     # the two leading leftist parties
-    lefts  = (poll.value for poll in sorted when poll.name in leftists)
-    right = Math.max (poll.value for poll in sorted when poll.name not in leftists)...
-    return @props.parties['anyone'] if right < 0.9 * rms top_2 lefts
+    left_weight  = rms top_2 (poll.value for poll in leftists)
+    right_weight = Math.max (poll.value for poll in righties)
+    strategy_required = right_weight > 0.9 * left_weight
 
-    # otherwise, choose the first leftist candidate
-    for obj in sorted
-      return @props.parties[obj.name] if obj.name in leftists
+    if strategy_required
+      # otherwise, choose the first leftist candidate
+      leftists[0]
+    else
+      # strategic vote not needed? vote for your preferred candidate
+      party: @props.parties['anyone']
 
   electionPast: =>
     (new Date).getTime() > (new Date @props.date).getTime() + 86400 * 1000
@@ -110,10 +117,7 @@ class Application extends React.Component
 
     [
       electionOver  if @electionPast()
-      # droppedOut('Raj Saini', 'Liberal') if @props.riding is 'Kitchener Centre'
-      # droppedOut('Kevin Vuong', 'Liberal') if @props.riding is 'Spadina—Fort York'
-      # droppedOut('Sidney Coles', 'NDP') if @props.riding is "Toronto—St. Paul's"
-      # droppedOut('Daniel Osborne', 'NDP') if @props.riding is 'Cumberland—Colchester'
+      # droppedOut('Candidate Name', 'Party Name') if @props.riding is 'riding-name'
     ]
 
   main: ->
@@ -126,7 +130,13 @@ class Application extends React.Component
 
   faq: ->
     Faq = faqs[@lang()] or faqs.en
-    <Faq key='faq'/>
+    <section key='faq' className='faq'>
+      <Faq key='faq'/>
+      <Qna question="Can you show me a list of all your recommendations?">
+        <p>These recommendations may change as new polling data is published:</p>
+        {@list()}
+      </Qna>
+    </section>
 
   footer: ->
     <footer key='footer'>
@@ -174,7 +184,7 @@ class Application extends React.Component
     </div>
 
   reco: ->
-    party = @bestOption()
+    { party } = @bestOptionFor @props.riding
     <div className="reco" key="reco">
       {@notices()}
       {if party.name is 'Anyone'
@@ -217,8 +227,33 @@ class Application extends React.Component
 
   chart: ->
     <div className="chart" key="chart">
-      <Chart data={@pollData()}/>
+      <Chart data={@pollDataFor @props.riding}/>
     </div>
+
+  list: ->
+    <div className="list" key="list">
+      <table>
+        <thead>
+          <tr>
+            <th>Riding</th>
+            <th>Suggestion</th>
+          </tr>
+        </thead>
+        <tbody>
+          {for poll in @props.polls
+            opt = @bestOptionFor poll.riding
+            riding = poll.riding.replace /—/g,' / '
+            reco = opt?.party?.name or 'Anyone'
+
+            <tr key={riding}>
+              <td>{riding}</td>
+              <td className={"#{reco} #{opt.name}"}>{reco}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
 
   links: ->
     { t } = @props

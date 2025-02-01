@@ -4,7 +4,7 @@ import Qna      from '/components/qna'
 export default \
 class Faq extends React.Component
   render: ->
-    <section key='faq' className='faq'>
+    <>
 
       <Qna question="Qu'est-ce que c'est que ça?">
         <p>Il y a trois partis politiques de Gauche au Canada et seulement un à Droite. Cela cause souvent une éparpillement des voix de gauche et par contraste, les voix de droite sont plus puissantes.</p>
@@ -26,4 +26,4 @@ class Faq extends React.Component
         <p>Bien que j’ai des tendences gauchistes, je ne suis affilié à aucun parti politique.</p>
       </Qna>
 
-    </section>
+    </>

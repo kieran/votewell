@@ -147,6 +147,32 @@
     img
       vertical-align: text-bottom
 
+    .list
+      table
+        width: 100%
+        border-spacing: 0
+        thead
+          display: none
+        color: $dark
+        tr:nth-child(even)
+          background-color: $light
+        td
+          padding: 1.33em 0.66em
+          &.Anyone
+            opacity: 0.33
+          @each $name, $color in $parties
+            &.#{$name}::before
+              display: inline-block
+              content: ' '
+              width: 0.6em
+              height: 0.6em
+              border-radius: 0.3em
+              margin-right: 0.5em
+              background-color: $color
+              color: $color
+              @if lightness($color) > 75%
+                color: darken($color, 33%)
+
   footer
     display: flex
     flex-direction: column
