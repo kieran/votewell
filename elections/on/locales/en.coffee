@@ -21,5 +21,5 @@ translation: {
   "https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0"
 
   "datalink": \
-  "https://calculatedpolitics.ca/projection/next-ontario-provincial-election-projection/"
+  "https://338canada.com/ontario/districts.htm"
 }
