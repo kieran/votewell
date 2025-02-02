@@ -29,6 +29,7 @@
     "cheerio": "^1.0.0-rc.10",
     "classnames": "^2.2.6",
     "coffeescript": "^2.5.1",
+    "core-js": "^3.40.0",
     "deasync": "^0.1.30",
     "dotenv": "^8.2.0",
     "i18next": "^17.3.1",

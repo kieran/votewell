@@ -1,6 +1,8 @@
 import React        from 'react'
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
+import 'core-js/actual/array/to-sorted'
+
 import ReactSelect  from 'react-select'
 import {
   withTranslation
@@ -74,7 +76,7 @@ class Application extends React.Component
     # has over 90% the support of the RMS of
     # the two leading leftist parties
     left_weight  = rms top_2 (poll.value for poll in leftists)
-    right_weight = Math.max (poll.value for poll in righties)
+    right_weight = Math.max (poll.value for poll in righties)...
     strategy_required = right_weight > 0.9 * left_weight
 
     if strategy_required
