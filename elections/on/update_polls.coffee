@@ -16,6 +16,8 @@ PROJ_COLUMNS = 5
 
 do ->
   try
+    await exec "git pull --rebase --autostash"
+
     for riding_number in [1..NUM_RIDINGS]
       url = "https://338canada.com/ontario/#{1000+riding_number}e.htm"
       console.log "fetching #{url} ..."
