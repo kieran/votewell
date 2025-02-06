@@ -2,7 +2,7 @@
   {
     "riding": "Ajax",
     "incumbent": "pcpo",
-    "pcpo": 42,
+    "pcpo": 43,
     "olp": 38,
     "ndp": 14,
     "gpo": 4,
@@ -43,7 +43,7 @@
     "riding": "Barrie—Springwater—Oro-Medonte",
     "incumbent": "pcpo",
     "pcpo": 45,
-    "olp": 42,
+    "olp": 41,
     "ndp": 6,
     "gpo": 5,
     "nbpo": 1,
@@ -308,7 +308,7 @@
     "riding": "Glengarry—Prescott—Russell",
     "incumbent": "pcpo",
     "pcpo": 47,
-    "olp": 39,
+    "olp": 38,
     "ndp": 7,
     "nbpo": 2,
     "gpo": 4,
@@ -317,7 +317,7 @@
   {
     "riding": "Guelph",
     "incumbent": "gpo",
-    "gpo": 50,
+    "gpo": 51,
     "pcpo": 25,
     "olp": 16,
     "ndp": 7,
@@ -347,13 +347,13 @@
   {
     "riding": "Hamilton Centre",
     "incumbent": "ndp",
-    "ndp": 46,
+    "ndp": 47,
     "pcpo": 22,
     "olp": 17,
     "gpo": 9,
     "nbpo": 1,
     "onp": 0,
-    "ind": 4
+    "ind": 3
   },
   {
     "riding": "Hamilton East—Stoney Creek",
@@ -404,7 +404,7 @@
     "pcpo": 36,
     "gpo": 2,
     "onp": 1,
-    "nbpo": 1
+    "nbpo": 0
   },
   {
     "riding": "Huron—Bruce",
@@ -449,7 +449,7 @@
     "riding": "Kingston and the Islands",
     "incumbent": "olp",
     "olp": 39,
-    "ndp": 27,
+    "ndp": 26,
     "pcpo": 29,
     "gpo": 4,
     "onp": 1,
@@ -547,7 +547,7 @@
   {
     "riding": "London—Fanshawe",
     "incumbent": "ndp",
-    "ndp": 41,
+    "ndp": 40,
     "pcpo": 39,
     "olp": 13,
     "gpo": 4,
@@ -649,7 +649,7 @@
     "ndp": 10,
     "gpo": 3,
     "nbpo": 1,
-    "onp": 1
+    "onp": 0
   },
   {
     "riding": "Mushkegowuk—James Bay",
@@ -813,7 +813,7 @@
     "incumbent": "olp",
     "olp": 42,
     "ndp": 20,
-    "pcpo": 26,
+    "pcpo": 25,
     "gpo": 9,
     "onp": 1,
     "nbpo": 0
@@ -855,7 +855,7 @@
     "ndp": 17,
     "olp": 20,
     "gpo": 8,
-    "nbpo": 3,
+    "nbpo": 2,
     "onp": 1
   },
   {
@@ -950,7 +950,7 @@
   {
     "riding": "Scarborough—Agincourt",
     "incumbent": "pcpo",
-    "pcpo": 53,
+    "pcpo": 54,
     "olp": 36,
     "ndp": 7,
     "gpo": 2,
@@ -961,7 +961,7 @@
     "riding": "Scarborough—Guildwood",
     "incumbent": "olp",
     "olp": 39,
-    "pcpo": 38,
+    "pcpo": 39,
     "ndp": 19,
     "gpo": 1,
     "nbpo": 1,
