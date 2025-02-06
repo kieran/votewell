@@ -51,13 +51,13 @@ seed_mongo:
 	# 	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.pcon15nm } } ]' | \
 	# 	mongoimport --db votewell -c ridings --jsonArray
 
-	# 	@cat ./elections/ca/ridings.geojson | \
-	# 	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ENNAME } } ]' | \
-	# 	mongoimport --db votewell -c ridings --jsonArray
-
-	@cat ./elections/bc/ridings.geojson | \
-	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ED_NAME } } ]' | \
+	@cat ./elections/ca/ridings.geojson | \
+	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ENNAME } } ]' | \
 	mongoimport --db votewell -c ridings --jsonArray
+
+	# 	@cat ./elections/bc/ridings.geojson | \
+	# 	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ED_NAME } } ]' | \
+	# 	mongoimport --db votewell -c ridings --jsonArray
 
 	mongo --host ${MONGO_URL} --eval 'db.ridings.createIndex({ geometry: "2dsphere" })'
 
