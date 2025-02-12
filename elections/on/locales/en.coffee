@@ -1,7 +1,7 @@
 export default \
 translation: {
   "description": \
-  "A strategic voting tool for the 2022 Ontario provincial election"
+  "A strategic voting tool for the 2025 Ontario provincial election"
 
   "A strategic vote in your riding"
   "is a vote for"
