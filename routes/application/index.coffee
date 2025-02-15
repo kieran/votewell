@@ -67,7 +67,9 @@ class Application extends React.Component
 
     # this is where we may override polling data
     # e.g. when a candidate drops out, etc
-    # sorted = sorted.filter ...
+    for poll, idx in sorted
+      # Sarah Jama
+      sorted[idx].party.leans = 'left' if riding is 'Hamilton Centre' and poll.party.name is 'Independent'
 
     leftists = (a for a in sorted when a.party.leans is 'left')
     righties = (a for a in sorted when a.party.leans isnt 'left')
