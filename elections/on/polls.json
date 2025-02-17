@@ -187,7 +187,7 @@
     "pcpo": 48,
     "olp": 33,
     "ndp": 6,
-    "gpo": 4,
+    "gpo": 3,
     "nbpo": 1,
     "ind": 7
   },
@@ -355,7 +355,7 @@
   {
     "riding": "Hamilton West—Ancaster—Dundas",
     "incumbent": "ndp",
-    "ndp": 34,
+    "ndp": 33,
     "pcpo": 36,
     "olp": 22,
     "gpo": 6,
@@ -428,8 +428,8 @@
     "riding": "King—Vaughan",
     "incumbent": "pcpo",
     "pcpo": 57,
-    "olp": 33,
-    "ndp": 5,
+    "olp": 32,
+    "ndp": 6,
     "nbpo": 1,
     "gpo": 3,
     "onp": 1
@@ -612,7 +612,7 @@
   {
     "riding": "Mushkegowuk—James Bay",
     "incumbent": "ndp",
-    "ndp": 40,
+    "ndp": 39,
     "pcpo": 42,
     "olp": 16,
     "gpo": 3
@@ -1085,7 +1085,7 @@
     "riding": "Whitby",
     "incumbent": "pcpo",
     "pcpo": 52,
-    "ndp": 17,
+    "ndp": 16,
     "olp": 25,
     "gpo": 6,
     "nbpo": 1
@@ -1102,7 +1102,7 @@
     "riding": "Windsor West",
     "incumbent": "ndp",
     "ndp": 44,
-    "pcpo": 44,
+    "pcpo": 45,
     "onp": 2,
     "gpo": 7,
     "nbpo": 1
