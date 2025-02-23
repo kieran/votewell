@@ -46,4 +46,8 @@ class Faq extends React.Component
         <p>Design by <a href="https://arthurchayka.com">Arthur Chayka</a></p>
       </Qna>
 
+      <Qna question="Why don't you solicit donations?">
+        <p>Hosting this website <strong>costs about $1 per election, <em>total</em>.</strong> It's a cost I'm more than happy to cover personally.</p>
+        <p>Please be mindful when companies with similar websites ask you for a donation to "keep the lights on".</p>
+      </Qna>
     </>
