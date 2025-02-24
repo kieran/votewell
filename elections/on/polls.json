@@ -159,7 +159,7 @@
     "riding": "Chatham-Kent—Leamington",
     "incumbent": "pcpo",
     "pcpo": 62,
-    "ndp": 23,
+    "ndp": 24,
     "onp": 6,
     "nbpo": 2,
     "gpo": 5,
@@ -251,7 +251,7 @@
     "incumbent": "pcpo",
     "pcpo": 55,
     "olp": 34,
-    "ndp": 5,
+    "ndp": 6,
     "gpo": 5,
     "nbpo": 1
   },
@@ -401,7 +401,7 @@
   {
     "riding": "Kenora—Rainy River",
     "incumbent": "pcpo",
-    "pcpo": 66,
+    "pcpo": 65,
     "ndp": 13,
     "olp": 15,
     "gpo": 5,
@@ -419,8 +419,8 @@
     "riding": "Kingston and the Islands",
     "incumbent": "olp",
     "olp": 40,
-    "ndp": 24,
-    "pcpo": 30,
+    "ndp": 25,
+    "pcpo": 31,
     "gpo": 4,
     "onp": 1
   },
@@ -479,7 +479,7 @@
     "ndp": 15,
     "olp": 17,
     "gpo": 8,
-    "onp": 1,
+    "onp": 2,
     "nbpo": 1
   },
   {
@@ -639,8 +639,8 @@
   {
     "riding": "Niagara Centre",
     "incumbent": "ndp",
-    "ndp": 34,
-    "pcpo": 41,
+    "ndp": 35,
+    "pcpo": 40,
     "olp": 17,
     "gpo": 6,
     "nbpo": 1,
@@ -670,7 +670,7 @@
     "riding": "Nickel Belt",
     "incumbent": "ndp",
     "ndp": 42,
-    "pcpo": 37,
+    "pcpo": 36,
     "olp": 13,
     "nbpo": 3,
     "gpo": 4
@@ -700,7 +700,7 @@
     "pcpo": 45,
     "olp": 40,
     "ndp": 5,
-    "gpo": 5,
+    "gpo": 6,
     "nbpo": 1
   },
   {
@@ -708,7 +708,7 @@
     "incumbent": "pcpo",
     "pcpo": 48,
     "olp": 39,
-    "ndp": 7,
+    "ndp": 8,
     "gpo": 5,
     "nbpo": 1
   },
@@ -940,13 +940,13 @@
     "incumbent": "ndp",
     "ndp": 38,
     "olp": 32,
-    "pcpo": 24,
+    "pcpo": 23,
     "gpo": 7
   },
   {
     "riding": "St. Catharines",
     "incumbent": "ndp",
-    "ndp": 33,
+    "ndp": 34,
     "pcpo": 37,
     "olp": 22,
     "gpo": 5,
@@ -1129,8 +1129,8 @@
   {
     "riding": "York South—Weston",
     "incumbent": "pcpo",
-    "pcpo": 45,
-    "ndp": 24,
+    "pcpo": 41,
+    "ndp": 27,
     "olp": 28,
     "gpo": 3,
     "nbpo": 0
