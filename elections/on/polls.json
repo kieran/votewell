@@ -139,7 +139,7 @@
   {
     "riding": "Cambridge",
     "incumbent": "pcpo",
-    "pcpo": 44,
+    "pcpo": 43,
     "ndp": 15,
     "olp": 26,
     "nbpo": 5,
@@ -222,8 +222,8 @@
   {
     "riding": "Eglinton—Lawrence",
     "incumbent": "pcpo",
-    "pcpo": 47,
-    "olp": 46,
+    "pcpo": 46,
+    "olp": 47,
     "gpo": 7
   },
   {
@@ -251,7 +251,7 @@
     "incumbent": "pcpo",
     "pcpo": 55,
     "olp": 34,
-    "ndp": 6,
+    "ndp": 5,
     "gpo": 5,
     "nbpo": 1
   },
@@ -391,9 +391,9 @@
   {
     "riding": "Kanata—Carleton",
     "incumbent": "pcpo",
-    "pcpo": 42,
+    "pcpo": 40,
     "ndp": 21,
-    "olp": 33,
+    "olp": 34,
     "gpo": 3,
     "nbpo": 1,
     "onp": 0
@@ -479,7 +479,7 @@
     "ndp": 15,
     "olp": 17,
     "gpo": 8,
-    "onp": 2,
+    "onp": 1,
     "nbpo": 1
   },
   {
@@ -566,9 +566,9 @@
   {
     "riding": "Mississauga East—Cooksville",
     "incumbent": "pcpo",
-    "pcpo": 42,
-    "olp": 42,
-    "ndp": 8,
+    "pcpo": 41,
+    "olp": 44,
+    "ndp": 7,
     "nbpo": 2,
     "gpo": 4,
     "onp": 1
@@ -576,7 +576,7 @@
   {
     "riding": "Mississauga—Erin Mills",
     "incumbent": "pcpo",
-    "pcpo": 43,
+    "pcpo": 42,
     "olp": 43,
     "ndp": 9,
     "gpo": 5,
@@ -687,7 +687,7 @@
   {
     "riding": "Northumberland—Peterborough South",
     "incumbent": "pcpo",
-    "pcpo": 54,
+    "pcpo": 55,
     "olp": 27,
     "ndp": 10,
     "gpo": 6,
@@ -697,10 +697,10 @@
   {
     "riding": "Oakville",
     "incumbent": "pcpo",
-    "pcpo": 45,
-    "olp": 40,
+    "pcpo": 44,
+    "olp": 42,
     "ndp": 5,
-    "gpo": 6,
+    "gpo": 4,
     "nbpo": 1
   },
   {
@@ -708,7 +708,7 @@
     "incumbent": "pcpo",
     "pcpo": 48,
     "olp": 39,
-    "ndp": 8,
+    "ndp": 7,
     "gpo": 5,
     "nbpo": 1
   },
@@ -802,7 +802,7 @@
     "pcpo": 54,
     "ndp": 15,
     "olp": 20,
-    "gpo": 8,
+    "gpo": 7,
     "nbpo": 3,
     "onp": 1
   },
@@ -886,7 +886,7 @@
     "riding": "Scarborough Southwest",
     "incumbent": "ndp",
     "ndp": 39,
-    "pcpo": 35,
+    "pcpo": 34,
     "olp": 22,
     "gpo": 4
   },
@@ -1011,7 +1011,7 @@
   {
     "riding": "Timmins",
     "incumbent": "pcpo",
-    "pcpo": 64,
+    "pcpo": 63,
     "ndp": 18,
     "nbpo": 1,
     "gpo": 2,
