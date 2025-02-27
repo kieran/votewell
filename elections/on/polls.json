@@ -61,7 +61,7 @@
     "olp": 40,
     "ndp": 23,
     "pcpo": 25,
-    "gpo": 11,
+    "gpo": 10,
     "nbpo": 0,
     "onp": 0
   },
@@ -70,7 +70,7 @@
     "incumbent": "pcpo",
     "pcpo": 45,
     "ndp": 20,
-    "olp": 29,
+    "olp": 30,
     "gpo": 4,
     "nbpo": 1
   },
@@ -143,7 +143,7 @@
     "ndp": 15,
     "olp": 26,
     "nbpo": 5,
-    "gpo": 11
+    "gpo": 10
   },
   {
     "riding": "Carleton",
@@ -162,7 +162,7 @@
     "ndp": 23,
     "onp": 6,
     "nbpo": 2,
-    "gpo": 5,
+    "gpo": 4,
     "olp": 2
   },
   {
@@ -194,7 +194,7 @@
   {
     "riding": "Don Valley West",
     "incumbent": "olp",
-    "olp": 44,
+    "olp": 45,
     "pcpo": 43,
     "ndp": 6,
     "gpo": 6,
@@ -231,20 +231,20 @@
     "incumbent": "pcpo",
     "pcpo": 57,
     "ndp": 12,
-    "olp": 21,
+    "olp": 22,
     "nbpo": 2,
-    "gpo": 6,
+    "gpo": 5,
     "onp": 1
   },
   {
     "riding": "Essex",
     "incumbent": "pcpo",
-    "pcpo": 61,
+    "pcpo": 62,
     "ndp": 20,
     "olp": 11,
     "onp": 3,
     "nbpo": 1,
-    "gpo": 3
+    "gpo": 2
   },
   {
     "riding": "Etobicoke Centre",
@@ -252,7 +252,7 @@
     "pcpo": 55,
     "olp": 34,
     "ndp": 5,
-    "gpo": 5,
+    "gpo": 4,
     "nbpo": 1
   },
   {
@@ -296,8 +296,8 @@
   {
     "riding": "Guelph",
     "incumbent": "gpo",
-    "gpo": 50,
-    "pcpo": 26,
+    "gpo": 49,
+    "pcpo": 27,
     "olp": 17,
     "ndp": 6,
     "nbpo": 1
@@ -347,7 +347,7 @@
     "incumbent": "ndp",
     "ndp": 36,
     "pcpo": 35,
-    "olp": 19,
+    "olp": 20,
     "gpo": 7,
     "nbpo": 1,
     "onp": 1
@@ -356,7 +356,7 @@
     "riding": "Hamilton West—Ancaster—Dundas",
     "incumbent": "ndp",
     "ndp": 34,
-    "pcpo": 36,
+    "pcpo": 35,
     "olp": 22,
     "gpo": 6,
     "nbpo": 1
@@ -404,7 +404,7 @@
     "pcpo": 66,
     "ndp": 13,
     "olp": 15,
-    "gpo": 5,
+    "gpo": 4,
     "nbpo": 1
   },
   {
@@ -418,7 +418,7 @@
   {
     "riding": "Kingston and the Islands",
     "incumbent": "olp",
-    "olp": 39,
+    "olp": 40,
     "ndp": 24,
     "pcpo": 31,
     "gpo": 4,
@@ -440,7 +440,7 @@
     "ndp": 21,
     "pcpo": 32,
     "olp": 11,
-    "gpo": 34,
+    "gpo": 33,
     "nbpo": 1,
     "onp": 1
   },
@@ -450,7 +450,7 @@
     "pcpo": 46,
     "ndp": 17,
     "olp": 20,
-    "gpo": 15,
+    "gpo": 14,
     "nbpo": 2
   },
   {
@@ -495,9 +495,9 @@
   {
     "riding": "London North Centre",
     "incumbent": "ndp",
-    "ndp": 36,
-    "pcpo": 33,
-    "olp": 23,
+    "ndp": 35,
+    "pcpo": 34,
+    "olp": 24,
     "gpo": 6,
     "nbpo": 1
   },
@@ -507,7 +507,7 @@
     "ndp": 41,
     "pcpo": 39,
     "olp": 13,
-    "gpo": 5,
+    "gpo": 4,
     "nbpo": 1
   },
   {
@@ -579,7 +579,7 @@
     "pcpo": 43,
     "olp": 43,
     "ndp": 9,
-    "gpo": 5,
+    "gpo": 4,
     "nbpo": 1
   },
   {
@@ -612,7 +612,7 @@
   {
     "riding": "Mushkegowuk—James Bay",
     "incumbent": "ndp",
-    "ndp": 40,
+    "ndp": 41,
     "pcpo": 41,
     "olp": 16,
     "gpo": 3
@@ -621,9 +621,9 @@
     "riding": "Nepean",
     "incumbent": "pcpo",
     "pcpo": 45,
-    "olp": 34,
+    "olp": 35,
     "ndp": 14,
-    "gpo": 5,
+    "gpo": 4,
     "nbpo": 1,
     "onp": 0
   },
@@ -639,8 +639,8 @@
   {
     "riding": "Niagara Centre",
     "incumbent": "ndp",
-    "ndp": 34,
-    "pcpo": 41,
+    "ndp": 35,
+    "pcpo": 40,
     "olp": 17,
     "gpo": 6,
     "nbpo": 1,
@@ -661,7 +661,7 @@
     "incumbent": "pcpo",
     "pcpo": 52,
     "ndp": 13,
-    "olp": 23,
+    "olp": 24,
     "gpo": 7,
     "onp": 2,
     "nbpo": 1
@@ -669,7 +669,7 @@
   {
     "riding": "Nickel Belt",
     "incumbent": "ndp",
-    "ndp": 42,
+    "ndp": 41,
     "pcpo": 37,
     "olp": 13,
     "nbpo": 3,
@@ -709,7 +709,7 @@
     "pcpo": 49,
     "olp": 39,
     "ndp": 7,
-    "gpo": 5,
+    "gpo": 4,
     "nbpo": 1
   },
   {
@@ -746,7 +746,7 @@
     "olp": 48,
     "ndp": 17,
     "pcpo": 29,
-    "gpo": 6,
+    "gpo": 5,
     "nbpo": 1
   },
   {
@@ -761,9 +761,9 @@
   {
     "riding": "Ottawa—Vanier",
     "incumbent": "olp",
-    "olp": 43,
+    "olp": 44,
     "ndp": 18,
-    "pcpo": 26,
+    "pcpo": 27,
     "gpo": 9,
     "nbpo": 0
   },
@@ -781,16 +781,16 @@
     "riding": "Parkdale—High Park",
     "incumbent": "ndp",
     "ndp": 45,
-    "olp": 26,
+    "olp": 27,
     "pcpo": 20,
-    "gpo": 8,
+    "gpo": 7,
     "nbpo": 1
   },
   {
     "riding": "Parry Sound—Muskoka",
     "incumbent": "pcpo",
     "pcpo": 48,
-    "gpo": 38,
+    "gpo": 39,
     "ndp": 5,
     "onp": 1,
     "nbpo": 0,
@@ -829,7 +829,7 @@
   {
     "riding": "Renfrew—Nipissing—Pembroke",
     "incumbent": "pcpo",
-    "pcpo": 68,
+    "pcpo": 69,
     "ndp": 12,
     "olp": 12,
     "nbpo": 2,
@@ -848,7 +848,7 @@
   {
     "riding": "Sarnia—Lambton",
     "incumbent": "pcpo",
-    "pcpo": 61,
+    "pcpo": 62,
     "ndp": 16,
     "olp": 13,
     "nbpo": 3,
@@ -862,14 +862,14 @@
     "ndp": 31,
     "olp": 13,
     "nbpo": 2,
-    "gpo": 4,
+    "gpo": 3,
     "onp": 1
   },
   {
     "riding": "Scarborough Centre",
     "incumbent": "pcpo",
     "pcpo": 45,
-    "olp": 32,
+    "olp": 33,
     "ndp": 17,
     "gpo": 3,
     "nbpo": 0
@@ -878,7 +878,7 @@
     "riding": "Scarborough North",
     "incumbent": "pcpo",
     "pcpo": 55,
-    "olp": 30,
+    "olp": 31,
     "ndp": 12,
     "gpo": 2
   },
@@ -903,8 +903,8 @@
   {
     "riding": "Scarborough—Guildwood",
     "incumbent": "olp",
-    "olp": 41,
-    "pcpo": 39,
+    "olp": 42,
+    "pcpo": 38,
     "ndp": 17,
     "gpo": 1,
     "nbpo": 1
@@ -920,7 +920,7 @@
   {
     "riding": "Simcoe North",
     "incumbent": "pcpo",
-    "pcpo": 55,
+    "pcpo": 56,
     "ndp": 13,
     "olp": 20,
     "gpo": 10,
@@ -946,8 +946,8 @@
   {
     "riding": "St. Catharines",
     "incumbent": "ndp",
-    "ndp": 33,
-    "pcpo": 38,
+    "ndp": 34,
+    "pcpo": 37,
     "olp": 22,
     "gpo": 5,
     "nbpo": 1,
@@ -976,9 +976,9 @@
     "riding": "Thornhill",
     "incumbent": "pcpo",
     "pcpo": 55,
-    "olp": 33,
+    "olp": 34,
     "ndp": 6,
-    "gpo": 4,
+    "gpo": 3,
     "nbpo": 1
   },
   {
@@ -993,7 +993,7 @@
   {
     "riding": "Thunder Bay—Superior North",
     "incumbent": "ndp",
-    "ndp": 32,
+    "ndp": 31,
     "pcpo": 33,
     "olp": 30,
     "gpo": 4,
@@ -1002,10 +1002,10 @@
   {
     "riding": "Timiskaming—Cochrane",
     "incumbent": "ndp",
-    "ndp": 38,
-    "pcpo": 41,
-    "olp": 9,
-    "gpo": 9,
+    "ndp": 39,
+    "pcpo": 40,
+    "olp": 10,
+    "gpo": 8,
     "nbpo": 3
   },
   {
@@ -1021,7 +1021,7 @@
     "riding": "Toronto Centre",
     "incumbent": "ndp",
     "ndp": 36,
-    "olp": 38,
+    "olp": 39,
     "pcpo": 17,
     "gpo": 6,
     "nbpo": 0
@@ -1029,7 +1029,7 @@
   {
     "riding": "Toronto—Danforth",
     "incumbent": "ndp",
-    "ndp": 46,
+    "ndp": 47,
     "olp": 27,
     "pcpo": 19,
     "gpo": 8,
@@ -1041,7 +1041,7 @@
     "ndp": 32,
     "olp": 34,
     "pcpo": 27,
-    "gpo": 7
+    "gpo": 6
   },
   {
     "riding": "University—Rosedale",
@@ -1049,7 +1049,7 @@
     "ndp": 30,
     "olp": 30,
     "pcpo": 23,
-    "gpo": 17,
+    "gpo": 16,
     "nbpo": 1
   },
   {
@@ -1074,7 +1074,7 @@
   {
     "riding": "Wellington—Halton Hills",
     "incumbent": "pcpo",
-    "pcpo": 55,
+    "pcpo": 56,
     "ndp": 10,
     "gpo": 14,
     "olp": 17,
@@ -1084,7 +1084,7 @@
   {
     "riding": "Whitby",
     "incumbent": "pcpo",
-    "pcpo": 52,
+    "pcpo": 53,
     "ndp": 16,
     "olp": 25,
     "gpo": 6,
