@@ -2,7 +2,7 @@
 SHELL = /bin/bash
 
 NODE_ENV ?= development
-ELECTION ?= on
+ELECTION ?= ca-2025
 PORT ?= 3000
 
 include .env.${NODE_ENV}
@@ -47,17 +47,10 @@ stop_mongo:
 seed_mongo:
 	mongo --host ${MONGO_URL} --eval "db.ridings.drop()"
 
-	# 	@cat ./elections/uk/ridings.geojson | \
-	# 	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.pcon15nm } } ]' | \
-	# 	mongoimport --db votewell -c ridings --jsonArray
-
-	@cat ./elections/ca/ridings.geojson | \
-	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ENNAME } } ]' | \
+	# property names differ by shapefile
+	@cat ./elections/${ELECTION}/ridings.geojson | \
+	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ED_NAMEE, nom: .properties.ED_NAMEF } } ]' | \
 	mongoimport --db votewell -c ridings --jsonArray
-
-	# 	@cat ./elections/bc/ridings.geojson | \
-	# 	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ED_NAME } } ]' | \
-	# 	mongoimport --db votewell -c ridings --jsonArray
 
 	mongo --host ${MONGO_URL} --eval 'db.ridings.createIndex({ geometry: "2dsphere" })'
 

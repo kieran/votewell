@@ -1,6 +1,8 @@
 import React        from 'react'
 import sortBy       from 'underscore-es/sortBy'
 import findIndex    from 'underscore-es/findIndex'
+import { parties, progressives, date } from "/election"
+
 import 'core-js/actual/array/to-sorted'
 
 import ReactSelect  from 'react-select'
@@ -38,9 +40,13 @@ export default \
 withTranslation() \
 class Application extends React.Component
   pollsFor: (riding)->
-    for poll in @props.polls
-      return poll if poll.riding is riding
-    console.log "couldn't match #{riding} with poll data"
+    try
+      {riding, incumbent, ...rest} = @props.polls.find (poll)-> poll.riding is riding
+      rest
+    catch
+      err = "couldn't match #{riding} with poll data"
+      Sentry?.captureMessage? err
+      console.log err
 
   selectRiding: (evt)=>
     if riding = evt?.target?.value or evt?.value
@@ -53,43 +59,42 @@ class Application extends React.Component
   setLang: (lang)=>
     @props.i18n.changeLanguage lang
 
-  pollDataFor: (riding)=>
-    polls = @pollsFor riding
-    (name: key, value: polls[key], party: party, incumbent: polls.incumbent is key for key, party of @props.parties when polls[key])
+
+  progressivesFor: (riding)=>
+    ret = progressives
+    # this is where we may override polling data
+    # e.g. when a candidate drops out, etc
+    # ret.push 'ind' if riding is 'Hamilton Centre'
+    ret
 
   bestOptionFor: (riding)=>
+    progs = @progressivesFor riding
+
     sorted = \
-      @pollDataFor riding
+      Object.values @pollsFor riding
       # prefer the incumbent in a tie
       .toSorted (a,b)-> +b.incumbent - +a.incumbent
       # prefer leading larty
-      .toSorted (a,b)-> b.value - a.value
+      .toSorted (a,b)-> b.proj - a.proj
 
-    # this is where we may override polling data
-    # e.g. when a candidate drops out, etc
-    for poll, idx in sorted
-      # Sarah Jama
-      sorted[idx].party.leans = 'left' if riding is 'Hamilton Centre' and poll.party.name is 'Independent'
-
-    leftists = (a for a in sorted when a.party.leans is 'left')
-    righties = (a for a in sorted when a.party.leans isnt 'left')
+    leftists = (a for a in sorted when a.name in progs)
+    righties = (a for a in sorted when a.name not in progs)
 
     # vote strategically iff the leading right party
     # has over 90% the support of the RMS of
     # the two leading leftist parties
-    left_weight  = rms top_2 (poll.value for poll in leftists)
-    right_weight = Math.max (poll.value for poll in righties)...
+    left_weight  = rms top_2 (poll.proj for poll in leftists)
+    right_weight = Math.max (poll.proj for poll in righties)...
     strategy_required = right_weight > 0.9 * left_weight
 
-    if strategy_required
-      # otherwise, choose the first leftist candidate
-      leftists[0]
-    else
-      # strategic vote not needed? vote for your preferred candidate
-      party: @props.parties['anyone']
+    # strategic vote not needed? vote for your preferred candidate
+    return 'anyone' unless strategy_required
+
+    # otherwise, choose the first leftist candidate
+    leftists[0].name
 
   electionPast: =>
-    (new Date).getTime() > (new Date @props.date).getTime() + 86400 * 1000
+    (new Date).getTime() > (new Date date).getTime() + 86400 * 1000
 
   render: ->
     { locating } = @props
@@ -188,7 +193,7 @@ class Application extends React.Component
     </div>
 
   reco: ->
-    { party } = @bestOptionFor @props.riding
+    party = parties[@bestOptionFor @props.riding]
     <div className="reco" key="reco">
       {@notices()}
       {if party.name is 'Anyone'
@@ -231,7 +236,7 @@ class Application extends React.Component
 
   chart: ->
     <div className="chart" key="chart">
-      <Chart data={@pollDataFor @props.riding}/>
+      <Chart data={@pollsFor @props.riding}/>
     </div>
 
   list: ->
@@ -247,11 +252,11 @@ class Application extends React.Component
           {for poll in @props.polls
             opt = @bestOptionFor poll.riding
             riding = poll.riding.replace /—/g,' / '
-            reco = opt?.party?.name or 'Anyone'
+            reco = parties[opt]
 
             <tr key={riding}>
               <td>{riding}</td>
-              <td className={"#{reco} #{opt.name}"}>{reco}</td>
+              <td className={"#{opt} #{reco?.name}"}>{reco?.name}</td>
             </tr>
           }
         </tbody>

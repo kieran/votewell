@@ -1,7 +1,6 @@
 import React        from "react"
 import { render }   from "react-dom"
 import axios        from 'axios'
-import throttle     from 'underscore-es/throttle'
 
 import './styles'
 import './election/locales'
@@ -9,14 +8,12 @@ import './election/locales'
 # provide GTM fallback
 window.gtag ?= -> window.dataLayer?.push arguments
 
-import { parties, date } from "/election"
-
 # routes
 import Application  from '/routes/application'
 
 do ->
   if dsn = process.env.SENTRY_DSN_FRONTEND
-    Sentry = await import('@sentry/browser')
+    window.Sentry = await import('@sentry/browser')
     Sentry.init { dsn, environment: process.env.NODE_ENV, allowUrls: [ /votewell\.(ca|co\.uk)/ ] }
 
   polls = await import('/election/polls.json')
@@ -77,8 +74,6 @@ do ->
     render: ->
       <Application
         polls={polls}
-        parties={parties}
-        date={date}
         riding={@state.riding}
         setRiding={@setRiding}
         locating={@state.locating}

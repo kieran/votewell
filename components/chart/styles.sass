@@ -19,13 +19,17 @@
     transition: all 0.3s ease-out
     &::before
       display: block
-      content: attr(data-percent)
+      content: attr(data-projection) "% ± " attr(data-moe) "%"
       position: relative
       width: 100%
       text-align: center
       line-height: 0
       font-weight: bold
       font-size: 1.2em
+      +phone
+        content: attr(data-projection) "%"
+
+
 
     @each $name, $color in $parties
       &.#{$name}

@@ -19,30 +19,31 @@ make dist
 
 ## Sources
 
-[Poll data (Ontario 2018)](http://www.calculatedpolitics.com/project/2018-ontario/)
-[Poll data (Canada 2019)](https://www.calculatedpolitics.com/project/2019-canada-election/)
+[Poll data](https://338canada.com)
 
-[Ward boundaries (Ontario 2018)](https://www.elections.on.ca/en/voting-in-ontario/electoral-districts/current-electoral-district-maps.html)
-[Ward boundaries (Canada 2019)](https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0)
+[Ward boundaries (Canada 2021)](https://open.canada.ca/data/en/dataset/47a0f098-7445-41bb-a147-41686b692887/resource/67002bb4-3934-49e6-aa37-0e57a6af12f9)
 
 
 ## Converting boundary Shapefiles to geoJson
 
 ### install `ogr2ogr` for coordinate conversion
 
-- download & install GDAL from https://www.kyngchaos.com/software/frameworks/
+- run a GDAL docker container
 ```bash
-echo 'export PATH=/Library/Frameworks/GDAL.framework/Programs:$PATH' >> ~/.bash_profile
-source ~/.bash_profile
+docker run -it ghcr.io/osgeo/gdal:ubuntu-small-latest
  ```
+
+### copy the shapefile directory into the container
 
 ### convert coordinates:
 ```bash
 cd data
-ogr2ogr -t_srs EPSG:4326 -f geoJSON -lco COORDINATE_PRECISION=7 ridings.json path/to/your_shapefile.shp
+ogr2ogr -t_srs EPSG:4326 -f geoJSON -lco COORDINATE_PRECISION=7 ridings.json your_shapefile.shp
 ```
 
-### simplify the shape (for faster lookups)
+import that geojson into mongo
+
+### if you want to simplify the shape (for faster lookups)
 - go to https://mapshaper.org/
 - upload `ridings.json`
 - simplify (6-12% is a good starting range)
