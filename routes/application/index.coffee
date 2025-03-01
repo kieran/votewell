@@ -11,12 +11,12 @@ import {
 } from 'react-i18next'
 
 import 'react-select/dist/react-select.css'
-import './styles'
+import './styles.sass'
 
 # components
 import Chart    from '/components/chart'
 import Qna      from '/components/qna'
-import Logo     from '/assets/votewell.anim.svg'
+import Logo     from 'jsx:/assets/votewell.anim.svg'
 
 import FacebookShareButton  from 'react-share/es/FacebookShareButton'
 import TwitterShareButton   from 'react-share/es/TwitterShareButton'
@@ -109,7 +109,7 @@ class Application extends React.Component
 
   header: ->
     <header key='header'>
-      <Logo/>
+      <Logo />
     </header>
 
   notice: (msg)->
@@ -150,7 +150,7 @@ class Application extends React.Component
   footer: ->
     <footer key='footer'>
       <div className="top">
-        <Logo/>
+        <Logo />
         {@share()}
       </div>
       <div className="bottom">

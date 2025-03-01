@@ -2,7 +2,7 @@ import React  from "react"
 import cx     from "classnames"
 import { parties, progressives, cons } from "/election"
 
-import './styles'
+import './styles.sass'
 
 chart_order = Array.from new Set [cons..., progressives..., Object.keys(parties)...]
 

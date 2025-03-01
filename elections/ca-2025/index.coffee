@@ -1,4 +1,9 @@
-import images from './*.png'
+# import images from './*.png'
+
+`const lpc = new URL('./lpc.png', import.meta.url);`
+`const ndp = new URL('./ndp.png', import.meta.url);`
+`const gpc = new URL('./gpc.png', import.meta.url);`
+`const bq = new URL('./bq.png', import.meta.url);`
 
 export date = '2025-10-20'
 
@@ -9,22 +14,21 @@ export parties =
   cpc:
     name: "Conservative Party"
     leans: 'right'
-    img: images.pcp
 
   lpc:
     name: "Liberal Party"
     leans: 'left'
-    img: images.lpc
+    img: lpc
 
   ndp:
     name: "NDP"
     leans: 'left'
-    img: images.ndp
+    img: ndp
 
   gpc:
     name: "Green Party"
     leans: 'left'
-    img: images.gpc
+    img: gpc
 
   # other / independent
   ppc:
@@ -32,7 +36,7 @@ export parties =
 
   bq:
     name: "Bloc Québécois"
-    img: images.bq
+    img: bq
 
   ind:
     name: "Independent"

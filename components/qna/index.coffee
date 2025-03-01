@@ -1,7 +1,7 @@
 import React  from "react"
 import cx     from "classnames"
 
-import './styles'
+import './styles.sass'
 
 export default \
 class Qna extends React.Component

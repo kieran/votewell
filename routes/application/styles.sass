@@ -17,7 +17,7 @@
     transition: all 0.33s ease-in-out
     box-shadow: inset 0 -1px 1px 0 $border
 
-    svg
+    .svg, svg
       display: inline
       height: 1em
 
@@ -182,7 +182,7 @@
 
     background: $dark
     color: $light
-    a, svg
+    a, .svg, svg
       opacity: 0.5
       transition: all 0.15s
       &:hover
@@ -202,7 +202,7 @@
       +phone
         min-height: 80px
 
-      > svg
+      > .svg, > svg
         height: 25px
         opacity: 1
         +phone
@@ -215,7 +215,7 @@
           cursor: pointer
           &:hover
             color: $light
-          svg
+          .svg, svg
             height: 24px
             width: 24px
             margin: 0 58px 0 0
@@ -225,7 +225,7 @@
               margin: 8px
 
           &:last-of-type
-            svg
+            .svg, svg
               margin-right: 0
 
     .bottom
