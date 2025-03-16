@@ -8373,18 +8373,18 @@
     "riding": "Calgary East",
     "cpc": {
       "name": "cpc",
-      "proj": 56,
+      "proj": 52,
       "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 23,
+      "proj": 28,
       "moe": 7
     },
     "ndp": {
       "name": "ndp",
-      "proj": 15,
+      "proj": 13,
       "moe": 5
     },
     "gpc": {
