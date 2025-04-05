@@ -34,7 +34,7 @@ class Faq extends React.Component
         </blockquote>
         <p>
           Riding boundaries are published by{' '}
-          <a href="https://open.canada.ca/data/en/dataset/737be5ea-27cf-48a3-91d6-e835f11834b0">
+          <a href="https://open.canada.ca/data/en/dataset/47a0f098-7445-41bb-a147-41686b692887/resource/67002bb4-3934-49e6-aa37-0e57a6af12f9">
             Elections Canada
           </a>
         </p>
