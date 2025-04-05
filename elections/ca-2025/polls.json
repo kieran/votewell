@@ -9638,7 +9638,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 31,
+      "proj": 30,
       "moe": 7,
       "incumbent": true
     },
@@ -9677,13 +9677,13 @@
       "proj": 4,
       "moe": 3
     },
-    "ppc": {
-      "name": "ppc",
+    "gpc": {
+      "name": "gpc",
       "proj": 1,
       "moe": 1
     },
-    "gpc": {
-      "name": "gpc",
+    "ppc": {
+      "name": "ppc",
       "proj": 1,
       "moe": 1
     },
@@ -9693,7 +9693,7 @@
     "riding": "Kamloops—Shuswap—Central Rockies",
     "cpc": {
       "name": "cpc",
-      "proj": 50,
+      "proj": 51,
       "moe": 8,
       "incumbent": true
     },
@@ -9753,7 +9753,7 @@
     "riding": "Kelowna",
     "cpc": {
       "name": "cpc",
-      "proj": 45,
+      "proj": 46,
       "moe": 8,
       "incumbent": true
     },
@@ -9835,7 +9835,7 @@
     "ppc": {
       "name": "ppc",
       "proj": 2,
-      "moe": 3
+      "moe": 2
     },
     "incumbent": "cpc"
   },
@@ -9963,7 +9963,7 @@
     "riding": "Okanagan Lake West—South Kelowna",
     "cpc": {
       "name": "cpc",
-      "proj": 49,
+      "proj": 50,
       "moe": 8,
       "incumbent": true
     },
@@ -9993,7 +9993,7 @@
     "riding": "Pitt Meadows—Maple Ridge",
     "cpc": {
       "name": "cpc",
-      "proj": 45,
+      "proj": 46,
       "moe": 8,
       "incumbent": true
     },
@@ -10040,7 +10040,7 @@
     "ppc": {
       "name": "ppc",
       "proj": 1,
-      "moe": 2
+      "moe": 1
     },
     "gpc": {
       "name": "gpc",
@@ -10053,7 +10053,7 @@
     "riding": "Prince George—Peace River—Northern Rockies",
     "cpc": {
       "name": "cpc",
-      "proj": 63,
+      "proj": 64,
       "moe": 8,
       "incumbent": true
     },
@@ -10113,13 +10113,13 @@
     "riding": "Richmond East—Steveston",
     "lpc": {
       "name": "lpc",
-      "proj": 60,
+      "proj": 59,
       "moe": 8,
       "incumbent": true
     },
     "cpc": {
       "name": "cpc",
-      "proj": 34,
+      "proj": 35,
       "moe": 8
     },
     "ndp": {
@@ -10214,7 +10214,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 20,
+      "proj": 19,
       "moe": 6
     },
     "gpc": {
@@ -10244,7 +10244,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 5,
+      "proj": 4,
       "moe": 3
     },
     "ppc": {
@@ -10264,12 +10264,12 @@
     "lpc": {
       "name": "lpc",
       "proj": 63,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
       "name": "cpc",
-      "proj": 26,
+      "proj": 27,
       "moe": 8
     },
     "ndp": {
@@ -10285,7 +10285,7 @@
     "gpc": {
       "name": "gpc",
       "proj": 1,
-      "moe": 2
+      "moe": 1
     },
     "incumbent": "lpc"
   },
@@ -10323,7 +10323,7 @@
     "riding": "Vancouver Centre",
     "lpc": {
       "name": "lpc",
-      "proj": 64,
+      "proj": 63,
       "moe": 8,
       "incumbent": true
     },
@@ -10443,7 +10443,7 @@
     "riding": "Vancouver Kingsway",
     "lpc": {
       "name": "lpc",
-      "proj": 46,
+      "proj": 45,
       "moe": 8
     },
     "ndp": {
@@ -10480,7 +10480,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 30,
-      "moe": 7
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -10538,7 +10538,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 32,
+      "proj": 31,
       "moe": 7,
       "incumbent": true
     },
@@ -10569,7 +10569,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 33,
+      "proj": 34,
       "moe": 8
     },
     "ndp": {
