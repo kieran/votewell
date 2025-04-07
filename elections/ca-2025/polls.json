@@ -8913,13 +8913,13 @@
     "riding": "Fort McMurray—Cold Lake",
     "cpc": {
       "name": "cpc",
-      "proj": 70,
+      "proj": 74,
       "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 16,
+      "proj": 17,
       "moe": 6
     },
     "ndp": {
