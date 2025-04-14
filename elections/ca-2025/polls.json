@@ -63,12 +63,12 @@
     "riding": "Central Newfoundland",
     "lpc": {
       "name": "lpc",
-      "proj": 50,
+      "proj": 49,
       "moe": 9
     },
     "cpc": {
       "name": "cpc",
-      "proj": 46,
+      "proj": 47,
       "moe": 9,
       "incumbent": true
     },
@@ -189,7 +189,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 4,
+      "proj": 5,
       "moe": 4
     },
     "ppc": {
@@ -305,7 +305,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 35,
-      "moe": 9
+      "moe": 10
     },
     "gpc": {
       "name": "gpc",
@@ -328,7 +328,7 @@
     "riding": "Acadie—Annapolis",
     "cpc": {
       "name": "cpc",
-      "proj": 48,
+      "proj": 49,
       "moe": 9,
       "incumbent": true
     },
@@ -448,7 +448,7 @@
     "riding": "Dartmouth—Cole Harbour",
     "lpc": {
       "name": "lpc",
-      "proj": 62,
+      "proj": 61,
       "moe": 8,
       "incumbent": true
     },
@@ -519,7 +519,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 11,
+      "proj": 12,
       "moe": 5
     },
     "gpc": {
@@ -579,7 +579,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 10,
+      "proj": 11,
       "moe": 5
     },
     "ppc": {
@@ -739,7 +739,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 1,
+      "proj": 0,
       "moe": 1
     },
     "incumbent": "lpc"
@@ -874,7 +874,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 40,
+      "proj": 39,
       "moe": 9
     },
     "ndp": {
@@ -904,7 +904,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 43,
+      "proj": 42,
       "moe": 9
     },
     "ndp": {
@@ -928,7 +928,7 @@
     "riding": "Tobique—Mactaquac",
     "cpc": {
       "name": "cpc",
-      "proj": 52,
+      "proj": 53,
       "moe": 9,
       "incumbent": true
     },
@@ -999,7 +999,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 31,
+      "proj": 30,
       "moe": 7
     },
     "cpc": {
@@ -1035,7 +1035,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 16,
-      "moe": 6
+      "moe": 5
     },
     "bq": {
       "name": "bq",
@@ -1044,7 +1044,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 6,
+      "proj": 7,
       "moe": 4
     },
     "gpc": {
@@ -1067,13 +1067,13 @@
       "moe": 8,
       "incumbent": true
     },
-    "bq": {
-      "name": "bq",
+    "cpc": {
+      "name": "cpc",
       "proj": 18,
       "moe": 5
     },
-    "cpc": {
-      "name": "cpc",
+    "bq": {
+      "name": "bq",
       "proj": 18,
       "moe": 5
     },
@@ -1098,7 +1098,7 @@
     "riding": "Argenteuil—La Petite-Nation",
     "lpc": {
       "name": "lpc",
-      "proj": 54,
+      "proj": 53,
       "moe": 8,
       "incumbent": true
     },
@@ -1133,7 +1133,7 @@
     "riding": "Beauce",
     "cpc": {
       "name": "cpc",
-      "proj": 63,
+      "proj": 64,
       "moe": 9,
       "incumbent": true
     },
@@ -1242,13 +1242,13 @@
       "moe": 7,
       "incumbent": true
     },
-    "lpc": {
-      "name": "lpc",
+    "cpc": {
+      "name": "cpc",
       "proj": 24,
       "moe": 6
     },
-    "cpc": {
-      "name": "cpc",
+    "lpc": {
+      "name": "lpc",
       "proj": 24,
       "moe": 6
     },
@@ -1273,7 +1273,7 @@
     "riding": "Bellechasse—Les Etchemins—Lévis",
     "cpc": {
       "name": "cpc",
-      "proj": 61,
+      "proj": 62,
       "moe": 8,
       "incumbent": true
     },
@@ -1284,7 +1284,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 15,
+      "proj": 14,
       "moe": 5
     },
     "ndp": {
@@ -1314,7 +1314,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 37,
+      "proj": 36,
       "moe": 7
     },
     "cpc": {
@@ -1325,7 +1325,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 5,
-      "moe": 3
+      "moe": 4
     },
     "ppc": {
       "name": "ppc",
@@ -1343,7 +1343,7 @@
     "riding": "Berthier—Maskinongé",
     "bq": {
       "name": "bq",
-      "proj": 28,
+      "proj": 29,
       "moe": 6,
       "incumbent": true
     },
@@ -1413,7 +1413,7 @@
     "riding": "Brome—Missisquoi",
     "lpc": {
       "name": "lpc",
-      "proj": 47,
+      "proj": 46,
       "moe": 8,
       "incumbent": true
     },
@@ -1454,7 +1454,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 17,
+      "proj": 18,
       "moe": 5
     },
     "bq": {
@@ -1464,7 +1464,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 5,
+      "proj": 6,
       "moe": 4
     },
     "ppc": {
@@ -1483,13 +1483,13 @@
     "riding": "Charlesbourg—Haute-Saint-Charles",
     "cpc": {
       "name": "cpc",
-      "proj": 56,
+      "proj": 57,
       "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 23,
+      "proj": 22,
       "moe": 6
     },
     "bq": {
@@ -1518,13 +1518,13 @@
     "riding": "Châteauguay—Les Jardins-de-Napierville",
     "lpc": {
       "name": "lpc",
-      "proj": 48,
+      "proj": 47,
       "moe": 8
     },
     "bq": {
       "name": "bq",
-      "proj": 28,
-      "moe": 6,
+      "proj": 29,
+      "moe": 7,
       "incumbent": true
     },
     "cpc": {
@@ -1553,7 +1553,7 @@
     "riding": "Chicoutimi—Le Fjord",
     "cpc": {
       "name": "cpc",
-      "proj": 40,
+      "proj": 41,
       "moe": 8,
       "incumbent": true
     },
@@ -1588,7 +1588,7 @@
     "riding": "Compton—Stanstead",
     "lpc": {
       "name": "lpc",
-      "proj": 50,
+      "proj": 49,
       "moe": 8,
       "incumbent": true
     },
@@ -1634,7 +1634,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 18,
+      "proj": 17,
       "moe": 5
     },
     "ndp": {
@@ -1664,13 +1664,13 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 32,
+      "proj": 33,
       "moe": 8
     },
     "lpc": {
       "name": "lpc",
       "proj": 22,
-      "moe": 7
+      "moe": 6
     },
     "ndp": {
       "name": "ndp",
@@ -1734,7 +1734,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 29,
+      "proj": 30,
       "moe": 7
     },
     "lpc": {
@@ -1763,7 +1763,7 @@
     "riding": "Gaspésie—Les Îles-de-la-Madeleine—Listuguj",
     "lpc": {
       "name": "lpc",
-      "proj": 47,
+      "proj": 46,
       "moe": 8
     },
     "bq": {
@@ -1802,13 +1802,13 @@
       "moe": 8,
       "incumbent": true
     },
-    "bq": {
-      "name": "bq",
+    "cpc": {
+      "name": "cpc",
       "proj": 14,
       "moe": 5
     },
-    "cpc": {
-      "name": "cpc",
+    "bq": {
+      "name": "bq",
       "proj": 14,
       "moe": 5
     },
@@ -1874,7 +1874,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 16,
+      "proj": 17,
       "moe": 5
     },
     "bq": {
@@ -1884,7 +1884,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 4,
+      "proj": 5,
       "moe": 3
     },
     "ppc": {
@@ -1909,7 +1909,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 14,
+      "proj": 15,
       "moe": 5
     },
     "bq": {
@@ -1938,13 +1938,13 @@
     "riding": "Joliette—Manawan",
     "bq": {
       "name": "bq",
-      "proj": 46,
+      "proj": 47,
       "moe": 7,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 34,
+      "proj": 33,
       "moe": 7
     },
     "cpc": {
@@ -1959,7 +1959,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 2,
+      "proj": 3,
       "moe": 2
     },
     "ppc": {
@@ -1984,7 +1984,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 27,
+      "proj": 26,
       "moe": 7
     },
     "ndp": {
@@ -2006,20 +2006,20 @@
   },
   {
     "riding": "La Pointe-de-l’Île",
+    "bq": {
+      "name": "bq",
+      "proj": 40,
+      "moe": 7,
+      "incumbent": true
+    },
     "lpc": {
       "name": "lpc",
       "proj": 39,
       "moe": 8
     },
-    "bq": {
-      "name": "bq",
-      "proj": 39,
-      "moe": 7,
-      "incumbent": true
-    },
     "cpc": {
       "name": "cpc",
-      "proj": 11,
+      "proj": 12,
       "moe": 4
     },
     "ndp": {
@@ -2079,7 +2079,7 @@
     "bq": {
       "name": "bq",
       "proj": 38,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -2119,7 +2119,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 23,
+      "proj": 24,
       "moe": 6
     },
     "ndp": {
@@ -2189,7 +2189,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 37,
+      "proj": 36,
       "moe": 8
     },
     "cpc": {
@@ -2218,7 +2218,7 @@
     "riding": "Laurier—Sainte-Marie",
     "lpc": {
       "name": "lpc",
-      "proj": 59,
+      "proj": 58,
       "moe": 8,
       "incumbent": true
     },
@@ -2229,13 +2229,13 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 14,
+      "proj": 13,
       "moe": 5
     },
     "cpc": {
       "name": "cpc",
       "proj": 6,
-      "moe": 4
+      "moe": 3
     },
     "gpc": {
       "name": "gpc",
@@ -2253,7 +2253,7 @@
     "riding": "Laval—Les Îles",
     "lpc": {
       "name": "lpc",
-      "proj": 59,
+      "proj": 58,
       "moe": 8,
       "incumbent": true
     },
@@ -2288,7 +2288,7 @@
     "riding": "Les Pays-d’en-Haut",
     "lpc": {
       "name": "lpc",
-      "proj": 39,
+      "proj": 38,
       "moe": 8
     },
     "bq": {
@@ -2323,7 +2323,7 @@
     "riding": "Lévis—Lotbinière",
     "cpc": {
       "name": "cpc",
-      "proj": 58,
+      "proj": 59,
       "moe": 8,
       "incumbent": true
     },
@@ -2335,7 +2335,7 @@
     "bq": {
       "name": "bq",
       "proj": 13,
-      "moe": 5
+      "moe": 4
     },
     "ndp": {
       "name": "ndp",
@@ -2398,7 +2398,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 37,
+      "proj": 38,
       "moe": 7,
       "incumbent": true
     },
@@ -2409,7 +2409,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 5,
+      "proj": 6,
       "moe": 4
     },
     "gpc": {
@@ -2439,7 +2439,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 16,
+      "proj": 15,
       "moe": 5
     },
     "ndp": {
@@ -2463,7 +2463,7 @@
     "riding": "Louis-Saint-Laurent—Akiawenhrahk",
     "cpc": {
       "name": "cpc",
-      "proj": 60,
+      "proj": 61,
       "moe": 8,
       "incumbent": true
     },
@@ -2475,12 +2475,12 @@
     "bq": {
       "name": "bq",
       "proj": 13,
-      "moe": 5
+      "moe": 4
     },
     "ndp": {
       "name": "ndp",
       "proj": 3,
-      "moe": 2
+      "moe": 3
     },
     "ppc": {
       "name": "ppc",
@@ -2533,19 +2533,19 @@
     "riding": "Mégantic—L’Érable—Lotbinière",
     "cpc": {
       "name": "cpc",
-      "proj": 63,
+      "proj": 64,
       "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 18,
+      "proj": 17,
       "moe": 5
     },
     "bq": {
       "name": "bq",
-      "proj": 13,
-      "moe": 5
+      "proj": 12,
+      "moe": 4
     },
     "ndp": {
       "name": "ndp",
@@ -2568,13 +2568,13 @@
     "riding": "Mirabel",
     "bq": {
       "name": "bq",
-      "proj": 39,
+      "proj": 40,
       "moe": 7,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 33,
+      "proj": 32,
       "moe": 7
     },
     "cpc": {
@@ -2638,7 +2638,7 @@
     "riding": "Mont-Saint-Bruno—L’Acadie",
     "lpc": {
       "name": "lpc",
-      "proj": 47,
+      "proj": 46,
       "moe": 8
     },
     "bq": {
@@ -2719,7 +2719,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 24,
+      "proj": 23,
       "moe": 6
     },
     "ndp": {
@@ -2749,12 +2749,12 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 17,
+      "proj": 18,
       "moe": 5
     },
     "ndp": {
       "name": "ndp",
-      "proj": 9,
+      "proj": 10,
       "moe": 5
     },
     "gpc": {
@@ -2784,7 +2784,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 12,
+      "proj": 13,
       "moe": 5
     },
     "cpc": {
@@ -2792,15 +2792,15 @@
       "proj": 10,
       "moe": 5
     },
+    "gpc": {
+      "name": "gpc",
+      "proj": 10,
+      "moe": 6
+    },
     "bq": {
       "name": "bq",
       "proj": 9,
       "moe": 4
-    },
-    "gpc": {
-      "name": "gpc",
-      "proj": 9,
-      "moe": 5
     },
     "ppc": {
       "name": "ppc",
@@ -2824,7 +2824,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 12,
+      "proj": 11,
       "moe": 4
     },
     "cpc": {
@@ -2848,13 +2848,13 @@
     "riding": "Pierre-Boucher—Les Patriotes—Verchères",
     "bq": {
       "name": "bq",
-      "proj": 39,
+      "proj": 40,
       "moe": 7,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 39,
+      "proj": 38,
       "moe": 8
     },
     "cpc": {
@@ -2889,13 +2889,13 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 25,
+      "proj": 26,
       "moe": 7
     },
     "ndp": {
       "name": "ndp",
       "proj": 6,
-      "moe": 3
+      "moe": 4
     },
     "bq": {
       "name": "bq",
@@ -2918,7 +2918,7 @@
     "riding": "Pontiac—Kitigan Zibi",
     "lpc": {
       "name": "lpc",
-      "proj": 57,
+      "proj": 56,
       "moe": 8,
       "incumbent": true
     },
@@ -2964,7 +2964,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 15,
+      "proj": 14,
       "moe": 5
     },
     "ndp": {
@@ -2972,13 +2972,13 @@
       "proj": 3,
       "moe": 2
     },
-    "ppc": {
-      "name": "ppc",
+    "gpc": {
+      "name": "gpc",
       "proj": 2,
       "moe": 2
     },
-    "gpc": {
-      "name": "gpc",
+    "ppc": {
+      "name": "ppc",
       "proj": 2,
       "moe": 2
     },
@@ -2989,18 +2989,18 @@
     "lpc": {
       "name": "lpc",
       "proj": 51,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "bq": {
       "name": "bq",
-      "proj": 36,
+      "proj": 35,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 6,
-      "moe": 3
+      "proj": 7,
+      "moe": 4
     },
     "ppc": {
       "name": "ppc",
@@ -3023,7 +3023,7 @@
     "riding": "Repentigny",
     "lpc": {
       "name": "lpc",
-      "proj": 42,
+      "proj": 41,
       "moe": 8
     },
     "bq": {
@@ -3058,18 +3058,18 @@
     "riding": "Richmond—Arthabaska",
     "cpc": {
       "name": "cpc",
-      "proj": 54,
+      "proj": 55,
       "moe": 8,
       "incumbent": true
     },
     "bq": {
       "name": "bq",
-      "proj": 21,
-      "moe": 6
+      "proj": 20,
+      "moe": 5
     },
     "lpc": {
       "name": "lpc",
-      "proj": 18,
+      "proj": 17,
       "moe": 5
     },
     "ndp": {
@@ -3093,13 +3093,13 @@
     "riding": "Rimouski—La Matapédia",
     "bq": {
       "name": "bq",
-      "proj": 41,
+      "proj": 42,
       "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 35,
+      "proj": 34,
       "moe": 7
     },
     "cpc": {
@@ -3128,7 +3128,7 @@
     "riding": "Rivière-des-Milles-Îles",
     "lpc": {
       "name": "lpc",
-      "proj": 44,
+      "proj": 43,
       "moe": 8
     },
     "bq": {
@@ -3155,7 +3155,7 @@
     "ppc": {
       "name": "ppc",
       "proj": 2,
-      "moe": 2
+      "moe": 3
     },
     "incumbent": "bq"
   },
@@ -3164,7 +3164,7 @@
     "bq": {
       "name": "bq",
       "proj": 42,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "lpc": {
@@ -3199,7 +3199,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 47,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "lpc": {
@@ -3344,18 +3344,18 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 16,
+      "proj": 17,
       "moe": 6
-    },
-    "bq": {
-      "name": "bq",
-      "proj": 5,
-      "moe": 3
     },
     "ndp": {
       "name": "ndp",
       "proj": 5,
       "moe": 4
+    },
+    "bq": {
+      "name": "bq",
+      "proj": 5,
+      "moe": 3
     },
     "ppc": {
       "name": "ppc",
@@ -3373,7 +3373,7 @@
     "riding": "Saint-Maurice—Champlain",
     "lpc": {
       "name": "lpc",
-      "proj": 55,
+      "proj": 54,
       "moe": 8,
       "incumbent": true
     },
@@ -3384,7 +3384,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 18,
+      "proj": 17,
       "moe": 5
     },
     "ndp": {
@@ -3413,7 +3413,7 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 33,
+      "proj": 34,
       "moe": 7,
       "incumbent": true
     },
@@ -3460,7 +3460,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 7,
-      "moe": 3
+      "moe": 4
     },
     "gpc": {
       "name": "gpc",
@@ -3476,16 +3476,16 @@
   },
   {
     "riding": "Terrebonne",
-    "lpc": {
-      "name": "lpc",
-      "proj": 39,
-      "moe": 8
-    },
     "bq": {
       "name": "bq",
       "proj": 39,
       "moe": 7,
       "incumbent": true
+    },
+    "lpc": {
+      "name": "lpc",
+      "proj": 39,
+      "moe": 8
     },
     "cpc": {
       "name": "cpc",
@@ -3553,14 +3553,14 @@
     },
     "bq": {
       "name": "bq",
-      "proj": 30,
+      "proj": 31,
       "moe": 6,
       "incumbent": true
     },
     "cpc": {
       "name": "cpc",
       "proj": 27,
-      "moe": 6
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -3618,7 +3618,7 @@
     "riding": "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs",
     "lpc": {
       "name": "lpc",
-      "proj": 64,
+      "proj": 63,
       "moe": 8,
       "incumbent": true
     },
@@ -3630,7 +3630,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 8,
-      "moe": 4
+      "moe": 5
     },
     "bq": {
       "name": "bq",
@@ -3659,7 +3659,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 18,
+      "proj": 19,
       "moe": 6
     },
     "bq": {
@@ -3718,7 +3718,7 @@
     "riding": "Algonquin—Renfrew—Pembroke",
     "cpc": {
       "name": "cpc",
-      "proj": 58,
+      "proj": 59,
       "moe": 8,
       "incumbent": true
     },
@@ -3729,7 +3729,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 8,
+      "proj": 9,
       "moe": 4
     },
     "gpc": {
@@ -3755,7 +3755,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 43,
-      "moe": 9
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -3789,7 +3789,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 6,
+      "proj": 7,
       "moe": 4
     },
     "ppc": {
@@ -3838,13 +3838,13 @@
     "riding": "Bay of Quinte",
     "cpc": {
       "name": "cpc",
-      "proj": 47,
+      "proj": 48,
       "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 45,
+      "proj": 44,
       "moe": 8
     },
     "ndp": {
@@ -3869,7 +3869,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 68,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -3898,7 +3898,7 @@
     "riding": "Bowmanville—Oshawa North",
     "cpc": {
       "name": "cpc",
-      "proj": 46,
+      "proj": 47,
       "moe": 8,
       "incumbent": true
     },
@@ -3928,7 +3928,7 @@
     "riding": "Brampton Centre",
     "lpc": {
       "name": "lpc",
-      "proj": 53,
+      "proj": 52,
       "moe": 9,
       "incumbent": true
     },
@@ -4138,7 +4138,7 @@
     "riding": "Bruce—Grey—Owen Sound",
     "cpc": {
       "name": "cpc",
-      "proj": 56,
+      "proj": 57,
       "moe": 8,
       "incumbent": true
     },
@@ -4198,7 +4198,7 @@
     "riding": "Burlington North—Milton West",
     "lpc": {
       "name": "lpc",
-      "proj": 55,
+      "proj": 54,
       "moe": 8,
       "incumbent": true
     },
@@ -4245,7 +4245,7 @@
     "gpc": {
       "name": "gpc",
       "proj": 3,
-      "moe": 2
+      "moe": 3
     },
     "ppc": {
       "name": "ppc",
@@ -4264,7 +4264,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 41,
+      "proj": 40,
       "moe": 8
     },
     "ndp": {
@@ -4349,7 +4349,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 58,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -4414,7 +4414,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 37,
+      "proj": 36,
       "moe": 8
     },
     "ndp": {
@@ -4489,7 +4489,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 2,
+      "proj": 3,
       "moe": 2
     },
     "incumbent": "cpc"
@@ -4678,24 +4678,24 @@
     "riding": "Haldimand—Norfolk",
     "cpc": {
       "name": "cpc",
-      "proj": 52,
-      "moe": 9,
+      "proj": 51,
+      "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
       "proj": 34,
-      "moe": 8
+      "moe": 7
+    },
+    "ppc": {
+      "name": "ppc",
+      "proj": 6,
+      "moe": 5
     },
     "ndp": {
       "name": "ndp",
       "proj": 6,
       "moe": 4
-    },
-    "ppc": {
-      "name": "ppc",
-      "proj": 5,
-      "moe": 6
     },
     "gpc": {
       "name": "gpc",
@@ -4754,7 +4754,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 2,
+      "proj": 3,
       "moe": 2
     },
     "ppc": {
@@ -4809,7 +4809,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 14,
+      "proj": 15,
       "moe": 5
     },
     "ppc": {
@@ -4978,12 +4978,12 @@
     "riding": "Kapuskasing—Timmins—Mushkegowuk",
     "lpc": {
       "name": "lpc",
-      "proj": 37,
+      "proj": 36,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 30,
+      "proj": 31,
       "moe": 8,
       "incumbent": true
     },
@@ -5074,7 +5074,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 46,
+      "proj": 45,
       "moe": 9
     },
     "ndp": {
@@ -5128,7 +5128,7 @@
     "riding": "Kitchener—Conestoga",
     "lpc": {
       "name": "lpc",
-      "proj": 51,
+      "proj": 50,
       "moe": 8,
       "incumbent": true
     },
@@ -5276,16 +5276,16 @@
   },
   {
     "riding": "London—Fanshawe",
-    "lpc": {
-      "name": "lpc",
-      "proj": 35,
-      "moe": 8
-    },
     "ndp": {
       "name": "ndp",
       "proj": 34,
       "moe": 8,
       "incumbent": true
+    },
+    "lpc": {
+      "name": "lpc",
+      "proj": 34,
+      "moe": 8
     },
     "cpc": {
       "name": "cpc",
@@ -5294,8 +5294,8 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 3,
-      "moe": 4
+      "proj": 4,
+      "moe": 5
     },
     "gpc": {
       "name": "gpc",
@@ -5479,7 +5479,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "incumbent": "lpc"
@@ -5502,13 +5502,13 @@
       "proj": 4,
       "moe": 3
     },
-    "ppc": {
-      "name": "ppc",
+    "gpc": {
+      "name": "gpc",
       "proj": 1,
       "moe": 2
     },
-    "gpc": {
-      "name": "gpc",
+    "ppc": {
+      "name": "ppc",
       "proj": 1,
       "moe": 2
     },
@@ -5650,7 +5650,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 6,
-      "moe": 4
+      "moe": 3
     },
     "gpc": {
       "name": "gpc",
@@ -5699,7 +5699,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 54,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -5818,7 +5818,7 @@
     "riding": "Niagara West",
     "cpc": {
       "name": "cpc",
-      "proj": 47,
+      "proj": 48,
       "moe": 8,
       "incumbent": true
     },
@@ -5938,8 +5938,8 @@
     "riding": "Oakville West",
     "lpc": {
       "name": "lpc",
-      "proj": 53,
-      "moe": 8,
+      "proj": 52,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -5979,7 +5979,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 5,
+      "proj": 6,
       "moe": 4
     },
     "gpc": {
@@ -6170,7 +6170,7 @@
     "gpc": {
       "name": "gpc",
       "proj": 3,
-      "moe": 2
+      "moe": 3
     },
     "incumbent": "cpc"
   },
@@ -6243,7 +6243,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 42,
+      "proj": 43,
       "moe": 8,
       "incumbent": true
     },
@@ -6255,7 +6255,7 @@
     "ppc": {
       "name": "ppc",
       "proj": 2,
-      "moe": 2
+      "moe": 3
     },
     "gpc": {
       "name": "gpc",
@@ -6280,7 +6280,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 5,
-      "moe": 3
+      "moe": 4
     },
     "ppc": {
       "name": "ppc",
@@ -6315,7 +6315,7 @@
     "ppc": {
       "name": "ppc",
       "proj": 2,
-      "moe": 2
+      "moe": 3
     },
     "gpc": {
       "name": "gpc",
@@ -6329,7 +6329,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 52,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -6454,7 +6454,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 26,
+      "proj": 27,
       "moe": 7
     },
     "ndp": {
@@ -6604,7 +6604,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 38,
+      "proj": 37,
       "moe": 8
     },
     "ndp": {
@@ -6658,7 +6658,7 @@
     "riding": "Spadina—Harbourfront",
     "lpc": {
       "name": "lpc",
-      "proj": 55,
+      "proj": 54,
       "moe": 9,
       "incumbent": true
     },
@@ -6669,7 +6669,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 13,
+      "proj": 14,
       "moe": 6
     },
     "gpc": {
@@ -6734,7 +6734,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 2,
+      "proj": 3,
       "moe": 2
     },
     "ppc": {
@@ -6819,7 +6819,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 15,
+      "proj": 16,
       "moe": 6
     },
     "gpc": {
@@ -6880,7 +6880,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 11,
-      "moe": 6
+      "moe": 5
     },
     "gpc": {
       "name": "gpc",
@@ -7049,7 +7049,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 53,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -7089,7 +7089,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 7,
+      "proj": 8,
       "moe": 4
     },
     "gpc": {
@@ -7198,7 +7198,7 @@
     "riding": "Windsor—Tecumseh—Lakeshore",
     "lpc": {
       "name": "lpc",
-      "proj": 48,
+      "proj": 47,
       "moe": 8,
       "incumbent": true
     },
@@ -7239,7 +7239,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 25,
+      "proj": 24,
       "moe": 7
     },
     "ppc": {
@@ -7354,8 +7354,8 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 29,
-      "moe": 8
+      "proj": 28,
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -7406,16 +7406,16 @@
   },
   {
     "riding": "Elmwood—Transcona",
-    "ndp": {
-      "name": "ndp",
-      "proj": 40,
-      "moe": 9,
-      "incumbent": true
-    },
     "cpc": {
       "name": "cpc",
-      "proj": 39,
+      "proj": 40,
       "moe": 8
+    },
+    "ndp": {
+      "name": "ndp",
+      "proj": 39,
+      "moe": 9,
+      "incumbent": true
     },
     "lpc": {
       "name": "lpc",
@@ -7436,16 +7436,16 @@
   },
   {
     "riding": "Kildonan—St. Paul",
-    "lpc": {
-      "name": "lpc",
-      "proj": 45,
-      "moe": 8
-    },
     "cpc": {
       "name": "cpc",
-      "proj": 44,
+      "proj": 45,
       "moe": 8,
       "incumbent": true
+    },
+    "lpc": {
+      "name": "lpc",
+      "proj": 44,
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -7468,14 +7468,14 @@
     "riding": "Portage—Lisgar",
     "cpc": {
       "name": "cpc",
-      "proj": 58,
+      "proj": 59,
       "moe": 9,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
       "proj": 29,
-      "moe": 8
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -7498,7 +7498,7 @@
     "riding": "Provencher",
     "cpc": {
       "name": "cpc",
-      "proj": 52,
+      "proj": 53,
       "moe": 9,
       "incumbent": true
     },
@@ -7528,7 +7528,7 @@
     "riding": "Riding Mountain",
     "cpc": {
       "name": "cpc",
-      "proj": 59,
+      "proj": 60,
       "moe": 9,
       "incumbent": true
     },
@@ -7564,7 +7564,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 27,
+      "proj": 28,
       "moe": 7
     },
     "ndp": {
@@ -7619,7 +7619,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 41,
-      "moe": 10,
+      "moe": 9,
       "incumbent": true
     },
     "lpc": {
@@ -7714,7 +7714,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 26,
+      "proj": 27,
       "moe": 7
     },
     "ndp": {
@@ -7738,7 +7738,7 @@
     "riding": "Winnipeg West",
     "lpc": {
       "name": "lpc",
-      "proj": 54,
+      "proj": 53,
       "moe": 8
     },
     "cpc": {
@@ -7774,12 +7774,12 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 22,
+      "proj": 21,
       "moe": 7
     },
     "ndp": {
       "name": "ndp",
-      "proj": 8,
+      "proj": 7,
       "moe": 4
     },
     "ppc": {
@@ -7834,12 +7834,12 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 26,
-      "moe": 12
+      "proj": 27,
+      "moe": 13
     },
     "ndp": {
       "name": "ndp",
-      "proj": 16,
+      "proj": 15,
       "moe": 10
     },
     "ppc": {
@@ -7858,18 +7858,18 @@
     "riding": "Moose Jaw—Lake Centre—Lanigan",
     "cpc": {
       "name": "cpc",
-      "proj": 65,
+      "proj": 66,
       "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 20,
+      "proj": 19,
       "moe": 6
     },
     "ndp": {
       "name": "ndp",
-      "proj": 11,
+      "proj": 10,
       "moe": 5
     },
     "ppc": {
@@ -7909,7 +7909,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "incumbent": "cpc"
@@ -7925,7 +7925,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 30,
-      "moe": 8
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -7978,7 +7978,7 @@
     "riding": "Regina—Wascana",
     "cpc": {
       "name": "cpc",
-      "proj": 47,
+      "proj": 48,
       "moe": 9,
       "incumbent": true
     },
@@ -8044,12 +8044,12 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 34,
+      "proj": 33,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 16,
+      "proj": 15,
       "moe": 6
     },
     "gpc": {
@@ -8068,7 +8068,7 @@
     "riding": "Saskatoon West",
     "cpc": {
       "name": "cpc",
-      "proj": 47,
+      "proj": 48,
       "moe": 9,
       "incumbent": true
     },
@@ -8104,7 +8104,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 12,
+      "proj": 11,
       "moe": 5
     },
     "ndp": {
@@ -8129,7 +8129,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 76,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -8169,7 +8169,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 7,
+      "proj": 6,
       "moe": 4
     },
     "gpc": {
@@ -8194,7 +8194,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 21,
+      "proj": 20,
       "moe": 6
     },
     "ndp": {
@@ -8218,13 +8218,13 @@
     "riding": "Battle River—Crowfoot",
     "cpc": {
       "name": "cpc",
-      "proj": 79,
+      "proj": 80,
       "moe": 6,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 13,
+      "proj": 12,
       "moe": 5
     },
     "ndp": {
@@ -8248,14 +8248,14 @@
     "riding": "Bow River",
     "cpc": {
       "name": "cpc",
-      "proj": 74,
+      "proj": 75,
       "moe": 7,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 17,
-      "moe": 6
+      "proj": 16,
+      "moe": 5
     },
     "ndp": {
       "name": "ndp",
@@ -8419,7 +8419,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "incumbent": "cpc"
@@ -8578,7 +8578,7 @@
     "riding": "Calgary Skyview",
     "lpc": {
       "name": "lpc",
-      "proj": 48,
+      "proj": 47,
       "moe": 9
     },
     "cpc": {
@@ -8608,7 +8608,7 @@
     "riding": "Edmonton Centre",
     "lpc": {
       "name": "lpc",
-      "proj": 48,
+      "proj": 47,
       "moe": 8
     },
     "cpc": {
@@ -8668,7 +8668,7 @@
     "riding": "Edmonton Griesbach",
     "cpc": {
       "name": "cpc",
-      "proj": 37,
+      "proj": 36,
       "moe": 8
     },
     "ndp": {
@@ -8793,7 +8793,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 42,
+      "proj": 43,
       "moe": 9,
       "incumbent": true
     },
@@ -8824,7 +8824,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 32,
+      "proj": 31,
       "moe": 7
     },
     "lpc": {
@@ -8878,7 +8878,7 @@
     "riding": "Foothills",
     "cpc": {
       "name": "cpc",
-      "proj": 75,
+      "proj": 76,
       "moe": 7,
       "incumbent": true
     },
@@ -8908,7 +8908,7 @@
     "riding": "Fort McMurray—Cold Lake",
     "cpc": {
       "name": "cpc",
-      "proj": 73,
+      "proj": 74,
       "moe": 8,
       "incumbent": true
     },
@@ -8929,7 +8929,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 1,
+      "proj": 2,
       "moe": 2
     },
     "incumbent": "cpc"
@@ -8974,7 +8974,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 14,
+      "proj": 13,
       "moe": 5
     },
     "ndp": {
@@ -9028,7 +9028,7 @@
     "riding": "Lethbridge",
     "cpc": {
       "name": "cpc",
-      "proj": 59,
+      "proj": 60,
       "moe": 8,
       "incumbent": true
     },
@@ -9058,14 +9058,14 @@
     "riding": "Medicine Hat—Cardston—Warner",
     "cpc": {
       "name": "cpc",
-      "proj": 73,
+      "proj": 74,
       "moe": 7,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
       "proj": 17,
-      "moe": 6
+      "moe": 5
     },
     "ndp": {
       "name": "ndp",
@@ -9088,7 +9088,7 @@
     "riding": "Parkland",
     "cpc": {
       "name": "cpc",
-      "proj": 69,
+      "proj": 70,
       "moe": 8,
       "incumbent": true
     },
@@ -9118,7 +9118,7 @@
     "riding": "Peace River—Westlock",
     "cpc": {
       "name": "cpc",
-      "proj": 76,
+      "proj": 77,
       "moe": 7,
       "incumbent": true
     },
@@ -9148,7 +9148,7 @@
     "riding": "Ponoka—Didsbury",
     "cpc": {
       "name": "cpc",
-      "proj": 81,
+      "proj": 82,
       "moe": 8,
       "incumbent": true
     },
@@ -9159,7 +9159,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 7,
+      "proj": 8,
       "moe": 4
     },
     "gpc": {
@@ -9185,7 +9185,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 18,
-      "moe": 6
+      "moe": 5
     },
     "ndp": {
       "name": "ndp",
@@ -9274,7 +9274,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 22,
+      "proj": 21,
       "moe": 6
     },
     "ndp": {
@@ -9328,7 +9328,7 @@
     "riding": "Burnaby Central",
     "lpc": {
       "name": "lpc",
-      "proj": 38,
+      "proj": 37,
       "moe": 8
     },
     "cpc": {
@@ -9338,7 +9338,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 29,
+      "proj": 30,
       "moe": 8,
       "incumbent": true
     },
@@ -9358,7 +9358,7 @@
     "riding": "Burnaby North—Seymour",
     "lpc": {
       "name": "lpc",
-      "proj": 55,
+      "proj": 56,
       "moe": 8,
       "incumbent": true
     },
@@ -9394,7 +9394,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 35,
+      "proj": 34,
       "moe": 8
     },
     "ndp": {
@@ -9449,7 +9449,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 48,
-      "moe": 9,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -9543,7 +9543,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 32,
+      "proj": 33,
       "moe": 8,
       "incumbent": true
     },
@@ -9569,17 +9569,17 @@
     "cpc": {
       "name": "cpc",
       "proj": 38,
-      "moe": 7
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 29,
+      "proj": 30,
       "moe": 7,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 28,
+      "proj": 27,
       "moe": 6
     },
     "gpc": {
@@ -9628,7 +9628,7 @@
     "riding": "Esquimalt—Saanich—Sooke",
     "lpc": {
       "name": "lpc",
-      "proj": 33,
+      "proj": 32,
       "moe": 7
     },
     "cpc": {
@@ -9659,7 +9659,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 57,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -9734,7 +9734,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 3,
+      "proj": 2,
       "moe": 2
     },
     "ppc": {
@@ -9814,7 +9814,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 44,
+      "proj": 43,
       "moe": 8
     },
     "ndp": {
@@ -9848,7 +9848,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 24,
+      "proj": 23,
       "moe": 6
     },
     "ndp": {
@@ -9873,13 +9873,13 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 29,
-      "moe": 7,
+      "proj": 30,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
       "name": "cpc",
-      "proj": 27,
+      "proj": 26,
       "moe": 7
     },
     "gpc": {
@@ -9903,13 +9903,13 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 25,
+      "proj": 26,
       "moe": 7,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 22,
+      "proj": 21,
       "moe": 6
     },
     "gpc": {
@@ -9994,7 +9994,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 44,
+      "proj": 43,
       "moe": 8
     },
     "ndp": {
@@ -10078,7 +10078,7 @@
     "riding": "Richmond Centre—Marpole",
     "lpc": {
       "name": "lpc",
-      "proj": 46,
+      "proj": 45,
       "moe": 9,
       "incumbent": true
     },
@@ -10094,7 +10094,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 1,
+      "proj": 2,
       "moe": 2
     },
     "ppc": {
@@ -10108,7 +10108,7 @@
     "riding": "Richmond East—Steveston",
     "lpc": {
       "name": "lpc",
-      "proj": 47,
+      "proj": 46,
       "moe": 9,
       "incumbent": true
     },
@@ -10119,8 +10119,8 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 8,
-      "moe": 4
+      "proj": 9,
+      "moe": 5
     },
     "gpc": {
       "name": "gpc",
@@ -10149,7 +10149,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 25,
+      "proj": 24,
       "moe": 6
     },
     "ndp": {
@@ -10168,7 +10168,7 @@
     "riding": "Similkameen—South Okanagan—West Kootenay",
     "cpc": {
       "name": "cpc",
-      "proj": 45,
+      "proj": 44,
       "moe": 8
     },
     "lpc": {
@@ -10234,12 +10234,12 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 47,
+      "proj": 46,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 5,
+      "proj": 6,
       "moe": 4
     },
     "gpc": {
@@ -10264,7 +10264,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 39,
+      "proj": 40,
       "moe": 9
     },
     "ndp": {
@@ -10288,7 +10288,7 @@
     "riding": "Surrey Newton",
     "lpc": {
       "name": "lpc",
-      "proj": 58,
+      "proj": 57,
       "moe": 9,
       "incumbent": true
     },
@@ -10340,7 +10340,7 @@
     "ppc": {
       "name": "ppc",
       "proj": 1,
-      "moe": 1
+      "moe": 2
     },
     "incumbent": "lpc"
   },
@@ -10349,7 +10349,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 40,
-      "moe": 9,
+      "moe": 8,
       "incumbent": true
     },
     "lpc": {
@@ -10443,8 +10443,8 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 37,
-      "moe": 9,
+      "proj": 38,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -10528,12 +10528,12 @@
     "riding": "Victoria",
     "lpc": {
       "name": "lpc",
-      "proj": 37,
+      "proj": 36,
       "moe": 7
     },
     "ndp": {
       "name": "ndp",
-      "proj": 30,
+      "proj": 31,
       "moe": 7,
       "incumbent": true
     },
@@ -10605,7 +10605,7 @@
     "gpc": {
       "name": "gpc",
       "proj": 4,
-      "moe": 5
+      "moe": 4
     },
     "ppc": {
       "name": "ppc",
@@ -10619,7 +10619,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 51,
-      "moe": 11,
+      "moe": 12,
       "incumbent": true
     },
     "cpc": {
