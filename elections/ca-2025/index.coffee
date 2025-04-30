@@ -1,6 +1,6 @@
 import images from './*.png'
 
-export date = '2025-10-20'
+export date = '2025-04-28'
 
 export progressives = 'lpc ndp gpc bq'.split ' '
 export cons = 'cpc'.split ' '
