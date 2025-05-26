@@ -5864,13 +5864,13 @@
     "lpc": {
       "name": "lpc",
       "proj": 48,
-      "moe": 6
+      "moe": 6,
+      "incumbent": true
     },
     "cpc": {
       "name": "cpc",
       "proj": 48,
-      "moe": 6,
-      "incumbent": true
+      "moe": 6
     },
     "ndp": {
       "name": "ndp",
@@ -5892,7 +5892,7 @@
       "proj": 0,
       "moe": 0
     },
-    "incumbent": "cpc"
+    "incumbent": "lpc"
   },
   {
     "riding": "Mississauga Centre",
@@ -7229,13 +7229,13 @@
     "lpc": {
       "name": "lpc",
       "proj": 52,
-      "moe": 6
+      "moe": 6,
+      "incumbent": true
     },
     "cpc": {
       "name": "cpc",
       "proj": 40,
-      "moe": 6,
-      "incumbent": true
+      "moe": 6
     },
     "ndp": {
       "name": "ndp",
@@ -7257,7 +7257,7 @@
       "proj": 0,
       "moe": 0
     },
-    "incumbent": "cpc"
+    "incumbent": "lpc"
   },
   {
     "riding": "Stormont—Dundas—Glengarry",
