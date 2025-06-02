@@ -4,7 +4,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 59,
-      "moe": 9,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -904,7 +904,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 42,
+      "proj": 41,
       "moe": 8
     },
     "ndp": {
@@ -935,7 +935,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 36,
-      "moe": 8
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
@@ -1239,7 +1239,7 @@
     "bq": {
       "name": "bq",
       "proj": 47,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -1320,7 +1320,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 14,
-      "moe": 5
+      "moe": 4
     },
     "ndp": {
       "name": "ndp",
@@ -1378,7 +1378,7 @@
     "riding": "Bourassa",
     "lpc": {
       "name": "lpc",
-      "proj": 58,
+      "proj": 59,
       "moe": 9,
       "incumbent": true
     },
@@ -1449,7 +1449,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 62,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -1464,7 +1464,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 3,
+      "proj": 4,
       "moe": 3
     },
     "gpc": {
@@ -1484,7 +1484,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 42,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -1519,7 +1519,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 45,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "bq": {
@@ -1589,7 +1589,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 46,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "bq": {
@@ -1764,7 +1764,7 @@
     "bq": {
       "name": "bq",
       "proj": 46,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -1775,7 +1775,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 12,
-      "moe": 4
+      "moe": 5
     },
     "ndp": {
       "name": "ndp",
@@ -1799,7 +1799,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 60,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "cpc": {
@@ -1874,7 +1874,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 22,
+      "proj": 21,
       "moe": 6
     },
     "bq": {
@@ -1915,7 +1915,7 @@
     "bq": {
       "name": "bq",
       "proj": 12,
-      "moe": 5
+      "moe": 4
     },
     "ndp": {
       "name": "ndp",
@@ -2009,7 +2009,7 @@
     "bq": {
       "name": "bq",
       "proj": 43,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -2090,7 +2090,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 25,
-      "moe": 7
+      "moe": 6
     },
     "ndp": {
       "name": "ndp",
@@ -2184,7 +2184,7 @@
     "bq": {
       "name": "bq",
       "proj": 45,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -2324,7 +2324,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 48,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -2365,7 +2365,7 @@
     "bq": {
       "name": "bq",
       "proj": 27,
-      "moe": 7
+      "moe": 6
     },
     "cpc": {
       "name": "cpc",
@@ -2604,7 +2604,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 51,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -2764,7 +2764,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 2,
+      "proj": 3,
       "moe": 2
     },
     "ppc": {
@@ -2779,7 +2779,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 55,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -2849,7 +2849,7 @@
     "bq": {
       "name": "bq",
       "proj": 46,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -3319,7 +3319,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 5,
+      "proj": 4,
       "moe": 4
     },
     "gpc": {
@@ -3514,13 +3514,13 @@
     "lpc": {
       "name": "lpc",
       "proj": 46,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "bq": {
       "name": "bq",
       "proj": 32,
-      "moe": 7
+      "moe": 6
     },
     "cpc": {
       "name": "cpc",
@@ -3904,7 +3904,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 46,
+      "proj": 45,
       "moe": 8
     },
     "ndp": {
@@ -4330,7 +4330,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 17,
-      "moe": 5
+      "moe": 6
     },
     "gpc": {
       "name": "gpc",
@@ -4355,7 +4355,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 42,
-      "moe": 9
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -5599,7 +5599,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 1,
+      "proj": 0,
       "moe": 1
     },
     "incumbent": "lpc"
@@ -5615,7 +5615,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 42,
-      "moe": 8
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
@@ -5804,7 +5804,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "gpc": {
@@ -6729,7 +6729,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 2,
+      "proj": 3,
       "moe": 2
     },
     "gpc": {
@@ -6868,7 +6868,7 @@
     "riding": "Thunder Bay—Rainy River",
     "lpc": {
       "name": "lpc",
-      "proj": 48,
+      "proj": 49,
       "moe": 9,
       "incumbent": true
     },
@@ -6939,7 +6939,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 13,
+      "proj": 12,
       "moe": 5
     },
     "gpc": {
@@ -8405,7 +8405,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 35,
-      "moe": 7
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -8709,7 +8709,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 53,
-      "moe": 9,
+      "moe": 8,
       "incumbent": true
     },
     "lpc": {
@@ -8919,7 +8919,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 80,
-      "moe": 7,
+      "moe": 6,
       "incumbent": true
     },
     "lpc": {
@@ -9235,7 +9235,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 27,
-      "moe": 6
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -9390,7 +9390,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 34,
-      "moe": 7
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -10374,7 +10374,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 44,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "lpc": {
@@ -10680,7 +10680,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 37,
-      "moe": 14
+      "moe": 15
     },
     "cpc": {
       "name": "cpc",
