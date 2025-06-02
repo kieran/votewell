@@ -4660,7 +4660,7 @@
     "gpc": {
       "name": "gpc",
       "proj": 10,
-      "moe": 5
+      "moe": 6
     },
     "ndp": {
       "name": "ndp",
@@ -5039,7 +5039,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 63,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "cpc": {
@@ -10055,7 +10055,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 15,
-      "moe": 5
+      "moe": 6
     },
     "gpc": {
       "name": "gpc",
@@ -10643,8 +10643,8 @@
     "riding": "Northwest Territories",
     "lpc": {
       "name": "lpc",
-      "proj": 53,
-      "moe": 11,
+      "proj": 54,
+      "moe": 12,
       "incumbent": true
     },
     "cpc": {
