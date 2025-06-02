@@ -334,7 +334,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 46,
+      "proj": 47,
       "moe": 9
     },
     "ndp": {
@@ -508,7 +508,7 @@
     "riding": "Halifax West",
     "lpc": {
       "name": "lpc",
-      "proj": 65,
+      "proj": 66,
       "moe": 8,
       "incumbent": true
     },
@@ -599,7 +599,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 55,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "cpc": {
@@ -688,7 +688,7 @@
     "riding": "Beauséjour",
     "lpc": {
       "name": "lpc",
-      "proj": 60,
+      "proj": 61,
       "moe": 8,
       "incumbent": true
     },
@@ -904,7 +904,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 41,
+      "proj": 42,
       "moe": 8
     },
     "ndp": {
@@ -1320,7 +1320,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 14,
-      "moe": 4
+      "moe": 5
     },
     "ndp": {
       "name": "ndp",
@@ -1449,13 +1449,13 @@
     "lpc": {
       "name": "lpc",
       "proj": 62,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "cpc": {
       "name": "cpc",
       "proj": 19,
-      "moe": 5
+      "moe": 6
     },
     "bq": {
       "name": "bq",
@@ -1464,7 +1464,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 4,
+      "proj": 3,
       "moe": 3
     },
     "gpc": {
@@ -1484,7 +1484,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 42,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "lpc": {
@@ -1605,7 +1605,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 3,
-      "moe": 3
+      "moe": 2
     },
     "gpc": {
       "name": "gpc",
@@ -1799,7 +1799,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 60,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -1840,7 +1840,7 @@
     "bq": {
       "name": "bq",
       "proj": 27,
-      "moe": 7
+      "moe": 6
     },
     "ndp": {
       "name": "ndp",
@@ -1939,7 +1939,7 @@
     "bq": {
       "name": "bq",
       "proj": 49,
-      "moe": 8,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -2090,7 +2090,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 25,
-      "moe": 6
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -2324,7 +2324,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 48,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "lpc": {
@@ -2764,7 +2764,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 3,
+      "proj": 2,
       "moe": 2
     },
     "ppc": {
@@ -2988,7 +2988,7 @@
     "riding": "Québec Centre",
     "lpc": {
       "name": "lpc",
-      "proj": 49,
+      "proj": 50,
       "moe": 8,
       "incumbent": true
     },
@@ -3100,7 +3100,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 36,
-      "moe": 8
+      "moe": 7
     },
     "cpc": {
       "name": "cpc",
@@ -3514,7 +3514,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 46,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "bq": {
@@ -3904,7 +3904,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 45,
+      "proj": 46,
       "moe": 8
     },
     "ndp": {
@@ -4355,7 +4355,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 42,
-      "moe": 8
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
@@ -4588,7 +4588,7 @@
     "riding": "Etobicoke North",
     "lpc": {
       "name": "lpc",
-      "proj": 52,
+      "proj": 53,
       "moe": 9,
       "incumbent": true
     },
@@ -4774,7 +4774,7 @@
     },
     "lpc": {
       "name": "lpc",
-      "proj": 46,
+      "proj": 47,
       "moe": 8
     },
     "ndp": {
@@ -5039,7 +5039,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 63,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -5068,7 +5068,7 @@
     "riding": "King—Vaughan",
     "cpc": {
       "name": "cpc",
-      "proj": 62,
+      "proj": 61,
       "moe": 8,
       "incumbent": true
     },
@@ -5134,7 +5134,7 @@
     },
     "cpc": {
       "name": "cpc",
-      "proj": 48,
+      "proj": 47,
       "moe": 8
     },
     "ndp": {
@@ -5405,7 +5405,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 47,
-      "moe": 8
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
@@ -5456,16 +5456,16 @@
   },
   {
     "riding": "Milton East—Halton Hills South",
-    "cpc": {
-      "name": "cpc",
-      "proj": 48,
-      "moe": 8
-    },
     "lpc": {
       "name": "lpc",
       "proj": 48,
       "moe": 8,
       "incumbent": true
+    },
+    "cpc": {
+      "name": "cpc",
+      "proj": 48,
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -5599,7 +5599,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 0,
+      "proj": 1,
       "moe": 1
     },
     "incumbent": "lpc"
@@ -5638,7 +5638,7 @@
     "riding": "Mississauga—Streetsville",
     "lpc": {
       "name": "lpc",
-      "proj": 51,
+      "proj": 52,
       "moe": 8,
       "incumbent": true
     },
@@ -5804,7 +5804,7 @@
     },
     "ppc": {
       "name": "ppc",
-      "proj": 1,
+      "proj": 2,
       "moe": 2
     },
     "gpc": {
@@ -6320,7 +6320,7 @@
     "ppc": {
       "name": "ppc",
       "proj": 1,
-      "moe": 2
+      "moe": 1
     },
     "incumbent": "lpc"
   },
@@ -6665,7 +6665,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 31,
-      "moe": 7
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
@@ -6815,7 +6815,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 23,
-      "moe": 7
+      "moe": 6
     },
     "cpc": {
       "name": "cpc",
@@ -6929,7 +6929,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 64,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpc": {
@@ -6999,7 +6999,7 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 4,
+      "proj": 3,
       "moe": 3
     },
     "gpc": {
@@ -7699,7 +7699,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 0,
+      "proj": 1,
       "moe": 1
     },
     "incumbent": "lpc"
@@ -8260,7 +8260,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 3,
-      "moe": 3
+      "moe": 2
     },
     "ppc": {
       "name": "ppc",
@@ -8292,13 +8292,13 @@
       "proj": 3,
       "moe": 2
     },
-    "gpc": {
-      "name": "gpc",
+    "ppc": {
+      "name": "ppc",
       "proj": 1,
       "moe": 1
     },
-    "ppc": {
-      "name": "ppc",
+    "gpc": {
+      "name": "gpc",
       "proj": 1,
       "moe": 1
     },
@@ -8368,7 +8368,7 @@
     "riding": "Calgary East",
     "cpc": {
       "name": "cpc",
-      "proj": 61,
+      "proj": 60,
       "moe": 8,
       "incumbent": true
     },
@@ -8644,7 +8644,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 51,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "lpc": {
@@ -8919,7 +8919,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 80,
-      "moe": 6,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -9009,7 +9009,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 75,
-      "moe": 6,
+      "moe": 7,
       "incumbent": true
     },
     "lpc": {
@@ -9390,7 +9390,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 34,
-      "moe": 8
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -9519,7 +9519,7 @@
     },
     "gpc": {
       "name": "gpc",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "ppc": {
@@ -9660,7 +9660,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 29,
-      "moe": 6
+      "moe": 7
     },
     "ndp": {
       "name": "ndp",
@@ -9690,7 +9690,7 @@
     "cpc": {
       "name": "cpc",
       "proj": 44,
-      "moe": 8
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
@@ -10055,7 +10055,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 15,
-      "moe": 6
+      "moe": 5
     },
     "gpc": {
       "name": "gpc",
@@ -10374,12 +10374,12 @@
     "ndp": {
       "name": "ndp",
       "proj": 44,
-      "moe": 9,
+      "moe": 8,
       "incumbent": true
     },
     "lpc": {
       "name": "lpc",
-      "proj": 35,
+      "proj": 36,
       "moe": 8
     },
     "cpc": {
@@ -10644,7 +10644,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 53,
-      "moe": 12,
+      "moe": 11,
       "incumbent": true
     },
     "cpc": {
@@ -10680,7 +10680,7 @@
     "lpc": {
       "name": "lpc",
       "proj": 37,
-      "moe": 15
+      "moe": 14
     },
     "cpc": {
       "name": "cpc",
