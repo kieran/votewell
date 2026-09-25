@@ -25,11 +25,6 @@
       "name": "cen",
       "proj": 2,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -60,11 +55,6 @@
       "proj": 2,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -93,11 +83,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -126,11 +111,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -160,11 +140,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -196,11 +171,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -230,11 +200,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -266,11 +231,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -300,11 +260,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -336,11 +291,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -370,11 +320,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -406,11 +351,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -439,11 +379,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -473,11 +408,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -509,11 +439,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -544,11 +469,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -577,11 +497,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -611,11 +526,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -647,11 +557,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -680,11 +585,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -714,11 +614,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -750,11 +645,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -784,11 +674,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -820,11 +705,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -854,11 +734,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -890,11 +765,6 @@
       "proj": 4,
       "moe": 4
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -923,11 +793,6 @@
       "name": "cen",
       "proj": 2,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -957,11 +822,6 @@
       "name": "cen",
       "proj": 4,
       "moe": 4
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -993,11 +853,6 @@
       "proj": 3,
       "moe": 3
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1027,11 +882,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1063,11 +913,6 @@
       "proj": 4,
       "moe": 4
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -1097,11 +942,6 @@
       "name": "cen",
       "proj": 2,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1133,11 +973,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1167,11 +1002,6 @@
       "name": "cen",
       "proj": 2,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -1203,11 +1033,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -1237,11 +1062,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -1273,11 +1093,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -1307,11 +1122,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1343,11 +1153,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1377,11 +1182,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1413,11 +1213,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1447,11 +1242,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -1483,11 +1273,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1517,11 +1302,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 3
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1553,11 +1333,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -1587,11 +1362,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1623,11 +1393,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1658,11 +1423,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1691,11 +1451,6 @@
       "name": "bcg",
       "proj": 3,
       "moe": 3
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -1725,11 +1480,6 @@
       "name": "bcg",
       "proj": 3,
       "moe": 3
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -1761,11 +1511,6 @@
       "proj": 3,
       "moe": 3
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1795,11 +1540,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1831,11 +1571,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -1865,11 +1600,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -1901,11 +1631,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -1936,11 +1661,6 @@
       "proj": 4,
       "moe": 4
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -1969,11 +1689,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -2002,11 +1717,6 @@
       "name": "cen",
       "proj": 2,
       "moe": 3
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -2035,11 +1745,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -2069,11 +1774,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -2105,11 +1805,6 @@
       "proj": 4,
       "moe": 4
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2139,11 +1834,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "bcg"
   },
@@ -2175,11 +1865,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2209,11 +1894,6 @@
       "name": "cen",
       "proj": 3,
       "moe": 3
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -2245,11 +1925,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -2279,11 +1954,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -2315,11 +1985,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -2349,11 +2014,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "one"
   },
@@ -2385,11 +2045,6 @@
       "moe": 2,
       "incumbent": true
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cen"
   },
   {
@@ -2419,11 +2074,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -2455,11 +2105,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2489,11 +2134,6 @@
       "name": "cen",
       "proj": 2,
       "moe": 3
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -2525,11 +2165,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -2559,11 +2194,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "cpbc"
   },
@@ -2595,11 +2225,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -2629,11 +2254,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -2665,11 +2285,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2699,11 +2314,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -2735,11 +2345,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2769,11 +2374,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -2805,11 +2405,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2839,11 +2434,6 @@
       "name": "cen",
       "proj": 2,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "one"
   },
@@ -2875,11 +2465,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2910,11 +2495,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -2943,11 +2523,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     }
   },
   {
@@ -2977,11 +2552,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -3013,11 +2583,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -3047,11 +2612,6 @@
       "name": "bcg",
       "proj": 3,
       "moe": 3
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -3083,11 +2643,6 @@
       "proj": 1,
       "moe": 2
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "ndp"
   },
   {
@@ -3117,11 +2672,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "ndp"
   },
@@ -3153,11 +2703,6 @@
       "proj": 3,
       "moe": 3
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -3188,11 +2733,6 @@
       "proj": 4,
       "moe": 4
     },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
-    },
     "incumbent": "cpbc"
   },
   {
@@ -3222,11 +2762,6 @@
       "name": "cen",
       "proj": 1,
       "moe": 2
-    },
-    "bcu": {
-      "name": "bcu",
-      "proj": 0,
-      "moe": 0
     },
     "incumbent": "bcg"
   }

@@ -110,13 +110,13 @@ do ->
         console.log "#{riding} (#{badge || 'vacant'}) #{parties.map((p) -> "#{p.name} #{p.proj}±#{p.moe}").join '  '}"
 
         poll = { riding }
-        for party in parties
+        for party in parties when party.proj
           poll[party.name] = { name: party.name, proj: party.proj, moe: party.moe }
 
         # ridings sitting with an independent or a vacant seat get no
         # incumbent -- better to say nothing than to guess
         if incumbent = BADGE_PARTY[badge]
-          poll[incumbent].incumbent = true
+          poll[incumbent].incumbent = true if poll[incumbent]
           poll.incumbent = incumbent
 
         polls.push poll
