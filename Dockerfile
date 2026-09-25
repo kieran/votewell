@@ -12,7 +12,7 @@ RUN apk add --update --no-cache \
 RUN mkdir -p /data/db
 
 COPY package.json package-lock.json ./
-RUN npm i
+RUN npm i --production
 
 COPY .env.* ./
 COPY server server
