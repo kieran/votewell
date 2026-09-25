@@ -39,20 +39,21 @@ update_polls: install
 # Docker stuff
 #
 start_mongo:
-	mongod --fork --logpath /mongodb.log
+	mongod --dbpath /data/db --fork --logpath /mongodb.log
 
 stop_mongo:
-	mongod --shutdown
+	# shutdownServer severs its own connection, so mongosh always exits non-zero
+	mongosh "${MONGO_URL}" --quiet --eval 'db.getSiblingDB("admin").shutdownServer()' || true
 
 seed_mongo:
-	mongo --host ${MONGO_URL} --eval "db.ridings.drop()"
+	mongosh "${MONGO_URL}" --quiet --eval 'db.ridings.drop()'
 
 	# property names differ by shapefile
 	@cat ./elections/${ELECTION}/ridings.geojson | \
 	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: (.properties.ED_NAME // .properties.ED_NAMEE), nom: .properties.ED_NAMEF } } ]' | \
 	mongoimport --db votewell -c ridings --jsonArray
 
-	mongo --host ${MONGO_URL} --eval 'db.ridings.createIndex({ geometry: "2dsphere" })'
+	mongosh "${MONGO_URL}" --quiet --eval 'db.ridings.createIndex({ geometry: "2dsphere" })'
 
 docker_build:
 	docker image build -t votewell:1.0 .
@@ -65,7 +66,7 @@ docker_start:
 docker_run:
 	set -m
 	node server/index.js &
-	mongod --fork --logpath /mongodb.log
+	mongod --dbpath /data/db --fork --logpath /mongodb.log
 	fg %1
 
 

@@ -25,6 +25,7 @@ module.exports = ridingAt = (lat, lng)->
 module.exports.connect = connect = ->
   console.log 'Connecting to mongo...'
   { MONGO_URL } = process.env
-  mongo = await MongoClient.connect MONGO_URL, useNewUrlParser: true
+  mongo = new MongoClient MONGO_URL
+  await mongo.connect()
   console.log "connected"
   mongo
