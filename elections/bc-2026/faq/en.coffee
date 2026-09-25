@@ -4,8 +4,7 @@ import Qna      from '/components/qna'
 export default \
 class Faq extends React.Component
   render: ->
-    <section key='faq' className='faq'>
-
+    <>
       <Qna question="What is this?">
         <p>There are 2 provincial parties in BC with leftist politics, and four that lean right. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
         <p>To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
@@ -46,5 +45,4 @@ class Faq extends React.Component
         <p>While I clearly have leftist politics, I am not affiliated with any political party.</p>
         <p>Design by <a href="https://arthurchayka.com">Arthur Chayka</a></p>
       </Qna>
-
-    </section>
+    </>
