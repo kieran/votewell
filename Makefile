@@ -2,7 +2,7 @@
 SHELL = /bin/bash
 
 NODE_ENV ?= development
-ELECTION ?= ca-2025
+ELECTION ?= bc-2026
 PORT ?= 3000
 
 include .env.${NODE_ENV}
@@ -49,7 +49,7 @@ seed_mongo:
 
 	# property names differ by shapefile
 	@cat ./elections/${ELECTION}/ridings.geojson | \
-	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: .properties.ED_NAMEE, nom: .properties.ED_NAMEF } } ]' | \
+	jq --compact-output '[ .features[] | select(.type == "Feature") | { geometry, properties: { name: (.properties.ED_NAME // .properties.ED_NAMEE), nom: .properties.ED_NAMEF } } ]' | \
 	mongoimport --db votewell -c ridings --jsonArray
 
 	mongo --host ${MONGO_URL} --eval 'db.ridings.createIndex({ geometry: "2dsphere" })'
