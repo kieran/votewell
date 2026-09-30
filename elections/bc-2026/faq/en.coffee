@@ -6,8 +6,8 @@ class Faq extends React.Component
   render: ->
     <>
       <Qna question="What is this?">
-        <p>There are 2 provincial parties in BC with leftist politics, and four that lean right. This often causes a "split vote" among leftist voters, giving the right an over-representation of electoral seats.</p>
-        <p>To "un-split" the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
+        <p>There are two major provincial parties in BC with leftist politics, often causing a “split vote” among voters, giving the Conservative Party an over-representation of electoral seats.</p>
+        <p>To “un-split” the vote, this tool tells you if strategic voting is necessary in your riding, and if so, which party is the leading choice.</p>
       </Qna>
 
       <Qna question="What is strategic voting?">
@@ -16,7 +16,7 @@ class Faq extends React.Component
       </Qna>
 
       <Qna question="What if I want the Conservatives to win?">
-        <p>You should vote Conservative! This tool is aimed at voters who want the left to win, so it won't tell you to do anything different.</p>
+        <p>You should vote Conservative!</p>
         <p>Thank you for participating in our shared civic duty.</p>
       </Qna>
 
@@ -24,13 +24,13 @@ class Faq extends React.Component
         <p>
           Polling data is aggregated by the good people at
           {' '}
-          <a className="imglink" href="https://338canada.com">338 Canada</a>
+          <a className="imglink" href="https://338canada.com">338Canada</a>
         </p>
         <blockquote>
-          <p>This projection is calculated using a mostly-proportional swing model adjusted with provincial and regional <a href="https://338canada.com/polls.htm" target="_blank">polls</a> conducted by professional pollsters. </p>
+          <p>This projection is calculated using a mostly-proportional swing model adjusted with provincial and regional <a href="https://338canada.com/polls.htm" target="_blank" rel="noopener noreferrer">polls</a> conducted by professional pollsters.</p>
           <p>This is <i>not</i> a poll, but a projection based on polls.</p>
           <p>The 338Canada model also takes into account electoral history and other data.</p>
-          <p>Read more on 338Canada's methodology <a href="https://338canada.blogspot.com/2018/11/welcome-to-338canada.html#metho" target="_blank">here</a>.</p>
+          <p>Read more on 338Canada's methodology <a href="https://338canada.blogspot.com/2018/11/welcome-to-338canada.html#metho" target="_blank" rel="noopener noreferrer">here</a>.</p>
         </blockquote>
         <p>
           Riding boundaries are published by{' '}
@@ -44,5 +44,10 @@ class Faq extends React.Component
         <p>I’m <a href="https://kieran.ca">Kieran Huggins</a>, a software developer in Victoria, Canada.</p>
         <p>While I clearly have leftist politics, I am not affiliated with any political party.</p>
         <p>Design by <a href="https://arthurchayka.com">Arthur Chayka</a></p>
+      </Qna>
+
+      <Qna question="Why don't you solicit donations?">
+        <p>Hosting this website <strong>costs about $1 per election, <em>total</em>.</strong> It's a cost I'm more than happy to cover personally.</p>
+        <p>Please be mindful when companies with similar websites ask you for a donation to “keep the lights on”.</p>
       </Qna>
     </>
