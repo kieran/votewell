@@ -3,13 +3,13 @@
     "riding": "Abbotsford South",
     "cpbc": {
       "name": "cpbc",
-      "proj": 58,
+      "proj": 59,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 33,
-      "moe": 7
+      "proj": 32,
+      "moe": 8
     },
     "one": {
       "name": "one",
@@ -23,7 +23,7 @@
     },
     "cen": {
       "name": "cen",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     }
   },
@@ -31,13 +31,13 @@
     "riding": "Abbotsford West",
     "cpbc": {
       "name": "cpbc",
-      "proj": 55,
-      "moe": 8,
+      "proj": 56,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 35,
+      "proj": 34,
       "moe": 8
     },
     "one": {
@@ -52,7 +52,7 @@
     },
     "cen": {
       "name": "cen",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "incumbent": "cpbc"
@@ -61,13 +61,13 @@
     "riding": "Abbotsford-Mission",
     "cpbc": {
       "name": "cpbc",
-      "proj": 51,
+      "proj": 52,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 42,
-      "moe": 7
+      "proj": 41,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -76,7 +76,7 @@
     },
     "one": {
       "name": "one",
-      "proj": 3,
+      "proj": 2,
       "moe": 3
     },
     "cen": {
@@ -89,13 +89,13 @@
     "riding": "Boundary-Similkameen",
     "cpbc": {
       "name": "cpbc",
-      "proj": 48,
+      "proj": 47,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 38,
-      "moe": 7
+      "proj": 39,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -117,7 +117,7 @@
     "riding": "Bulkley Valley-Stikine",
     "cpbc": {
       "name": "cpbc",
-      "proj": 51,
+      "proj": 52,
       "moe": 10,
       "incumbent": true
     },
@@ -128,7 +128,7 @@
     },
     "bcg": {
       "name": "bcg",
-      "proj": 9,
+      "proj": 10,
       "moe": 6
     },
     "one": {
@@ -147,14 +147,14 @@
     "riding": "Burnaby Centre",
     "ndp": {
       "name": "ndp",
-      "proj": 54,
-      "moe": 8,
+      "proj": 52,
+      "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 40,
-      "moe": 8
+      "proj": 41,
+      "moe": 9
     },
     "bcg": {
       "name": "bcg",
@@ -177,19 +177,19 @@
     "riding": "Burnaby East",
     "ndp": {
       "name": "ndp",
-      "proj": 48,
+      "proj": 47,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 37,
-      "moe": 7
+      "proj": 39,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
       "proj": 11,
-      "moe": 5
+      "moe": 6
     },
     "one": {
       "name": "one",
@@ -207,13 +207,13 @@
     "riding": "Burnaby North",
     "ndp": {
       "name": "ndp",
-      "proj": 51,
-      "moe": 8,
+      "proj": 49,
+      "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 41,
+      "proj": 42,
       "moe": 8
     },
     "one": {
@@ -237,18 +237,18 @@
     "riding": "Burnaby South-Metrotown",
     "ndp": {
       "name": "ndp",
-      "proj": 47,
-      "moe": 8,
+      "proj": 45,
+      "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 39,
-      "moe": 8
+      "proj": 40,
+      "moe": 9
     },
     "bcg": {
       "name": "bcg",
-      "proj": 9,
+      "proj": 10,
       "moe": 5
     },
     "one": {
@@ -267,14 +267,14 @@
     "riding": "Burnaby-New Westminster",
     "ndp": {
       "name": "ndp",
-      "proj": 58,
-      "moe": 8,
+      "proj": 56,
+      "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 33,
-      "moe": 7
+      "proj": 34,
+      "moe": 8
     },
     "one": {
       "name": "one",
@@ -297,13 +297,13 @@
     "riding": "Cariboo-Chilcotin",
     "cpbc": {
       "name": "cpbc",
-      "proj": 67,
-      "moe": 7,
+      "proj": 66,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 26,
+      "proj": 27,
       "moe": 7
     },
     "bcg": {
@@ -327,14 +327,14 @@
     "riding": "Chilliwack North",
     "cpbc": {
       "name": "cpbc",
-      "proj": 51,
+      "proj": 52,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 36,
-      "moe": 7
+      "proj": 34,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -357,13 +357,13 @@
     "riding": "Chilliwack-Cultus Lake",
     "cpbc": {
       "name": "cpbc",
-      "proj": 50,
-      "moe": 7
+      "proj": 51,
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 43,
-      "moe": 7
+      "proj": 41,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -385,13 +385,13 @@
     "riding": "Columbia River-Revelstoke",
     "cpbc": {
       "name": "cpbc",
-      "proj": 47,
-      "moe": 8,
+      "proj": 45,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 39,
+      "proj": 40,
       "moe": 8
     },
     "bcg": {
@@ -413,16 +413,16 @@
   },
   {
     "riding": "Coquitlam-Burke Mountain",
-    "ndp": {
-      "name": "ndp",
-      "proj": 48,
-      "moe": 8,
-      "incumbent": true
-    },
     "cpbc": {
       "name": "cpbc",
-      "proj": 46,
+      "proj": 47,
       "moe": 8
+    },
+    "ndp": {
+      "name": "ndp",
+      "proj": 46,
+      "moe": 8,
+      "incumbent": true
     },
     "bcg": {
       "name": "bcg",
@@ -445,18 +445,18 @@
     "riding": "Coquitlam-Maillardville",
     "ndp": {
       "name": "ndp",
-      "proj": 49,
+      "proj": 48,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 37,
-      "moe": 7
+      "proj": 38,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
-      "proj": 9,
+      "proj": 10,
       "moe": 5
     },
     "one": {
@@ -473,20 +473,20 @@
   },
   {
     "riding": "Courtenay-Comox",
-    "cpbc": {
-      "name": "cpbc",
-      "proj": 36,
-      "moe": 6
-    },
     "ndp": {
       "name": "ndp",
       "proj": 36,
-      "moe": 6
+      "moe": 7
+    },
+    "cpbc": {
+      "name": "cpbc",
+      "proj": 35,
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
       "proj": 25,
-      "moe": 6
+      "moe": 7
     },
     "one": {
       "name": "one",
@@ -515,7 +515,7 @@
     "bcg": {
       "name": "bcg",
       "proj": 24,
-      "moe": 6
+      "moe": 7
     },
     "one": {
       "name": "one",
@@ -533,14 +533,14 @@
     "riding": "Delta North",
     "ndp": {
       "name": "ndp",
-      "proj": 50,
+      "proj": 48,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 38,
-      "moe": 7
+      "proj": 39,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -563,13 +563,13 @@
     "riding": "Delta South",
     "cpbc": {
       "name": "cpbc",
-      "proj": 51,
-      "moe": 7
+      "proj": 52,
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 42,
-      "moe": 7
+      "proj": 40,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -592,7 +592,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 48,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
@@ -603,7 +603,7 @@
     "bcg": {
       "name": "bcg",
       "proj": 23,
-      "moe": 6
+      "moe": 7
     },
     "one": {
       "name": "one",
@@ -621,14 +621,14 @@
     "riding": "Fraser-Nicola",
     "cpbc": {
       "name": "cpbc",
-      "proj": 52,
+      "proj": 51,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 31,
-      "moe": 7
+      "proj": 32,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -681,8 +681,8 @@
     "riding": "Kamloops Centre",
     "cpbc": {
       "name": "cpbc",
-      "proj": 47,
-      "moe": 7,
+      "proj": 46,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
@@ -711,18 +711,18 @@
     "riding": "Kamloops-North Thompson",
     "cpbc": {
       "name": "cpbc",
-      "proj": 58,
-      "moe": 7,
+      "proj": 56,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 28,
-      "moe": 6
+      "proj": 29,
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
-      "proj": 10,
+      "proj": 11,
       "moe": 5
     },
     "one": {
@@ -741,14 +741,14 @@
     "riding": "Kelowna Centre",
     "cpbc": {
       "name": "cpbc",
-      "proj": 45,
-      "moe": 7,
+      "proj": 44,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 40,
-      "moe": 7
+      "proj": 41,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -771,12 +771,12 @@
     "riding": "Kelowna-Lake Country-Coldstream",
     "cpbc": {
       "name": "cpbc",
-      "proj": 52,
-      "moe": 7
+      "proj": 50,
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 35,
+      "proj": 36,
       "moe": 7
     },
     "bcg": {
@@ -792,21 +792,21 @@
     "cen": {
       "name": "cen",
       "proj": 2,
-      "moe": 2
+      "moe": 3
     }
   },
   {
     "riding": "Kelowna-Mission",
     "cpbc": {
       "name": "cpbc",
-      "proj": 54,
+      "proj": 53,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 30,
-      "moe": 6
+      "proj": 31,
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -830,12 +830,12 @@
     "ndp": {
       "name": "ndp",
       "proj": 37,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 33,
+      "proj": 32,
       "moe": 7
     },
     "bcg": {
@@ -859,14 +859,14 @@
     "riding": "Kootenay-Monashee",
     "ndp": {
       "name": "ndp",
-      "proj": 46,
+      "proj": 47,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 38,
-      "moe": 7
+      "proj": 37,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -889,14 +889,14 @@
     "riding": "Kootenay-Rockies",
     "cpbc": {
       "name": "cpbc",
-      "proj": 55,
-      "moe": 8,
+      "proj": 54,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
       "proj": 25,
-      "moe": 6
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -920,7 +920,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 46,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
@@ -936,7 +936,7 @@
     "one": {
       "name": "one",
       "proj": 4,
-      "moe": 3
+      "moe": 4
     },
     "cen": {
       "name": "cen",
@@ -961,7 +961,7 @@
     "bcg": {
       "name": "bcg",
       "proj": 14,
-      "moe": 5
+      "moe": 6
     },
     "one": {
       "name": "one",
@@ -979,19 +979,19 @@
     "riding": "Langley-Abbotsford",
     "cpbc": {
       "name": "cpbc",
-      "proj": 53,
+      "proj": 54,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 32,
+      "proj": 31,
       "moe": 7
     },
     "bcg": {
       "name": "bcg",
       "proj": 9,
-      "moe": 4
+      "moe": 5
     },
     "one": {
       "name": "one",
@@ -1000,7 +1000,7 @@
     },
     "cen": {
       "name": "cen",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "incumbent": "cpbc"
@@ -1009,14 +1009,14 @@
     "riding": "Langley-Walnut Grove",
     "cpbc": {
       "name": "cpbc",
-      "proj": 46,
-      "moe": 7,
+      "proj": 47,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 42,
-      "moe": 7
+      "proj": 41,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -1039,14 +1039,14 @@
     "riding": "Langley-Willowbrook",
     "cpbc": {
       "name": "cpbc",
-      "proj": 44,
+      "proj": 45,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 42,
-      "moe": 7
+      "proj": 40,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -1069,18 +1069,18 @@
     "riding": "Maple Ridge East",
     "cpbc": {
       "name": "cpbc",
-      "proj": 44,
-      "moe": 7,
+      "proj": 45,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 43,
-      "moe": 7
+      "proj": 42,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
-      "proj": 9,
+      "proj": 10,
       "moe": 5
     },
     "one": {
@@ -1099,14 +1099,14 @@
     "riding": "Maple Ridge-Pitt Meadows",
     "ndp": {
       "name": "ndp",
-      "proj": 51,
-      "moe": 7,
+      "proj": 50,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 42,
-      "moe": 7
+      "proj": 43,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -1130,7 +1130,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 46,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
@@ -1141,7 +1141,7 @@
     "bcg": {
       "name": "bcg",
       "proj": 15,
-      "moe": 5
+      "moe": 6
     },
     "one": {
       "name": "one",
@@ -1160,13 +1160,13 @@
     "ndp": {
       "name": "ndp",
       "proj": 49,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
       "proj": 31,
-      "moe": 6
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -1190,7 +1190,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 49,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
@@ -1201,7 +1201,7 @@
     "bcg": {
       "name": "bcg",
       "proj": 12,
-      "moe": 4
+      "moe": 5
     },
     "one": {
       "name": "one",
@@ -1225,8 +1225,8 @@
     },
     "ndp": {
       "name": "ndp",
-      "proj": 23,
-      "moe": 7
+      "proj": 22,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -1249,14 +1249,14 @@
     "riding": "New Westminster-Coquitlam",
     "ndp": {
       "name": "ndp",
-      "proj": 55,
+      "proj": 54,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 27,
-      "moe": 6
+      "proj": 28,
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -1280,7 +1280,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 62,
-      "moe": 10,
+      "moe": 11,
       "incumbent": true
     },
     "cpbc": {
@@ -1301,7 +1301,7 @@
     "cen": {
       "name": "cen",
       "proj": 1,
-      "moe": 3
+      "moe": 2
     },
     "incumbent": "ndp"
   },
@@ -1310,13 +1310,13 @@
     "cpbc": {
       "name": "cpbc",
       "proj": 43,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
       "proj": 42,
-      "moe": 7
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -1339,13 +1339,13 @@
     "riding": "North Vancouver-Lonsdale",
     "ndp": {
       "name": "ndp",
-      "proj": 61,
-      "moe": 7,
+      "proj": 60,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 32,
+      "proj": 34,
       "moe": 7
     },
     "bcg": {
@@ -1369,13 +1369,13 @@
     "riding": "North Vancouver-Seymour",
     "ndp": {
       "name": "ndp",
-      "proj": 51,
-      "moe": 7,
+      "proj": 49,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 34,
+      "proj": 35,
       "moe": 7
     },
     "bcg": {
@@ -1400,7 +1400,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 45,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
@@ -1445,7 +1445,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 3,
-      "moe": 2
+      "moe": 3
     },
     "bcg": {
       "name": "bcg",
@@ -1457,7 +1457,7 @@
     "riding": "Peace River South",
     "cpbc": {
       "name": "cpbc",
-      "proj": 77,
+      "proj": 78,
       "moe": 9,
       "incumbent": true
     },
@@ -1487,19 +1487,19 @@
     "riding": "Penticton-Summerland",
     "cpbc": {
       "name": "cpbc",
-      "proj": 45,
-      "moe": 7
+      "proj": 44,
+      "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 39,
-      "moe": 7,
+      "proj": 40,
+      "moe": 8,
       "incumbent": true
     },
     "bcg": {
       "name": "bcg",
       "proj": 9,
-      "moe": 4
+      "moe": 5
     },
     "one": {
       "name": "one",
@@ -1517,18 +1517,18 @@
     "riding": "Port Coquitlam",
     "ndp": {
       "name": "ndp",
-      "proj": 51,
-      "moe": 7,
+      "proj": 50,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 36,
-      "moe": 7
+      "proj": 37,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
-      "proj": 9,
+      "proj": 10,
       "moe": 5
     },
     "one": {
@@ -1547,14 +1547,14 @@
     "riding": "Port Moody-Burquitlam",
     "ndp": {
       "name": "ndp",
-      "proj": 49,
+      "proj": 47,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 37,
-      "moe": 7
+      "proj": 39,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -1578,13 +1578,13 @@
     "ndp": {
       "name": "ndp",
       "proj": 47,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
       "proj": 33,
-      "moe": 6
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -1607,14 +1607,14 @@
     "riding": "Prince George-Mackenzie",
     "cpbc": {
       "name": "cpbc",
-      "proj": 59,
+      "proj": 60,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
       "proj": 24,
-      "moe": 6
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -1638,12 +1638,12 @@
     "cpbc": {
       "name": "cpbc",
       "proj": 64,
-      "moe": 8,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 16,
+      "proj": 15,
       "moe": 5
     },
     "one": {
@@ -1668,12 +1668,12 @@
     "cpbc": {
       "name": "cpbc",
       "proj": 53,
-      "moe": 8
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
-      "proj": 30,
-      "moe": 7
+      "proj": 29,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -1695,12 +1695,12 @@
     "riding": "Richmond Centre",
     "cpbc": {
       "name": "cpbc",
-      "proj": 53,
-      "moe": 8
+      "proj": 55,
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
-      "proj": 38,
+      "proj": 36,
       "moe": 8
     },
     "bcg": {
@@ -1723,18 +1723,18 @@
     "riding": "Richmond-Bridgeport",
     "cpbc": {
       "name": "cpbc",
-      "proj": 56,
-      "moe": 8
+      "proj": 57,
+      "moe": 9
     },
     "ndp": {
       "name": "ndp",
-      "proj": 33,
+      "proj": 31,
       "moe": 8
     },
     "bcg": {
       "name": "bcg",
       "proj": 6,
-      "moe": 4
+      "moe": 5
     },
     "one": {
       "name": "one",
@@ -1751,13 +1751,13 @@
     "riding": "Richmond-Queensborough",
     "cpbc": {
       "name": "cpbc",
-      "proj": 48,
-      "moe": 8,
+      "proj": 50,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 42,
+      "proj": 41,
       "moe": 8
     },
     "one": {
@@ -1779,16 +1779,16 @@
   },
   {
     "riding": "Richmond-Steveston",
-    "ndp": {
-      "name": "ndp",
-      "proj": 44,
-      "moe": 8,
-      "incumbent": true
-    },
     "cpbc": {
       "name": "cpbc",
-      "proj": 42,
+      "proj": 43,
       "moe": 8
+    },
+    "ndp": {
+      "name": "ndp",
+      "proj": 43,
+      "moe": 8,
+      "incumbent": true
     },
     "bcg": {
       "name": "bcg",
@@ -1871,14 +1871,14 @@
     "riding": "Salmon Arm-Shuswap",
     "cpbc": {
       "name": "cpbc",
-      "proj": 54,
-      "moe": 7,
+      "proj": 53,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 28,
-      "moe": 6
+      "proj": 29,
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -1902,12 +1902,12 @@
     "cpbc": {
       "name": "cpbc",
       "proj": 51,
-      "moe": 9,
+      "moe": 10,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 40,
+      "proj": 39,
       "moe": 9
     },
     "bcg": {
@@ -1929,16 +1929,16 @@
   },
   {
     "riding": "Surrey City Centre",
-    "ndp": {
-      "name": "ndp",
-      "proj": 44,
-      "moe": 8,
-      "incumbent": true
-    },
     "cpbc": {
       "name": "cpbc",
-      "proj": 42,
-      "moe": 8
+      "proj": 44,
+      "moe": 9
+    },
+    "ndp": {
+      "name": "ndp",
+      "proj": 43,
+      "moe": 9,
+      "incumbent": true
     },
     "bcg": {
       "name": "bcg",
@@ -1961,14 +1961,14 @@
     "riding": "Surrey North",
     "cpbc": {
       "name": "cpbc",
-      "proj": 48,
-      "moe": 8,
+      "proj": 49,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 41,
-      "moe": 8
+      "proj": 39,
+      "moe": 9
     },
     "bcg": {
       "name": "bcg",
@@ -1991,13 +1991,13 @@
     "riding": "Surrey South",
     "cpbc": {
       "name": "cpbc",
-      "proj": 55,
+      "proj": 56,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 38,
-      "moe": 7
+      "proj": 37,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -2021,18 +2021,18 @@
     "riding": "Surrey-Cloverdale",
     "cpbc": {
       "name": "cpbc",
-      "proj": 45,
+      "proj": 47,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 43,
+      "proj": 41,
       "moe": 8
     },
     "bcg": {
       "name": "bcg",
-      "proj": 8,
-      "moe": 4
+      "proj": 9,
+      "moe": 5
     },
     "one": {
       "name": "one",
@@ -2051,18 +2051,18 @@
     "riding": "Surrey-Fleetwood",
     "ndp": {
       "name": "ndp",
-      "proj": 45,
+      "proj": 44,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 42,
+      "proj": 43,
       "moe": 8
     },
     "bcg": {
       "name": "bcg",
-      "proj": 9,
+      "proj": 10,
       "moe": 5
     },
     "one": {
@@ -2081,12 +2081,12 @@
     "riding": "Surrey-Guildford",
     "cpbc": {
       "name": "cpbc",
-      "proj": 44,
+      "proj": 45,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 44,
+      "proj": 43,
       "moe": 8,
       "incumbent": true
     },
@@ -2111,14 +2111,14 @@
     "riding": "Surrey-Newton",
     "ndp": {
       "name": "ndp",
-      "proj": 50,
+      "proj": 48,
       "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 41,
-      "moe": 8
+      "proj": 43,
+      "moe": 9
     },
     "bcg": {
       "name": "bcg",
@@ -2141,14 +2141,14 @@
     "riding": "Surrey-Panorama",
     "cpbc": {
       "name": "cpbc",
-      "proj": 47,
-      "moe": 8,
+      "proj": 48,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 46,
-      "moe": 8
+      "proj": 44,
+      "moe": 9
     },
     "bcg": {
       "name": "bcg",
@@ -2171,13 +2171,13 @@
     "riding": "Surrey-Serpentine River",
     "cpbc": {
       "name": "cpbc",
-      "proj": 47,
-      "moe": 8,
+      "proj": 48,
+      "moe": 9,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 45,
+      "proj": 44,
       "moe": 8
     },
     "bcg": {
@@ -2201,14 +2201,14 @@
     "riding": "Surrey-White Rock",
     "cpbc": {
       "name": "cpbc",
-      "proj": 49,
-      "moe": 7,
+      "proj": 51,
+      "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 43,
-      "moe": 7
+      "proj": 41,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -2231,14 +2231,14 @@
     "riding": "Vancouver-Fraserview",
     "ndp": {
       "name": "ndp",
-      "proj": 54,
+      "proj": 52,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 34,
-      "moe": 7
+      "proj": 35,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -2261,18 +2261,18 @@
     "riding": "Vancouver-Hastings",
     "ndp": {
       "name": "ndp",
-      "proj": 60,
+      "proj": 59,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 22,
+      "proj": 23,
       "moe": 6
     },
     "bcg": {
       "name": "bcg",
-      "proj": 14,
+      "proj": 15,
       "moe": 6
     },
     "one": {
@@ -2289,6 +2289,66 @@
   },
   {
     "riding": "Vancouver-Kensington",
+    "ndp": {
+      "name": "ndp",
+      "proj": 56,
+      "moe": 8,
+      "incumbent": true
+    },
+    "cpbc": {
+      "name": "cpbc",
+      "proj": 30,
+      "moe": 7
+    },
+    "bcg": {
+      "name": "bcg",
+      "proj": 11,
+      "moe": 6
+    },
+    "one": {
+      "name": "one",
+      "proj": 2,
+      "moe": 2
+    },
+    "cen": {
+      "name": "cen",
+      "proj": 1,
+      "moe": 2
+    },
+    "incumbent": "ndp"
+  },
+  {
+    "riding": "Vancouver-Langara",
+    "cpbc": {
+      "name": "cpbc",
+      "proj": 44,
+      "moe": 9
+    },
+    "ndp": {
+      "name": "ndp",
+      "proj": 44,
+      "moe": 9,
+      "incumbent": true
+    },
+    "bcg": {
+      "name": "bcg",
+      "proj": 9,
+      "moe": 5
+    },
+    "one": {
+      "name": "one",
+      "proj": 2,
+      "moe": 3
+    },
+    "cen": {
+      "name": "cen",
+      "proj": 1,
+      "moe": 2
+    },
+    "incumbent": "ndp"
+  },
+  {
+    "riding": "Vancouver-Little Mountain",
     "ndp": {
       "name": "ndp",
       "proj": 57,
@@ -2318,76 +2378,16 @@
     "incumbent": "ndp"
   },
   {
-    "riding": "Vancouver-Langara",
-    "ndp": {
-      "name": "ndp",
-      "proj": 45,
-      "moe": 8,
-      "incumbent": true
-    },
-    "cpbc": {
-      "name": "cpbc",
-      "proj": 43,
-      "moe": 8
-    },
-    "bcg": {
-      "name": "bcg",
-      "proj": 8,
-      "moe": 5
-    },
-    "one": {
-      "name": "one",
-      "proj": 2,
-      "moe": 3
-    },
-    "cen": {
-      "name": "cen",
-      "proj": 1,
-      "moe": 2
-    },
-    "incumbent": "ndp"
-  },
-  {
-    "riding": "Vancouver-Little Mountain",
-    "ndp": {
-      "name": "ndp",
-      "proj": 58,
-      "moe": 7,
-      "incumbent": true
-    },
-    "cpbc": {
-      "name": "cpbc",
-      "proj": 28,
-      "moe": 6
-    },
-    "bcg": {
-      "name": "bcg",
-      "proj": 10,
-      "moe": 5
-    },
-    "one": {
-      "name": "one",
-      "proj": 2,
-      "moe": 2
-    },
-    "cen": {
-      "name": "cen",
-      "proj": 1,
-      "moe": 2
-    },
-    "incumbent": "ndp"
-  },
-  {
     "riding": "Vancouver-Point Grey",
     "ndp": {
       "name": "ndp",
-      "proj": 53,
+      "proj": 52,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 32,
+      "proj": 33,
       "moe": 7
     },
     "bcg": {
@@ -2411,13 +2411,13 @@
     "riding": "Vancouver-Quilchena",
     "cpbc": {
       "name": "cpbc",
-      "proj": 45,
+      "proj": 46,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 38,
-      "moe": 7
+      "proj": 37,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -2432,7 +2432,7 @@
     },
     "cen": {
       "name": "cen",
-      "proj": 2,
+      "proj": 1,
       "moe": 2
     },
     "incumbent": "one"
@@ -2441,14 +2441,14 @@
     "riding": "Vancouver-Renfrew",
     "ndp": {
       "name": "ndp",
-      "proj": 59,
-      "moe": 8,
+      "proj": 58,
+      "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 28,
-      "moe": 7
+      "proj": 29,
+      "moe": 8
     },
     "bcg": {
       "name": "bcg",
@@ -2471,19 +2471,19 @@
     "riding": "Vancouver-South Granville",
     "ndp": {
       "name": "ndp",
-      "proj": 60,
-      "moe": 7,
+      "proj": 59,
+      "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 23,
+      "proj": 24,
       "moe": 6
     },
     "bcg": {
       "name": "bcg",
-      "proj": 14,
-      "moe": 5
+      "proj": 15,
+      "moe": 6
     },
     "one": {
       "name": "one",
@@ -2501,7 +2501,7 @@
     "riding": "Vancouver-Strathcona",
     "ndp": {
       "name": "ndp",
-      "proj": 64,
+      "proj": 62,
       "moe": 8
     },
     "bcg": {
@@ -2529,18 +2529,18 @@
     "riding": "Vancouver-West End",
     "ndp": {
       "name": "ndp",
-      "proj": 59,
+      "proj": 58,
       "moe": 8,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 25,
-      "moe": 6
+      "proj": 26,
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
-      "proj": 12,
+      "proj": 13,
       "moe": 5
     },
     "one": {
@@ -2559,13 +2559,13 @@
     "riding": "Vancouver-Yaletown",
     "ndp": {
       "name": "ndp",
-      "proj": 46,
-      "moe": 8,
+      "proj": 45,
+      "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 40,
+      "proj": 41,
       "moe": 8
     },
     "bcg": {
@@ -2589,13 +2589,13 @@
     "riding": "Vernon-Lumby",
     "cpbc": {
       "name": "cpbc",
-      "proj": 45,
+      "proj": 44,
       "moe": 8
     },
     "ndp": {
       "name": "ndp",
-      "proj": 43,
-      "moe": 7,
+      "proj": 44,
+      "moe": 8,
       "incumbent": true
     },
     "one": {
@@ -2620,7 +2620,7 @@
     "ndp": {
       "name": "ndp",
       "proj": 43,
-      "moe": 7,
+      "moe": 8,
       "incumbent": true
     },
     "bcg": {
@@ -2679,19 +2679,19 @@
     "riding": "West Kelowna-Peachland",
     "cpbc": {
       "name": "cpbc",
-      "proj": 59,
+      "proj": 57,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 28,
-      "moe": 6
+      "proj": 29,
+      "moe": 7
     },
     "one": {
       "name": "one",
       "proj": 6,
-      "moe": 6
+      "moe": 4
     },
     "cen": {
       "name": "cen",
@@ -2709,14 +2709,14 @@
     "riding": "West Vancouver-Capilano",
     "cpbc": {
       "name": "cpbc",
-      "proj": 51,
+      "proj": 53,
       "moe": 8,
       "incumbent": true
     },
     "ndp": {
       "name": "ndp",
-      "proj": 29,
-      "moe": 6
+      "proj": 28,
+      "moe": 7
     },
     "bcg": {
       "name": "bcg",
@@ -2725,7 +2725,7 @@
     },
     "one": {
       "name": "one",
-      "proj": 6,
+      "proj": 5,
       "moe": 5
     },
     "cen": {
@@ -2739,18 +2739,18 @@
     "riding": "West Vancouver-Sea to Sky",
     "bcg": {
       "name": "bcg",
-      "proj": 43,
-      "moe": 8,
+      "proj": 44,
+      "moe": 9,
       "incumbent": true
     },
     "cpbc": {
       "name": "cpbc",
-      "proj": 31,
+      "proj": 32,
       "moe": 7
     },
     "ndp": {
       "name": "ndp",
-      "proj": 22,
+      "proj": 21,
       "moe": 6
     },
     "one": {
