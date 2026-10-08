@@ -16,7 +16,7 @@ do ->
     window.Sentry = await import('@sentry/browser')
     Sentry.init { dsn, environment: process.env.NODE_ENV, allowUrls: [ /votewell\.(ca|co\.uk)/ ] }
 
-  polls = await import('/election/polls.json')
+  polls = (await import('/election/polls.json')).default
 
   # fuzzy riding name matcher
   # removes weird dash / apostrophe mis-matches
