@@ -32,8 +32,6 @@ import { languages } from '/election/locales'
 
 sum = (arr=[])-> arr.reduce ((a,b)-> a+b), 0
 avg = (arr=[])-> 1 / arr.length * sum arr
-top_2 = (arr=[])-> arr.sort((a,b)->b-a)[0...2]
-rms = (arr=[])-> Math.sqrt 1/arr.length * sum arr.map (v)-> v*v
 probablyMobile = matchMedia?('(orientation: portrait) and (max-width: 600px)')?.matches or false
 
 export default \
@@ -80,12 +78,18 @@ class Application extends React.Component
     leftists = (a for a in sorted when a.name in progs)
     righties = (a for a in sorted when a.name not in progs)
 
-    # vote strategically iff the leading right party
-    # has over 90% the support of the RMS of
-    # the two leading leftist parties
-    left_weight  = rms top_2 (poll.proj for poll in leftists)
-    right_weight = Math.max (poll.proj for poll in righties)...
-    strategy_required = right_weight > 0.9 * left_weight
+    return 'anyone' unless leftists.length
+
+    # vote strategically iff the leading right party could beat the
+    # leading leftist within polling error -- under sincere voting
+    # the leader faces the right alone, so a close race there loses.
+    # even a seemingly hopeless riding gets this recommendation:
+    # the leading progressive is still the best anti-right vote
+    leader        = leftists[0].proj
+    right_weight  = Math.max (poll.proj for poll in righties)...
+    fuzz          = leftists[0].moe ? 4  # polling error, from poll data
+
+    strategy_required = right_weight > leader - fuzz
 
     # strategic vote not needed? vote for your preferred candidate
     return 'anyone' unless strategy_required
