@@ -1,3 +1,20 @@
+# The GCP trigger for this file carries an `included-files` filter, so poll
+# updates redeploy the frontend (Netlify) without rebuilding this api image.
+#
+# The globs mirror every input the build actually reads: the Dockerfile and its
+# COPY lines, plus elections/*/ridings.geojson -- the only election file
+# `make seed_mongo` consumes. The api serves /:lat,:lng from the database seeded
+# at build time and reads no election files at runtime.
+#
+# Applied to trigger "push-to-master" (project votewell -- a 2nd-gen GitHub
+# Apps-connected trigger, the only kind that supports included-files). Pass the
+# globs as ONE comma-separated value: repeating --included-files replaces rather
+# than appends, and it reports success while silently dropping the earlier ones.
+#
+#   gcloud builds triggers update github push-to-master \
+#     --project=votewell --account=kieran@kieran.ca \
+#     --included-files='Dockerfile,Makefile,package.json,package-lock.json,cloudbuild.yml,.dockerignore,.env.*,server/**,elections/*/ridings.geojson'
+
 steps:
 
   # build the container image

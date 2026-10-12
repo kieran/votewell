@@ -1,0 +1,49 @@
+# syntax=docker/dockerfile:1
+
+#
+# target: mongodb
+#
+# Bakes the read-only ridings data into the image, the same way the production
+# image does. The difference: docker-compose.yml mounts a volume over /data/db,
+# which would hide seeded data, so we ship a mongodump archive instead and let
+# the image's initdb hook restore it into the volume on first start.
+#
+FROM mongo:7 AS mongodb
+ARG ELECTION=bc-2026
+ENV ELECTION=${ELECTION}
+WORKDIR /seed
+
+RUN apt-get update && apt-get install -y --no-install-recommends make \
+ && rm -rf /var/lib/apt/lists/*
+
+COPY Makefile .env.development ./
+COPY elections/${ELECTION} ./elections/${ELECTION}
+
+RUN mongod --fork --logpath /seed/mongod.log \
+ && make seed_mongo \
+ && mongodump --uri mongodb://127.0.0.1:27017/votewell --archive=/seed/ridings.archive \
+ && mongod --shutdown
+
+# /docker-entrypoint-initdb.d is only run when /data/db is empty
+RUN echo 'mongorestore --uri mongodb://127.0.0.1:27017/votewell --archive=/seed/ridings.archive' \
+      > /docker-entrypoint-initdb.d/10-ridings.sh
+
+
+#
+# target: dev
+#
+# The api and the app. node version matches .nvmrc.
+#
+FROM node:22.13.1-slim AS dev
+WORKDIR /app
+
+# build-essential/python3: deasync compiles from source via node-gyp
+RUN apt-get update && apt-get install -y --no-install-recommends jq make build-essential python3 \
+ && rm -rf /var/lib/apt/lists/*
+
+COPY package.json package-lock.json ./
+RUN npm i
+
+COPY . .
+
+CMD ["node", "server/index.js"]

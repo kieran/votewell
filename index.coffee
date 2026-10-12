@@ -34,7 +34,7 @@ do ->
     {latitude, longitude}
 
   getRiding = (lat, lng)->
-    { data } = await axios.get "#{process.env.RIDING_URL}/#{lat.toFixed 2},#{lng.toFixed 2}"
+    { data } = await axios.get "/riding_for/#{lat.toFixed 2},#{lng.toFixed 2}"
     data
 
   fixVh = ->

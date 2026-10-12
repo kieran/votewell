@@ -40,7 +40,6 @@ export default defineConfig(({ mode }) => {
     ],
     define: {
       'process.env.NODE_ENV': JSON.stringify(mode),
-      'process.env.RIDING_URL': JSON.stringify(env.RIDING_URL ?? ''),
       'process.env.SENTRY_DSN_FRONTEND': JSON.stringify(env.SENTRY_DSN_FRONTEND ?? ''),
     },
     css: {
@@ -63,6 +62,15 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 1234,
       allowedHosts: true,
+      proxy: {
+        '/riding_for': {
+          target: process.env.VITE_API_PROXY_TARGET || 'https://api.votewell.local',
+          changeOrigin: true,
+          secure: false,
+          rewrite: (path) => path.replace(/^\/riding_for/, '')
+        }
+      }
+
     },
   }
 })
