@@ -37,8 +37,7 @@ RUN echo 'mongorestore --uri mongodb://127.0.0.1:27017/votewell --archive=/seed/
 FROM node:24.21.0-slim AS dev
 WORKDIR /app
 
-# build-essential/python3: deasync compiles from source via node-gyp
-RUN apt-get update && apt-get install -y --no-install-recommends jq make build-essential python3 \
+RUN apt-get update && apt-get install -y --no-install-recommends jq make \
  && rm -rf /var/lib/apt/lists/*
 
 COPY package.json package-lock.json ./
