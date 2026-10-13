@@ -34,7 +34,7 @@ RUN echo 'mongorestore --uri mongodb://127.0.0.1:27017/votewell --archive=/seed/
 #
 # The api and the app. node version matches .nvmrc.
 #
-FROM node:22.13.1-slim AS dev
+FROM node:24.21.0-slim AS dev
 WORKDIR /app
 
 # build-essential/python3: deasync compiles from source via node-gyp

@@ -5,6 +5,9 @@
   "repository": "github:kieran/votewell",
   "author": "Kieran Huggins",
   "license": "ISC",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "start": "npm-run-all -p serve api",
     "serve": "npx vite",
