@@ -5,11 +5,14 @@
   "repository": "github:kieran/votewell",
   "author": "Kieran Huggins",
   "license": "ISC",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "start": "npm-run-all -p serve api",
-    "serve": "npx parcel serve ./index.html",
+    "serve": "npx vite",
     "build": "npm run dist",
-    "dist": "npx parcel build --no-cache --public-url https://votewell.ca ./index.html",
+    "dist": "npx vite build",
     "api": "node ./server/index.js",
     "api_dev": "nodemon --watch election --watch ./server ./server/index.coffee",
     "up_api": "up start",
@@ -17,20 +20,15 @@
     "update_polls": "npx coffee election/update_polls.coffee"
   },
   "dependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/plugin-transform-runtime": "^7.10.5",
-    "@babel/preset-react": "^7.10.4",
     "@koa/cors": "^2.2.3",
     "@sentry/browser": "^5.19.2",
     "@sentry/node": "^5.19.2",
-    "@svgr/parcel-plugin-svgr": "^4.3.3",
     "@turf/tag": "^5.1.5",
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
     "classnames": "^2.2.6",
     "coffeescript": "^2.5.1",
     "core-js": "^3.40.0",
-    "deasync": "^0.1.30",
     "dotenv": "^8.2.0",
     "i18next": "^17.3.1",
     "koa": "^2.13.0",
@@ -38,15 +36,13 @@
     "mongodb": "^6.21.0",
     "nodemon": "^1.19.4",
     "npm-run-all": "^4.1.5",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-bundle-visualiser": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^10.13.2",
     "react-icons": "^2.2.7",
     "react-select": "^1.3.0",
     "react-share": "^3.0.1",
-    "sass": "^1.32.8",
+    "sass": "^1.80.0",
     "underscore-es": "^1.9.8"
   },
   "devDependencies": {
@@ -54,6 +50,9 @@
     "puppeteer": "^24.43.1",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "underscore": "^1.13.7"
+    "underscore": "^1.13.7",
+    "vite": "^8.2.2",
+    "vite-plugin-coffee3": "^1.0.1",
+    "vite-plugin-svgr": "^5.2.0"
   }
 }

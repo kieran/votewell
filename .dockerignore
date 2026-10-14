@@ -1,0 +1,8 @@
+.git
+.cache
+dist
+parcel-bundle-reports
+node_modules
+.netlify
+.DS_Store
+~/

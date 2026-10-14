@@ -1,4 +1,7 @@
-import images from './*.png'
+import ndp from './ndp.png'
+import bcg from './bcg.png'
+
+images = { ndp, bcg }
 
 export date = '2026-10-24'
 

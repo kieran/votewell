@@ -75,3 +75,6 @@ data/current
 
 # stray dirs named ~ from an unexpanded home path, e.g. a bad Puppeteer userDataDir
 ~
+
+# docker compose mongo data
+/.mongodb_data/

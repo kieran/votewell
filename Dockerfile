@@ -1,4 +1,4 @@
-FROM node:20-bookworm-slim
+FROM node:24.21.0-bookworm-slim
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
   ca-certificates \

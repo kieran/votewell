@@ -1,0 +1,86 @@
+# pinned so the project name doesn't change depending on whether you're in
+# ~/work/votewell or the ~/work/vote symlink
+name: votewell
+
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: dev
+    command: node server/index.js
+    labels:
+      - dev.orbstack.domains=api.votewell.local
+    ports:
+      - 3000:3000
+    volumes:
+      - ./server:/app/server
+    environment:
+      NODE_ENV: development
+      # dotenv won't override a var already in the environment, so this wins
+      # over MONGO_URL in .env.development
+      MONGO_URL: mongodb://mongodb:27017/votewell
+    stdin_open: true # Enables interactive input
+    tty: true        # Allocates a pseudo-TTY
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      votewell:
+        ipv4_address: 192.168.98.101
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: dev
+    command: npx vite --host 0.0.0.0 --port 1234
+    labels:
+      - dev.orbstack.domains=votewell.local
+    ports:
+      - 1234:1234
+    volumes:
+      - ./:/app
+      - /app/node_modules # Prevents host node_modules from overwriting container
+    depends_on:
+      - api
+    networks:
+      votewell:
+        ipv4_address: 192.168.98.102
+
+  mongodb:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: mongodb
+      args:
+        ELECTION: bc-2026
+    labels:
+      - dev.orbstack.domains=mongo.votewell.local
+    ports:
+      - 27017:27017
+    volumes:
+      - ./.mongodb_data:/data/db # Reset the seed with: rm -rf .mongodb_data
+    restart: unless-stopped
+    # Waits for the ridings to actually be loaded, not just for mongod to accept
+    # connections. A plain ping goes healthy while the initdb restore is running,
+    # since the entrypoint's temporary mongod is up during it.
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --eval 'quit(db.getSiblingDB(\"votewell\").ridings.countDocuments() > 0 ? 0 : 1)'"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 5s
+    networks:
+      votewell:
+        ipv4_address: 192.168.98.103
+
+# https://github.com/orbstack/orbstack/issues/2267#issuecomment-3705828757
+networks:
+  votewell:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.98.0/24
+          gateway: 192.168.98.1
