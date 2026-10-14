@@ -9,6 +9,14 @@
   publish = "dist"
   command = "make dist"
 
+  # vite, vite-plugin-coffee3 and vite-plugin-svgr are devDependencies, but
+  # Netlify builds with NODE_ENV=production, which makes npm skip
+  # devDependencies. The build command then falls back to `npx vite`, which
+  # downloads vite but cannot resolve vite.config.js's plugin imports.
+  # Force devDependencies to be installed.
+  [build.environment]
+    NPM_FLAGS = "--include=dev"
+
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.production]
