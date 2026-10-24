@@ -8,6 +8,16 @@ import './election/locales'
 # provide GTM fallback
 window.gtag ?= -> window.dataLayer?.push arguments
 
+# A deploy replaces every hashed chunk, so a visitor whose document predates it
+# asks for a file that no longer exists. Vite fires this when such an import
+# fails: reload once to pick up the current document, then let it surface.
+RELOAD_FLAG = 'votewell:chunk-reload'
+window.addEventListener 'vite:preloadError', (event)->
+  event.preventDefault()
+  return if sessionStorage.getItem(RELOAD_FLAG)
+  sessionStorage.setItem RELOAD_FLAG, '1'
+  window.location.reload()
+
 # routes
 import Application  from '/routes/application'
 
@@ -17,6 +27,8 @@ do ->
     Sentry.init { dsn, environment: process.env.NODE_ENV, allowUrls: [ /votewell\.(ca|co\.uk)/ ] }
 
   polls = (await import('/election/polls.json')).default
+  # got this far, so the document matches the deploy: allow a later one to reload
+  sessionStorage.removeItem RELOAD_FLAG
 
   # fuzzy riding name matcher
   # removes weird dash / apostrophe mis-matches
