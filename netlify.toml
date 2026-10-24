@@ -38,6 +38,17 @@
     to = "https://api-xbhormaofa-ue.a.run.app/:splat"
     status = 200
 
+# Assets are content-hashed, so a request for one that no longer exists means the
+# visitor's document predates the current deploy. Without this, the catch-all
+# below answers with index.html and status 200, and the browser rejects it as
+# "'text/html' is not a valid JavaScript MIME type".
+# Note netlify serves an existing file before applying redirects, so only a
+# genuinely missing asset reaches this rule.
+[[redirects]]
+  from = "/assets/*"
+  to = "/404.html"
+  status = 404
+
 # The following redirect is intended for use with most SPA's that handles routing internally.
 [[redirects]]
   from = "/*"
