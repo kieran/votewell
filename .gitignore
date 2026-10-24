@@ -78,3 +78,6 @@ data/current
 
 # docker compose mongo data
 /.mongodb_data/
+
+# OpenChamber local state
+/.openchamber/
