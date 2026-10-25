@@ -98,7 +98,9 @@ class Application extends React.Component
     leftists[0].name
 
   electionPast: =>
-    (new Date).getTime() > (new Date date).getTime() + 86400 * 1000
+    # `date` is a bare calendar date, which new Date() parses as UTC midnight and
+    # so lands the boundary 7h early; anchor it to Pacific instead
+    Date.now() >= Date.parse("#{date}T00:00:00-07:00") + 86400 * 1000
 
   render: ->
     { locating } = @props
