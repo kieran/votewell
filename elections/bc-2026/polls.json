@@ -179,13 +179,13 @@
     "cpbc": {
       "name": "cpbc",
       "proj": 44,
-      "moe": 0
+      "moe": 0,
+      "incumbent": true
     },
     "ndp": {
       "name": "ndp",
       "proj": 44,
-      "moe": 0,
-      "incumbent": true
+      "moe": 0
     },
     "bcg": {
       "name": "bcg",
@@ -197,7 +197,7 @@
       "proj": 3,
       "moe": 0
     },
-    "incumbent": "ndp"
+    "incumbent": "cpbc"
   },
   {
     "riding": "Burnaby-New Westminster",
